@@ -1,0 +1,27 @@
+---
+title: About me
+subtitle: This is what I do.
+layout: base
+banner: /img/about-bg.jpg
+---
+
+== Danish guy enjoying working on open source software.
+
+Making things happen at Red Hat. 
+
+I currently work as technical lead of http://tools.jboss.org[JBoss Tools] and http://devstudio.redhat.com[JBoss Developer Studio]. 
+
+I co-host http://asylum.jboss.org[JBoss Asylum] podcast.
+
+I'm on the http://eclipse.org[Eclipse board]. 
+
+Have been spotted running at agility competitions and
+twittering too much about email clients!
+
+=== Contact
+
+* Twitter: link:https://twitter.com/maxandersen[@maxandersen]
+* Github: link:https://github.com/maxandersen[maxandersen]
+* Freenode irc: maxandersen
+* Skype: link:callto://max.rydahl.andersen[max.rydahl.andersen]
+* e-mail: manderse@redhat.com

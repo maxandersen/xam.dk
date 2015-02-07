@@ -1,0 +1,23 @@
+---
+title: Blog
+subtitle: What was I thinking ?
+author: Max Rydahl Andersen
+layout: base
+banner: /img/post-bg.jpg
+tab: blog
+---
+- for post in page.posts
+  .post-preview
+    %h1.post-title
+      %a{:href=>relative(post.url)}= post.title
+    %h3.post-subtitle
+      =post.subtitle
+    %p.post-meta
+      #{post.date.strftime( '%A, %B %e, %Y' )}
+  %p
+    ~ post.content
+   
+  .disqus-short
+    = post.disqus_comments_link
+  %hr
+= page.posts.links

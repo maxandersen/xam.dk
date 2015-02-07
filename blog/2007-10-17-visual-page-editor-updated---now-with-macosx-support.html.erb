@@ -1,0 +1,23 @@
+---
+title: 'Visual Page Editor updated - now with MacOSX support'
+author: 'Max Rydahl Andersen'
+layout: blog-post
+tags: [ JBoss Tools and devstudio ]
+orignallink: 'http://blog.xam.dk/?p=67'
+---
+<body>
+<p>We now got <a href="http://wiki.jboss.org/wiki/Wiki.jsp?page=InstallingJBossToolsNightlyBuilds">nightly builds</a> for <a href="http://www.jboss.org/tools">JBoss Tools</a> that uses the Eclipse 3.3 compatible XULRunner from Eclipse ATF/Mozilla.org instead of our older version of Mozilla in the Visual Page Editor (VPE).
+<br><br>
+So, what does this mean for our users ?
+</p>
+<ol>
+<li>VPE will use less resources on windows since we don't have to load Mozilla twice</li>
+<li>VPE won't crash your Eclipse on Linux because you tried to use the internal browser in Eclipse or did code completion with Java doc context help enabled</li>
+<li>VPE will now work on Mac OSX!</li>
+</ol>
+So in short everybody wins !
+<br><br>
+Note that this is very new and fresh (especially the Mac OSX support is experimental) so any feedback you can provide on things that breaks or is erroring will be very much welcome in our <a href="http://jira.jboss.com/jira/browse/JBIDE">jira</a> or <a href="http://www.jboss.com/?module=bb&amp;op=viewforum&amp;f=201">forum</a>! (we would also like to hear if it just worked ;)
+<br><br><b>Thanks</b> goes out to Sergey Vasilyev (Exadel) and his team on doing the development for this, Phillipe Ombredanne (NexB) and the ATF team for making the XULRunner available in a standalone version and to Marshall Culpepper (JBoss) for getting our build adjusted! Thanks again!
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>

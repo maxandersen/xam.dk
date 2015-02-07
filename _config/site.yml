@@ -1,0 +1,23 @@
+name: Max Rydahl Andersen
+title: "@maxandersen"
+org: Organization
+base_url: ''
+twitter_url: https://twiter.com/maxandersen
+facebook_url: https://www.facebook.com/maxandersen
+github_url: http://github.com/maxandersen
+googleplus_url: https://plus.google.com/+maxrydahlandersen
+
+disqus: maxandersen
+
+
+profiles:
+  development:
+    base_url: http://xam.dk/test
+    disqus_developer: true
+
+  production:
+    base_url: http://xam.dk/test
+    deploy:
+      host: xam.dk@ssh.xam.dk
+      path: /www/test
+      

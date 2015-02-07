@@ -1,0 +1,23 @@
+---
+title: 'Todays favorite tool: svnmerge.py'
+author: 'Max Rydahl Andersen'
+layout: blog-post
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=60'
+---
+<body><p>I was about to have fun merging our two branches in rhdevstudio, the Eclipse 3.3 branch onto main trunk, when I remembered <a href="http://blog.emmanuelbernard.com/2007/02/svn-false-promises.html">Emmanuel whining </a> about the false promise of svn and all the issues he had. His issues were apparently partially because of his IDE but probably mainly because svn surprisingly does not keep track of merges by default.
+<br><br>
+Luckily I remembered noticing <a href="http://www.orcaware.com/svn/wiki/Svnmerge.py">svnmerge.py</a> the other day and tried using it today.
+<br><br>
+It is great and I don't need an PhD to use it (keeping <a href="http://svnbook.red-bean.com/">The SVN Book</a> near by is though still recommended :)
+<br><br><code>svnmerge init [theotherbranch + possible revision info]</code> on the two branches you want to merge (if you did a <code>svn copy</code> initially the revision info is not needed)
+<br><br><code>svnmerge avail</code> to see the revisions that are available for merges
+<br><br><code>svnmerge merge [piecemal revisions]</code> to do the merge either piecemal or one big merge.
+<br><br>
+The wonderfull thing is that <code>svnmerge</code> uses svn properties to keep track on which revisions you have already applied and from where.
+Making the merge info easily available and future additional merges trivial.
+<br><br>
+Excellent!
+<br><br>
+note: the only thing i'm annoyed about with respect to svn is that the actual <code>svn merge</code> or <code>svn diff</code> seem to be extremely heavy operations - or at least very little informative about its progress even with the verbose flag ;(
+<br><br><br><br></p></body>

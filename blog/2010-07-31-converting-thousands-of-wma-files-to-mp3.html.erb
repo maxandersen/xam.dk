@@ -1,0 +1,79 @@
+---
+title: 'Converting thousands of WMA files to MP3'
+author: 'Max Rydahl Andersen'
+layout: blog-post
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=192'
+---
+<body>
+<p>I've been using a Mac Mini for a while now to run my media center
+but recently I discovered that I actually had more than 8.000 songs in WMA
+format that iTunes silently ignores when importing.
+<br><br>
+This blog is about how I managed to get that converted without too much fuzz.
+</p>
+<h2>UI Conversion tools</h2>
+There are many various conversion tools out there for OS X, <a href="http://www.nch.com.au/switch/index.html">Switch</a> being one of the better ones but it does not seem to handle massive conversions very well. The Windows version has a command line interface that could be used but its just too much hassle.
+<br><br>
+If you got small set of files to convert then Switch works fine.
+Be aware that the latest Flip4Mac might cause problems for Switch, I had to use an older version (<a href="http://rapiddigger.com/download/flip4mac-wmv-installer-2-2-2-3-k-ed-zip-5636616/">2.2.2.3)</a> to make it work.
+<br><br>
+Because Switch and all other UI's I tried for OS X did not work well for large scale conversions I decided to find a way to do it via a command line. This allows me to easily control it and in case something fails restarting it from where it stopped is much easier than any UI tool.
+<h2>Converting (non-DRM) files via command line on OS X (excl. Tags)</h2>
+Note: The following converts the files fine, but tags are not maintained! Just be aware of this limitation! Using LameXP described below seem to copy tags better, but that requires a Windows installation.
+<br><br>
+For command line conversion under OS X you need Lame+MPlayer installed; I got mine installed by
+simply using <a href="http://www.macports.org/">MacPorts</a>:
+<pre lang="bash" escaped="true">sudo port install mplayer</pre>
+You might need to also install Flip4Mac in case there isn't another WMA decoder available.
+<br><br>
+After installing mplayer, create this shell script which convert a single file, name it
+convert.sh:
+<pre lang="bash" escaped="true">if (test -e "`dirname "$1"`"/"`basename "$1" .wma`.mp3"); then
+ #echo mp3 $1 already exists
+ test true
+ else
+ mplayer -vo null -vc dummy -af resample=44100 -ao pcm:waveheader "$1" &amp;&amp; lame -m j -h --vbr-new -b 160 audiodump.wav -o "`dirname "$1"`"/"`basename "$1" .wma`.mp3"
+ rm -f audiodump.wav
+ fi</pre>
+This script checks if a wma file given as input has a matching mp3 file in the same directory and if it has not it uses mplayer + lame to perform a direct conversion to mp3.
+<br><br>
+With the convert.sh script in place you can use the following command to convert all .wma files that does
+not have a matching .mp3:
+<pre lang="bash" escaped="true">find . -name "*.wma" -print0 | xargs -0 -n 1 -L 1 -I {} ./convert.sh "{}"</pre>
+The -print0 and additional arguments to xargs is what ensures filenames with spaces, weird quotes or non-latin characters gets properly quoted.
+<br><br>
+Then you should see console output for all the conversions and get all your files converted nicely. It took my laptop about 24 hours to churn through my non-DRM WMA files.
+<br><br>
+In case you bump into a file that cannot be converted then check if the file is actually valid and can play somewhere else (i.e. on a Windows machine or with iTunes with right encodings installed) - if it can play, but Lame will not then it is mostly likely because it is a DRM protected WMA. I had about 2.500 of those (yeah, I forgot to disable DRM when converting parts of my CD collection ;(.
+<h2>Conversion of DRM protected WMA files (incl. Tags)</h2>
+There exists many weird applications which doc's state they can "break" the DRM encoding by letting iTunes play them and then record the digital output stream to write them to a virtual ISO image for then to convert them to mp3.
+<br><br>
+I tried many and most of them simply did not work out of the box or required massive tweaking to actually work but then the conversion took ages plus it was not very fault tolerent.
+<br><br>
+Therefore I decided to simply startup my Windows 7 virtual machine, Install <a href="http://mulder.dummwiedeutsch.de/home/?page=projects#lamexp">LameXP</a> and simply let it do all the work.
+<br><br>
+Again, I had many DRM files that needed conversion (2.500+) and adding them manually would take forever. Once again a little script made it much easier.
+<br><br>
+Create a file named check.sh with the following content:
+<pre lang="bash" escaped="true">if (test -e "`dirname "$1"`"/"`basename "$1" .wma`.mp3"); then
+ #echo mp3 $1 already exists
+ test true
+ else
+ echo $1
+fi</pre>
+Then use this script with the following one-liner:
+<pre lang="bash" escaped="true">find . -name "*.wma" -print0 | xargs -0 -n 1 -L 1 -I {} ./check.sh "{}" &gt; needconversion.m3
+</pre>
+Running this finds all files matching *.wma, passes them to xargs
+in a way so there won't be problems with quotes, spaces, etc. and then
+for every single found file calls the check.sh script and writes
+the result to the file "needconversion.m3u".
+<br><br>
+All there is left then is to Add the "needconversion.m3u" to LameXP
+and when it has spent a few minutes on importing it press the Encode
+button and let it do its business. On my laptop it takes about 10 sec. per file, thus 2.500 files takes about 7 hrs.
+<br><br>
+Be aware that LameXP as many other conversion UI's does not seem to cope well when you have many thousands files to convert, but it did though a good job with my 2.500 files at once. If someone know a good way to do similar conversion but via command line on windows I would love to hear.
+<h2>Fixing Tags</h2>
+To fix broken tags i'm experimenting with using <a href="http://www.jthink.net/jaikoz/">Jaikoz</a> which is a for pay Java app that uses MusicBrainz to match songs by acustic fingerprints. For now it looks to doing a great job of matching up the songs, but if someone knows how to copy tags from 6.000 WMA to their matching mp3 let me know :)</body>

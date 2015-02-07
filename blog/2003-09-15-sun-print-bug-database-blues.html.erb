@@ -1,0 +1,16 @@
+---
+title: 'SUN Print Bug database blues!'
+author: 'Max Rydahl Andersen'
+layout: blog-post
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=19'
+---
+<body><p>What does one do when you have reported 2 critical errors regarding printing on Solaris and the only answer you've received is a "We currently have a three week response time for responding to Bug Reports." and that is now about 2 months ago!?<br><br>
+I've got two interal review ID's (191008 and 191011) but no where to ask about their status!<br><br>
+I've also asked SUN if I could be allowed to deploy my fixes (which requires changes on classes in rt.jar - more precisly UnixPrintJob, UnixPrintService and UnixPrintServiceLookup), but for this i've also never received an answer! ;(<br><br>
+So, now i'm actually not able to print to anything on a Solaris Java VM - without breaking the license on Java!<br>
+What do you do in such a situation ?<br><br>
+Just small info on the problems:<br><br>
+- it is hardwired to use e.g. "/usr/bin/lpstat", making it hard to use in e.g. clustered environments where the printercommand is not placed in those places<br><br>
+- the code does not listen to MediaTray.class (or even Media.class) in the printing process, thus making it very hard to select a specifik tray.<br><br>
+- the code has support for sending extra options to the printer, very nice - but the code to do it is disabled and impossible to access without overriding the class or subclassing it inside the sun.awt.print package!<br><br></p></body>

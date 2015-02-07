@@ -1,0 +1,21 @@
+---
+title: 'Implement proper JTable editing ?'
+author: 'Max Rydahl Andersen'
+layout: blog-post
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=24'
+---
+<body><p>Hi!<br><br>
+Have anyone ever succeded in making a editable JTable behave properly regarding first keystroke and selection ?<br><br>
+What SHOULD happen is as follows:<br><br>
+User has selected a cell, with e.g. "Cell 1" as contents.<br>
+User press "X", then the cell should be cleared, and the only contents should be "X".<br>
+This is STANDARD editable table behavior.<br><br>
+What DOES happen is as follows:<br><br>
+User has selected a cell, with e.g. "Cell 1" as contents.<br>
+User press "X", then the contents is now "Cell 1X".<br>
+This is Java's editable table behavior - WHY!? <br><br>
+By doing a selectAll() on the editor when it gets focus (if it is a JTextComponent) we can get close - but then<br>
+what happens is that the cell gets selected, but only AFTER the keyevent has been sent, so the contents is still "Cell 1X", but everything is selected to the next keystroke will clear the cell....which is very BAD userfriendly-wise.<br><br>
+I have searched for a solution for this every 3-6 months, the last 2 years - but noone have yet to come up with a workable solution :(<br><br>
+Anyone bright readers out there ?</p></body>

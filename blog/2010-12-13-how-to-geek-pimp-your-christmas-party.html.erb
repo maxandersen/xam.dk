@@ -1,0 +1,64 @@
+---
+title: 'How to Geek-Pimp your Christmas Party'
+author: 'Max Rydahl Andersen'
+layout: blog-post
+tags: [ Work at JBoss ]
+orignallink: 'http://blog.xam.dk/?p=223'
+---
+<body>
+<p>Lisbeth and I normally try to throw a Danish Christmas party every
+year and this time was no exception; and I even got to have some fun
+geek-pimping the event.
+<br><br>
+This time around I had setup my 52" TV to have a slide show of gorgeous
+Christmas style pictures mixed in with photos taken during the party
+transferred wireless via an Eye-Fi card and had it synced across two
+laptops via Dropbox and to top it all off I were taking a picture
+every 15-seconds to be able to do a "high-speed" playback of the whole
+event to the tunes of the "Benny Hill" theme song.
+<br><br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="600" height="424" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowfullscreen" value="true">
+<param name="allowscriptaccess" value="always">
+<param name="src" value="http://www.facebook.com/v/486158736464">
+<embed type="application/x-shockwave-flash" width="600" height="424" src="http://www.facebook.com/v/486158736464" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<br><br>
+Below I'll outline the things I did to make it all happen.
+<br><br>
+What I used in the process:
+<br><br>
+* 52" Sony LCD TV
+* Mac Mini
+* <a href="http://www.eye.fi/products/prox2">Eye-Fi X2 Pro</a>
+* OSX built-in screensaver (since no other app out there does it right)
+* <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> w/Apple Script
+* Macbook Pro
+* <a href="http://gawker.sourceforge.net/">Gawker</a>
+* Some hours of searching for initial images
+</p>
+<h2>"Live" screenshow:</h2>
+The setup is simple.
+<br><br>
+First you configure your Eye-fi card to place the photos in a specfic directory, i.e. <code>"/Users/max/Pictures/incoming"</code>.
+<br><br>
+Secondly you configure Hazel to on any change to that directory to move the file to the location you want the screensaver to pick up the files, i.e. I used <code>"/Users/max/Dropbox/screensaver"</code> which is in my Dropbox so I could easily sync to another machine when needed. Then add an Apple script action to Hazel that contains the following code:
+<pre lang="applescript" escaped="true">tell application id "com.apple.ScreenSaver.Engine" to quit
+tell application "ScreenSaverEngine" to activate</pre>
+Those two lines are needed to have the Screen Saver restart to make it pickup any new photos coming in.
+<br><br>
+Finally, you need to enable and configure the Screen Saver to pick up the pictures from the <code>"screensaver"</code> directory. Beyond that I believe I used the default transition settings since they give a very smooth but still somewhat dynamic experience.
+<br><br>
+With those things in place every time I took a picture with my camera containing the Eye-Fi card it would automatically upload the photos, restart the screen saver and eventually the photo taken would show up.
+<br><br>
+I would say it is important to pre-load your screen saver folder with some beautiful images (search for 1080p desktop backgrounds will give you a good start); otherwise the same, possibly ugly and boring photos taken in the beginning of the evening will be shown again and again. It's better to have it spread out with something beautiful in the middle.
+<br><br>
+And for those who are curious, the reason for the Hazel/script instead of i.e. a scrip that reloads the screensaver every 5 minutes is to avoid to constantly see the Screen Saver stop and then start again. With this solution you only get a reload when it is actually need. You could probably do this without Hazel and just use Folder Actions but Hazel is just simpler to setup.
+<h2>Screensaver Synced to another screen</h2>
+Having the screensaver synched to another screen I did because our party is "spread" over two rooms. It was remarkably simple to do since I already configured Hazel to move the files to Dropbox and therefore the only thing I had to do on the second machine was to setup a Hazel script or if you wish Folder Action to run the same script as shown above.
+<br><br>
+Then when Dropbox syncs over a new file the screen saver is automatically updated.
+<h2>Recording the Party for later playback</h2>
+For this I used Gawker which is a free opensource piece of software which only functionallity is to grab images from a source such as your webcam.
+Thus I simply configured Gawker to take a picture every 15 seconds with the built-in iSight of the Macbook pro and it automatically creates the video stream.
+<br><br>
+Before publishing the result I used iMovie to spice it up with some background music and cut out some boring segments to make it a bit more lively and the result is as seen above.
+<br><br>
+I had great fun setting this up, having a party and then edit the result and now you can too :)</body>
