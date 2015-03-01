@@ -9,6 +9,16 @@ googleplus_url: https://plus.google.com/+maxrydahlandersen
 
 disqus: maxandersen
 
+asciidoctor:
+  :safe: safe
+  :attributes:
+    imagesdir: ./@
+    icons: font
+    idprefix: ''
+    idseparator: '-'
+    sectanchors: ''
+    linkattrs: ''
+    source-highlighter: prettify
 
 profiles:
   development:

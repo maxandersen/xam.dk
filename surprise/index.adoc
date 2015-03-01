@@ -1,0 +1,11 @@
+---
+title: Surprise
+---
+
+= Max og Lisbeth 11/10-2004
+
+
+image:surprise1-small.jpg[link="surprise1.jpg"]
+
+image:surprise2-small.jpg[link="surprise2.jpg"]
+
