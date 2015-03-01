@@ -28,6 +28,6 @@ profiles:
   production:
     base_url: http://xam.dk/test
     deploy:
-      host: xam.dk@ssh.xam.dk
+      host: xam.dk:@ssh.xam.dk
       path: /www/test
       
