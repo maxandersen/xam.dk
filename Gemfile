@@ -28,6 +28,7 @@ gem 'awestruct', '~> 0.5.5'                               # Goes without saying
 gem 'webrick', '~> 1.3.1'                                 # The rack webserver to use in dev mode
 
 # FIXME
+ruby '2.2.0'
 gem 'rake', '>= 0.9.2'                                  # Needed for the Rakefile to work
 # gem 'coffee-script', '>= 2.2.0'                         # If using coffee-script or to remove the warning
 # gem 'rb-fsevent', '~> 0.9', :require => false           # to remove warning about pulling, Mac OSX

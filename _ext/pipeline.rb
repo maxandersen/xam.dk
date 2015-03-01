@@ -14,7 +14,7 @@ Awestruct::Extensions::Pipeline.new do
   helper Awestruct::Extensions::Relative
 
   extension Awestruct::Extensions::MyPosts.new('/blog', :posts)
-  extension Awestruct::Extensions::MyPaginator.new( :posts, '/blog/index', :per_page=>10 )
+  extension Awestruct::Extensions::MyPaginator.new( :posts, '/blog/index', :per_page=>2 )
   extension Awestruct::Extensions::Tagger.new( :posts, '/blog/index', '/blog/tags', :per_page=>10, :sanitize=>true )
   extension Awestruct::Extensions::TagCloud.new(:posts, '/blog/tags/index.html', :layout=>'tab', :title=>'Tags')
 

@@ -33,10 +33,8 @@ module Awestruct
             end
             ## TODO: why are there some posts with empty url ?
 
-            url = ""
-            if (post.url != nil)
-              url = site.base_url + post.url
-            end
+            url = site.base_url + post.output_path
+            
             post.excerpt = AutoExcerpt.new(post.content, { :sentences => 1, :ending => "...<a href=\"#{url}\"><i class=\"fa fa-arrow-circle-right
 \"></i></a>"})
             

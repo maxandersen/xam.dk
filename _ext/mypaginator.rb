@@ -1,3 +1,5 @@
+require 'awestruct/extensions/relative'
+
 module Awestruct
   module Extensions
     class MyPaginator
@@ -13,7 +15,7 @@ module Awestruct
         def links
           html = %Q(<div class="pagination-links">)
           unless ( previous_page.nil? )
-            html += %Q(<a href="#relative(previous_page.url)}" class="previous-link">Previous</a> )
+            html += %Q(<a href="#{previous_page.url}" class="previous-link">Previous</a> )
           end
           first_skip = false
           second_skip = false
@@ -21,7 +23,7 @@ module Awestruct
             if ( i == current_page_index )
               html += %Q(<span class="current-page">#{i+1}</span> )
             elsif ( i <= window )
-              html += %Q(<a href="#{relative(page.url)}" class="page-link">#{i+1}</a> )
+              html += %Q(<a href="#{page.url}" class="page-link">#{i+1}</a> )
             elsif ( ( i > window ) && ( i < ( current_page_index - window ) ) && ! first_skip  )
               html += %Q(<span class="skip">...</span>)
               first_skip = true
@@ -29,13 +31,13 @@ module Awestruct
               html += %Q(<span class="skip">...</span>)
               second_skip = true
             elsif ( ( i >= ( current_page_index - window ) ) && ( i <= ( current_page_index + window ) ) )
-              html += %Q(<a href="#{relative(page.url)}" class="page-link">#{i+1}</a> )
+              html += %Q(<a href="#{page.url}" class="page-link">#{i+1}</a> )
             elsif ( i >= ( ( pages.size - window ) - 1 ) )
-              html += %Q(<a href="#{relative(page.url)}" class="page-link">#{i+1}</a> )
+              html += %Q(<a href="#{page.url}" class="page-link">#{i+1}</a> )
             end
           end
           unless ( next_page.nil? )
-            html += %Q(<a href="#{relative(next_page.url)}" class="next-link">Next</a> )
+            html += %Q(<a href="#{next_page.url}" class="next-link">Next</a> )
           end
           html += %Q(</div>)
           html
