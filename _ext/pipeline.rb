@@ -4,6 +4,7 @@ require 'myposts'
 require 'mypaginator'
 
 require 'setupdefaults'
+require 'atomizer_helper'
 
 Awestruct::Extensions::Pipeline.new do
   # extension Awestruct::Extensions::Posts.new '/news'
@@ -27,6 +28,8 @@ Awestruct::Extensions::Pipeline.new do
     :num_entries=>10000,
     :content_url=> "http://blog.xam.dk",
     :feed_title=> 'What was I thinking ?' )
+  helper Awestruct::Extensions::AtomizerHelper
+
   extension Awestruct::Extensions::Disqus.new
   helper Awestruct::Extensions::GoogleAnalytics
 
