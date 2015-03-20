@@ -25,6 +25,11 @@ module Awestruct
           #puts " processing blog with title: '#{post.title}'..." 
           if ( post.relative_source_path =~ /^#{@path_prefix}\/([^.]+)\..*$/ ) then
             basename=$1
+            # strip out date if entry start with such
+            if (basename =~ /^\d{4}-[01]\d-[0-3]\d-(.*)$/ ) then
+              basename=$1
+            end
+            
             post.output_path="#{@path_prefix}/#{basename}.html"
             #puts "  post date: #{post.date} >  #{Date.today.next_day} ? #{post.date > Date.today.next_day}"
             if post.date > Date.today.next_day
