@@ -23,7 +23,7 @@ Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Indexifier.new
   extension Awestruct::Extensions::Atomizer.new( 
     :posts, 
-    '/blog/feed-private.atom', 
+    '/blog/feed.atom', 
     :num_entries=>10000,
     :content_url=> "http://blog.xam.dk",
     :feed_title=> 'What was I thinking ?' )
