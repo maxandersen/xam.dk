@@ -13,7 +13,7 @@ module Awestruct
         attr_accessor :pages
 
         def links
-          html = %Q(<div class="pagination-links">)
+          html = %Q(<div class="pagination">)
           unless ( previous_page.nil? )
             html += %Q(<a href="#{previous_page.url}" class="previous-link">Previous</a> )
           end
