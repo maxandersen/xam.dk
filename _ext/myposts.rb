@@ -30,7 +30,7 @@ module Awestruct
               basename=$1
             end
             
-            post.output_path="#{@path_prefix}/#{basename}.html"
+            post.output_path="#{@path_prefix}/#{basename}/index.html"
             #puts "  post date: #{post.date} >  #{Date.today.next_day} ? #{post.date > Date.today.next_day}"
             if post.date > Date.today.next_day
               draft_posts << post
@@ -38,7 +38,7 @@ module Awestruct
             end
             ## TODO: why are there some posts with empty url ?
 
-            url = site.base_url + post.output_path
+            url = "#{site.base_url}#{@path_prefix}/#{basename}"
             
             post.excerpt = AutoExcerpt.new(post.content, { :sentences => 1, :ending => "...<a href=\"#{url}\"><i class=\"fa fa-arrow-circle-right
 \"></i></a>"})

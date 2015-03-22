@@ -95,10 +95,10 @@
             Copyright © #{site.name} 2015 - 
             %a{:href => "/about#acknowledgements"}Acknowledgements
   / jQuery
-  %script{:src => "js/jquery.js"}
+  %script{:src => relative("/javascripts/jquery.js")}
   / Bootstrap Core JavaScript
-  %script{:src => "js/bootstrap.min.js"}
+  %script{:src => relative("/javascripts/bootstrap.js")}
   / Custom Theme JavaScript
-  %script{:src => "js/clean-blog.min.js"}
+  %script{:src => relative("/javascripts/clean-blog.js")}
   
   = google_analytics
