@@ -15,6 +15,11 @@ I co-host http://asylum.jboss.org[JBoss Asylum] podcast.
 
 I'm on the http://eclipse.org[Eclipse board]. 
 
+I got an http://update.xam.dk[Eclipse Updatesite]
+
+I use this website to mainly blog about things that does not fit into
+the http://tools.jboss.org/blog[JBoss Tools blog] 
+
 I tweet too much about email clients!
 
 === Contact
