@@ -5,6 +5,7 @@ require 'mypaginator'
 
 require 'setupdefaults'
 require 'atomizer_helper'
+# require 'awestruct/extensions/minify'
 
 Awestruct::Extensions::Pipeline.new do
   # extension Awestruct::Extensions::Posts.new '/news'
@@ -13,6 +14,9 @@ Awestruct::Extensions::Pipeline.new do
   # extension Awestruct::Extensions::Atomizer.new :posts, '/feed.atom'
 
   helper Awestruct::Extensions::Relative
+
+ # get error when trying to create these
+ # extension Awestruct::Extensions::Minify.new
 
   extension Awestruct::Extensions::MyPosts.new('/blog', :posts)
   extension Awestruct::Extensions::MyPaginator.new( :posts, '/blog/index', :per_page=>2 )
@@ -32,5 +36,6 @@ Awestruct::Extensions::Pipeline.new do
 
   extension Awestruct::Extensions::Disqus.new
   helper Awestruct::Extensions::GoogleAnalytics
+
 
 end
