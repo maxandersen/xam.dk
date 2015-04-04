@@ -37,9 +37,12 @@
             %li
               %a{:href => relative("/")} Home
             %li
+              %a{:href => relative("/about")} About
+            %li
               %a{:href => relative("/blog")} Blog
             %li
-              %a{:href => relative("/about")} About
+              %a{:href => relative("/blog/feed.atom")} 
+                %i.fa.fa-rss.fa-stack-1x
         / /.navbar-collapse
       / /.container
     / Page Header
@@ -70,6 +73,11 @@
       .row
         .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
           %ul.list-inline.text-center
+            %li
+              %a{:href => "/blog/feed.atom"}
+                %span.fa-stack.fa-lg
+                  %i.fa.fa-circle.fa-stack-2x
+                  %i.fa.fa-rss.fa-stack-1x.fa-inverse
             %li
               %a{:href => "#{site.twitter_url}"}
                 %span.fa-stack.fa-lg
