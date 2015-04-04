@@ -167,7 +167,7 @@ desc 'Task to be used on travis-ci'
 task :travis do
   run_awestruct("-P production -g --force")
 
-  puts "## Deploying website via rsync to #{deploy_url}"
+  puts "## Deploying website via rsync"
   success = system("sshpass -p $XAMSSH -rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")
 end
 
