@@ -17,7 +17,10 @@ tab: blog
   %p
     ~ post.content
    
-  .disqus-short
-    = post.disqus_comments_link
+    %p.comments
+      %i.icon-comments
+        =post.disqus_comments_link 
+        #{post.disqus_comments_count} 
+
   %hr
 = page.posts.links
