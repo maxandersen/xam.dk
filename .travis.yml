@@ -2,6 +2,8 @@ language: ruby
 bundler_args: "--without development --path .bundle"
 rvm:
 - 2.2.0
+addons:
+  ssh_known_hosts: ssh.xam.dk
 branches:
   only:
   - master
