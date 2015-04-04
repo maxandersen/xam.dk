@@ -168,7 +168,7 @@ task :travis do
   run_awestruct("-P production -g --force")
 
   puts "## Deploying website via rsync"
-  success = system("sshpass -p $XAMSSH -rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")
+  success = system("sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")
 end
 
 
