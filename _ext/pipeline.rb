@@ -6,6 +6,7 @@ require 'mypaginator'
 require 'setupdefaults'
 require 'atomizer_helper'
 # require 'awestruct/extensions/minify'
+require 'buildinfo'
 
 Awestruct::Extensions::Pipeline.new do
   # extension Awestruct::Extensions::Posts.new '/news'
@@ -14,6 +15,8 @@ Awestruct::Extensions::Pipeline.new do
   # extension Awestruct::Extensions::Atomizer.new :posts, '/feed.atom'
 
   helper Awestruct::Extensions::Relative
+
+  extension Awestruct::Extensions::BuildInfo.new
 
  # get error when trying to create these
  # extension Awestruct::Extensions::Minify.new
