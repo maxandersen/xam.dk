@@ -169,6 +169,7 @@ task :travis do
 
   puts "## Deploying website via rsync to #{deploy_url}"
   success = system("sshpass -p $XAMSSH -rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")
+end
 
 
 # Execute Awestruct
