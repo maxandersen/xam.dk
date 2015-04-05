@@ -58,6 +58,11 @@
               %span.subheading #{page.subtitle}
               - if !page.date.nil?
                 %span.post-meta #{page.date.strftime( '%A, %B %e, %Y' )}
+                %div.tag
+                  - page.tags.each do |tag|
+                    %a.label{:href=>tag.primary_page.url}
+                      = tag
+                      &nbsp;
 
   / Main Content
   .container

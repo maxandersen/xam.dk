@@ -393,3 +393,73 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+/* tag clouds */
+
+.tag-cloud .tag-0 {
+  font-size: 1em;
+  opacity: 0.8;
+}
+
+.tag-cloud .tag-1 {
+  font-size: 1.15em;
+  opacity: 0.85;
+}
+
+.tag-cloud .tag-2 {
+  font-size: 1.3em;
+  opacity: 0.9;
+}
+
+.tag-cloud .tag-3 {
+  font-size: 1.45em;
+  opacity: 0.95;
+}
+
+.tag-cloud .tag-4 {
+  font-size: 1.6em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-5 {
+  font-size: 1.75em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-6 {
+  font-size: 1.9em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-7 {
+  font-size: 2.05em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-8 {
+  font-size: 2.2em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-9 {
+  font-size: 2.35em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-10 {
+  font-size: 2.5em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-11 {
+  font-size: 2.65em;
+  opacity: 1;
+}
+
+.tag-cloud a {
+  padding: 3px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
