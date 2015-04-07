@@ -23,13 +23,13 @@
 # the line to uncomment the dependency. We hope you enjoy using Awestruct!
 
 source 'https://rubygems.org'                             # This tells Bundler where to look for gems
+ruby '2.2.0'
 
-gem 'awestruct', '~> 0.5.5'                               # Goes without saying
-#gem 'awestruct', :git => 'git://github.com/aslakknutsen/awestruct.git', :branch => 'lazy_gen'
+#gem 'awestruct', '~> 0.5.5'                               # Goes without saying
+gem 'awestruct', :git => 'git://github.com/lightguard/awestruct.git', :branch => 'switch_from_rexml_to_oga'
 gem 'webrick', '~> 1.3.1'                                 # The rack webserver to use in dev mode
 
 # FIXME
-ruby '2.2.0'
 gem 'rake', '>= 0.9.2'                                  # Needed for the Rakefile to work
 # gem 'coffee-script', '>= 2.2.0'                         # If using coffee-script or to remove the warning
 # gem 'rb-fsevent', '~> 0.9', :require => false           # to remove warning about pulling, Mac OSX
@@ -46,5 +46,6 @@ gem 'asciidoctor', '>= 1.5.2'                           # If using AsciiDoc synt
 # gem 'kramdown', '>= 0.14.2'                             # If using Markdown
 # gem 'uglifier', '>= 1.3.0'                              # If using the minify transformer
 # gem 'htmlcompressor', '>= 0.0.3'                        # If using the minify transformer
+gem 'bootstrap-sass'
 
 gem 'auto_excerpt'
