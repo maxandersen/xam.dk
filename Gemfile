@@ -26,7 +26,7 @@ source 'https://rubygems.org'                             # This tells Bundler w
 ruby '2.2.0'
 
 #gem 'awestruct', '~> 0.5.5'                               # Goes without saying
-gem 'awestruct', :git => 'git://github.com/awestruct/awestruct.git', :branch => 'master'
+gem 'awestruct', :git => 'git://github.com/lightguard/awestruct.git', :branch => 'switch_from_rexml_to_oga'
 gem 'webrick', '~> 1.3.1'                                 # The rack webserver to use in dev mode
 
 # FIXME
