@@ -11,7 +11,7 @@ I'm actually writing this blog post in it right now as a test.
 
 It even supports uploading photos. 
 
-image::./images/testfromwc.jpg[Thumbs up,400,400]
+image::/images/testfromwc.jpg[Thumbs up,400,400]
 
 Once I commit (free) and push (needs app purchase) A Travis build is triggered that should result in Awestruct rendering and publishing this nice blog. 
 
