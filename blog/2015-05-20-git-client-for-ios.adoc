@@ -1,0 +1,29 @@
+= Git client for iOS
+:page-layout: blog-post
+:page-author: Max Rydahl Andersen
+:page-tags: [website]
+
+Today I noticed via http://onethingwell.org that there is now a native Git client for iOS. 
+
+The client is called http://workingcopyapp.com[Working Copy] and is available in the App Store. 
+
+I'm actually writing this blog post in it right now as a test.
+
+It even supports uploading photos. 
+
+image::./images/testfromwc.jpg[Thumbs up,400,400]
+
+Once I commit (free) and push (needs app purchase) A Travis build is triggered that should result in Awestruct rendering and publishing this nice blog. 
+
+What is great by working copy is that it integrates with iOS 8 new feature of sharing and editing services so you can use it from and with any app. 
+
+Making it very interesting for on the go blogging and quick fixes. 
+
+/max
+
+
+
+
+
+
+
