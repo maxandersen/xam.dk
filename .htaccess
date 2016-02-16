@@ -161,3 +161,6 @@ RewriteCond %{QUERY_STRING} ^p=257$
 RewriteRule .* http://xam.dk/blog/my-pegboardstanding-desk-installation? [R=302,NC,L]
 RewriteCond %{HTTP_HOST} ^blog.xam.dk [nc]
 RewriteRule ^(.*)$ http://xam.dk/$1 [nc]
+
+
+Redirect 302 /aeri/ https://redhat.ctrlflow.com/
