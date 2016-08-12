@@ -11,7 +11,7 @@ my Google Apps domain that do no allow Google Add Ons and it did not handle imag
 Thus I started looking for another solution.
 
 Here I found https://github.com/mangini/gdocs2md[gdocs2md] which
-converts to MarkDown whihc is close enough and it was just a script I
+converts to MarkDown which is close enough and it was just a script I
 could use on Google App Domain. Even more awesome is that it supports
 basic tables and images. It still had some issues but I noticed this
 project has a tons of https://github.com/mangini/gdocs2md/pulls[pull
