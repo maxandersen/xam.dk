@@ -24,6 +24,8 @@ convert to AsciiDoc instead of markdown.
 
 The result is https://github.com/maxandersen/gdoc2adoc[gdoc2adoc].
 
+image::https://raw.githubusercontent.com/maxandersen/gdoc2adoc/master/asciidoc.png[]
+
 With this you just put in https://raw.githubusercontent.com/maxandersen/gdoc2adoc/master/converttoasciidoc.gapps[this code] into your script editor and run
 the conversion via the now added `AsciiDoc` menu.
 
