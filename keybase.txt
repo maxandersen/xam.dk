@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/maxandersen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://xam.dk
+  * I am maxandersen (https://keybase.io/maxandersen) on keybase.
+  * I have a public key ASA7dS86Wa7zYx35AK-ZVMiEASsuYg0ib6giW0ROBDbfeQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101429d5fdbc602b36ea4309189f7ac4bf69298bafbad514df5aa867db300656dc40a",
+            "host": "keybase.io",
+            "kid": "01203b752f3a59aef3631df900af9954c884012b2e620d226fa8225b444e0436df790a",
+            "uid": "87e9e621c5c0e938b24ea53f9b8c9219",
+            "username": "maxandersen"
+        },
+        "service": {
+            "hostname": "xam.dk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.15"
+    },
+    "ctime": 1472676695,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1472676321,
+        "hash": "9a4c25bdbebddaa6d19ff2444001549640c72397555382f62d252e5e56876a9413479a88da405c33422099eec6ed0841f1b1f451520273585e91afd9402787a5",
+        "seqno": 612639
+    },
+    "prev": "d8d0a43b4b58cf5cc9dfb7c990e23d249b51a828f7cf5799edb0db2ff8493469",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgO3UvOlmu82Md+QCvmVTIhAErLmINIm+oIltETgQ233kKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDI5ZDVmZGJjNjAyYjM2ZWE0MzA5MTg5ZjdhYzRiZjY5Mjk4YmFmYmFkNTE0ZGY1YWE4NjdkYjMwMDY1NmRjNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2I3NTJmM2E1OWFlZjM2MzFkZjkwMGFmOTk1NGM4ODQwMTJiMmU2MjBkMjI2ZmE4MjI1YjQ0NGUwNDM2ZGY3OTBhIiwidWlkIjoiODdlOWU2MjFjNWMwZTkzOGIyNGVhNTNmOWI4YzkyMTkiLCJ1c2VybmFtZSI6Im1heGFuZGVyc2VuIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ4YW0uZGsiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE1In0sImN0aW1lIjoxNDcyNjc2Njk1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzI2NzYzMjEsImhhc2giOiI5YTRjMjViZGJlYmRkYWE2ZDE5ZmYyNDQ0MDAxNTQ5NjQwYzcyMzk3NTU1MzgyZjYyZDI1MmU1ZTU2ODc2YTk0MTM0NzlhODhkYTQwNWMzMzQyMjA5OWVlYzZlZDA4NDFmMWIxZjQ1MTUyMDI3MzU4NWU5MWFmZDk0MDI3ODdhNSIsInNlcW5vIjo2MTI2Mzl9LCJwcmV2IjoiZDhkMGE0M2I0YjU4Y2Y1Y2M5ZGZiN2M5OTBlMjNkMjQ5YjUxYTgyOGY3Y2Y1Nzk5ZWRiMGRiMmZmODQ5MzQ2OSIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQBtVDPItBPnZN6lhiX6EpT7s/jogO3TK9R+tBEyQyAn0c+lLWPt4PauAtehQkXjDZJmGaWzzBL7IzU77NvKZ2wGoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/maxandersen
+
+==================================================================
