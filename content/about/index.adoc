@@ -1,7 +1,6 @@
 ---
 title: About me
 subtitle: This is what I do.
-layout: base
 banner: /img/about-bg.jpg
 ---
 

@@ -1,0 +1,52 @@
+baseURL = "http://hugo.xam.dk"
+title = "@maxandersen"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+languageCode = "en-us"
+copyright = "Copyright © Max Rydahl Andersen"
+googleAnalytics = "UA-70032-1" # delete or comment to disable Google Analytics JS generation
+disqusShortname = "blogxamdk" #delete or comment to disable Disqus comments
+pluralizelisttitles = false
+
+[author]
+  name = "Max Rydahl Andersen"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Welcome"
+  Author = "Max Rydahl Andersen"
+##  email = "benoit.b" #Remove this line if you would prefer not to use an email button in the footer.
+  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = true #set to false to exclude read time from header of post
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/maxandersen"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/maxandersen"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/maxandersen"
+
+[[params.social]]
+  title = "google"
+  url = "https://plus.google.com/+maxrydahlandersen"
+
+[[params.social]]
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/maxrydahlandersen"
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "about"
+  url = "/about/"
+  weight = -180
+[[menu.main]]
+  name = "blog"
+  url = "/blog/"
+  weight = -160

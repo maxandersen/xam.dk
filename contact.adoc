@@ -1,9 +1,0 @@
----
-title: Contact
-subtitle: How to get in touch.
-layout: base
-banner: /img/about-bg.jpg
----
-
-
-
