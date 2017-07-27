@@ -8,6 +8,7 @@ copyright = "Copyright © Max Rydahl Andersen"
 googleAnalytics = "UA-70032-1" # delete or comment to disable Google Analytics JS generation
 disqusShortname = "blogxamdk" #delete or comment to disable Disqus comments
 pluralizelisttitles = false
+ignoreFiles = [ "\\.erb$" ]
 
 [author]
   name = "Max Rydahl Andersen"
