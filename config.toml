@@ -1,4 +1,4 @@
-baseURL = "http://hugo.xam.dk"
+baseURL = "https://hugo.xam.dk"
 title = "@maxandersen"
 canonifyurls = true
 paginate = 10
@@ -9,11 +9,13 @@ googleAnalytics = "UA-70032-1" # delete or comment to disable Google Analytics J
 disqusShortname = "blogxamdk" #delete or comment to disable Disqus comments
 pluralizelisttitles = false
 ignoreFiles = [ "\\.erb$" ]
+relativeURLs = true
 
 [author]
   name = "Max Rydahl Andersen"
 
 [params]
+  postType = "blog"
   DateForm = "Mon, Jan 2, 2006"
   Description = "Welcome"
   Author = "Max Rydahl Andersen"
@@ -45,9 +47,9 @@ ignoreFiles = [ "\\.erb$" ]
   weight = -200
 [[menu.main]]
   name = "about"
-  url = "/about/"
+  url = "/about"
   weight = -180
 [[menu.main]]
   name = "blog"
-  url = "/blog/"
+  url = "/blog"
   weight = -160
