@@ -10,7 +10,8 @@ before_script:
 script:
   - hugo
   - sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update public/ xam.dk@ssh.xam.dk:/www/hugotest
-
+before_install:
+  - sudo gem install asciidoctor | gem install asciidoctor
 notifications:
     email:
         on_failure: always

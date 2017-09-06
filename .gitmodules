@@ -1,3 +1,5 @@
 [submodule "startbootstrap-clean-blog"]
 	path = themes/startbootstrap-clean-blog
 	url = https://github.com/maxandersen/startbootstrap-clean-blog.git
+	branch = master
+	
