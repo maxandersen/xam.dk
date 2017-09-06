@@ -9,9 +9,21 @@ before_script:
 - sudo apt-get install -qq sshpass
 script:
   - hugo
-  - sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update public/ xam.dk@ssh.xam.dk:/www/hugotest
+  - sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update public/ xam.dk@ssh.xam.dk:/www/hugo
 before_install:
   - sudo gem install asciidoctor | gem install asciidoctor
+
+# not sure this is needed - but keeping for reference to remember how to remove
+# non-cachables
+before_cache:
+- rm -rf $GOPATH/src/github.com/maxandersen/xam.dk/*
+- rm -rf $GOPATH/pkg/**/github.com/maxandersen/xam.dk/*
+
+cache:
+  directories:
+    - $GOPATH/src
+    - $GOPATH/pkg
+
 notifications:
     email:
         on_failure: always
