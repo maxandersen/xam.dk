@@ -1,0 +1,71 @@
+---
+title: 'My Pegboard+Standing Desk Installation'
+author: 'Max Rydahl Andersen'
+
+tags: [ Switzerland (Danish), Work at JBoss ]
+orignallink: 'http://blog.xam.dk/?p=257'
+---
+<div>
+<p>I've been thinking about getting a height adjustable table for my home office for months, possibly even years, but never got around doing it because of either price or just not being motivated enough to do it.
+<br><br>
+I recently noticed that IKEA sells an electric frame for my IKEA Galant table that doesn't cost a fortune anymore. It might be it's always had that price but my starting knee/back pain and realization that I won't get a new body by magic made me think 499 CHF was a sweat deal for a healthier working life. That made me go ahead and get an adjustable desk plus use the pegboard solution to handle all the devices and wires I need to have mounted near my desk.
+<br><br><a href="http://www.flickr.com/photos/xam/6085334461/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9603.jpg" alt="IMG_9603.JPG" width="472" height="480"></a>
+<br><br>
+Since I got inspired by <a title="Declutter Your Desk - the original site" href="https://web.archive.org/web/20150213213844/http://www.decluttered.com/">others</a> <a href="http://lifehacker.com/5482856/exercise-or-not-sitting-at-a-desk-all-day-is-bad-for-you">writing</a> about <a href="http://www.google.com/search?&amp;q=site:lifehacker.com+standing%20desk">similar changes</a> to their office I thought I would add my story to the mix too hoping that can encourage others to try it out.
+<br><br><span style="font-size: 18px; font-weight: bold;">Getting the materials</span>
+<br><br>
+The full list of materials I used were:
+<br><br>
+1 <a href="http://www.ikea.com/dk/da/catalog/products/70088947">IKEA Galant electric raisable legs frame</a> (bought in a Danish IKEA, Swiss IKEA only have the <a href="http://www.ikea.com/ch/de/catalog/products/90088946">square version</a>)
+<br><br>
+2 pcs. of custom-cut pegboards to fit into the frame of the Galant desk
+<br><br>
+6 shackle "rings" from a padlock shackle (bought in <a href="http://www.landi.ch">Landi</a>, similar to this from <a href="http://www.amazon.com/dp/B00004Z0SR?tag=decyoudes-20&amp;camp=14573&amp;creative=327641&amp;linkCode=as1&amp;creativeASIN=B00004Z0SR&amp;adid=1Q4WNR5VB8FWYF02D0XV&amp;">Amazon</a>)
+<br><br>
+6 small round wooden dowels
+<br><br>
+Many tens of <a href="http://www.amazon.com/gp/product/B0000AXED7?ie=UTF8&amp;tag=decyoudes-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0000AXED7">long</a> and <a href="http://www.amazon.com/gp/product/B0000AXED4?ie=UTF8&amp;tag=decyoudes-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0000AXED4">small</a> cable ties
+<br><br>
+Getting the two main parts turned out to be a bit more difficult than anticipated. Firstly, I learned that not all IKEA's are created equally. In Denmark you can buy the adjustable frame for both the square and the corner version of Galant, but in Switzerland you can only buy the square version even though they do sell the corner desk.
+<br><br>
+Luckily my parents were about to embark on their annual vacation to Switzerland and I convinced my father to go to their "local" IKEA and pickup the corner version of the frame.
+<br><br>
+Beyond having to get my parents to bring the corner frame from Denmark another tricky part of this setup was that pegboards weren't easy to come by in my area. None of the common places like Jumbo, Landi or Coop had it thus I ended up having to custom order a full-sized 2.5 x 2.5 m pegboard from <a href="http://www.hgc.ch/">HGC</a> for ~40 CHF.
+<br><br>
+But don't let that discourage you - I live in a "rural" area :), btw. an alternative to the IKEA Galant frame is the desks from <a href="http://www.geekdesk.com/default.asp?contentID=613">GeekDesk</a> which even ships internationally - it's more expensive but at least it exists as an option.
+</p>
+<h2>Construction</h2>
+<em>Note, if you click on the images below they will link to a more detailed image with notes on the various parts if you are interested in the details of what is shown on the pictures.</em>
+<br><br>
+Assembly of the frame for the Galant is pretty straight forward, just removed the old and added in the new.Installing the pegboard and configuring it was a bit more work.
+<br><br>
+First, add the shackles on which to install the pegboard.
+<br><br><a href="http://www.flickr.com/photos/xam/6085321653/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9587.jpg" alt="IMG_9587.JPG" width="480" height="360"></a>
+<br><br>
+Secondly, drill hole in pegboard and check if it can be easily installed.
+<br><br><a href="http://www.flickr.com/photos/xam/6085323343/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9588.jpg" alt="IMG_9588.JPG" width="480" height="360"></a>
+<br><br>
+As a last minute thing I decided to mount a leftover <a href="http://www.amazon.co.uk/Philips-5100-Home-Audio-System/dp/B000AGKYYQ">Phillips MX 5100 Home Audio System</a> directly on the frame just by adding a bunch of cable ties together and tighten them well.
+<br><br>
+.<a href="http://www.flickr.com/photos/xam/6085324993/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9591.jpg" alt="IMG_9591.JPG" width="360" height="480"></a>
+<br><br>
+Once that was all up it was time to start configuring the pegboards with my "Stuff".
+<br><br><a href="http://www.flickr.com/photos/xam/6085325261/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/11252025201.jpg" alt="11252025201.jpg" width="480" height="359"></a>
+<br><br>
+This is really where this setup shines, because it is using the shackle+dowel I could easily try out some options before installing and if in the future I need to change something I can easily reconfigure it.
+<br><br>
+Here is the best shots I could get of the final pegboard configuration mounted on the desk (click on the image to see details):
+<br><br><a href="http://www.flickr.com/photos/xam/6085333133/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9602.jpg" alt="IMG_9602.JPG" width="480" height="285"></a>
+<br><br>
+This photo shows how "flat" the setup is and everything is out of your way - none of what you see there bumps into my knee(s) neither when I stand or sit at the table.
+<br><br><a href="http://www.flickr.com/photos/xam/6085336461/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9606.jpg" alt="IMG_9606.JPG" width="480" height="360"></a>
+<br><br>
+And here is the final result "lowered" to the sitting position:
+<br><br><a href="http://www.flickr.com/photos/xam/6085326055/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9598.jpg" alt="IMG_9598.JPG" width="472" height="480"></a>
+<br><br>
+And finally, my long awaited end result, my standing desk with (almost) no wires visible:
+<br><br><a href="http://www.flickr.com/photos/xam/6085334461/in/set-72157627405836671/"><img src="http://blog.xam.dk/wp-content/uploads/2011/08/IMG_9603.jpg" alt="IMG_9603.JPG" width="472" height="480"></a>
+<br><br>
+I've also uploaded a <a href="http://www.flickr.com/photos/xam/sets/72157627405836671/with/6085334461/">flickr set</a> for this with some more details about the photo's.
+<br><br>
+Hope you like it and it shows that it's not that hard to do - Now I just need to start getting my back and legs used to standing up, I hear that is rather painful the first couple of days/weeks.</div>

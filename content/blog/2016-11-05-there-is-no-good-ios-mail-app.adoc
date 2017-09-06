@@ -1,5 +1,5 @@
 = There is no great iOS mail client app
-:page-layout: blog-post
+:page-
 :page-author: Max Rydahl Andersen
 :page-tags: [email]
 

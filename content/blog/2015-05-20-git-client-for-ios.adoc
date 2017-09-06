@@ -1,5 +1,5 @@
 = Git client for iOS
-:page-layout: blog-post
+:page-
 :page-author: Max Rydahl Andersen
 :page-tags: [website]
 

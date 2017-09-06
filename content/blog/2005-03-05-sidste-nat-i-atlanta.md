@@ -1,0 +1,24 @@
+---
+title: 'Sidste nat i Atlanta'
+author: 'Max Rydahl Andersen'
+
+tags: [ Switzerland (Danish) ]
+orignallink: 'http://blog.xam.dk/?p=37'
+---
+<div><p>Det har v&#230;ret en uge med gang i!<br><br>
+Rejste fra Neuchatel s&#248;ndag morgen til Zurich og s&#229; direkte til Atlanta og var herovre lokal tid omkring klokken 14.<br>
+Mandag var der udviklings konference, Tirsdag og Onsdag JBoss World med tilh&#248;rende fest om Tirsdagen.<br>
+Torsdag og Fredag fortsatte s&#229; udviklings konferencen og her til aften blev det s&#229; aftalt vi m&#248;des i<br>
+morgen formiddag for at komme p&#229; CNN touren (hotellet og konference er INDE i CNN bygningen)<br><br>
+Ons/torsdag brugte jeg mest p&#229; at kaste op og have det skidt ,( M&#229; have haft noget influenza eller maveonde og<br>
+det at v&#230;re indend&#248;rs i snart 3 dage har nok ikke hjulpet p&#229; det. Men idag har jeg det meget bedre, s&#229;<br>
+alting er lidt nemmere.<br><br>
+Blandt andet har jeg endelig nu kunne f&#229; lagt nogle billeder op p&#229; <a href="http://coppermine.xam.dk/thumbnails.php?album=23" title="galleriet">gallerietgalleriet</a>.<br><br>
+Lisbeth fort&#230;ller at Elvis har v&#230;ret noget af en bandit da han tisser og biipp steder og p&#229; tidspunkter han ikke burde. <br>
+Heldigvis g&#248;r han det ude p&#229; terrassen n&#229;r d&#248;ren dertil st&#229;r &#229;ben - s&#229; han &#229;benbart fattet pointen med at det skal<br>
+foreg&#229; udenfor. Nu skal han bare have l&#230;rt at give os tegn s&#229; vi kan f&#229; ham helt ud.<br><br>
+Gl&#230;der mig nu til at komme hjem og se om han er vokset - der er jo g&#229;et en HEL uge.<br><br>
+Det er nu en lidt sjov/underlig f&#248;lelse at skulle rejse "hjem" til Schweiz istedet for Danmark. <br>
+Lejligheden f&#248;les meget klart som "hjem", men det er nu noget andet med landet - der g&#229;r<br>
+nu nok noget l&#230;ngere tid ,)<br><br>
+H&#229;ber i kan lide billederne - og Babe, jeg er p&#229; vej hjem s&#229; du kan have lidt bandit-fri!<br><br></p></div>

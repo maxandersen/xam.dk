@@ -1,0 +1,11 @@
+---
+title: 'Mr. Hibernate talking at JAOO'
+author: 'Max Rydahl Andersen'
+
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=6'
+---
+<div><p>Just want to let you know that Mr. Hibernate (Gavin King) will be talking at the JAOO conference this year (22-26 September, Aarhus, Denmark). <br><br>
+See <a href="http://www.jaoo.dk" title="JAOO conference">JAOO</a> and the <a href="http://jaoo.dk/speakers/index.html" title="JAOO Speakers">speakers</a> - which includes many other interesting wizards ;)<br><br>
+See you there!<br><br><img src="http://www.jaoo.dk/images/WebBanners/JAOO2003logo_250x60.gif" border="0"><br><br>
+The story in Gavin's own words is <a href="http://sourceforge.net/forum/forum.php?thread_id=847876&amp;forum_id=128638">here</a>   ;)</p></div>

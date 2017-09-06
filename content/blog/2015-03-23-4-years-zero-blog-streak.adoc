@@ -1,7 +1,7 @@
 ---
 title: '4 years zero blog streak'
 author: 'Max Rydahl Andersen'
-layout: blog-post
+
 tags: [ Java ]
 ---
 = 4 years zero blog streak

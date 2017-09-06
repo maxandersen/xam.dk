@@ -1,0 +1,43 @@
+---
+title: 'Making Eclipse look good on Linux'
+author: 'Max Rydahl Andersen'
+
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=70'
+---
+<div>
+<p>I have been bothered a long time by the "clumsy" look that Eclipse has on my Fedora box compared to how it looks on Windows and Mac.
+<br><br></p>
+<h3>Eclipse 3.3 running on Windows XP</h3>
+<img src="http://xam.dk/images/eclipseliberation/windows-sample.png" alt="Windows Sample"><br><br><h3>Eclipse 3.3 running on Fedora 6 (but looks very similar on other distros)</h3>
+<img src="http://xam.dk/images/eclipseliberation/linux-sample.png" alt="Windows Sample"><br><br>
+Notice that the font size is bigger ( 10 vs 8 ) and that there is alot of extra spacing between elements (The package tree and problem view is much more compact on windows). 
+<br><br>
+I tried changing the GTK themes but the issue prevailed - the themes doesn't seem to adjust the fonts only the component "look".
+<br><br>
+But with some help from my Red Hat friends on our tech-list I got some tips and ended up getting close.
+<br><br><h3>The tweaks</h3>
+<br><br>
+Install <a href="https://www.redhat.com/promo/fonts/">Red Hat Liberation fonts</a> which are free/liberated Windows fonts available for any OS and readily available in Fedora's repositories so they are very easy to install via <code>yum</code>.
+<br><br>
+After they are installed I ran <code>gnome-font-properties</code> and used the following settings:
+<br><br>
+Application/Document/Desktop font: Liberation Sans, size 8
+Window title font: Liberation Sans Bold, size 10
+Fixed with font: Liberation Mono, 10
+<br><br>
+Font rendering: Best contrast (the others left weird artifacts, but mostly up to taste here I think)
+<br><br>
+Under details:
+Resolution: 99 dpi (to avoid the letters to get too close, need at least 1 px between them ;)
+Smoothing: Grayscale
+<br><br>
+Hinting: Full 
+<br><br>
+Depending on your Eclipse font settings the above will be enough, but if you already have tweaked some settings remember to check your Font settings under Eclipse preferences and verify that you are actually using the System default or the Liberated fonts to get the smoother more compact look.
+<br><br><h3>Eclipse 3.3 with Liberation font + tweaks</h3>
+<img src="http://xam.dk/images/eclipseliberation/linuxliberation-sample.png" alt="Windows Sample"><br><br><b>Much</b> better, but unfortunately GTK still thinks it needs to have 1-2 extra pixels between components. If anyone knows any tips on how to reduce that wasted space then please leave a comment ;)
+<br><br>
+(Now I just need to figure out how to get this more compact look into the distro...;) 
+<br><br><br><br><br><br>
+</div>

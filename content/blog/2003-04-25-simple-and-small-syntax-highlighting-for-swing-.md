@@ -1,0 +1,14 @@
+---
+title: 'Simple and small syntax highlighting for Swing ?'
+author: 'Max Rydahl Andersen'
+
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=8'
+---
+<div><p>So, where does one go for small and simple syntax highlighting for Swing ? <br><br>
+I don't need anything fancy - just the basics highlighting of certain keywords in certain colors and <br>
+preferable customization via property files or something else human editable and savable.<br><br>
+I've tried to use (in Hibern8IDE) the small and simple code at syntax.jedit.org, but I don't like that it is <br>
+"non-conformant" to the Swing API and it is just to "ooold and non-moving". (No progress since mid-2002).<br><br>
+Google don't show up anything good neither ;(<br><br>
+So, the hunt continues for a small and simple syntax highlighting component.....</p></div>

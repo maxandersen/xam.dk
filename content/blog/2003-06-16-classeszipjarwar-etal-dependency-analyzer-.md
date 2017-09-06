@@ -1,0 +1,12 @@
+---
+title: 'classes,zip,jar,.war et.al dependency analyzer ?'
+author: 'Max Rydahl Andersen'
+
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=14'
+---
+<div><p>I'm on the lookout for a tool that tells me how many and which of the classes (even methods) i'm ACTUALLY using from the .jar/.war/.zip/classes on my classpath/classloader.<br><br>
+Tools like (genjar, pack, etc.) can generate the smallest possible .jar (derived on static analysis). I think the machinery in such a tool<br>
+is the exact same there is needed to visualize for me how big an idiot i've been by including a 1 meg. library, just for using one class or two.<br><br>
+It should not tell me EVERYTHING, it should just show me the top 10 "less-used" .jar/.zip/classes and let me explore from there ;)<br><br>
+Does anyone know of such a beast ?</p></div>

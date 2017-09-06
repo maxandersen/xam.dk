@@ -1,5 +1,5 @@
 = Google Documents to AsciiDoc
-:page-layout: blog-post
+:page-
 :page-author: Max Rydahl Andersen
 :page-tags: [asciidoc]
 

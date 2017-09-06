@@ -1,0 +1,89 @@
+---
+title: 'Eclipse and memory settings'
+author: 'Max Rydahl Andersen'
+
+tags: [  ]
+orignallink: 'http://blog.xam.dk/?p=58'
+---
+<div>
+<b>Updated 03.08.07: eclipse.ini is sensitive to which line break is used. See <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=198823">Eclipse bug#198823</a></b>
+<br><br>
+Many users seem to have problems with running out of memory when using Eclipse 3.2 in combination with additonal plugins such as those from JBoss Tools or even Eclipse WTP.
+<br><br>
+For those who just want the solution scroll <a href="#solution">down to the bottom</a>, you can skip my "rant" about it.
+<br><br><h2>The Problem</h2>
+Eclipse default memory settings (at least for Eclipse 3.2) is to run with the following memory settings specified in its eclipse.ini file:
+<code>
+-vmargs
+-Xms40m
+-Xmx256m
+</code>
+This is ok for most users, but users can tweak these settings by editing eclipse.ini or via the command line, e.g.
+<code>
+eclipse -vmargs -Xms128m -Xmx512m
+</code>
+<br><br>
+This would give some more room for extra many open projects and/or using plugins that might need additional memory (e.g. query results when running HQL via Hibernate Tools).
+<br><br>
+So why am I blogging about this ?
+<br><br>
+Well, it turns out that the combination of a eclipse.ini's weird syntax and Sun JVM's 'alternative' memory handling can give alot of headache.
+<br><br><h3>Eclipse.ini</h3>
+eclipse.ini is a configuration file that is located in the root of your Eclipse installation which is used as the default arguments passed to Eclipse.
+<br><br>
+This is all nice, but it is so easy to make it have zero effect by doing what makes the most sense, namely putting all the arguments on a single line in your eclipse.ini:
+<code>
+-vmargs -Xms128m -Xmx512m
+</code>
+The above line is simply ignored (or just not parsed correctly) by eclipse and hence the JVM is just started with the Sun VM default memory settings and the user thinks everything is fine.
+The *correct* way of using eclipse.ini is to put each command line argument on individual lines:
+<code>
+-vmargs 
+-Xms128m 
+-Xmx512m 
+</code>
+The best way to know if your command line arguments actually has been passed in correctly is to go to Help/About [Product Name] and click "Configuration Details" and check that the property "eclipse.vmargs" contain the values you expected.
+<br><br>
+This is expected and *correct*:
+<code>
+eclipse.vmargs=-Xms512m
+-Xmx512m
+-jar
+/opt/eclipse32-3.2.2/startup.jar
+</code>
+<br><br>
+This is *not*:
+<code>
+eclipse.vmargs=-jar
+/opt/eclipse32-3.2.2/startup.jar
+</code>
+<br><br>
+And that is exactly what happens when you put everything on one line in .eclipse.ini, so be careful!
+<br><br><h3>Sun JVM PermGen</h3>
+<br><br>
+Sun JVM's has a concept of PermGen space that is a *seperate* allocated memory region that is used for e.g. allocating classes. This is actually the memory region most people have issues with and not so much the normal heap space, but as a normal user one have a hard time realizing this when eclipse (or rather the jvm) just says "Out of Memory" or simply just crashes.
+<br><br>
+The solution for this is to add a MaxPermSize value to the vmargs. e.g. I normally use <code>-XX:MaxPermSize=128m</code> to make sure I don't run out of PermGen space.
+<br><br><h2 id="solution">The Solution</h2>
+*shameless plug*: Get <a href="http://www.redhat.com/developers/rhds/index.html">Red Hat Developer Studio</a> when it is relased which does this automatically for you, or...
+<br><br>
+Increase the memory settings via command line or eclipse.ini:
+<br><br><h3>Command line</h3>
+<code>eclipse -vmargs -Xms128m -Xmx512m -XX:MaxPermSize=128m</code>
+<br><br><h3>Eclipse.ini</h3>
+The trick is to remember each argument has to be on seperate lines:
+<code>
+-vmargs 
+-Xms128m 
+-Xmx512m 
+-XX:MaxPermSize=128m
+</code>
+<h2>Other solutions</h2>
+Use a JVM that uses the normal heap for PermGen-like allocations (that is any non-Sun JVM AFAIK)
+or help out with reducing the memory footprint of your <a href="http://jboss.org/tools">favorite plugins</a> by running them through a profiler and report found issues or possibly even contribute patches to <a href="http://jira.jboss.org/jira/browse/JBIDE">the Jira</a> :)
+<br><br><h3>Related links</h3>
+<a href="http://blog.exadel.com/?p=9">Igor's blog</a> about using jconsole to debug memory issues with Eclipse
+<a href="http://blogs.sun.com/fkieviet/entry/classloader_leaks_the_dreaded_java">Sun blog</a> with nice explanation of PermGen and what might cause it in user code
+<a href="http://www.eclipse.org/swt/launcher.html">Eclipse Program Launcher</a> documentation
+<a href="http://www.jboss.com/index.html?module=bb&amp;op=viewtopic&amp;t=109796&amp;postdays=0&amp;postorder=as">JBoss Tools/RHDS forum post</a> that made me want to write this blog<b></b>
+</div>

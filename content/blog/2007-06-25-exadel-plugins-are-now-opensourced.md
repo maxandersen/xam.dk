@@ -1,0 +1,21 @@
+---
+title: 'Exadel Plugins are now opensourced'
+author: 'Max Rydahl Andersen'
+
+tags: [ JBoss Tools and devstudio ]
+orignallink: 'http://blog.xam.dk/?p=61'
+---
+<div><p>Yesterday evening we finally made the commit of Exadel Plugins to <a href="http://fisheye.jboss.org/changelog/JBossTools/?cs=2171">JBoss Tools SVN</a> and during the night the nightly builds were generated and I encourage you to <a href="http://download.jboss.org/jbosstools/builds/nightly/200706241629-nightly/buildResults.html">try them out</a> and give us <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=201">feedback</a>.
+<br><br>
+This was a big team effort and I thanks everyone involved from San Francisco, Concord, Dallas, New York, London, Antwerpen, Neuchatel, Minsk, Moscow to Brisbane (and surely others which city I forgot)  for stepping up when needed.
+<br><br>
+Special thanks goes to:
+<br><br>
+Denis Golovin &amp; Alexey Kazakov and their development team for doing the hard work with preparing the source code for opensourcing
+Marshall Cullpepper for all the work done, especially integrating the JBoss IDE and Exadel Studio builds
+Alexey Morlender and his QA team for filling up JIRA and keeping us busy
+Bryan Che, Igor Shabalov and Theresa Kelsey for pushing JIRA and Red Hat Helpdesk to it's limits
+Mark Webbink &amp; Sacha Labourey for all the talks about open source licenses
+and finally Greg Katzman for introducing me to "Russian Sauna"
+<br><br>
+Remember that this is just the first step of many, follow and/or join us at <a href="http://www.jboss.org/tools">jboss.org/tools</a></p></div>

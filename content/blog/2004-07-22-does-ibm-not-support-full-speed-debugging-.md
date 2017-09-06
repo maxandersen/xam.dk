@@ -1,0 +1,11 @@
+---
+title: 'Does IBM not support full speed debugging ?'
+author: 'Max Rydahl Andersen'
+
+tags: [ Java ]
+orignallink: 'http://blog.xam.dk/?p=28'
+---
+<div><p>We are in the process of porting some application to IBM WS 5.1 which unfortunately(?) require us to move from SUN JVM to IBM JVM.<br><br>
+First I thought that would be nice since IBM JVM normally have better performance and especially have much better trace and debug information.<br><br>
+....BUT one thing is really killing me - as soon as I enable remote debugging the IBM JVM goes in SLOW MOTION, it feels like being back in the bad old days of slow-speed debugging! Is this really true - does IBM JVM not support full speed debugging as SUN's JVM have been doing for the last couple of years ?<br><br>
+(I normally just google for such stuff, but IBM is also remarkable good at either being silent or hide information about JDK 1.4 on the Windows platform :)</p></div>

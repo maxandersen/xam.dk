@@ -1,5 +1,5 @@
 = travis-ci with password only rsync
-:page-layout: blog-post
+:page-
 :page-author: Max Rydahl Andersen
 :page-tags: [website]
 
