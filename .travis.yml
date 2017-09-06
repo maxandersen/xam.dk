@@ -8,7 +8,6 @@ branches:
 before_script:
 - sudo apt-get install -qq sshpass
 script:
-  - git clone https://github.com/gcushen/hugo-academic.git themes/academic
   - hugo
   - sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update public/ xam.dk@ssh.xam.dk:/www/hugotest
 
