@@ -1,7 +1,6 @@
 ---
 title: Hibern8IDE
 author: Max Rydahl Andersen
-layout: base
 ---
 
 = Hibern8IDE - What was it ?
