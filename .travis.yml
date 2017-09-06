@@ -1,7 +1,5 @@
-language: ruby
-bundler_args: "--without development --path .bundle"
-rvm:
-- 2.2.0
+language: go
+install: go get -v github.com/spf13/hugo
 addons:
   ssh_known_hosts: ssh.xam.dk
 branches:
@@ -9,7 +7,13 @@ branches:
   - master
 before_script:
 - sudo apt-get install -qq sshpass
-script: rake travis
+script:
+  - hugo
+  - sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update public/ xam.dk@ssh.xam.dk:/www/hugotest
+
+notifications:
+    email:
+        on_failure: always
 env:
   global:
     secure: fpWVLgbveBCXlsXX7ef06qi7GrizwAE5MFq5pKH9G5AMFAdFL4xQxNOmeemRZ5fnMAn8LQUrA8otxwjiiq2RangRC9E11fBChEKC5V+FewBzsHONqkSTzKd6oAbmLynUizpXDofhVxIfRhtP03lfEDufzly4WaVDyoLJicvy9aM=
