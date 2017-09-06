@@ -10,19 +10,22 @@ disqusShortname = "blogxamdk" #delete or comment to disable Disqus comments
 pluralizelisttitles = false
 ignoreFiles = [ "\\.erb$" ]
 relativeURLs = true
-
+useFilenameDateAsFallback = true
+enableGitInfo = true
+  
 [author]
   name = "Max Rydahl Andersen"
 
 [params]
   postType = "blog"
-  DateForm = "Mon, Jan 2, 2006"
+  DateForm = "Monday, December 2, 2006"
   Description = "Welcome"
   Author = "Max Rydahl Andersen"
 ##  email = "benoit.b" #Remove this line if you would prefer not to use an email button in the footer.
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
-  showReadTime = true #set to false to exclude read time from header of post
-
+  showReadTime = false #set to false to exclude read time from header of post
+  Comments = true
+           
 [[params.social]]
   title = "twitter"
   url = "https://twitter.com/maxandersen"
