@@ -1,5 +1,5 @@
 language: go
-install: go get -v github.com/spf13/hugo
+install: go get -v gopkg.in/maxandersen/hugo.derivetitle-withoutfrontmatter
 addons:
   ssh_known_hosts: ssh.xam.dk
 branches:
