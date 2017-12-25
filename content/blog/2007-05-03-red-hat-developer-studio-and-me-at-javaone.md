@@ -31,8 +31,8 @@ Over the summer we will be adding a lot more functionality in this area and of c
 It will be great fun and I look forward to get feedback from you! :)
 </td>
 <td>
-<a href="/images/richfacestemplates.gif">
-<img src="/images/richfacestemplates_small.gif" alt="RichFaces preview in JSF Editor"></a>
+<a href="/images/rhds/richfacestemplates.gif">
+<img src="/images/rhds/richfacestemplates_small.gif" alt="RichFaces preview in JSF Editor"></a>
 <b>Click for full size</b>
 </td>
 </table>
