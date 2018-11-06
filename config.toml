@@ -13,6 +13,10 @@ relativeURLs = true
 useFilenameDateAsFallback = true
 enableGitInfo = true
   
+[frontmatter]
+date = [":filename", ":default"] 
+title = [":filename", ":default"]
+
 [author]
   name = "Max Rydahl Andersen"
 
