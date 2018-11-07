@@ -1,0 +1,72 @@
+= travis-ci with password only rsync
+Max Rydahl Andersen
+2015-04-04
+:jbake-tags: website
+
+I finally got http://travis-ci.org[Travis] working with my website.
+
+The challenge I had was that http://one.com[one.com] for some weird reason
+*only* allow `rsync` via passwords over ssh, not public/private keys.
+
+This does not just work outside the box since `rsync` over ssh will under normal
+circumstances require a user to type in the password.
+
+Luckily there is this little tool called `sshpass` that can help.
+
+The following describes how to get all this to work together in Travis.
+
+== Setup travis.yml
+
+In my https://github.com/maxandersen/xam.dk/blob/master/.travis.yml[.travis.yml]
+I did the following:
+
+[source,ruby]
+----
+language: ruby
+bundler_args: "--without development --path .bundle"
+rvm:
+- 2.2.0
+addons:
+  ssh_known_hosts: ssh.xam.dk  // <1>
+branches:
+  only:
+  - master
+before_script:
+- sudo apt-get install -qq sshpass // <2>
+script: rake travis // <3>
+env:
+  global:
+    secure: fpWVLgbveBCXlsXX7ef06qi7GrizwAE5MFq5pKH9G5AMFAdFL4xQxNOmeemRZ5fnMAn8LQUrA8otxwjiiq2RangRC9E11fBChEKC5V+FewBzsHONqkSTzKd6oAbmLynUizpXDofhVxIfRhtP03lfEDufzly4WaVDyoLJicvy9aM= // <4>
+----
+<1> Add your host to ssh_known_hosts to avoid 'Host key verification failed' error
+<2> Install `sshpass` before starting the build
+<3> Run rake script that does the actual `rsync`
+<4> Created secure variable by running `travis encrypt XAMSSH=secretpassword --add`
+
+== Travis rake task
+
+And then in the https://github.com/maxandersen/xam.dk/blob/master/Rakefile[`Rakefile`] I added my travis task
+that does the actual `rsync`:
+
+[source,ruby]
+----
+desc 'Task to be used on travis-ci'
+task :travis do
+  run_awestruct("-P production -g --force")
+
+  puts "## Deploying website via rsync"
+  success = system("sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www") // <1>
+
+  fail unless success
+end
+----
+<1> The important part is `sshpass -p $XAMSSH` which uses the encrypted value from travis.
+
+Voila - now my website will get automatically built with awestruct and
+synchronized with rsync even though http://one.com[one.com] don't like
+to provide more secure private/public keys.
+
+
+
+
+

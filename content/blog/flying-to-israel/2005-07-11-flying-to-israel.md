@@ -1,0 +1,20 @@
+date=2005-07-11
+title=Flying to Israel
+author='Max Rydahl Andersen'
+
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=47'
+---
+<div><p>Sitting in the Zurich Airport waiting for the plane to Tel Aviv. 
+<br><br>
+Just been through the most detailed security check ever - a security check that at least felt like being serious (as opposed to the non-serious timewasting security check done when travelling to the US )
+<br><br>
+Had to hand in everything for examination - only got my laptop afterwards the initial check for bombdust!
+Fun to get to see the machinery, but they kept my camera, phone, bag, etc. 
+<br><br>
+Even my name were targeted for 'suspicious' behavior - what is wrong with having "Rydahl" as my middlename ?
+I did not find out, but had to tell them were I got it from.
+<br><br>
+But at least they knew enough about "Sky Mountain" (Himmel bjerget, 147 m) in Denmark to make fun about it compared
+to my alp view in Neuchatel ;)
+<br><br></p></div>

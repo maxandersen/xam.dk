@@ -1,0 +1,106 @@
+date=2010-08-27
+title=Dial numbers with Skype via Launch Bar, Quick Silver or others
+author='Max Rydahl Andersen'
+
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=214'
+---
+<div>
+<p>I've been pretty happy with my <a href="http://blog.xam.dk/?p=187">previous Service Apple script</a> to dial a specific conference call bridge, but as I started having to use more it got too annoying to add a script per specific numbers.
+<br><br>
+Now I've updated the script to be able to use directly from LaunchBar (or other launchers) as the dial action for contact book entries.
+</p>
+<pre lang="applescript" escaped="true">on dial_skype(num)
+  set connect_wait to 10 (* seconds to wait before sending additional tones *)
+  set dtmf_wait to 0.2 (* seconds to wait between sending DTMF tones *)
+  set pause_char to "," (* character used to indicate a pause *)
+  set pause_wait to 2 (* seconds to wait for a pause *)
+<br><br>
+  if num starts with "tel:" then
+    set num to (text ((count "tel:") + 1) thru -1 of num)
+  end if
+<br><br>
+  (* remove any spaces in the number otherwise Skype won't make the call *)
+  set num to replace_string(num, " ", "")
+  (* replace %23 with # since launchBar seem to force encoding of numbers *)
+  set num to replace_string(num, "%23", "#")
+  set parts to split(num, pause_char)
+  set parts_count to count parts
+  set phone_number to item 1 of parts
+  if (parts_count &gt; 1) then
+    set dtmf_parts to items 2 through -1 of parts
+  else
+    set dtmf_parts to {}
+  end if
+<br><br>
+  tell application "Skype"
+    set active_call to send command "CALL " &amp; phone_number script name "s2"
+    set skype_call_id to word 2 of active_call
+    delay connect_wait
+    set bridge to "ALTER CALL " &amp; skype_call_id &amp; " DTMF "
+    repeat with dtmf in the items of dtmf_parts
+      repeat with tone in the characters of dtmf
+        send command bridge &amp; " " &amp; tone script name "s2"
+        delay dtmf_wait
+      end repeat
+      delay pause_wait
+    end repeat
+  end tell
+end dial_skype
+<br><br>
+on split(str, sep)
+  set {tid, AppleScript's text item delimiters} to {AppleScript's text item delimiters, sep}
+  set AppleScript's text item delimiters to sep
+  set parts to text items of str
+  set AppleScript's text item delimiters to tid
+  return parts
+end split
+<br><br>
+on replace_string(str, fr, t)
+  set {tid, AppleScript's text item delimiters} to {AppleScript's text item delimiters, fr}
+  set temp to text items of str
+  set AppleScript's text item delimiters to t
+  set str to temp as text
+  set AppleScript's text item delimiters to tid
+  return str
+end replace_string
+<br><br>
+(* for LaunchBar *)
+on handle_string(s)
+  my dial_skype(s)
+  open location "x-launchbar:hide"
+end handle_string
+<br><br>
+(* comment out for QuickSilver *)
+(*
+using terms from application "QuickSilver"
+  on process text qsText
+    my dial_skype(qsText)
+  end process text
+end
+*)</pre>
+<br><br><h2>Instructions for usage with LaunchBar</h2>
+<ol>
+<li>Copy the above script and save it with Apple Script Editor in your favorite script location (I use DropBox to share scripts such as this between machines)</li>
+	<li>Goto LaunchBar Action Preferences</li>
+	<li>Set "Phone Numbers" action to the file you saved in Step 1.</li>
+	<li>Use Launch Bar to find a contact's phone number and press Enter.</li>
+	<li>Skype should now start and dial the number.</li>
+</ol>
+You can also simply add the above script to a directory that your LaunchBar scans for scripts and use it via "Tab" on items; allowing you to use it on everything not just Address Book phone numbers.
+<h2>Instructions for usage with QuickSilver</h2>
+To use the script as an action for QuickSilver simply remove the comments from the lower block mentioning QuickSilver. How to configure QuickSilver to pick up the script is left as an exercise for the readers who have QuickSilver installed.
+<h2>Instructions for Other Launch mechanisms</h2>
+My previous blog shows how to embed a script like this into a Service menu entry, and if you use another launcher you just need to read their docs for how they want the script formed and apply it similar to what is done above for Launch Bar and QuickSilver.
+<h2>Last Minute Comments about Phone Numbers</h2>
+The script assumes the following about phone numbers:
+<ol>
+<li>has to be in international format (i.e. +&lt;number&gt;) as otherwise Skype will not dial it.</li>
+	<li>spaces are ok, but they are stripped out automatically otherwise Skype will not dial it.</li>
+	<li>',' is used as a pause character and as the start of DTMF tones. Thus "+123456789,1234#" will dial +123456789, wait 10 seconds for connection and then send 1234# as individual DTMF tones with a small pause in between. Additional commas will give a 2 sec delay. You can see and change the values for all these pauses in the top of script.</li>
+	<li>due to LaunchBar escaping '#' with '%23' the script replaces '%23' in your number with '#'; this should not be a problem since '%' is not a valid DTMF tone AFAIK.</li>
+</ol>
+<br><br>
+Hope you will enjoy it as much as me, it saved me a ton of time and frustration when it comes to conference call dialing :)
+<br><br>
+Leave a comment if it works for you! </div>

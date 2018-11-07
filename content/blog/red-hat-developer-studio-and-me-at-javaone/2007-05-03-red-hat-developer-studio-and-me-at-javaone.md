@@ -1,0 +1,42 @@
+date=2007-05-03
+title=Red Hat Developer Studio and Me at JavaOne
+author='Max Rydahl Andersen'
+
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=55'
+---
+<div>
+<p>It turns out that I will actually go to JavaOne this year - my first one; so looking forward to see what all the fuzz is about ;) If you are coming to JavaOne drop by the <a href="http://www.jboss.com/events/javaone07">JBoss booth</a> or the <a href="https://www.redhat.com/apps/webform.html?event_type=simple_form&amp;eid=971">JBoss party</a> and look me up. 
+<br><br></p>
+<table>
+<td>
+ <img src="/images/rhds/about_rhds.jpg" alt="Sneak peak at the logo">
+</td>
+<td>
+My reason for going there is to get to talk to people about <a href="http://labs.jboss.com/rhdevstudio/">Red Hat Developer Studio</a> (RHDS) and it's cousin <a href="http://www.jboss.org/tools">JBoss Tools</a>.
+<br><br>
+RHDS is the thing that have kept me busy for the last couple of months. We are open-sourcing the Exadel Studio Pro code base and at the same time working on integrating the plugins with the plugins from JBoss Tools (the set of tools previously known as JBoss IDE). 
+<br><br>
+That is and will be hard work, but it has also been great fun to get to know the code and especially to know the guys (and girls!) from Exadel.  
+</td>
+</table>
+<br><br><table>
+<td>
+I can't show you everything yet, but I do have one screenshot which I received from Alexey Kazakov today to show the progress done in adding support for <a href="http://labs.jboss.com/jbossrichfaces/">JBoss RichFaces</a> in the JSF/Facelets editor. 
+<br><br>
+The screenshot on the right shows our visual JSF editor previewing (without any server or JSF runtime) a facelet's page with a set of the RichFaces components. Of course with all the fun of WYSIWYG editing, drag'n'drop, etc.
+<br><br>
+Over the summer we will be adding a lot more functionality in this area and of course also improving on the functionality for JBoss Seam, Hibernate, JEE 5, JPA and more. 
+<br><br>
+It will be great fun and I look forward to get feedback from you! :)
+</td>
+<td>
+<a href="/images/rhds/richfacestemplates.gif">
+<img src="/images/rhds/richfacestemplates_small.gif" alt="RichFaces preview in JSF Editor"></a>
+<b>Click for full size</b>
+</td>
+</table>
+<br><br>
+See you at JavaOne!
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>

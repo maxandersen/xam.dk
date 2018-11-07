@@ -1,0 +1,44 @@
+date=2005-02-14
+title=Papirnusseri i Schweiz
+author='Max Rydahl Andersen'
+
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=34'
+---
+<div><p>Onsdag var dagen hvor vi skulle have os meldt ind i samfundet. Vi k&#248;rte med tog til Neuchatel, hvor<br>
+vi m&#248;dtes med Emily p&#229; JBoss kontoret og fik gjort klar. <br><br>
+Der skulle laves ny kontrakt, pension og arbejdsforsikring og p&#229; tirsdag skal jeg til samtale med sygeforsikrings assurand&#248;ren.<br>
+Lisbeth skal f&#248;rst ordne dette om tre m&#229;neders tid fordi hun indtil da stadig er d&#230;kket af hendes EU sygesikringsbevis.<br><br>
+Registrering hos "folkeregistret" foregik oppe i vores by (Les Genevey-sur-Coffrane) p&#229; kommunekontoret. En sjov detaljie<br>
+om Schweiz er at der er over 3000 kommuner i et land der ikke er meget st&#248;rre end Danmark - det er jo lidt andet end i Danmark<br>
+hvor man fors&#248;ger at reducere antallet. For at s&#248;ge om opholdstilladelse (som vi er garanteret som EU borgere) skulle jeg<br>
+vise min arbejdskontrakt og Lisbeth skulle bevise hun havde boet sammen med mig i over to &#229;r - det klarede en kopi af vores<br>
+lejekontrakt for os. <br><br>
+Det gik uden problemer og nu venter vi bare p&#229; der kommer et brev om at vi skal op at hente vores opholdstilladelser<br>
+til ca. 80 CHF stykket. Vi h&#229;ber det bliver en s&#229;kaldt B-permit fra starten af, da det giver flest rettigheder, men vi kan godt risikere<br>
+at f&#229; en L-permit, med lovning om en senere B-permit da der kun er et begr&#230;nset antal B-permits tilg&#230;ngelige. Men JBoss folkene<br>
+mener nu at det ikke betyder s&#229; meget for os da det vigtigeste nu engang er at jeg allerede har arbejde, s&#229; det g&#229;r jo nok alt sammen :)<br><br>
+Vi skulle jo ogs&#229; n&#229; at registrere os hos arbejdsformidlingen/a-kassen hernede (kaldet ORP). Emily fortalte hvor det lagde og s&#229; var<br>
+Lisbeth og Max ellers p&#229; eventyr alene i Schweiz. Da vi fandt det (p&#229; en noget skr&#229; bakke), gik vi ind og der var en der talte fint engelsk<br>
+og hun var vidste godt hvad en E301 og E303 formular s&#229; det gik jo fint. Mindre fint gik det da hun fandt ud af at vi boede op i Les Genevey-sur-Coffrane.<br>
+Denne by/kommune var nemlig ikke d&#230;kket af ORP i Neuchatel, men af ORP i Les Chaux-de-Fonds. &#216;v! Vi fik en n&#230;sten udfyldt formular med<br>
+og en adresse p&#229; det andet ORP.<br><br>
+Vi ville dog f&#248;rst lige finde en bank da vi skulle bruge en bankkonto hvortil ORP kunne betale. Christian havde haft en del problemer med den postbank<br>
+der ligger lige op ad JBoss - de ville nemlig hverken give kreditkort eller net-banking til personer der endnu ikke havde en B-permit. Vi gik derfor ind i<br>
+Credit Suisse istedet og her var der slet ikke nogle problemer. Vi fik fat i en dame der kunne lidt engelsk og med en blanding af tysk-engelsk-fransk fik<br>
+vi skaffet en f&#230;lles bankkonto, Maestro EC card (ala Dankort, bare uden gebyr!), netbanking og tilbud til at lave master-,visa- og american-express. S&#229;<br>
+det kunne jo ikke v&#230;re bedre!<br><br>
+Onsdag var nu ved at v&#230;re omme og vi vendte n&#230;sen hjemad og fik lavet noget mad.<br><br>
+Torsdag morgen skulle elektrikeren komme forbi og fixe vores ovn, han kom pr&#230;cis til tiden, men kunne ikke tale andet end fransk. S&#229; igen igang<br>
+med globale ord (KAPUT!) og h&#229;ndtegn. Det gik fint og vi fandt problemet: sikringer der var sprunget. S&#229; det var hurtigt ordnet ,)<br>
+Kort efter elektrikeren var g&#229;et startede Lisbeth br&#248;dristeren og derefter satte hun hendes f&#248;nt&#248;rrer i det samme multi-stik - og vupti - s&#229; r&#248;g der s&#248;rme<br>
+en sikring til. Godt jeg lige havde f&#229;et vist hvor sikringerne for vores lejlighed sidder.<br><br>
+Vi skulle jo op til ORP i Les Chaux-de-fonds, s&#229; vi tog toget derop - og det var helt klart opad. I byen vi bor ligger der nok omkring 10-15 centimeter sne p&#229; markerne, men<br>
+deroppe var det mere i n&#230;rheden af 30-50 centimeter og der var koldt! Men vi skulle jo ud i kulden og finde ORP og igen lykkedes det os ret hurtigt.<br>
+Her snakkede pigen desv&#230;rre ikke engelsk, men igen viste de godt hvad en E303 formular var s&#229; de gik igang med det hun skulle. Efter lidt ventetid kom hun tilbage,<br>
+denne gang sammen med en der kunne lidt tysk/engelsk og vi fik at vide at hende vi skulle have v&#230;ret inde ved var gravid og skulle snart f&#248;de. Vi fik derfor en<br>
+ny tid hos en anden som tager sig af udl&#230;ndinge og kan tale engelsk(!). Hende skal vi bes&#248;ge p&#229; tirsdag.<br><br>
+Efter ORP gik vi ned igennem Les Chaux-de-fonds gader. Byen virkede lidt mere som en storby i forhold til Neuchatel, men der var nu alligevel en del butikker<br>
+som var sjove (specielt for Lisbeth og hendes pyntetings-gen). Vi fandt ogs&#229; et st&#248;rre shopping center hvori der lagde en MMMigros (jo flere M'er jo st&#248;rre er de).<br>
+Her fik vi handlet lidt og endnu engang var priserne p&#229; gr&#248;ntsager chokerende....godt vi f&#229;r en have til sommer hvor vi kan plante nogle selv.<br><br>
+N&#229;, m&#229; se at komme videre har travlt p&#229; arbejdet idag der er meget at f&#248;lge op p&#229; n&#229; man har v&#230;ret v&#230;k i en uges tid.....ca. 1200+ mails....skriver mere senere.</p></div>

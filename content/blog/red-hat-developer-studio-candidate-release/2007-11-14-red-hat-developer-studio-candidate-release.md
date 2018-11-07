@@ -1,0 +1,20 @@
+date=2007-11-14
+title=Red Hat Developer Studio Candidate Release
+author='Max Rydahl Andersen'
+
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=71'
+---
+<div>
+<p>The candidate release of Red Hat Developer Studio is now available over at <a href="http://www.redhat.com/developers/rhds">Red Hat</a>.
+<br><br>
+The major news in this release is Seam 2 support together with over 300+ fixes and enhancements.
+<br><br>
+You can read more about those in the <a href="http://docs.jboss.org/tools/whatsnew/">New and noteworthy</a> pages.
+<br><br>
+Below is a small video, demonstrating the quick and easy setup of a Seam project in Red Hat Developer Studio.
+</p>
+<div style="text-align:center">
+<embed style="width:800px; height:620px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://docs.jboss.org/tools/movies/ootb_new_seam_project.swf">
+</div>
+</div>

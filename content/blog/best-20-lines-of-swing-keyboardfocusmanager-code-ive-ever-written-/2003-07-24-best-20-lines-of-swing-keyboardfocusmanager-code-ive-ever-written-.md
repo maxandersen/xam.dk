@@ -1,0 +1,30 @@
+date=2003-07-24
+title=Best 20 lines of Swing KeyboardFocusManager code Ive ever written ;)
+author='Max Rydahl Andersen'
+
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=16'
+---
+<div>
+<code><br>
+KeyboardFocusManager.getCurrentKeyboardFocusManager().addPropertyChangeListener("focusOwner", new PropertyChangeListener() {<br>
+&#160;&#160;&#160;Color FOCUS_COLOR = Color.CYAN;<br>
+&#160;&#160;&#160;Component last;<br>
+&#160;&#160;&#160;Color background = null; <br>
+&#160;&#160;&#160;public void propertyChange(PropertyChangeEvent evt) {<br>
+&#160;&#160;&#160;&#160;&#160;&#160;Component current = (Component)evt.getOldValue();<br>
+&#160;&#160;&#160;&#160;&#160;&#160;Component future = (Component)evt.getNewValue();<br><br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if(current==last &amp;&amp; current != null) {<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;current.setBackground(background);<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} <br><br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;last = future;<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if(last!=null) {<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;background = last.getBackground();<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;last.setBackground(FOCUS_COLOR);<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} <br>
+&#160;&#160;&#160;&#160;&#160;&#160;});<br></code><br><br><br>
+....and voila! you get EVERY component that can ever get focus hightligted with your favorite color!<br>
+This is great for debugging focus traversal problems - and it actually also looks cool (at least if you find a better color ,)<br><br>
+If I also just could do this for the ToolTipManager then my gui-debugging would ROCK ;)<br><br>
+p.s. No patent is currently pending on similar code - at least none that i'm aware of (wink wink Ward ;)</div>
