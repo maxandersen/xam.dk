@@ -1,4 +1,3 @@
----
 title='Jing - the best tool for reporting bugs for any UI!'
 author='Max Rydahl Andersen'
 

@@ -1,4 +1,3 @@
----
 title='Simple and small syntax highlighting for Swing ?'
 author='Max Rydahl Andersen'
 

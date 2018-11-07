@@ -1,4 +1,3 @@
----
 title='Copenhagen Trip'
 author='Max Rydahl Andersen'
 

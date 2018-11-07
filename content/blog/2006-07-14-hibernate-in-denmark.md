@@ -1,4 +1,3 @@
----
 title='Hibernate in Denmark'
 author='Max Rydahl Andersen'
 

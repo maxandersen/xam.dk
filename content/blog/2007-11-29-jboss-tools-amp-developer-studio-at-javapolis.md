@@ -1,4 +1,3 @@
----
 title='JBoss Tools &amp; Developer Studio at JavaPolis'
 author='Max Rydahl Andersen'
 

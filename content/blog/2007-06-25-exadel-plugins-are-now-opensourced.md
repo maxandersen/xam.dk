@@ -1,4 +1,3 @@
----
 title='Exadel Plugins are now opensourced'
 author='Max Rydahl Andersen'
 

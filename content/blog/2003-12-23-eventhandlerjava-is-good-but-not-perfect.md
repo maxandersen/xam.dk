@@ -1,4 +1,3 @@
----
 title='EventHandler.java is Good but not perfect'
 author='Max Rydahl Andersen'
 

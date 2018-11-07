@@ -1,4 +1,3 @@
----
 title='How to Geek-Pimp your Christmas Party'
 author='Max Rydahl Andersen'
 

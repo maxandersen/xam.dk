@@ -1,4 +1,3 @@
----
 title='Hibern8IDE first beta-release!'
 author='Max Rydahl Andersen'
 

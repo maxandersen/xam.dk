@@ -1,4 +1,3 @@
----
 title='Sidste nat i Atlanta'
 author='Max Rydahl Andersen'
 

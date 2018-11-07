@@ -1,4 +1,3 @@
----
 title='De f&#248;rste dage som udenlandsdansker'
 author='Max Rydahl Andersen'
 

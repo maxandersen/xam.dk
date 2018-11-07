@@ -1,4 +1,3 @@
----
 title='Best 20 lines of Swing KeyboardFocusManager code Ive ever written ;)'
 author='Max Rydahl Andersen'
 

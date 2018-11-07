@@ -1,4 +1,3 @@
----
 title='Lisbeths F&#248;dselsdag'
 author='Max Rydahl Andersen'
 

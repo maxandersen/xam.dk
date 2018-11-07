@@ -1,4 +1,3 @@
----
 title='Elvis, pas, bil og bordplader'
 author='Max Rydahl Andersen'
 

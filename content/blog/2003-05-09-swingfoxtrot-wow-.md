@@ -1,4 +1,3 @@
----
 title='Swing+Foxtrot, wow! ;)'
 author='Max Rydahl Andersen'
 

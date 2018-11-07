@@ -1,4 +1,3 @@
----
 title='Swing requestFocus blues'
 author='Max Rydahl Andersen'
 

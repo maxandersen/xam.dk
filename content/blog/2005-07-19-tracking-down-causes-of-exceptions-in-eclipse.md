@@ -1,4 +1,3 @@
----
 title='Tracking down causes of exceptions in Eclipse'
 author='Max Rydahl Andersen'
 

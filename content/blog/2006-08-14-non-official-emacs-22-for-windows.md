@@ -1,4 +1,3 @@
----
 title='Non official Emacs 22 for Windows'
 author='Max Rydahl Andersen'
 

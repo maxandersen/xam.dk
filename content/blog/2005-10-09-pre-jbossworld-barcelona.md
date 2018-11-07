@@ -1,4 +1,3 @@
----
 title='Pre JBossWorld Barcelona'
 author='Max Rydahl Andersen'
 

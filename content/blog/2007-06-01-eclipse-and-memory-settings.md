@@ -1,4 +1,3 @@
----
 title='Eclipse and memory settings'
 author='Max Rydahl Andersen'
 

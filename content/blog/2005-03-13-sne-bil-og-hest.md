@@ -1,4 +1,3 @@
----
 title='Sne, bil og hest!'
 author='Max Rydahl Andersen'
 

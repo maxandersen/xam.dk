@@ -1,4 +1,3 @@
----
 title='Hibern8IDE + HibernateExtensions'
 author='Max Rydahl Andersen'
 

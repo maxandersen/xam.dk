@@ -1,4 +1,3 @@
----
 title='classes,zip,jar,.war et.al dependency analyzer ?'
 author='Max Rydahl Andersen'
 

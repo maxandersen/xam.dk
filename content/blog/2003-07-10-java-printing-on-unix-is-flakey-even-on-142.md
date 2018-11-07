@@ -1,4 +1,3 @@
----
 title='Java Printing on Unix is flakey, even on 1.4.2!'
 author='Max Rydahl Andersen'
 

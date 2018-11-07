@@ -1,4 +1,3 @@
----
 title='New Job at JBoss'
 author='Max Rydahl Andersen'
 

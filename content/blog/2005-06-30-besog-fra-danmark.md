@@ -1,4 +1,3 @@
----
 title='Besoeg fra Danmark'
 author='Max Rydahl Andersen'
 

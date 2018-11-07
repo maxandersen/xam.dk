@@ -1,4 +1,3 @@
----
 title='We are moving!'
 author='Max Rydahl Andersen'
 

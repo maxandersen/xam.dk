@@ -1,4 +1,3 @@
----
 title='Eclipse The Memory Hog - resolved!'
 author='Max Rydahl Andersen'
 

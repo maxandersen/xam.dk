@@ -1,4 +1,3 @@
----
 title='Does IBM not support full speed debugging ?'
 author='Max Rydahl Andersen'
 

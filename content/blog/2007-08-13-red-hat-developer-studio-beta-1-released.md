@@ -1,4 +1,3 @@
----
 title='Red Hat Developer Studio Beta 1 released'
 author='Max Rydahl Andersen'
 

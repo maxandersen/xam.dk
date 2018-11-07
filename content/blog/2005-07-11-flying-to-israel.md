@@ -1,4 +1,3 @@
----
 title='Flying to Israel'
 author='Max Rydahl Andersen'
 

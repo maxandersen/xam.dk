@@ -1,4 +1,3 @@
----
 title='Mr. Hibernate talking at JAOO'
 author='Max Rydahl Andersen'
 

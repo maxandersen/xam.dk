@@ -1,4 +1,3 @@
----
 title='We are hiring!'
 author='Max Rydahl Andersen'
 

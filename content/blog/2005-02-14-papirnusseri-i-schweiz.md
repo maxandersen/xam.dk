@@ -1,4 +1,3 @@
----
 title='Papirnusseri i Schweiz'
 author='Max Rydahl Andersen'
 

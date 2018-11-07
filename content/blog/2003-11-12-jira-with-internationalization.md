@@ -1,4 +1,3 @@
----
 title='JIRA with internationalization!'
 author='Max Rydahl Andersen'
 

@@ -1,4 +1,3 @@
----
 title='Calling conference bridge numbers with Skype'
 author='Max Rydahl Andersen'
 

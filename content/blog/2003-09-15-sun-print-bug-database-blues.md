@@ -1,4 +1,3 @@
----
 title='SUN Print Bug database blues!'
 author='Max Rydahl Andersen'
 

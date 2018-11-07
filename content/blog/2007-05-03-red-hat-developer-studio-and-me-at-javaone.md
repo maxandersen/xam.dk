@@ -1,4 +1,3 @@
----
 title='Red Hat Developer Studio and Me at JavaOne'
 author='Max Rydahl Andersen'
 

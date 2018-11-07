@@ -1,4 +1,3 @@
----
 title='Making Eclipse look good on Linux'
 author='Max Rydahl Andersen'
 

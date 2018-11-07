@@ -1,4 +1,3 @@
----
 title='Rant about international airports, especially Geneva'
 author='Max Rydahl Andersen'
 

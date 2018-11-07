@@ -1,4 +1,3 @@
----
 title='Hibernate/JBoss JIRA Quick search in Opera'
 author='Max Rydahl Andersen'
 

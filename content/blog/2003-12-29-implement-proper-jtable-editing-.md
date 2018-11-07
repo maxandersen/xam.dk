@@ -1,4 +1,3 @@
----
 title='Implement proper JTable editing ?'
 author='Max Rydahl Andersen'
 

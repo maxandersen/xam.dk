@@ -1,4 +1,3 @@
----
 title='Migrating from Serendipity (s9y) to WordPress '
 author='Max Rydahl Andersen'
 

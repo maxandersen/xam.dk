@@ -1,4 +1,3 @@
----
 title='Landed in Israel'
 author='Max Rydahl Andersen'
 

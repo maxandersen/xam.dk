@@ -1,4 +1,3 @@
----
 title='Hibernate Interactive HQL ?'
 author='Max Rydahl Andersen'
 

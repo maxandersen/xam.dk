@@ -1,4 +1,3 @@
----
 title='Fresh laptop - what to install'
 author='Max Rydahl Andersen'
 

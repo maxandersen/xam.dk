@@ -1,4 +1,3 @@
----
 title='Todays Favorite Little SQL Gem'
 author='Max Rydahl Andersen'
 

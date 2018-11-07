@@ -1,4 +1,3 @@
----
 title='Virtual Win32/Unix Printer Driver ?'
 author='Max Rydahl Andersen'
 

@@ -1,4 +1,3 @@
----
 title='JAAS and functional security ?'
 author='Max Rydahl Andersen'
 

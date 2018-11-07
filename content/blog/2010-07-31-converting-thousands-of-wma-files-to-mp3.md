@@ -1,4 +1,3 @@
----
 title='Converting thousands of WMA files to MP3'
 author='Max Rydahl Andersen'
 

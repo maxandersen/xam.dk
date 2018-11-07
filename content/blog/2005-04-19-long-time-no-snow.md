@@ -1,4 +1,3 @@
----
 title='Long time no snow!'
 author='Max Rydahl Andersen'
 

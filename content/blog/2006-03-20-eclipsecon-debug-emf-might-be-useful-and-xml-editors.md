@@ -1,4 +1,3 @@
----
 title='EclipseCon: Debug, EMF might be useful and XML editors'
 author='Max Rydahl Andersen'
 

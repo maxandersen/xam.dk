@@ -1,4 +1,3 @@
----
 title='Visual Page Editor updated - now with MacOSX support'
 author='Max Rydahl Andersen'
 

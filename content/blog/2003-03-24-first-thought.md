@@ -1,4 +1,3 @@
----
 title='First thought...'
 author='Max Rydahl Andersen'
 
