@@ -2,6 +2,7 @@
 Max Rydahl Andersen
 2016-11-05
 :jbake-tags: email
+:jbake-status: draft
 
 Every now and then I find me going through the various 3rd party email apps on iOS to see if there is an app that is actually great.
 

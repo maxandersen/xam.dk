@@ -2,7 +2,7 @@ date=2003-12-24
 title=Java IPP and general Merry X-Mas
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=23'
 ---
 <div><p>It sure is christmas time now ;)<br><br>

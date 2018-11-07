@@ -2,7 +2,7 @@ date=2005-05-03
 title=Copenhagen Trip
 author='Max Rydahl Andersen'
 
-tags=[ Work at JBoss ]
+tags=Work at JBoss 
 orignallink='http://blog.xam.dk/?p=44'
 ---
 <div><p>After a very good meeting, we wanted to get some very good food :)

@@ -2,7 +2,7 @@ date=2007-10-08
 title=Red Hat Developer Studio Beta2 released
 author='Max Rydahl Andersen'
 
-tags=[ JBoss Tools and devstudio ]
+tags=JBoss Tools and devstudio 
 orignallink='http://blog.xam.dk/?p=66'
 ---
 <div><p>We made Red Hat Developer Studio 1.0.0.beta2 available at 

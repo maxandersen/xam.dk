@@ -2,7 +2,7 @@ date=2008-05-24
 title=Rant about international airports, especially Geneva
 author='Max Rydahl Andersen'
 
-tags=[ Work at JBoss ]
+tags=Work at JBoss 
 orignallink='http://blog.xam.dk/?p=78'
 ---
 <div><p>The last 3-4 years I've been travelling alot to and from Switzerland and especially Geneva Airport.

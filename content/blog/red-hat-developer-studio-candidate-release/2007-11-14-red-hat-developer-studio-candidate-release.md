@@ -2,7 +2,7 @@ date=2007-11-14
 title=Red Hat Developer Studio Candidate Release
 author='Max Rydahl Andersen'
 
-tags=[ JBoss Tools and devstudio ]
+tags=JBoss Tools and devstudio 
 orignallink='http://blog.xam.dk/?p=71'
 ---
 <div>

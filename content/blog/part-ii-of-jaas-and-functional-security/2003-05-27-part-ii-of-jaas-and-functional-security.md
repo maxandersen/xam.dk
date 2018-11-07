@@ -2,7 +2,7 @@ date=2003-05-27
 title=Part II of JAAS and functional security
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=13'
 ---
 <div><p>Hmm.....since the last time I posted, I've got one comment and I've searched even more around the 'net about JAAS and authorization (NOT authentication) and I've got a bit wiser ;)<br><br>

@@ -2,7 +2,7 @@ date=2005-03-13
 title=Sne, bil og hest!
 author='Max Rydahl Andersen'
 
-tags=[ Switzerland (Danish) ]
+tags=Switzerland (Danish) 
 orignallink='http://blog.xam.dk/?p=39'
 ---
 <div><p>S&#229; lykkedes det endelig! Vi fandt rideskolen der ligger i vores by.<br>

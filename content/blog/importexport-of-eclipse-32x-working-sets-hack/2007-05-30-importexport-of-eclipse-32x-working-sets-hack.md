@@ -2,7 +2,7 @@ date=2007-05-30
 title=Import/Export of Eclipse 3.2.x Working sets Hack!
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=56'
 ---
 <div>

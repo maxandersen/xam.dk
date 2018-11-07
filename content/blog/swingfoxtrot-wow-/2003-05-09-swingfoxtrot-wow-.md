@@ -2,7 +2,7 @@ date=2003-05-09
 title=Swing+Foxtrot, wow! ;)
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=11'
 ---
 <div><p>I have always loved the Swing framework for it's allmighty model/view separation (as opposed to the current state of SWT), but I have also hated Swing for it's "one-eventque-to-rule-them-all" approach which makes the GUI look rather sluggish when doing things that takes time.<br><br>

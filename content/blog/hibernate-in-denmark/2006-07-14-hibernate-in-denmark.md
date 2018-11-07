@@ -2,7 +2,7 @@ date=2006-07-14
 title=Hibernate in Denmark
 author='Max Rydahl Andersen'
 
-tags=[ Work at JBoss ]
+tags=Work at JBoss 
 orignallink='http://blog.xam.dk/?p=53'
 ---
 <div><p>Finally! - I get to do a Hibernate Advanced training in my motherland in December.

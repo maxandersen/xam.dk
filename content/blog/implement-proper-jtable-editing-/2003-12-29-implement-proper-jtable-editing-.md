@@ -2,7 +2,7 @@ date=2003-12-29
 title=Implement proper JTable editing ?
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=24'
 ---
 <div><p>Hi!<br><br>

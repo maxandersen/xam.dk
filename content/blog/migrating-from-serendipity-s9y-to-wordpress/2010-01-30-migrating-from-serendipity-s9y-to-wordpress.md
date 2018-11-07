@@ -2,7 +2,7 @@ date=2010-01-30
 title=Migrating from Serendipity (s9y) to WordPress 
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=174'
 ---
 <div>

@@ -2,7 +2,7 @@ date=2005-01-05
 title=Todays Favorite Little SQL Gem
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=32'
 ---
 <div>

@@ -2,7 +2,7 @@ date=2003-09-12
 title=Virtual Win32/Unix Printer Driver ?
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=18'
 ---
 <div><p>In the process of debugging some serious sun java problems I wanted to see what the heck the Java Print Services actually sent to my printer! <br><br>

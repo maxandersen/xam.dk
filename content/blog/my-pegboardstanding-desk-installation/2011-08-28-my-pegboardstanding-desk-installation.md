@@ -2,7 +2,7 @@ date=2011-08-28
 title=My Pegboard+Standing Desk Installation
 author=Max Rydahl Andersen
 
-tags=[ Switzerland (Danish), Work at JBoss ]
+tags=Switzerland (Danish), Work at JBoss 
 orignallink='http://blog.xam.dk/?p=257'
 ---
 <div>

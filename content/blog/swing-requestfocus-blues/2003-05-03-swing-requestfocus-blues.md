@@ -2,7 +2,7 @@ date=2003-05-03
 title=Swing requestFocus blues
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=9'
 ---
 <div><p>hmm...was doing some more Swing coding on Hibern8IDE and came across a never ending story - How do you ensure that some component get the first focus when you open up a jdialog, jframe or unhide panel ?<br><br>

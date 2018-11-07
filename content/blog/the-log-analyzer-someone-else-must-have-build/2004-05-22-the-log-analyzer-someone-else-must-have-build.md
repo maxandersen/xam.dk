@@ -2,7 +2,7 @@ date=2004-05-22
 title=The log analyzer someone else must have build!?
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=27'
 ---
 <div><p>We have a nice little audit log in our applications. One that contains a line for each "start" and "stop" for each event/process  that can occur in the system.<br><br>

@@ -2,7 +2,7 @@ date=2003-07-10
 title=Java Printing on Unix is flakey, even on 1.4.2!
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=15'
 ---
 <div><p>Geez - I was just starting to be so happy for the Java Printing Service API. It works like a charm under Windows.<br><br>

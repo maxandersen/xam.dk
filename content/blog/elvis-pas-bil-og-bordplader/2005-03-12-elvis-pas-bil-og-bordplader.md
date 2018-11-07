@@ -2,7 +2,7 @@ date=2005-03-12
 title=Elvis, pas, bil og bordplader
 author='Max Rydahl Andersen'
 
-tags=[ Switzerland (Danish) ]
+tags=Switzerland (Danish) 
 orignallink='http://blog.xam.dk/?p=38'
 ---
 <div><p>Vi har lejet bil her i weekenden s&#229; vi kan komme lidt rundt og se hvad<br>

@@ -2,7 +2,7 @@ date=2007-06-01
 title=Eclipse and memory settings
 author='Max Rydahl Andersen'
 
-tags=[  ]
+tags=
 orignallink='http://blog.xam.dk/?p=58'
 ---
 <div>

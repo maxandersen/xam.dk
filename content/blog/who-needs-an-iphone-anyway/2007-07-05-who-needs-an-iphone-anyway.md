@@ -2,7 +2,7 @@ date=2007-07-05
 title=Who needs an iPhone anyway...
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=62'
 ---
 <div>

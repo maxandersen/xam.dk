@@ -2,7 +2,7 @@ date=2007-05-03
 title=Red Hat Developer Studio and Me at JavaOne
 author='Max Rydahl Andersen'
 
-tags=[ Work at JBoss ]
+tags=Work at JBoss 
 orignallink='http://blog.xam.dk/?p=55'
 ---
 <div>

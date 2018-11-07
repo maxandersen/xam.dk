@@ -2,7 +2,7 @@ date=2008-01-16
 title=This category is moving to in.relation.to
 author='Max Rydahl Andersen'
 
-tags=[ JBoss Tools and devstudio ]
+tags=JBoss Tools and devstudio 
 orignallink='http://blog.xam.dk/?p=74'
 ---
 <div><p>In the future i'll put my blogs about JBoss Tools/Developer Studio and related at <a href="http://in.relation.to/Bloggers/Max">in.relation.to</a>.

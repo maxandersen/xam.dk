@@ -2,7 +2,7 @@ date=2005-04-19
 title=Long time no snow!
 author='Max Rydahl Andersen'
 
-tags=[ Switzerland (Danish) ]
+tags=Switzerland (Danish) 
 orignallink='http://blog.xam.dk/?p=43'
 ---
 <div><p>Ja, der var engang vi havde 22 grader mens Danmark havde 5.

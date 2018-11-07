@@ -2,7 +2,7 @@ date=2010-08-27
 title=Dial numbers with Skype via Launch Bar, Quick Silver or others
 author='Max Rydahl Andersen'
 
-tags=[ Work at JBoss ]
+tags=Work at JBoss 
 orignallink='http://blog.xam.dk/?p=214'
 ---
 <div>

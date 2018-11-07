@@ -2,7 +2,7 @@ date=2003-03-30
 title=Hibernate Interactive HQL ?
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=4'
 ---
 <div><p>It's Saturday night, and I just felt like doing something for the fun of it :)<br><br>

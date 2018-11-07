@@ -2,7 +2,7 @@ date=2004-01-20
 title=Light weight SMTP ?
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=25'
 ---
 <div><p>I'm searching for a lightweight SMTP implementation that is NOT dependent on JavaMail....particularly i'm looking for it to have a lightweight mailAppender for Log4j.<br><br>

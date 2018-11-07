@@ -2,7 +2,7 @@ date=2006-03-20
 title=EclipseCon: Debug, EMF might be useful and XML editors
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=52'
 ---
 <div>

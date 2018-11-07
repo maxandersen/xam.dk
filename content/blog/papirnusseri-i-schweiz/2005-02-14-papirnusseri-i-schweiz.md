@@ -2,7 +2,7 @@ date=2005-02-14
 title=Papirnusseri i Schweiz
 author='Max Rydahl Andersen'
 
-tags=[ Switzerland (Danish) ]
+tags=Switzerland (Danish) 
 orignallink='http://blog.xam.dk/?p=34'
 ---
 <div><p>Onsdag var dagen hvor vi skulle have os meldt ind i samfundet. Vi k&#248;rte med tog til Neuchatel, hvor<br>

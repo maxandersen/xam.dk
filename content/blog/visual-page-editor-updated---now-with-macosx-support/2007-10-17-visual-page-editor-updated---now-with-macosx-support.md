@@ -2,7 +2,7 @@ date=2007-10-17
 title=Visual Page Editor updated - now with MacOSX support
 author='Max Rydahl Andersen'
 
-tags=[ JBoss Tools and devstudio ]
+tags=JBoss Tools and devstudio 
 orignallink='http://blog.xam.dk/?p=67'
 ---
 <div>

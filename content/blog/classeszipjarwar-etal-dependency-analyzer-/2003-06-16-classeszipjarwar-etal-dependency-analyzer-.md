@@ -2,7 +2,7 @@ date=2003-06-16
 title=classes,zip,jar,.war et.al dependency analyzer ?
 author='Max Rydahl Andersen'
 
-tags=[ Java ]
+tags=Java 
 orignallink='http://blog.xam.dk/?p=14'
 ---
 <div><p>I'm on the lookout for a tool that tells me how many and which of the classes (even methods) i'm ACTUALLY using from the .jar/.war/.zip/classes on my classpath/classloader.<br><br>

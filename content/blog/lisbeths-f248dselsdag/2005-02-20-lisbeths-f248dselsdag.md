@@ -2,7 +2,7 @@ date=2005-02-20
 title=Lisbeths F&#248;dselsdag
 author='Max Rydahl Andersen'
 
-tags=[ Switzerland (Danish) ]
+tags=Switzerland (Danish) 
 orignallink='http://blog.xam.dk/?p=35'
 ---
 <div><p>S&#229; blev det Lisbeths f&#248;dselsdag!<br><br>
