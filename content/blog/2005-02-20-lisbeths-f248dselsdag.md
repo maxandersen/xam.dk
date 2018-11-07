@@ -1,4 +1,4 @@
-title='Lisbeths F&#248;dselsdag'
+title=Lisbeths F&#248;dselsdag
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

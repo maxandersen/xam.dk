@@ -1,4 +1,4 @@
-title='Hibern8IDE first beta-release!'
+title=Hibern8IDE first beta-release!
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

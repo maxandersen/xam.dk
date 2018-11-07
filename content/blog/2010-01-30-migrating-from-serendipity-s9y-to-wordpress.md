@@ -1,4 +1,4 @@
-title='Migrating from Serendipity (s9y) to WordPress '
+title=Migrating from Serendipity (s9y) to WordPress 
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

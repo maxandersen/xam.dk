@@ -1,4 +1,4 @@
-title='Swing requestFocus blues part II'
+title=Swing requestFocus blues part II
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

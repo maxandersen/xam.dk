@@ -1,4 +1,4 @@
-title='Besoeg fra Danmark'
+title=Besoeg fra Danmark
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

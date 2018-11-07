@@ -1,4 +1,4 @@
-title='Eclipse The Memory Hog - resolved!'
+title=Eclipse The Memory Hog - resolved!
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

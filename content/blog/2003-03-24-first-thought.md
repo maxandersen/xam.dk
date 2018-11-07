@@ -1,4 +1,4 @@
-title='First thought...'
+title=First thought...
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

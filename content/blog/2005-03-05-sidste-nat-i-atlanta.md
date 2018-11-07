@@ -1,4 +1,4 @@
-title='Sidste nat i Atlanta'
+title=Sidste nat i Atlanta
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

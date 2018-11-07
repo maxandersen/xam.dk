@@ -1,4 +1,4 @@
-title='Import/Export of Eclipse 3.2.x Working sets Hack!'
+title=Import/Export of Eclipse 3.2.x Working sets Hack!
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

@@ -1,4 +1,4 @@
-title='Good places for a breakpoint I'
+title=Good places for a breakpoint I
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

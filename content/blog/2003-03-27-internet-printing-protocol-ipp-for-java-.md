@@ -1,4 +1,4 @@
-title='Internet Printing Protocol (IPP) for Java ?'
+title=Internet Printing Protocol (IPP) for Java ?
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

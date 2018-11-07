@@ -1,4 +1,4 @@
-title='The log analyzer someone else must have build!?'
+title=The log analyzer someone else must have build!?
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

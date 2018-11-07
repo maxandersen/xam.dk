@@ -1,4 +1,4 @@
-title='Fresh laptop - what to install'
+title=Fresh laptop - what to install
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

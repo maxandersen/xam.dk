@@ -1,4 +1,4 @@
-title='New Job at JBoss'
+title=New Job at JBoss
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

@@ -1,4 +1,4 @@
-title='Hibern8IDE + HibernateExtensions'
+title=Hibern8IDE + HibernateExtensions
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

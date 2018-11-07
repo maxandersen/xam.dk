@@ -1,4 +1,4 @@
-title='Making Eclipse look good on Linux'
+title=Making Eclipse look good on Linux
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

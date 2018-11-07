@@ -1,4 +1,4 @@
-title='JIRA with internationalization!'
+title=JIRA with internationalization!
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

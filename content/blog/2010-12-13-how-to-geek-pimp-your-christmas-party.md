@@ -1,4 +1,4 @@
-title='How to Geek-Pimp your Christmas Party'
+title=How to Geek-Pimp your Christmas Party
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

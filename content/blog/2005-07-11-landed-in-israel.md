@@ -1,4 +1,4 @@
-title='Landed in Israel'
+title=Landed in Israel
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

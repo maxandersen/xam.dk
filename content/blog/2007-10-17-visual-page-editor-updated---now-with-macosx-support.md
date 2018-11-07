@@ -1,4 +1,4 @@
-title='Visual Page Editor updated - now with MacOSX support'
+title=Visual Page Editor updated - now with MacOSX support
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

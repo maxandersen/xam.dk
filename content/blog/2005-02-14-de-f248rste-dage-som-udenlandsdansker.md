@@ -1,4 +1,4 @@
-title='De f&#248;rste dage som udenlandsdansker'
+title=De f&#248;rste dage som udenlandsdansker
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

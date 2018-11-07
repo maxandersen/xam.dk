@@ -1,4 +1,4 @@
-title='Tracking down causes of exceptions in Eclipse'
+title=Tracking down causes of exceptions in Eclipse
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

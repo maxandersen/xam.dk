@@ -1,4 +1,4 @@
-title='We are moving!'
+title=We are moving!
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

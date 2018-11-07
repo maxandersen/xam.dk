@@ -1,4 +1,4 @@
-title='We are hiring!'
+title=We are hiring!
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

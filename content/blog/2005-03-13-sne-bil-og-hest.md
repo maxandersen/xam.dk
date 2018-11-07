@@ -1,4 +1,4 @@
-title='Sne, bil og hest!'
+title=Sne, bil og hest!
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

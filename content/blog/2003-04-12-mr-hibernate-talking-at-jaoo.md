@@ -1,4 +1,4 @@
-title='Mr. Hibernate talking at JAOO'
+title=Mr. Hibernate talking at JAOO
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

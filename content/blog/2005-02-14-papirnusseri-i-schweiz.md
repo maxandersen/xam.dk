@@ -1,4 +1,4 @@
-title='Papirnusseri i Schweiz'
+title=Papirnusseri i Schweiz
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

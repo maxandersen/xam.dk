@@ -1,4 +1,4 @@
-title='Red Hat Developer Studio and Me at JavaOne'
+title=Red Hat Developer Studio and Me at JavaOne
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

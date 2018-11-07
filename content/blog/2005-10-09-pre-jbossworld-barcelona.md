@@ -1,4 +1,4 @@
-title='Pre JBossWorld Barcelona'
+title=Pre JBossWorld Barcelona
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

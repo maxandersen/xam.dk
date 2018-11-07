@@ -1,4 +1,4 @@
-title='Red Hat Developer Studio Candidate Release'
+title=Red Hat Developer Studio Candidate Release
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

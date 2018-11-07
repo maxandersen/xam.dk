@@ -1,4 +1,4 @@
-title='Computer dog and new furniture'
+title=Computer dog and new furniture
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

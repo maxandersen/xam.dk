@@ -1,4 +1,4 @@
-title='JBoss Tools &amp; Developer Studio at JavaPolis'
+title=JBoss Tools &amp; Developer Studio at JavaPolis
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

@@ -1,4 +1,4 @@
-title='classes,zip,jar,.war et.al dependency analyzer ?'
+title=classes,zip,jar,.war et.al dependency analyzer ?
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

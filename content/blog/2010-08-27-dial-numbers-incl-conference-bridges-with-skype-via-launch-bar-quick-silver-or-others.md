@@ -1,4 +1,4 @@
-title='Dial numbers with Skype via Launch Bar, Quick Silver or others'
+title=Dial numbers with Skype via Launch Bar, Quick Silver or others
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

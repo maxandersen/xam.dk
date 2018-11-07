@@ -1,4 +1,4 @@
-title='Rant about international airports, especially Geneva'
+title=Rant about international airports, especially Geneva
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

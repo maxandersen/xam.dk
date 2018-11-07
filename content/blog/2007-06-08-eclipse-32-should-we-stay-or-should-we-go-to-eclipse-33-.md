@@ -1,4 +1,4 @@
-title='Eclipse 3.2 should we stay or should we go to Eclipse 3.3 ?'
+title=Eclipse 3.2 should we stay or should we go to Eclipse 3.3 ?
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

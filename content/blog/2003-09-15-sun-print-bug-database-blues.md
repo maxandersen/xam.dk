@@ -1,4 +1,4 @@
-title='SUN Print Bug database blues!'
+title=SUN Print Bug database blues!
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

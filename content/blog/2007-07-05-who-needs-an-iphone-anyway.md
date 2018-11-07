@@ -1,4 +1,4 @@
-title='Who needs an iPhone anyway...'
+title=Who needs an iPhone anyway...
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

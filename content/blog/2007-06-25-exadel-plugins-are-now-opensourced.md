@@ -1,4 +1,4 @@
-title='Exadel Plugins are now opensourced'
+title=Exadel Plugins are now opensourced
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

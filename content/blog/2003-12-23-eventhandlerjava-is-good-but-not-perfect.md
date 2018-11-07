@@ -1,4 +1,4 @@
-title='EventHandler.java is Good but not perfect'
+title=EventHandler.java is Good but not perfect
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

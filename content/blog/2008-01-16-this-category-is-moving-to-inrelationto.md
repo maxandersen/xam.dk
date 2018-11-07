@@ -1,4 +1,4 @@
-title='This category is moving to in.relation.to'
+title=This category is moving to in.relation.to
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

@@ -1,4 +1,4 @@
-title='Copenhagen Trip'
+title=Copenhagen Trip
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

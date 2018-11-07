@@ -1,4 +1,4 @@
-title='Red Hat Developer Studio Beta 1 released'
+title=Red Hat Developer Studio Beta 1 released
 author='Max Rydahl Andersen'
 
 tags=[ JBoss Tools and devstudio ]

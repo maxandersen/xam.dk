@@ -1,4 +1,4 @@
-title='Deployment time blues'
+title=Deployment time blues
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

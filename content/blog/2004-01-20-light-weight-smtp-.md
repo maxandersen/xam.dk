@@ -1,4 +1,4 @@
-title='Light weight SMTP ?'
+title=Light weight SMTP ?
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

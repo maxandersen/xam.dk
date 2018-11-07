@@ -1,4 +1,4 @@
-title='Swing+Foxtrot, wow! ;)'
+title=Swing+Foxtrot, wow! ;)
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

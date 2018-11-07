@@ -1,4 +1,4 @@
-title='Don&#039;t serialize Calendar&#039;s'
+title=Don&#039;t serialize Calendar&#039;s
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

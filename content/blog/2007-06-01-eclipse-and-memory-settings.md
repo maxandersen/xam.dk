@@ -1,4 +1,4 @@
-title='Eclipse and memory settings'
+title=Eclipse and memory settings
 author='Max Rydahl Andersen'
 
 tags=[  ]

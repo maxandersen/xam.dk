@@ -1,4 +1,4 @@
-title='Long time no snow!'
+title=Long time no snow!
 author='Max Rydahl Andersen'
 
 tags=[ Switzerland (Danish) ]

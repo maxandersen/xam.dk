@@ -1,4 +1,4 @@
-title='Todays favorite tool: svnmerge.py'
+title=Todays favorite tool: svnmerge.py
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

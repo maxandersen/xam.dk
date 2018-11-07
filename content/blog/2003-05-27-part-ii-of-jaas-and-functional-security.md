@@ -1,4 +1,4 @@
-title='Part II of JAAS and functional security'
+title=Part II of JAAS and functional security
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

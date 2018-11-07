@@ -1,4 +1,4 @@
-title='Hibernate in Denmark'
+title=Hibernate in Denmark
 author='Max Rydahl Andersen'
 
 tags=[ Work at JBoss ]

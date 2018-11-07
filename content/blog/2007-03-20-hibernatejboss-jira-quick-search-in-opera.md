@@ -1,4 +1,4 @@
-title='Hibernate/JBoss JIRA Quick search in Opera'
+title=Hibernate/JBoss JIRA Quick search in Opera
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

@@ -1,4 +1,4 @@
-title='Calling conference bridge numbers with Skype'
+title=Calling conference bridge numbers with Skype
 author='Max Rydahl Andersen'
 
 tags=[ applescript, skype, Work at JBoss ]

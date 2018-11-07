@@ -1,4 +1,4 @@
-title='EclipseCon: Debug, EMF might be useful and XML editors'
+title=EclipseCon: Debug, EMF might be useful and XML editors
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

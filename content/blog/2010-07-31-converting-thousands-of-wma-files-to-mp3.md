@@ -1,4 +1,4 @@
-title='Converting thousands of WMA files to MP3'
+title=Converting thousands of WMA files to MP3
 author='Max Rydahl Andersen'
 
 tags=[ Java ]

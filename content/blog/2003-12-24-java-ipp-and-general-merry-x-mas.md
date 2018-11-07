@@ -1,4 +1,4 @@
-title='Java IPP and general Merry X-Mas'
+title=Java IPP and general Merry X-Mas
 author='Max Rydahl Andersen'
 
 tags=[ Java ]
