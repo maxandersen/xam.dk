@@ -1,7 +1,7 @@
----
-title: About me
-subtitle: This is what I do.
-banner: /img/about-bg.jpg
+title=About me
+subtitle=This is what I do.
+banner=/img/about-bg.jpg
+type=page
 ---
 
 == Danish guy enjoying working on open source software.

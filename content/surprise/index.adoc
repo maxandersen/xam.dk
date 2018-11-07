@@ -1,5 +1,5 @@
----
-title: Surprise
+title=Surprise
+type=page
 ---
 
 = Max og Lisbeth 11/10-2004

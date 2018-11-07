@@ -1,6 +1,6 @@
----
-title: Hibern8IDE
-author: Max Rydahl Andersen
+title=Hibern8IDE
+author=Max Rydahl Andersen
+type=page
 ---
 
 = Hibern8IDE - What was it ?

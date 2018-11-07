@@ -1,8 +1,6 @@
----
-title: '4 years zero blog streak'
-author: 'Max Rydahl Andersen'
-
-tags: [ Java ]
+title=4 years zero blog streak
+author=Max Rydahl Andersen
+tags=[ Java ]
 ---
 = 4 years zero blog streak
 
