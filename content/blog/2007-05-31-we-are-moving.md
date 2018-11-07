@@ -1,9 +1,9 @@
 ---
-title: 'We are moving!'
-author: 'Max Rydahl Andersen'
+title='We are moving!'
+author='Max Rydahl Andersen'
 
-tags: [ Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=57'
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=57'
 ---
 <div><p>Now it's official - the document is signed and sealed ;)
 <br><br>

@@ -1,9 +1,9 @@
 ---
-title: 'Eclipse and memory settings'
-author: 'Max Rydahl Andersen'
+title='Eclipse and memory settings'
+author='Max Rydahl Andersen'
 
-tags: [  ]
-orignallink: 'http://blog.xam.dk/?p=58'
+tags=[  ]
+orignallink='http://blog.xam.dk/?p=58'
 ---
 <div>
 <b>Updated 03.08.07: eclipse.ini is sensitive to which line break is used. See <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=198823">Eclipse bug#198823</a></b>

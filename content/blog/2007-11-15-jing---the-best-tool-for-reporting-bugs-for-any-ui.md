@@ -1,9 +1,9 @@
 ---
-title: 'Jing - the best tool for reporting bugs for any UI!'
-author: 'Max Rydahl Andersen'
+title='Jing - the best tool for reporting bugs for any UI!'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=72'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=72'
 ---
 <div>
 <a href="http://www.jingproject.com">Jing</a> is a tool for grabbing screenshots and screencasts on Windows and Mac. 
@@ -18,6 +18,6 @@ Jinq does not have many editing facilities so you can't fix any stupid mistakes 
 <br><br>
 I'm definitly going to recommend it to anyone that want to easily show a bug (or a cool thing) in JBoss Tools or JBoss Developer Studio.
 <br><br>
-Update: I realized I had written jinq instead of jing. That is now fixed ;)
+Update=I realized I had written jinq instead of jing. That is now fixed ;)
 <br><br><br><br>
 </div>

@@ -1,9 +1,9 @@
 ---
-title: 'Who needs an iPhone anyway...'
-author: 'Max Rydahl Andersen'
+title='Who needs an iPhone anyway...'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=62'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=62'
 ---
 <div>
 <table>

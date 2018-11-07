@@ -1,9 +1,9 @@
 ---
-title: 'Deployment time blues'
-author: 'Max Rydahl Andersen'
+title='Deployment time blues'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=3'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=3'
 ---
 <div><p>Dammit...how long time do you spend waiting on your J2EE server when deploying ?<br><br>
 At my work we use a <a href="http://www.trifork.com" title="Fast inplace deployment...">server</a> for which we can reduce the deployment time dramatically compared to Weblogic, Websphere and others I've tried. It's 5-10 seconds, compared to minutes in the big-shots containers....<br><br>

@@ -1,9 +1,9 @@
 ---
-title: 'Best 20 lines of Swing KeyboardFocusManager code Ive ever written ;)'
-author: 'Max Rydahl Andersen'
+title='Best 20 lines of Swing KeyboardFocusManager code Ive ever written ;)'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=16'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=16'
 ---
 <div>
 <code><br>

@@ -1,9 +1,9 @@
 ---
-title: 'This category is moving to in.relation.to'
-author: 'Max Rydahl Andersen'
+title='This category is moving to in.relation.to'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=74'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=74'
 ---
 <div><p>In the future i'll put my blogs about JBoss Tools/Developer Studio and related at <a href="http://in.relation.to/Bloggers/Max">in.relation.to</a>.
 <br><br>

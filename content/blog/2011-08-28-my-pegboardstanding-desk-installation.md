@@ -1,9 +1,9 @@
 ---
-title: 'My Pegboard+Standing Desk Installation'
-author: 'Max Rydahl Andersen'
+title='My Pegboard+Standing Desk Installation'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish), Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=257'
+tags=[ Switzerland (Danish), Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=257'
 ---
 <div>
 <p>I've been thinking about getting a height adjustable table for my home office for months, possibly even years, but never got around doing it because of either price or just not being motivated enough to do it.

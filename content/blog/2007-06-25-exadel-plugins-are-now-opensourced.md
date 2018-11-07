@@ -1,9 +1,9 @@
 ---
-title: 'Exadel Plugins are now opensourced'
-author: 'Max Rydahl Andersen'
+title='Exadel Plugins are now opensourced'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=61'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=61'
 ---
 <div><p>Yesterday evening we finally made the commit of Exadel Plugins to <a href="http://fisheye.jboss.org/changelog/JBossTools/?cs=2171">JBoss Tools SVN</a> and during the night the nightly builds were generated and I encourage you to <a href="http://download.jboss.org/jbosstools/builds/nightly/200706241629-nightly/buildResults.html">try them out</a> and give us <a href="http://www.jboss.com/index.html?module=bb&amp;op=viewforum&amp;f=201">feedback</a>.
 <br><br>

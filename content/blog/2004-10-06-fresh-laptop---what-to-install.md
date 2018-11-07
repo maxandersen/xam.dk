@@ -1,9 +1,9 @@
 ---
-title: 'Fresh laptop - what to install'
-author: 'Max Rydahl Andersen'
+title='Fresh laptop - what to install'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=30'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=30'
 ---
 <div><p>Just received a new laptop box, and as always i'm using hours to configure it just right :)<br><br>
 Now that i've done that quite some times the last few years I wanted to write down the stuff I normally install on such beasts.<br><br>

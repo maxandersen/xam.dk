@@ -1,9 +1,9 @@
 ---
-title: 'Don&#039;t serialize Calendar&#039;s'
-author: 'Max Rydahl Andersen'
+title='Don&#039;t serialize Calendar&#039;s'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=26'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=26'
 ---
 <div><p>...or at least not a lot of them.<br><br>
 Today we just discovered that ONE session in our fat/slim client serialized about 1 MB of data over the wire!<br>

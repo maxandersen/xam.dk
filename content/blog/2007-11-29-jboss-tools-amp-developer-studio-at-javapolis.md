@@ -1,9 +1,9 @@
 ---
-title: 'JBoss Tools &amp; Developer Studio at JavaPolis'
-author: 'Max Rydahl Andersen'
+title='JBoss Tools &amp; Developer Studio at JavaPolis'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=73'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=73'
 ---
 <div><p>JavaPolis is getting near and this year I'll finally have time to go to it - yay!
 <br><br>

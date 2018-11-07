@@ -1,9 +1,9 @@
 ---
-title: 'De f&#248;rste dage som udenlandsdansker'
-author: 'Max Rydahl Andersen'
+title='De f&#248;rste dage som udenlandsdansker'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
-orignallink: 'http://blog.xam.dk/?p=33'
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=33'
 ---
 <div><p>Vi tog afsted ved en fire-tiden, efter at jeg havde hentet Lisbeth i Ikast og f&#229;et sagt farvel og p&#229; gensyn til sviger-familien i Tulstrup. <br>
 Det var rigtigt hyggligt at f&#229; en sidste mini-frokost derude og give/f&#229; knus fra Conny, Preben, Tulle, Charme og ikke mindst Buller <br>

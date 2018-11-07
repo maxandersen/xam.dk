@@ -1,9 +1,9 @@
 ---
-title: 'Hibern8IDE + HibernateExtensions'
-author: 'Max Rydahl Andersen'
+title='Hibern8IDE + HibernateExtensions'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=20'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=20'
 ---
 <div>
 <p>As I still get more and more comments on my "old" Hibern8IDE page, I would like to inform ya'all:<br><br>

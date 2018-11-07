@@ -1,9 +1,9 @@
 ---
-title: 'Visual Page Editor updated - now with MacOSX support'
-author: 'Max Rydahl Andersen'
+title='Visual Page Editor updated - now with MacOSX support'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=67'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=67'
 ---
 <div>
 <p>We now got <a href="http://wiki.jboss.org/wiki/Wiki.jsp?page=InstallingJBossToolsNightlyBuilds">nightly builds</a> for <a href="http://www.jboss.org/tools">JBoss Tools</a> that uses the Eclipse 3.3 compatible XULRunner from Eclipse ATF/Mozilla.org instead of our older version of Mozilla in the Visual Page Editor (VPE).

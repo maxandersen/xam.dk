@@ -1,9 +1,9 @@
 ---
-title: 'Flying to Israel'
-author: 'Max Rydahl Andersen'
+title='Flying to Israel'
+author='Max Rydahl Andersen'
 
-tags: [ Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=47'
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=47'
 ---
 <div><p>Sitting in the Zurich Airport waiting for the plane to Tel Aviv. 
 <br><br>

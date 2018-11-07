@@ -1,9 +1,9 @@
 ---
-title: 'Computer dog and new furniture'
-author: 'Max Rydahl Andersen'
+title='Computer dog and new furniture'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
-orignallink: 'http://blog.xam.dk/?p=42'
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=42'
 ---
 <div><p>Ja, det her er min hund! ;)
 <br><br><img src="http://www.xam.dk/coppermine/albums/userpics/10001/IMG_0802.JPG" alt=""><br><br>

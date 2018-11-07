@@ -1,9 +1,9 @@
 ---
-title: 'Implement proper JTable editing ?'
-author: 'Max Rydahl Andersen'
+title='Implement proper JTable editing ?'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=24'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=24'
 ---
 <div><p>Hi!<br><br>
 Have anyone ever succeded in making a editable JTable behave properly regarding first keystroke and selection ?<br><br>

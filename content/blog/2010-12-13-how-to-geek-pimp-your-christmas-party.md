@@ -1,9 +1,9 @@
 ---
-title: 'How to Geek-Pimp your Christmas Party'
-author: 'Max Rydahl Andersen'
+title='How to Geek-Pimp your Christmas Party'
+author='Max Rydahl Andersen'
 
-tags: [ Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=223'
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=223'
 ---
 <div>
 <p>Lisbeth and I normally try to throw a Danish Christmas party every

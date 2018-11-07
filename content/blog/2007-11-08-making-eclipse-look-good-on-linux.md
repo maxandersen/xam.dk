@@ -1,9 +1,9 @@
 ---
-title: 'Making Eclipse look good on Linux'
-author: 'Max Rydahl Andersen'
+title='Making Eclipse look good on Linux'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=70'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=70'
 ---
 <div>
 <p>I have been bothered a long time by the "clumsy" look that Eclipse has on my Fedora box compared to how it looks on Windows and Mac.
@@ -29,10 +29,10 @@ Fixed with font: Liberation Mono, 10
 Font rendering: Best contrast (the others left weird artifacts, but mostly up to taste here I think)
 <br><br>
 Under details:
-Resolution: 99 dpi (to avoid the letters to get too close, need at least 1 px between them ;)
-Smoothing: Grayscale
+Resolution=99 dpi (to avoid the letters to get too close, need at least 1 px between them ;)
+Smoothing=Grayscale
 <br><br>
-Hinting: Full 
+Hinting=Full 
 <br><br>
 Depending on your Eclipse font settings the above will be enough, but if you already have tweaked some settings remember to check your Font settings under Eclipse preferences and verify that you are actually using the System default or the Liberated fonts to get the smoother more compact look.
 <br><br><h3>Eclipse 3.3 with Liberation font + tweaks</h3>

@@ -1,9 +1,9 @@
 ---
-title: 'Red Hat Developer Studio Beta2 released'
-author: 'Max Rydahl Andersen'
+title='Red Hat Developer Studio Beta2 released'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=66'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=66'
 ---
 <div><p>We made Red Hat Developer Studio 1.0.0.beta2 available at 
 <a href="http://www.redhat.com/developers/rhds/index.html">http://www.redhat.com/developers/rhds/index.html</a>

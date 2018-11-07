@@ -1,9 +1,9 @@
 ---
-title: 'SUN Print Bug database blues!'
-author: 'Max Rydahl Andersen'
+title='SUN Print Bug database blues!'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=19'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=19'
 ---
 <div><p>What does one do when you have reported 2 critical errors regarding printing on Solaris and the only answer you've received is a "We currently have a three week response time for responding to Bug Reports." and that is now about 2 months ago!?<br><br>
 I've got two interal review ID's (191008 and 191011) but no where to ask about their status!<br><br>

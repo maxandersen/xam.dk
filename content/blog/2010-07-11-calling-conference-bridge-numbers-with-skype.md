@@ -1,9 +1,9 @@
 ---
-title: 'Calling conference bridge numbers with Skype'
-author: 'Max Rydahl Andersen'
+title='Calling conference bridge numbers with Skype'
+author='Max Rydahl Andersen'
 
-tags: [ applescript, skype, Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=187'
+tags=[ applescript, skype, Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=187'
 ---
 <div>
 <p>I like Skype, but one of the features it has always lacked is a way to directly call into conference call bridges.

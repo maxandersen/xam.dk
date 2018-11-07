@@ -1,9 +1,9 @@
 ---
-title: 'Todays Favorite Little SQL Gem'
-author: 'Max Rydahl Andersen'
+title='Todays Favorite Little SQL Gem'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=32'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=32'
 ---
 <div>
 <p>I've always been annoyed by the fact I can't just do something like "drop all tables cascade constraints" or similar in my RDBMS....well, while I've been messing around with some DDL/rev.eng. code where it cames in handy I wanted such a feature for Oracle. <br><br>

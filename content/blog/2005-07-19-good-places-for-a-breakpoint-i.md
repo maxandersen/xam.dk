@@ -1,9 +1,9 @@
 ---
-title: 'Good places for a breakpoint I'
-author: 'Max Rydahl Andersen'
+title='Good places for a breakpoint I'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=49'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=49'
 ---
 <div>
 <br><br>

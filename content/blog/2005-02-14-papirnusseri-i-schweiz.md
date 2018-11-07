@@ -1,9 +1,9 @@
 ---
-title: 'Papirnusseri i Schweiz'
-author: 'Max Rydahl Andersen'
+title='Papirnusseri i Schweiz'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
-orignallink: 'http://blog.xam.dk/?p=34'
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=34'
 ---
 <div><p>Onsdag var dagen hvor vi skulle have os meldt ind i samfundet. Vi k&#248;rte med tog til Neuchatel, hvor<br>
 vi m&#248;dtes med Emily p&#229; JBoss kontoret og fik gjort klar. <br><br>

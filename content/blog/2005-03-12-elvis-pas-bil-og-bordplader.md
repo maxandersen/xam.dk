@@ -1,9 +1,9 @@
 ---
-title: 'Elvis, pas, bil og bordplader'
-author: 'Max Rydahl Andersen'
+title='Elvis, pas, bil og bordplader'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
-orignallink: 'http://blog.xam.dk/?p=38'
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=38'
 ---
 <div><p>Vi har lejet bil her i weekenden s&#229; vi kan komme lidt rundt og se hvad<br>
 der er i omgivelserne. Vi ville gerne have v&#230;ret til Frankrig, men Elvis<br>

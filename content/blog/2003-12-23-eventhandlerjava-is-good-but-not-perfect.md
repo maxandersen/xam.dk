@@ -1,9 +1,9 @@
 ---
-title: 'EventHandler.java is Good but not perfect'
-author: 'Max Rydahl Andersen'
+title='EventHandler.java is Good but not perfect'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=22'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=22'
 ---
 <div><p>Just "discovered" the newly (in JDK 1.4) added java.beans.EventHandler which allows you to do stuff like:<br><br><code><br>
 but.addActionListener(<br>

@@ -1,9 +1,9 @@
 ---
-title: 'Virtual Win32/Unix Printer Driver ?'
-author: 'Max Rydahl Andersen'
+title='Virtual Win32/Unix Printer Driver ?'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=18'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=18'
 ---
 <div><p>In the process of debugging some serious sun java problems I wanted to see what the heck the Java Print Services actually sent to my printer! <br><br>
 In the hope someone else had thought of the same I Googled for "virtual printer driver", "gdi monitor" etc. etc. and came up with nothing :(<br><br>

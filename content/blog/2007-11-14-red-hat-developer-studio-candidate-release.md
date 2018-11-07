@@ -1,9 +1,9 @@
 ---
-title: 'Red Hat Developer Studio Candidate Release'
-author: 'Max Rydahl Andersen'
+title='Red Hat Developer Studio Candidate Release'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=71'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=71'
 ---
 <div>
 <p>The candidate release of Red Hat Developer Studio is now available over at <a href="http://www.redhat.com/developers/rhds">Red Hat</a>.

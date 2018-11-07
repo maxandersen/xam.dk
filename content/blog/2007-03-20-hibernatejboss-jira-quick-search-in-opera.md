@@ -1,9 +1,9 @@
 ---
-title: 'Hibernate/JBoss JIRA Quick search in Opera'
-author: 'Max Rydahl Andersen'
+title='Hibernate/JBoss JIRA Quick search in Opera'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=41'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=41'
 ---
 <div><p>Here is how you can do quick search in your JIRA directly from the browser url in Opera:
 <br><br>

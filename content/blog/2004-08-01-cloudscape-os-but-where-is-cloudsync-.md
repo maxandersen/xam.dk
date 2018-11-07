@@ -1,9 +1,9 @@
 ---
-title: 'Cloudscape OS, but where is CloudSync ?'
-author: 'Max Rydahl Andersen'
+title='Cloudscape OS, but where is CloudSync ?'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=29'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=29'
 ---
 <div><p>I've just <a href="http://www.blueskyonmars.com/archives/2004/07/31/ibm_to_open_source_cloudscape_database.html">read</a> that IBM is going to opensource the feature rich and robust Java only database called <a href="http://www-306.ibm.com/software/data/cloudscape/">Cloudscape</a>.<br>
 That is surely great news - at least if it has kept it's lightweight footprint and ease-of-use from the last time I used it (a couple of years ago).<br><br>

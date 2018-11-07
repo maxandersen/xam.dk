@@ -1,9 +1,9 @@
 ---
-title: 'Swing requestFocus blues part II'
-author: 'Max Rydahl Andersen'
+title='Swing requestFocus blues part II'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=10'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=10'
 ---
 <div><p>hmm - i probably didn't explain my problem very well the last time - or at least not to the point. <br>
 But I got one answer though.<br><br>

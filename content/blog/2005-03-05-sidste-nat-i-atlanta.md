@@ -1,9 +1,9 @@
 ---
-title: 'Sidste nat i Atlanta'
-author: 'Max Rydahl Andersen'
+title='Sidste nat i Atlanta'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
-orignallink: 'http://blog.xam.dk/?p=37'
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=37'
 ---
 <div><p>Det har v&#230;ret en uge med gang i!<br><br>
 Rejste fra Neuchatel s&#248;ndag morgen til Zurich og s&#229; direkte til Atlanta og var herovre lokal tid omkring klokken 14.<br>

@@ -1,9 +1,9 @@
 ---
-title: 'Java IPP and general Merry X-Mas'
-author: 'Max Rydahl Andersen'
+title='Java IPP and general Merry X-Mas'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=23'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=23'
 ---
 <div><p>It sure is christmas time now ;)<br><br>
 The first OS Java IPP implementation (called Jipsi) have been made available from http://www.lohndirekt.de/software/jipsi_quickstart.html.<br><br>

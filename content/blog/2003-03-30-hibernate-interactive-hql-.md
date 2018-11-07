@@ -1,9 +1,9 @@
 ---
-title: 'Hibernate Interactive HQL ?'
-author: 'Max Rydahl Andersen'
+title='Hibernate Interactive HQL ?'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=4'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=4'
 ---
 <div><p>It's Saturday night, and I just felt like doing something for the fun of it :)<br><br>
 I've created a quick'n'dirty Hibern8 IDE in less than 3 hour - you gotta love Eclipse!<br><br>

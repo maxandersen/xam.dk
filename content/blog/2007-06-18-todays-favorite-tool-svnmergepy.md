@@ -1,9 +1,9 @@
 ---
-title: 'Todays favorite tool: svnmerge.py'
-author: 'Max Rydahl Andersen'
+title='Todays favorite tool: svnmerge.py'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=60'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=60'
 ---
 <div><p>I was about to have fun merging our two branches in rhdevstudio, the Eclipse 3.3 branch onto main trunk, when I remembered <a href="http://blog.emmanuelbernard.com/2007/02/svn-false-promises.html">Emmanuel whining </a> about the false promise of svn and all the issues he had. His issues were apparently partially because of his IDE but probably mainly because svn surprisingly does not keep track of merges by default.
 <br><br>

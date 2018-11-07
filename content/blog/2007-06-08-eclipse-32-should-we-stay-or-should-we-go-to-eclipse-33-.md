@@ -1,9 +1,9 @@
 ---
-title: 'Eclipse 3.2 should we stay or should we go to Eclipse 3.3 ?'
-author: 'Max Rydahl Andersen'
+title='Eclipse 3.2 should we stay or should we go to Eclipse 3.3 ?'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=59'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=59'
 ---
 <div><p>Eclipse 3.3 and WTP 2.0 is planned to be released soon and I'm considering if we should move now or later.
 <br><br>

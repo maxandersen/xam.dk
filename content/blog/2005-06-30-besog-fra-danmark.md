@@ -1,8 +1,8 @@
 ---
-title: 'Besoeg fra Danmark'
-author: 'Max Rydahl Andersen'
+title='Besoeg fra Danmark'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
+tags=[ Switzerland (Danish) ]
 ---
 <div><p>Det har været en travl tid på det sidste så har ikke fået vedligeholdt den her side - typisk :)
 <br><br>

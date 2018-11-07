@@ -1,9 +1,9 @@
 ---
-title: 'Red Hat Developer Studio Beta 1 released'
-author: 'Max Rydahl Andersen'
+title='Red Hat Developer Studio Beta 1 released'
+author='Max Rydahl Andersen'
 
-tags: [ JBoss Tools and devstudio ]
-orignallink: 'http://blog.xam.dk/?p=64'
+tags=[ JBoss Tools and devstudio ]
+orignallink='http://blog.xam.dk/?p=64'
 ---
 <div>
 <p>Today we are releasing Red Hat Developer Studio Beta 1:

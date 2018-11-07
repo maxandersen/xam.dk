@@ -1,9 +1,9 @@
 ---
-title: 'Dial numbers with Skype via Launch Bar, Quick Silver or others'
-author: 'Max Rydahl Andersen'
+title='Dial numbers with Skype via Launch Bar, Quick Silver or others'
+author='Max Rydahl Andersen'
 
-tags: [ Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=214'
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=214'
 ---
 <div>
 <p>I've been pretty happy with my <a href="http://blog.xam.dk/?p=187">previous Service Apple script</a> to dial a specific conference call bridge, but as I started having to use more it got too annoying to add a script per specific numbers.

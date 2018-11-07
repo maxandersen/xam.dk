@@ -1,9 +1,9 @@
 ---
-title: 'Migrating from Serendipity (s9y) to WordPress '
-author: 'Max Rydahl Andersen'
+title='Migrating from Serendipity (s9y) to WordPress '
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=174'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=174'
 ---
 <div>
 <p>I migrated this blog from from <a href="http://www.s9y.org/">Serendipity</a> (s9y) to <a href="http://wordpress.org">WordPress</a>.

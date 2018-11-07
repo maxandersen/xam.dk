@@ -1,9 +1,9 @@
 ---
-title: 'Lisbeths F&#248;dselsdag'
-author: 'Max Rydahl Andersen'
+title='Lisbeths F&#248;dselsdag'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
-orignallink: 'http://blog.xam.dk/?p=35'
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=35'
 ---
 <div><p>S&#229; blev det Lisbeths f&#248;dselsdag!<br><br>
 Jeg havde givet hende en gave dagen f&#248;r s&#229; vi kunne komme op afsted til Neuchatel hvor <br>

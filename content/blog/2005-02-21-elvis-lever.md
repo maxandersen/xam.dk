@@ -1,9 +1,9 @@
 ---
-title: 'Elvis Lever'
-author: 'Max Rydahl Andersen'
+title='Elvis Lever'
+author='Max Rydahl Andersen'
 
-tags: [ Switzerland (Danish) ]
-orignallink: 'http://blog.xam.dk/?p=36'
+tags=[ Switzerland (Danish) ]
+orignallink='http://blog.xam.dk/?p=36'
 ---
 <div><p>Ikke s&#229; meget nyt at fort&#230;lle idag ud over at <a href="http://coppermine.xam.dk/thumbnails.php?album=20" title="Elvis Lever">Elvis Lever</a>.<br><br>
 Han blev fundet sammen med fire af sine s&#248;skende p&#229;<br>

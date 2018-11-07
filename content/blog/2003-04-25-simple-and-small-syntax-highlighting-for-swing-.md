@@ -1,9 +1,9 @@
 ---
-title: 'Simple and small syntax highlighting for Swing ?'
-author: 'Max Rydahl Andersen'
+title='Simple and small syntax highlighting for Swing ?'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=8'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=8'
 ---
 <div><p>So, where does one go for small and simple syntax highlighting for Swing ? <br><br>
 I don't need anything fancy - just the basics highlighting of certain keywords in certain colors and <br>

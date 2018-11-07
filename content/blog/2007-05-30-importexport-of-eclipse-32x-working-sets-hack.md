@@ -1,9 +1,9 @@
 ---
-title: 'Import/Export of Eclipse 3.2.x Working sets Hack!'
-author: 'Max Rydahl Andersen'
+title='Import/Export of Eclipse 3.2.x Working sets Hack!'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=56'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=56'
 ---
 <div>
 <p>For some reason Eclipse Working Set's definitions are not exportable from Eclipse (see Eclipse Bug <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=156041">#156041</a> and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=138854">#138854</a>.

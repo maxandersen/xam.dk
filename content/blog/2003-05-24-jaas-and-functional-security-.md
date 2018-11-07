@@ -1,9 +1,9 @@
 ---
-title: 'JAAS and functional security ?'
-author: 'Max Rydahl Andersen'
+title='JAAS and functional security ?'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=12'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=12'
 ---
 <div><p>I've always liked <a href="http://java.sun.com/products/jaas/index-14.html" title="JAAS">JAAS</a> as it provides for a pluggable login mechanism. The exact same code is used for login to LDAP, NT, Kerboros, passwd files, Propertiary system A, B, C etc. That's beautifull ;)<br><br>
 The only thing i'm really missing, is to find good usages of the SecurityManager, Subject, Prinicipal and Credentials classes/concepts. I can find loads of articles talking about the pluggable architechure, the ClassLoader protection and encryption support of JAAS - but no real articles about how one would go about doing something like:<br><br><code><br>

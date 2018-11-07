@@ -1,9 +1,9 @@
 ---
-title: 'Red Hat Developer Studio and Me at JavaOne'
-author: 'Max Rydahl Andersen'
+title='Red Hat Developer Studio and Me at JavaOne'
+author='Max Rydahl Andersen'
 
-tags: [ Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=55'
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=55'
 ---
 <div>
 <p>It turns out that I will actually go to JavaOne this year - my first one; so looking forward to see what all the fuzz is about ;) If you are coming to JavaOne drop by the <a href="http://www.jboss.com/events/javaone07">JBoss booth</a> or the <a href="https://www.redhat.com/apps/webform.html?event_type=simple_form&amp;eid=971">JBoss party</a> and look me up. 

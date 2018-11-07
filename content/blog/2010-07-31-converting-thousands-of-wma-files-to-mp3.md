@@ -1,9 +1,9 @@
 ---
-title: 'Converting thousands of WMA files to MP3'
-author: 'Max Rydahl Andersen'
+title='Converting thousands of WMA files to MP3'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=192'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=192'
 ---
 <div>
 <p>I've been using a Mac Mini for a while now to run my media center

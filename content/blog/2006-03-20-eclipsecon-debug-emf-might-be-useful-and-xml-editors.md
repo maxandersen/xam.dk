@@ -1,9 +1,9 @@
 ---
-title: 'EclipseCon: Debug, EMF might be useful and XML editors'
-author: 'Max Rydahl Andersen'
+title='EclipseCon: Debug, EMF might be useful and XML editors'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=52'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=52'
 ---
 <div>
 <p>First day at EclipseCon and until now it been a real treat!

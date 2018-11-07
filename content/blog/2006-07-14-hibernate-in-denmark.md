@@ -1,9 +1,9 @@
 ---
-title: 'Hibernate in Denmark'
-author: 'Max Rydahl Andersen'
+title='Hibernate in Denmark'
+author='Max Rydahl Andersen'
 
-tags: [ Work at JBoss ]
-orignallink: 'http://blog.xam.dk/?p=53'
+tags=[ Work at JBoss ]
+orignallink='http://blog.xam.dk/?p=53'
 ---
 <div><p>Finally! - I get to do a Hibernate Advanced training in my motherland in December.
 <br><br>

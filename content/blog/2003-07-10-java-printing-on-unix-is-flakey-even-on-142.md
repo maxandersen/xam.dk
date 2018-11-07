@@ -1,9 +1,9 @@
 ---
-title: 'Java Printing on Unix is flakey, even on 1.4.2!'
-author: 'Max Rydahl Andersen'
+title='Java Printing on Unix is flakey, even on 1.4.2!'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=15'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=15'
 ---
 <div><p>Geez - I was just starting to be so happy for the Java Printing Service API. It works like a charm under Windows.<br><br>
 The following code list all printers available AND which trays that are available.<br>

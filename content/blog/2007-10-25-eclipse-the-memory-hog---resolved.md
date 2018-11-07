@@ -1,9 +1,9 @@
 ---
-title: 'Eclipse The Memory Hog - resolved!'
-author: 'Max Rydahl Andersen'
+title='Eclipse The Memory Hog - resolved!'
+author='Max Rydahl Andersen'
 
-tags: [ Java ]
-orignallink: 'http://blog.xam.dk/?p=68'
+tags=[ Java ]
+orignallink='http://blog.xam.dk/?p=68'
 ---
 <div>
 <p>A couple of months back I made a blog entry about <a href="/blog/eclipse-and-memory-settings">Eclipse and its memory settings</a>. I wrote it because so many people complained that even when they put memory flags in their eclipse.ini Eclipse was still a memory hog and it crashed all the time. The entry blog explains how fragile eclipse.ini is and how to write it correctly and verify that it is picked up correctly.
