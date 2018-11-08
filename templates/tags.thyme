@@ -103,9 +103,9 @@
                                 </h3>
                             </a>
                             <p class="post-meta">
-                                Posted by <b th:text='${post.author} ?: ${config.site_author}'>Start Bootstrap</b>
+                                by <b th:text='${post.author} ?: ${config.site_author}'>Start Bootstrap</b>
                                 on <span th:text='${#dates.format(post.date,"MMMM dd, yyyy")}'>June 10, 2017</span>
-                                <span  th:if="${config.render_tags and post.tags}"> Tags: <span th:each='tag : ${post.tags}'> <a   th:href="|${content.rootpath}${config.tag_path}/${tag}.html|" class="" th:text='${tag}' >tag</a></span></span></p>
+                                <span  th:if="${config.render_tags and post.tags}"> <span th:each='tag : ${post.tags}'> <a   th:href="|${content.rootpath}${config.tag_path}/${tag}.html|" class="" th:text='${tag}' >tag</a></span></span></p>
                             <p th:replace="snippets.thyme::firstPara(of=${post.body})"> The first paragraph of post body will appear here </p>
                         </div>
                         <hr/>
@@ -117,7 +117,7 @@
                                     I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
                                 </h2>
                             </a>
-                            <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
+                            <p class="post-meta">by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
                         </div>
                         <hr/>
                         <div class="post-preview">
@@ -129,7 +129,7 @@
                                     We predict too much for the next year and yet far too little for the next ten.
                                 </h3>
                             </a>
-                            <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
+                            <p class="post-meta">by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
                         </div>
                         <hr/>
                         <div class="post-preview">
@@ -141,7 +141,7 @@
                                     Many say exploration is part of our destiny, but it’s actually our duty to future generations.
                                 </h3>
                             </a>
-                            <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
+                            <p class="post-meta">by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
                         </div>
                     </th:block>
                 </div>

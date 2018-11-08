@@ -66,18 +66,15 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right" th:remove="all-but-first">
-                        <li th:each="page : ${published_pages}">
-                            <a href="index.thyme" th:href="|${content.rootpath}${page.uri}|" th:text="${page.linktitle} ?: ${page.title}">Index</a>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a th:href="|${content.rootpath}|">Home</a>
                         </li>
                         <li>
-                            <a href="page.thyme">Page</a>
+                            <a th:href="|${content.rootpath}about|">About</a>
                         </li>
                         <li>
-                            <a href="tags.thyme">Tags</a>
-                        </li>
-                        <li>
-                            <a href="snippets.thyme">Snippets</a>
+                            <a th:href="|${content.rootpath}blog|">Blog</a>
                         </li>
                     </ul>
                 </div>

@@ -1,24 +1,21 @@
 /*!
- * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Copyright 2014 Start Bootstrap
+ * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
-  color: #333333;
+  font-family: 'Open Sans', 'Helvetica Neue', serif;
+  font-size: 20px;
+  color: #404040;
 }
 p {
   line-height: 1.5;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 p a {
   text-decoration: underline;
 }
-
-pre { border:none; font-size:0.75em; overflow:auto; word-wrap: normal; white-space: pre}
-pre code { white-space: pre}
-
 h1,
 h2,
 h3,
@@ -29,18 +26,18 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #333333;
+  color: #404040;
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #0085a1;
 }
 a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
 blockquote {
-  color: #777777;
+  color: #808080;
   font-style: italic;
 }
 hr.small {
@@ -59,12 +56,6 @@ hr.small {
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
-}
-.navbar-custom .navbar-header .navbar-toggle {
-  color: #777777;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 12px;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -93,13 +84,6 @@ hr.small {
   .navbar-custom .nav li a:focus {
     color: rgba(255, 255, 255, 0.8);
   }
-  .navbar-custom .nav li ul.dropdown-menu a {
-    color: #333333;
-  }
-  .navbar-custom .nav li ul.dropdown-menu a:hover,
-  .navbar-custom .nav li ul.dropdown-menu a:focus {
-    color: #0085A1;
-  }
 }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
@@ -126,18 +110,18 @@ hr.small {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #333333;
+    color: #404040;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085A1;
+    color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #333333;
+    color: #404040;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085A1;
+    color: #0085a1;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -149,7 +133,7 @@ hr.small {
   }
 }
 .intro-header {
-  background-color: #777777;
+  background-color: #808080;
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -163,7 +147,6 @@ hr.small {
 .intro-header .page-heading {
   padding: 100px 0 50px;
   color: white;
-  text-shadow: 0px 0px 14px #414141;  
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -196,8 +179,6 @@ hr.small {
     font-size: 80px;
   }
 }
-.intro-header .site-heading h1 { font-family:'Lato', sans-serif; font-weight:300}
-
 .intro-header .post-heading h1 {
   font-size: 35px;
 }
@@ -213,7 +194,7 @@ hr.small {
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -230,12 +211,12 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #333333;
+  color: #404040;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085A1;
+  color: #0085a1;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
@@ -248,18 +229,18 @@ hr.small {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  color: #777777;
+  color: #808080;
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #333333;
+  color: #404040;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085A1;
+  color: #0085a1;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -339,7 +320,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #0085a1;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -359,8 +340,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085A1;
-  border: 1px solid #0085A1;
+  background-color: #0085a1;
+  border: 1px solid #0085a1;
   color: white;
 }
 .pager {
@@ -380,26 +361,26 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085A1;
-  border: 1px solid #0085A1;
+  background-color: #0085a1;
+  border: 1px solid #0085a1;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #777777;
-  background-color: #333333;
+  color: #808080;
+  background-color: #404040;
   cursor: not-allowed;
 }
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: #0085a1;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: #0085a1;
 }
 img::selection {
   color: white;
@@ -410,5 +391,75 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  -webkit-tap-highlight-color: #0085A1;
+  webkit-tap-highlight-color: #0085a1;
+}
+
+/* tag clouds */
+
+.tag-cloud .tag-0 {
+  font-size: 1em;
+  opacity: 0.8;
+}
+
+.tag-cloud .tag-1 {
+  font-size: 1.15em;
+  opacity: 0.85;
+}
+
+.tag-cloud .tag-2 {
+  font-size: 1.3em;
+  opacity: 0.9;
+}
+
+.tag-cloud .tag-3 {
+  font-size: 1.45em;
+  opacity: 0.95;
+}
+
+.tag-cloud .tag-4 {
+  font-size: 1.6em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-5 {
+  font-size: 1.75em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-6 {
+  font-size: 1.9em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-7 {
+  font-size: 2.05em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-8 {
+  font-size: 2.2em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-9 {
+  font-size: 2.35em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-10 {
+  font-size: 2.5em;
+  opacity: 1;
+}
+
+.tag-cloud .tag-11 {
+  font-size: 2.65em;
+  opacity: 1;
+}
+
+.tag-cloud a {
+  padding: 3px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }

@@ -104,9 +104,9 @@
                                 </h3>
                             </a>
                             <p class="post-meta">
-                                Posted by <b th:text='${post.author} ?: ${config.site_author}'>Start Bootstrap</b>
+                                by <b th:text='${post.author} ?: ${config.site_author}'>Start Bootstrap</b>
                                 on <span th:text='${#dates.format(post.date,"MMMM dd, yyyy")}'>June 10, 2017</span>
-                                <span  th:if="${config.render_tags and post.tags}"> Tags: <span th:each='tag : ${post.tags}'> <a   th:href="|${content.rootpath}${config.tag_path}/${tag}.html|" class="" th:text='${tag}' >tag</a></span></span></p>
+                                <span  th:if="${config.render_tags and post.tags}"> <span th:each='tag : ${post.tags}'> <a   th:href="|${content.rootpath}${config.tag_path}/${tag}.html|" class="" th:text='${tag}' >tag</a></span></span></p>
                             <p th:replace="snippets.thyme::firstPara(of=${post.body})"> The first paragraph of post body will appear here </p>
                         </div>
                         <hr/>

@@ -72,10 +72,10 @@
                             <h2 class="subheading" th:if='${content.description}' th:text='${content.description}'>
                                 Problems look mighty small from 150 miles up
                             </h2>
-                            <span class="meta">Posted by <b th:text='${content.author} ?: ${config.site_author}'>Start Bootstrap</b> on 
+                            <span class="meta">by <b th:text='${content.author} ?: ${config.site_author}'>Start Bootstrap</b> on 
                                 <span th:remove="tag" th:text='${#dates.format(content.date,"MMMM dd, yyyy")}'>June 12, 2017</span>
                                 </br>
-                                <span  th:if="${config.render_tags and content.tags}"> Tags: 
+                                <span  th:if="${config.render_tags and content.tags}"> 
                                     <span th:each='tag : ${content.tags}'> 
                                         <a th:href="|${content.rootpath}${config.tag_path}/${tag}.html|" class="" th:text='${tag}' >tag</a></span> 
                                 </span>
