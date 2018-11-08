@@ -1,7 +1,7 @@
 date=2015-03-23
 title=4 years zero blog streak
 author=Max Rydahl Andersen
-tags=[ Java ]
+tags=Java
 ---
 = 4 years zero blog streak
 
