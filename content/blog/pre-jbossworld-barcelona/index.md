@@ -1,8 +1,8 @@
 date=2005-10-09
 title=Pre JBossWorld Barcelona
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Work at JBoss 
+tags=work at jboss 
 orignallink='http://blog.xam.dk/?p=51'
 ---
 <div><p>Landed in Barcelona yesterday and had our fun with the cab driver which continued to claim he knew which hotel we were going to (<a href="http://www.hilton.com/en/hi/hotels/index.jhtml?ctyhocn=BCNDMHI">Hilton Diagonal Mar</a>) until another cab driver at the wrong Hilton Hotel pointed him in the right direction; but we got a sight seeing tour out of getting back on the right track.

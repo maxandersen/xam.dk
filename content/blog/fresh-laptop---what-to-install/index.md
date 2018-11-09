@@ -1,8 +1,8 @@
 date=2004-10-06
 title=Fresh laptop - what to install
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=30'
 ---
 <div><p>Just received a new laptop box, and as always i'm using hours to configure it just right :)<br><br>

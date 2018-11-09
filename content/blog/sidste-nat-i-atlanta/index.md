@@ -1,8 +1,8 @@
 date=2005-03-05
 title=Sidste nat i Atlanta
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Switzerland (Danish) 
+tags=switzerland, danish 
 orignallink='http://blog.xam.dk/?p=37'
 ---
 <div><p>Det har v&#230;ret en uge med gang i!<br><br>

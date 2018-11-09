@@ -1,8 +1,8 @@
 date=2007-08-13
 title=Red Hat Developer Studio Beta 1 released
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=JBoss Tools and devstudio 
+tags=jbosstools, devstudio 
 orignallink='http://blog.xam.dk/?p=64'
 ---
 <div>

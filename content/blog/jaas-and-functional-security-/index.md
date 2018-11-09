@@ -1,8 +1,8 @@
 date=2003-05-24
 title=JAAS and functional security ?
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=12'
 ---
 <div><p>I've always liked <a href="http://java.sun.com/products/jaas/index-14.html" title="JAAS">JAAS</a> as it provides for a pluggable login mechanism. The exact same code is used for login to LDAP, NT, Kerboros, passwd files, Propertiary system A, B, C etc. That's beautifull ;)<br><br>

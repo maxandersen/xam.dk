@@ -1,8 +1,8 @@
 date=2003-08-05
 title=Hibern8IDE 0.9
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=17'
 ---
 <div><p>It's about 5 months since i announced Hibern8IDE beta-release.<br><br>

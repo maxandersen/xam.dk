@@ -1,8 +1,8 @@
 date=2010-12-13
 title=How to Geek-Pimp your Christmas Party
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Work at JBoss 
+tags=work at jboss 
 orignallink='http://blog.xam.dk/?p=223'
 ---
 <div>

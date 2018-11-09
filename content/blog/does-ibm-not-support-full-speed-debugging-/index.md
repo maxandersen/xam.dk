@@ -1,8 +1,8 @@
 date=2004-07-22
 title=Does IBM not support full speed debugging ?
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=28'
 ---
 <div><p>We are in the process of porting some application to IBM WS 5.1 which unfortunately(?) require us to move from SUN JVM to IBM JVM.<br><br>

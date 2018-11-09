@@ -1,8 +1,8 @@
 date=2003-09-15
 title=SUN Print Bug database blues!
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=19'
 ---
 <div><p>What does one do when you have reported 2 critical errors regarding printing on Solaris and the only answer you've received is a "We currently have a three week response time for responding to Bug Reports." and that is now about 2 months ago!?<br><br>

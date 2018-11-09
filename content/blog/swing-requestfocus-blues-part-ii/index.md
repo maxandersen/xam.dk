@@ -1,8 +1,8 @@
 date=2003-05-04
 title=Swing requestFocus blues part II
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=10'
 ---
 <div><p>hmm - i probably didn't explain my problem very well the last time - or at least not to the point. <br>

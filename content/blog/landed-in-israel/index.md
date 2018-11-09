@@ -1,8 +1,8 @@
 date=2005-07-11
 title=Landed in Israel
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Work at JBoss 
+tags=work at jboss 
 orignallink='http://blog.xam.dk/?p=48'
 ---
 <div><p>And its hot, but the view is nice ;)

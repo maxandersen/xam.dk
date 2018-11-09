@@ -1,8 +1,8 @@
 date=2010-07-11
 title=Calling conference bridge numbers with Skype
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=applescript, skype, Work at JBoss 
+tags=applescript, skype, work at jboss 
 orignallink='http://blog.xam.dk/?p=187'
 ---
 <div>

@@ -1,8 +1,8 @@
 date=2007-05-31
 title=We are moving!
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Work at JBoss 
+tags=work at jboss 
 orignallink='http://blog.xam.dk/?p=57'
 ---
 <div><p>Now it's official - the document is signed and sealed ;)

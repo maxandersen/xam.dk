@@ -1,8 +1,8 @@
 date=2005-04-22
 title=Computer dog and new furniture
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Switzerland (Danish) 
+tags=switzerland, danish 
 orignallink='http://blog.xam.dk/?p=42'
 ---
 <div><p>Ja, det her er min hund! ;)

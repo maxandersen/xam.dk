@@ -1,8 +1,8 @@
 date=2003-10-25
 title=Hibern8IDE + HibernateExtensions
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=20'
 ---
 <div>

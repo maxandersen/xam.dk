@@ -1,8 +1,8 @@
 date=2004-02-05
 title=Don&#039;t serialize Calendar&#039;s
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=26'
 ---
 <div><p>...or at least not a lot of them.<br><br>

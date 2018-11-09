@@ -1,8 +1,8 @@
 date=2003-07-24
 title=Best 20 lines of Swing KeyboardFocusManager code Ive ever written ;)
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=16'
 ---
 <div>

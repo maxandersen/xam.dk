@@ -1,8 +1,8 @@
 date=2003-03-27
 title=Internet Printing Protocol (IPP) for Java ?
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=2'
 ---
 <div><p>Now that JDK 1.4 has introduced the javax.print with IPP-like semantics and properties, why haven't we yet seen an IPPPrintService and IPPLookupService ? <br><br>

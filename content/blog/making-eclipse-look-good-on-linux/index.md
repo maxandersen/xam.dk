@@ -1,8 +1,8 @@
 date=2007-11-08
 title=Making Eclipse look good on Linux
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=70'
 ---
 <div>

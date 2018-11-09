@@ -1,8 +1,8 @@
 date=2005-07-19
 title=Tracking down causes of exceptions in Eclipse
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=50'
 ---
 <div><p>If you like me is getting tired of seeing "Unhandled event loop exception, Reason: someexception" and no stacktrace in Eclipse then try the following:

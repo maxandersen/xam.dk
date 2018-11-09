@@ -1,8 +1,8 @@
 date=2007-10-25
 title=Eclipse The Memory Hog - resolved!
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=68'
 ---
 <div>

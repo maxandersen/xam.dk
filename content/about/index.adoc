@@ -1,6 +1,6 @@
 title=About me
 subtitle=This is what I do.
-banner=/img/about-bg.jpg
+banner=img/about-cover.jpg
 type=page
 ---
 
@@ -31,8 +31,9 @@ I tweet too much about email clients!
 
 === Acknowledgements
 
-This site is built with http://awestruct.org[Awestruct].
+This site is built with [.line-through]#http://awestruct.org[Awestruct]#, http://jbake.org[JBake] ${version}.
 The style is derived from Apache Source Licensed http://startbootstrap.com/template-overviews/clean-blog/[Clean Blog] by startbootstrap.com.
+For JBake Clean Style got lots of help from https://github.com/SiddheshRane/jbake-clean-blog-template[SiddeheshRane Clean Blog] for JBake.
 The http://www.inspiringwallpapers.net/superman-logo-dirty.html[Dirty Superman] logo is by Paul Mood.
 http://unrealdrw0w.deviantart.com/art/Thinking-chimp-310774912["Thinking chimp"] by uNrealDrw0w.
 

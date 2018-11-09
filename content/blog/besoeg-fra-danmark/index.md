@@ -1,8 +1,8 @@
 date=2005-06-30
 title=Besoeg fra Danmark
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Switzerland (Danish) 
+tags=switzerland, danish 
 orignallink='http://blog.xam.dk/?p=46'
 ---
 <div><p>Det har været en travl tid på det sidste så har ikke fået vedligeholdt den her side - typisk :)

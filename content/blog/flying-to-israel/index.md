@@ -1,8 +1,8 @@
 date=2005-07-11
 title=Flying to Israel
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Work at JBoss 
+tags=work at jboss 
 orignallink='http://blog.xam.dk/?p=47'
 ---
 <div><p>Sitting in the Zurich Airport waiting for the plane to Tel Aviv. 

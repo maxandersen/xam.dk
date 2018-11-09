@@ -1,8 +1,8 @@
 date=2005-07-19
 title=Good places for a breakpoint I
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=49'
 ---
 <div>

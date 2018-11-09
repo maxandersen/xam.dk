@@ -1,8 +1,8 @@
 date=2003-03-28
 title=Deployment time blues
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=3'
 ---
 <div><p>Dammit...how long time do you spend waiting on your J2EE server when deploying ?<br><br>

@@ -1,8 +1,8 @@
 date=2005-02-14
 title=De f&#248;rste dage som udenlandsdansker
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Switzerland (Danish) 
+tags=switzerland, danish 
 orignallink='http://blog.xam.dk/?p=33'
 ---
 <div><p>Vi tog afsted ved en fire-tiden, efter at jeg havde hentet Lisbeth i Ikast og f&#229;et sagt farvel og p&#229; gensyn til sviger-familien i Tulstrup. <br>

@@ -1,8 +1,8 @@
 date=2007-09-18
 title=We are hiring!
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=JBoss Tools and devstudio 
+tags=jbosstools, devstudio 
 orignallink='http://blog.xam.dk/?p=65'
 ---
 <div><p>Do you have Eclipse RCP/plugin development experience and want to work with the JBoss Tools and Red Hat Developer Studio team on creating the best opensource IDE for JBoss AS and Seam development ?

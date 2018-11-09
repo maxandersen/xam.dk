@@ -1,8 +1,8 @@
 date=2007-11-15
 title=Jing - the best tool for reporting bugs for any UI!
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=72'
 ---
 <div>

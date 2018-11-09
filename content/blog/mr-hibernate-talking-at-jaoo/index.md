@@ -1,8 +1,8 @@
 date=2003-04-12
 title=Mr. Hibernate talking at JAOO
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=6'
 ---
 <div><p>Just want to let you know that Mr. Hibernate (Gavin King) will be talking at the JAOO conference this year (22-26 September, Aarhus, Denmark). <br><br>

@@ -1,8 +1,8 @@
 date=2007-11-29
 title=JBoss Tools &amp; Developer Studio at JavaPolis
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=JBoss Tools and devstudio 
+tags=jbosstools, devstudio 
 orignallink='http://blog.xam.dk/?p=73'
 ---
 <div><p>JavaPolis is getting near and this year I'll finally have time to go to it - yay!

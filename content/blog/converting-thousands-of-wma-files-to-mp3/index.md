@@ -1,8 +1,8 @@
 date=2010-07-31
 title=Converting thousands of WMA files to MP3
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Java 
+tags=java 
 orignallink='http://blog.xam.dk/?p=192'
 ---
 <div>

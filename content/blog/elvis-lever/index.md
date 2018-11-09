@@ -1,8 +1,8 @@
 date=2005-02-21
 title=Elvis Lever
-author='Max Rydahl Andersen'
+author=Max Rydahl Andersen
 
-tags=Switzerland (Danish) 
+tags=switzerland, danish 
 orignallink='http://blog.xam.dk/?p=36'
 ---
 <div><p>Ikke s&#229; meget nyt at fort&#230;lle idag ud over at <a href="http://coppermine.xam.dk/thumbnails.php?album=20" title="Elvis Lever">Elvis Lever</a>.<br><br>

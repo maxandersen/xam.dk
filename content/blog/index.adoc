@@ -1,0 +1,5 @@
+type=index
+---
+= Blog
+
+What was I thinking ?
