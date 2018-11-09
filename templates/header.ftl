@@ -27,9 +27,9 @@
         <link href="${content.rootpath}vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
          <!-- Le styles -->
-        <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/coderay.css" rel="stylesheet">
-        <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/asciidoctor.css" rel="stylesheet">
-        <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>css/clean-blog.css" rel="stylesheet">
+        <link href="${content.rootpath}css/coderay.css" rel="stylesheet">
+        <link href="${content.rootpath}css/asciidoctor.css" rel="stylesheet">
+        <link href="${content.rootpath}css/clean-blog.css" rel="stylesheet">
 
 
         <!-- Custom Fonts -->

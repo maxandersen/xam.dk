@@ -9,24 +9,24 @@ orignallink='http://blog.xam.dk/?p=62'
 <table>
 <tr>
 <td>Get a decent phone</td>
-<td><a href="http://www.goosync.com"><img src="http://www.goosync.com/images/Nokia/6282.jpg"></a></td>
+<td><a href="http://www.goosync.com"><img src="http://www.goosync.com/images/Nokia/6282.jpg" data-proofer-ignore></a></td>
 <td>$20</td>
 </tr>
 <tr>
-<td>+ GMail Mobile</td> <td><a href="http://www.google.com/mobile"><img width="80" src="http://www.google.com/mobile/images/phone_gmail.gif"></a></td>
+<td>+ GMail Mobile</td> <td><a href="http://www.google.com/mobile"><img width="80" src="http://www.google.com/mobile/images/phone_gmail.gif" data-proofer-ignore></a></td>
 <td>$0</td> </tr>
 <tr>
-<td>+ Google Calendar</td> <td><a href="http://calendar.google.com"><img width="150" src="http://www.google.com/calendar/images/calendar_sm2_en.gif"></a></td>
+<td>+ Google Calendar</td> <td><a href="http://calendar.google.com"><img width="150" src="http://www.google.com/calendar/images/calendar_sm2_en.gif" data-proofer-ignore></a></td>
 <td>$0</td>
 </tr>
 <tr>
 <td>+ GooSync</td>
-<td><a href="http://www.goosync.com"><img width="100" src="http://www.goosync.com/images/GooglePhone.jpg"></a></td>
+<td><a href="http://www.goosync.com"><img width="100" src="http://www.goosync.com/images/GooglePhone.jpg" data-proofer-ignore></a></td>
 <td>$0 to $19.95</td>
 </tr>
 <tr>
 <td>+ Opera Mini beta 4</td>
-<td><a href="http://www.operamini.com/beta"><img src="http://www.operamini.com/images/beta/02-x.gif"></a></td>
+<td><a href="http://www.operamini.com/beta"><img src="http://www.operamini.com/images/beta/02-x.gif" data-proofer-ignore></a></td>
 <td>$0</td>
 </tr>
 </table>

@@ -12,4 +12,4 @@ While writing this I came to think: "Hey, someone else much have done this befor
 I then searched high and low after "log analyzers", "data mining", "data warehouse" etc. but all I find is tools that relates to www logs (who cares :) and nice scientific (but mostly academic) tools for analyzing "what kind of weather there should be before a customer buys a computer".<br><br>
 Can this be true ? Haven't anyone made a log analyzer that utilizes the well known concepts in data mining/warehousing to visualize and explore performance and usage of an application ?<br><br>
 It can't be true i've written the first of them ;) - please prove me wrong!<br><br>
-Update=<a href="http://www2.ilog.com/preview/Discovery/" title="ILOG Discovery">ILOG Discovery</a> has some nice visualization features...got to look into that ;)</p></div>
+Update=<a href="http://www2.ilog.com/preview/Discovery/" title="ILOG Discovery" data-proofer-ignore>ILOG Discovery</a> has some nice visualization features...got to look into that ;)</p></div>
