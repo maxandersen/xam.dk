@@ -38,6 +38,7 @@
                             <p class="post-meta">
                                 <span>${post.date?string("EEEEE, MMMM dd, yyyy")}</span>
                                 <#if (config.render_tags?? && post.tags??)>
+                                tag path: ${config.tag_path}
                                 <#list post.tags as tag>
                                   <a href="${content.rootpath}${config.tag_path}/${tag}.html" class="label">${tag}</a> 
                                 </#list>

@@ -36,11 +36,10 @@
                                 </#if>
                             </a>
                             <p class="post-meta">
-                                by <b>${(post.author)!config.site_author}</b>
                                 on <span>${post.date?string('dd.MM.yyyy')}</span>
                                 <#if (config.render_tags?? && post.tags??)> 
                                     <#list post.tags as tag>
-                                    <a href="${content.rootpath}${tag}.html" class="label">${tag}</a>
+                                    <a href="${content.rootpath}${config.tag_path}/${tag}.html" class="label">${tag}</a>
                                     </#list>
                                 </#if>
                             </p>
