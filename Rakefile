@@ -378,3 +378,54 @@ task :travis do
   
   fail unless success
 end
+
+require 'html-proofer'
+
+task :test do
+  sh "bundle exec jekyll build"
+  options = { :assume_extension => true,
+              :alt_ignore => [/./],
+              :url_ignore => [
+                /www.goosync.com/,
+                /www.operamini.com/,
+                /63.209.20.13/,
+                /blogs.sun.com/,
+                'http://www.eclipse.org/swt/launcher.html',
+                'http://labs.jboss.com/tools/',
+                'http://blog.xam.dk/archives/68-Eclipse-and-memory-settings.html',
+                'http://www.eclipsecon.org/2006/Sub.do?id=30',
+                'http://download.jboss.org/jbosstools/builds/nightly/200706241629-nightly/buildResults.html',
+                'http://home.worldonline.dk/ninotech/freeutil.htm#pathcopy',
+                'https://www.tortoisecvs.org/',
+                'http://www.redpill.se/utbildning/index.php?module=index&lang=en',
+                'http://www.xyzcomputing.com/index.php?option=content&task=view&id=1002',
+                'http://www.blueskyonmars.com/archives/2004/07/31/ibm_to_open_source_cloudscape_database.html',
+                'http://www.eclipsecon.org/2006/Sub.do?id=186',
+                'http://www.eye.fi/products/prox2',
+                'http://www.trcs.com/projects/ippjava.htm',
+                'http://developer.java.sun.com/developer/bugParade/bugs/4701198.html',
+                'http://developer.java.sun.com/developer/bugParade/bugs/4707777.html',
+                'http://www.javapolis.com/confluence/display/JP07/Intro+to+Exadel+RichFaces+and+JBoss+JSFUnit',
+                'http://www.javapolis.com/confluence/display/JP07/Seam+in+Action',
+                'http://blog.solutionperspectivemedia.co.uk/?p=63',
+                'http://jaoo.dk/speakers/index.html',
+                'http://sourceforge.net/forum/forum.php?thread_id=847876&forum_id=128638',
+                'http://ourcomments.org/Emacs/EmacsW32.html',
+                'http://www.research.ibm.com/people/k/koved/Presentations/OReilly2000/indexc.htm',
+                'http://labs.jboss.com/jbossrichfaces/',
+                'http://labs.jboss.com/rhdevstudio/',
+                'http://www.redhat.com/developers/rhds',
+                'http://www2.ilog.com/preview/Discovery/',
+                'http://blog.emmanuelbernard.com/2007/02/svn-false-promises.html',
+                'http://jira.jboss.com/jira/browse/JBIDE',
+                /redhat.ats.hrsmart.com/,
+                'http://www.google.com/calendar/images/calendar_sm2_en.gif',
+                'https://linkedin.com/in/maxrydahlandersen', ## this one exists but linkedin denies automation
+              ],
+              :file_ignore => [
+                /asylum\/.*/
+              ],
+            }
+  HTMLProofer.check_directory("./_site", options).run
+end
+
