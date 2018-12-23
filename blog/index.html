@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What was I thinking ?
-background: ../static/img/post-bg.jpg 
+background: /static/img/post-bg.jpg
 ---
 {% for post in paginator.posts %}
 
@@ -19,7 +19,7 @@ background: ../static/img/post-bg.jpg
         {{ site.author }}
         {% endif %}
         on {{ post.date | date: '%B %d, %Y' }}</p>
-    {% include contentify.liquid path=post.path content=post.content %}
+    {{ post.content }}
 </article>
 
 <hr>

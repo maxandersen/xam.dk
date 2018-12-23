@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/maxandersen/startbootstrap-clean-blog-jekyll.git
+  revision: adec3f8cb2aface2e4416afa25f55674dad0d1b8
+  branch: master
+  specs:
+    jekyll-theme-clean-blog (4.0.1)
+      jekyll (~> 3.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,8 +44,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-theme-clean-blog (4.0.1)
-      jekyll (~> 3.6)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -70,7 +76,7 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-feed (~> 0.6)
   jekyll-paginate
-  jekyll-theme-clean-blog
+  jekyll-theme-clean-blog!
   tzinfo-data
 
 BUNDLED WITH
