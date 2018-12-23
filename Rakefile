@@ -332,7 +332,7 @@ end
 
 # launch jekyll
 def jekyll(directives = '')
-  sh 'jekyll ' + directives
+  sh 'bundle exec jekyll ' + directives
 end
 
 # launch compass
