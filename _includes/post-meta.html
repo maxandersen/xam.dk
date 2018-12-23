@@ -1,0 +1,6 @@
+<span class="meta">
+    {{ include.post.date | date: '%A %B %d, %Y' }}
+    {% for tag in include.post.tags %}
+    <a class="badge">{{ tag }}</a>
+    {% endfor %}
+</span>

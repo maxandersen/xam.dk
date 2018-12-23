@@ -18,7 +18,7 @@ email: website@xam.dk
 description: >- # this means to ignore newlines until "baseurl:"
              Welcome
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xam.dk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maxandersen
 github_username:  maxandersen
 facebook_username: maxandersen

@@ -41,12 +41,7 @@ layout: default
                         <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
                         {% endif %}
                     </a>
-                    <p class="post-meta">
-                        {{ post.date | date: '%A %B %d, %Y' }}
-                        {% for tag in post.tags %}
-                        <a class="badge">{{ tag }}</a>
-                        {% endfor %}
-                    </p>
+                    {% include post-meta.html post=post %}
                 </article>
 
                 <hr>
