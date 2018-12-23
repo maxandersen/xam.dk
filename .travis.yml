@@ -9,7 +9,7 @@ branches:
   - master
 before_script:
 - sudo apt-get install -qq sshpass
-script: rake travis
+script: rake travis --trace
 env:
   global:
     secure: fpWVLgbveBCXlsXX7ef06qi7GrizwAE5MFq5pKH9G5AMFAdFL4xQxNOmeemRZ5fnMAn8LQUrA8otxwjiiq2RangRC9E11fBChEKC5V+FewBzsHONqkSTzKd6oAbmLynUizpXDofhVxIfRhtP03lfEDufzly4WaVDyoLJicvy9aM=
