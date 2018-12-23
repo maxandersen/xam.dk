@@ -368,10 +368,10 @@ task :travis do
   # if this is a pull request, do a simple build of the site and stop
   if ENV['TRAVIS_PULL_REQUEST'].to_s.to_i > 0
     puts 'Pull request detected. Executing build only.'
-    run_awestruct("-P production -g --force")
+    Rake::Task["build"].invoke
     next
   else
-    run_awestruct("-P production -g --force")
+    Rake::Task["build"].invoke
     puts "## Deploying website via rsync"
     success = system("sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www/jekyll")
   end
