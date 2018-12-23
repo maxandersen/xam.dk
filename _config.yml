@@ -56,6 +56,10 @@ defaults:
       layout: "post"
       background: "/img/post-bg.jpg"
 
+
+feed:
+  path: blog/feed.atom
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

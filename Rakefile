@@ -77,7 +77,7 @@ desc 'Preview on local machine (server with --auto)'
 task :preview => :clean do
   compass('compile') # so that we are sure sass has been compiled before we run the server
   compass('watch &')
-  jekyll('serve --watch')
+  jekyll('serve --watch --livereload')
 end
 task :serve => :preview
 
