@@ -4,5 +4,5 @@
 
 layout: home
 description: Welcome
-background: static/img/home-bg.jpg
+background: /img/home-bg.jpg
 ---

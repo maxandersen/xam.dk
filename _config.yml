@@ -54,7 +54,7 @@ defaults:
       path: ""
     values:
       layout: "post"
-      background: "/static/img/post-bg.jpg"
+      background: "/img/post-bg.jpg"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

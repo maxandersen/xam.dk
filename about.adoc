@@ -1,7 +1,7 @@
 ---
 title: About me
 description: This is what I do.
-background: ../static/img/about-bg.jpg
+background: /img/about-bg.jpg
 ---
 
 == Danish guy enjoying working on open source software.
