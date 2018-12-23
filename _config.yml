@@ -22,6 +22,9 @@ url: "https://jekyll.xam.dk" # the base hostname & protocol for your site, e.g. 
 twitter_username: maxandersen
 github_username:  maxandersen
 facebook_username: maxandersen
+
+permalink: "/:categories/:title:output_ext"
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-clean-blog 
