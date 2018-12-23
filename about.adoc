@@ -1,23 +1,22 @@
 ---
 title: About me
-subtitle: This is what I do.
-banner: /img/about-bg.jpg
+description: This is what I do.
+background: ../static/img/about-bg.jpg
 ---
 
 == Danish guy enjoying working on open source software.
 
-Making things happen at Red Hat. 
+Making things happen at Red Hat - though at the moment (Aug. 2018-2019) on a sabbatical.
 
-I currently work as technical lead of http://tools.jboss.org[JBoss Tools] and http://devstudio.redhat.com[JBoss Developer Studio]. 
+I worked as manager and technical lead of https://openshift.io[OpenShift.io] and before that http://tools.jboss.org[JBoss Tools] and http://devstudio.redhat.com[JBoss Developer Studio]. 
 
 I co-host http://asylum.jboss.org[JBoss Asylum] podcast.
 
-I'm on the http://eclipse.org[Eclipse board]. 
+I was on the http://eclipse.org[Eclipse board]. 
 
 I got an http://update.xam.dk[Eclipse Updatesite]
 
-I use this website to mainly blog about things that does not fit into
-the http://tools.jboss.org/blog[JBoss Tools blog] 
+I use this website to mainly blog about things that does not fit into Red Hat related blogs.
 
 I tweet too much about email clients!
 
@@ -27,11 +26,14 @@ I tweet too much about email clients!
 * Github: link:https://github.com/maxandersen[maxandersen]
 * Freenode irc: maxandersen
 * Skype: link:callto://max.rydahl.andersen[max.rydahl.andersen]
-* e-mail: manderse@redhat.com
+* personal e-mail: max@xam.dk
+* work e-mail: manderse@redhat.com
+
 
 === Acknowledgements
 
-This site is built with http://awestruct.org[Awestruct].
+[%hardbreaks]
+This site is built with https://jekyllrb.com[Jekyll].
 The style is derived from Apache Source Licensed http://startbootstrap.com/template-overviews/clean-blog/[Clean Blog] by startbootstrap.com.
 The http://www.inspiringwallpapers.net/superman-logo-dirty.html[Dirty Superman] logo is by Paul Mood.
 http://unrealdrw0w.deviantart.com/art/Thinking-chimp-310774912["Thinking chimp"] by uNrealDrw0w.
