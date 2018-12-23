@@ -1,5 +1,7 @@
-language: go
-install: go get -v gopkg.in/maxandersen/hugo.v1
+language: ruby
+bundler_args: "--without development --path .bundle"
+rvm:
+- 2.2.0
 addons:
   ssh_known_hosts: ssh.xam.dk
 branches:
@@ -7,26 +9,8 @@ branches:
   - master
 before_script:
 - sudo apt-get install -qq sshpass
-script:
-  - hugo
-  - sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update public/ xam.dk@ssh.xam.dk:/www/hugo
-before_install:
-  - sudo gem install asciidoctor | gem install asciidoctor
-
-# not sure this is needed - but keeping for reference to remember how to remove
-# non-cachables
-before_cache:
-- rm -rf $GOPATH/src/github.com/maxandersen/xam.dk/*
-- rm -rf $GOPATH/pkg/**/github.com/maxandersen/xam.dk/*
-
-cache:
-  directories:
-    - $GOPATH/src
-    - $GOPATH/pkg
-
-notifications:
-    email:
-        on_failure: always
+script: rake travis
 env:
   global:
     secure: fpWVLgbveBCXlsXX7ef06qi7GrizwAE5MFq5pKH9G5AMFAdFL4xQxNOmeemRZ5fnMAn8LQUrA8otxwjiiq2RangRC9E11fBChEKC5V+FewBzsHONqkSTzKd6oAbmLynUizpXDofhVxIfRhtP03lfEDufzly4WaVDyoLJicvy9aM=
+
