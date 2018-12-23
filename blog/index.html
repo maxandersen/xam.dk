@@ -16,7 +16,7 @@ background: /static/img/post-bg.jpg
     <!--
          {% include contentify.html path=post.path content=post.content %}
     -->
-    {{ post.content }}
+    {{ post.excerpt | default: post.content | truncatewords:75 }}
 </article>
 
 <hr>
