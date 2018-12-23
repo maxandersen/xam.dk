@@ -97,7 +97,7 @@ task :build, [:deployment_configuration] => :clean do |t, args|
   end
 
   compass('compile')
-  jekyll("build -t -V --config _config.yml,#{config_file}")
+  jekyll("build --config _config.yml,#{config_file}")
 end
 
 
