@@ -2,7 +2,7 @@
 id: disqus-comment-608704776
 date: '2011-05-09 21:05:54 +0000'
 updated: '2011-05-09 21:05:54 +0000'
-post_id: "/blog/hibern8ide-first-beta-release"
+post_id: "/blog/eclipse-and-memory-settings"
 name: Max
 url: http://blog.xam.dk/
 message: "<p>David, the data in eclipse.ini is just used as fallback; you can both

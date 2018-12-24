@@ -2,7 +2,7 @@
 id: disqus-comment-608704501
 date: '2009-03-10 18:08:59 +0000'
 updated: '2009-03-10 18:08:59 +0000'
-post_id: "/blog/hibern8ide-first-beta-release"
+post_id: "/blog/eclipse-and-memory-settings"
 name: Alexander Jesse
 url: ''
 message: "<p>-XX:MaxPermSize=128m gives errors on startup<br />-XX:MaxPermSize128m

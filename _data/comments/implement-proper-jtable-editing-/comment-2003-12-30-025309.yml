@@ -2,7 +2,7 @@
 id: disqus-comment-608700843
 date: '2003-12-30 02:53:09 +0000'
 updated: '2003-12-30 02:53:09 +0000'
-post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+post_id: "/blog/implement-proper-jtable-editing-"
 name: Ryan Ackley
 url: http://142.37.35.65.cfl.rr.com/
 message: "<p>To add to R.J's soln, You listen for the first keystroke by using a KeyListener
