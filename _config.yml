@@ -63,6 +63,12 @@ defaults:
 feed:
   path: blog/feed.atom
 
+
+jekyll_analytics:
+    GoogleAnalytics:
+      id: UA-70032-1
+      anonymizeIp: false
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
