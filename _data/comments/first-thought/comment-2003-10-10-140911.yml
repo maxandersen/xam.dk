@@ -1,0 +1,15 @@
+---
+id: disqus-comment-608701018
+date: '2003-10-10 14:09:11 +0000'
+updated: '2003-10-10 14:09:11 +0000'
+post_id: "/blog/first-thought"
+name: javaj
+url: http://203.200.198.9/
+message: "<p>What if I want more sophistication with the way roles are handled. I
+  want to group roles into capabilities and assign subjects/princples/users/whatever
+  they are called to this capability (a group of roles). For example a manager has
+  role - a,b,c,d&amp;e. A developer has role d,e,f,g&amp;h. when I create a manager
+  instead of assigning him to 5 roles I assign him 1 capability &amp; he gets linked
+  to 5 roles. Then I shud be able to check from the app/code if he has role -'e'.
+  I know this should be possible but how to go about doing this? Any pointers to this?</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

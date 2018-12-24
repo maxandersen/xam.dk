@@ -1,0 +1,27 @@
+---
+id: disqus-comment-608702074
+date: '2007-06-25 23:05:40 +0000'
+updated: '2007-06-25 23:05:40 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Jed Cousin
+url: ''
+message: <p>Go with Eclipse-3.3 and WTP-2.0 if RHT has to pick one.  Eclipse-3.2 and
+  WTP-1.5 will be put into "maintenance mode" soon enough.</p><p>Perhaps have two
+  versions?  One for 3.2/1.5 and the other for 3.3/2.0.  This only seems feasible
+  if the code for 3.2/1.5 can be generated from the 3.3/2.0-compatible source, and/or
+  the divergence between 3.2/1.5-compatibility and 3.3/2.0-compatibility ends up being
+  quite small.</p><p>I think the value in supporting two versions is the greatest
+  upon the launch of JBoss Tools/RHDS proper.  As Eclipse-3.2.x and its Web Tools
+  Platform-1.5.x will have the largest degree of market penetration -- relative to
+  3.3/2.0 -- at that point in time, which should decrease as time passes.  (And JBoss
+  Tools/RHDS itself could be a vigorous driver of 3.3/2.0 adoption.)</p><p>But if
+  JBoss Tools requires inquisitive adopters to either scrap their current Eclipse
+  instance, or install a parallel instance, that could be a turn off as well.  (This
+  could be ameliorated by offering a "ready-mix" version of JBT for download, as was
+  common while the old-school JBossIDE had regular releases.)  Plus, JBoss Tools could
+  risk being a Europa-only "island" if the rest of the Eclipse-plugin ecosystem takes
+  its sweet time moving from Callisto to Europa.</p><p>That said, I concur with JS
+  above, Europa will certainly have Teh Shiny(tm) factor, as will RHMW's tooling offerings.  It
+  also gives JBoss Tools/Red Hat Developer Studio (RHDS) a competitive advantage over
+  offerings from other firms.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

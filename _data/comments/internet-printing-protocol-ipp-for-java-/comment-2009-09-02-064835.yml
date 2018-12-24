@@ -1,0 +1,26 @@
+---
+id: disqus-comment-608700853
+date: '2009-09-02 06:48:35 +0000'
+updated: '2009-09-02 06:48:35 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Michael van der Gulik
+url: ''
+message: "<p>Hi.</p><p>This is an old thread, but Google finds it so I'll contribute.</p><p>For
+  JTable, set the default editor:</p><p>[geshi lang=Java] <br />myJTable.setDefaultEditor(String.class,
+  new NonStupidTableCellEditor());</p><p>public class NonStupidTableCellEditor extends
+  javax.swing.AbstractCellEditor implements<br />\t\tTableCellEditor {<br />\tJTextField
+  component = new JTextField();</p><p>\t@Override<br />\tpublic Component getTableCellEditorComponent(JTable
+  table, Object value,<br />\t\t\tboolean isSelected, int row, int column) {<br />\t\t\tcomponent.setText(value.toString());<br
+  />\t\t\tcomponent.setSelectionStart(0);<br />\t\t\tcomponent.setSelectionEnd(value.toString().length());<br
+  />\t\t\treturn component;<br />\t}</p><p>\t@Override<br />\tpublic Object getCellEditorValue()
+  {<br />\t\treturn component.getText();<br />\t}<br />}<br />[/geshi]</p><p>For standard
+  JTextFields (which have the same stupid behaviour), set the caret:</p><p>[geshi
+  lang=Java]<br />myJTextField.setCaret(new NonStupidCaret());</p><p>public class
+  NonStupidCaret extends DefaultCaret {<br />\tpublic void focusGained(FocusEvent
+  e) {<br />\t\tJTextComponent c;<br />\t\tc = getComponent();<br />\t\tif (c.isEnabled())
+  {<br />\t\t\tc.setSelectionStart(0);<br />\t\t\tc.setSelectionEnd(c.getText().length());<br
+  />\t\t\tsetSelectionVisible(true);<br />\t\t\tif (c.isEditable()) {<br />\t\t\t\tsetVisible(true);<br
+  />\t\t\t\tsetBlinkRate(500);<br />\t\t\t}<br />\t\t}<br />\t}<br />}<br />[/geshi]</p><p>The
+  \"setBlinkRate(500)\" is a bit dumb, but it occasionally brings the flashing cursor
+  back (and sometimes doesn't).</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

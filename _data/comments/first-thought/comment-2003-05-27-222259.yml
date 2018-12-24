@@ -1,0 +1,18 @@
+---
+id: disqus-comment-608700957
+date: '2003-05-27 22:22:59 +0000'
+updated: '2003-05-27 22:22:59 +0000'
+post_id: "/blog/first-thought"
+name: xam
+url: http://62.107.15.73/
+message: <p>Les, that is all fine and dandy - and that  all relates to &lt;b&gt;authentication&lt;/b&gt;
+  which is more or less straight forward. <br /><br /></p><p><br /><br />The problem
+  is that I need &lt;b&gt;non-basic authorization&lt;/b&gt;, meaning that a simple
+  "isInRole()" call is NOT enough! <br /><br /></p><p><br /><br />I need something
+  like .checkPermission(new  MedicatePermission("department X", "patient Y", "drug
+  Z", "10 o'clock")); which should dynamically check up against the current state
+  of the system wether the current Subject is allowed to perform a medication on department
+  X, regarding Patient Y with the Drug Z at 10 o'clock. This is not very easy to do
+  with any realm or policy implementation I've seen.<br /><br /></p><p><br /><br />But
+  thanks for your comments anyway ;)</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

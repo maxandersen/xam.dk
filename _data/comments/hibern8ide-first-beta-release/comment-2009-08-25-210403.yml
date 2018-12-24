@@ -1,0 +1,27 @@
+---
+id: disqus-comment-608704512
+date: '2009-08-25 21:04:03 +0000'
+updated: '2009-08-25 21:04:03 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Kory Lovre
+url: ''
+message: <p>Hi Xam,</p><p>Subject - .ini file name must match the .exe file name and<br
+  />not all versions of eclipse require separate lines for .ini.</p><p>Thanks for
+  the info - it was great.  I am running Eclipse Ganymede version 3.4.2 on a Windows
+  XP box.  The command line solution worked great for me but when I tried to add the
+  commands to my eclipse.ini file they were never picked up - verifying the changes
+  were made the way you indicate in your helpful solution.  As it turns out I had
+  changed the name of my eclipse.exe file to eclipse-3.4.2.exe.  Thus, per</p><p><a
+  href="http://disq.us/url?url=http%3A%2F%2Fhelp.eclipse.org%2Fhelp33%2Findex.jsp%3Ftopic%3D%2Forg.eclipse.platform.doc.user%2Ftasks%2Frunning_eclipse.htm%3A-g4AWYqdA08QCvhRgc_6gi3yQwg&amp;cuid=1582918"
+  rel="nofollow noopener" title="http://help.eclipse.org/help33/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/running_eclipse.htm">http://help.eclipse.org/hel...</a></p><p>the
+  init parameters will be read from a corresponding .ini file called eclipse-3.4.2.ini
+  or you can specify a particular file name using the command</p><p>--launcher.ini
+  &lt;location&gt; (Executable) NEW<br />    the location of the product .ini file
+  to use.  If not specified the executable will look for a file beside the launcher
+  with the same name and the extension .ini.  (ie eclipse.exe looks for eclipse.ini,
+  product.exe looks for product.ini)</p><p>So, when I made this change and started
+  Eclipse nothing happened - eclipse did not start up at all (my file had the commands
+  on separate lines as you indicate in your solution).  I changed my .ini file to
+  be on one line and wham - Eclipse started just fine and the init parameter I had
+  set in the .ini file were read in just fine.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

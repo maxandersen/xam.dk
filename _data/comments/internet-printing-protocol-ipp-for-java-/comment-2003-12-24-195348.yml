@@ -1,0 +1,42 @@
+---
+id: disqus-comment-608701101
+date: '2003-12-24 19:53:48 +0000'
+updated: '2003-12-24 19:53:48 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Joe
+url: http://dialup-171.75.41.122.Dial1.Washington1.Level3.net/
+message: <p>Well, first off, as a security feature, it is possible to turn it off
+  at start-up time.  I believe the start-up systems/scripts of most J2EE servers do
+  that, but I haven't the time to confirm.<br /><br /></p><p><br /><br />Second, several
+  persistence engines work by code-generation, and in the case of many OODBMS's, work
+  by modifying the .class files themselves.  There are lots of options for getting
+  to private data.  One approach I've seen used is parsing serialization streams.<br
+  /><br /></p><p><br /><br />In any case, that's not invoking a public/private method,
+  thats reading the value of a member variable, which is not quite the same thing.  Hibernate,
+  for example, uses RunTime bytecode generation, meaning it creates new classes that
+  internally have access to the private fields they need to access to persist.  In
+  effect, its doing much the same as the OODBMS approach, but at runtime instead of
+  using a pre-processor.  This is possible because of how much faster machines and
+  JVMs are over what they were in the early OODBMS days of 1997.<br /><br /></p><p><br
+  /><br />Part of the real problem with this is the degree to which GUIs should remain
+  Object-Oriented.  Object-Oriented approaches that are designed to protect behavioural
+  classes and data classes have a tendency to hide internals that in actuallity the
+  GUI needs to be extremely public in order to display and manipulate correctly.  The
+  trouble with making them more public than they should be from an OO standpoint is
+  that other developers may see that they are public and use them improperly.  The
+  trouble with hiding them is that the GUI has to go through rediculous hoops in order
+  to get the info it needs to display or execute properly.<br /><br /></p><p><br /><br
+  />Basically there are two options.  First is just make things public, and document
+  in the javadocs that certain methods or properties are for GUI access only, not
+  to be called by other parts of the codebase, and hope that other developers pay
+  attention to that.  Second is to encapsulate the GUI through inner classes as Allen
+  Holub wrote in JavaWorld back in 1999.  That approach of extremely-tight coupling
+  of the GUI to the model has the negative effects of <br /><br /><br />placing too
+  much GUI code in something that may get moved out to a web application or web service,
+  and requires that one do the GUI design and implementation by hand.  Few code generators
+  will "think" like that and be able to manage that kind of architecture.<br /><br
+  /></p><p><br /><br />Sun is not going to blindly give developers the tools to break
+  their own OO &amp; security standards.  I wouldn't expect them to.  So either grin
+  and bear it and make your button-clicking methods public, or write your own reflection
+  tool that bypasses the standard security restriction.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

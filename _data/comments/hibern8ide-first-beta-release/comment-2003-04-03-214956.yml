@@ -1,0 +1,20 @@
+---
+id: disqus-comment-608704233
+date: '2003-04-03 21:49:56 +0000'
+updated: '2003-04-03 21:49:56 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Hector
+url: http://195.55.30.21/
+message: '<p>Hello,<br /><br /></p><p><br /><br />I''ve just had a look to your HSQL
+  interpreter and its background looks pretty good.<br /><br /></p><p><br /><br />I''m
+  actually developing a tool that in some way administrates the BBDD form  Hibernate
+  by using a relational object explorer where such objects,collections and mapping
+  entities can be created, modified or removed. They can be dynamically loaded as
+  it is your case, and I will be developing the functionality soon.<br /><br /></p><p><br
+  /><br />To be completly honest, this is my first serious project involing internet,
+  so I''m a bit mixed up. I would like to use your code (if it is Opensource) in order
+  to add it to my tool or I could take part in the development of the interpreter
+  by adding part of my application. I''m not sure about how to do this: do I have
+  to do it through "SourceForge" using Hibernate Forum or do I have to comment it
+  right to you?.</p>'
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

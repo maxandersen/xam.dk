@@ -1,0 +1,19 @@
+---
+id: disqus-comment-608704270
+date: '2003-07-22 03:58:45 +0000'
+updated: '2003-07-22 03:58:45 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Kevin
+url: http://65.83.43.33/
+message: <p>Jython works great as alternative:<br /><br /></p><p><br /><br />1) set
+  up classpath and start (jython hung when started by ant, so set to verbose, and
+  copied classpath) into .bat file to start.<br /><br /></p><p><br /><br />2) at jython
+  prompt:<br /><br /></p><p><br /><br />&gt;&gt;&gt;import foo<br /><br /><br />&gt;&gt;&gt;sess
+  = foo.ServiceLocator.currentSession()<br /><br /><br />&gt;&gt;&gt;query="from o
+  in class foo.beans.Opportunity"<br /><br /><br />&gt;&gt;&gt;list = sess.find(query)<br
+  /><br /><br />&gt;&gt;list<br /><br /><br />[com.revenuetech.mpi.beans.Opportunity@79ca2e[planTermId=96],
+  <a href="http://disq.us/url?url=http%3A%2F%2Fcom.revenuetech.mp%3AqE2AOFWprJhYYJ8iSrn47G1XlyU&amp;cuid=1582918"
+  rel="nofollow noopener" title="com.revenuetech.mp">com.revenuetech.mp</a><br /><br
+  /><br />i.beans.Opportunity@164e3e2[planTermId=97]]<br /><br /><br />&gt;&gt;&gt;
+  [ x.planTerm.value for x in list]<br /><br /><br />[-5.40, -7.63]</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

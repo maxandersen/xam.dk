@@ -1,0 +1,31 @@
+---
+id: disqus-comment-608704260
+date: '2003-06-13 15:37:54 +0000'
+updated: '2003-06-13 15:37:54 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Qasim
+url: http://khawaja.offices.ox.ac.uk/
+message: '<p>I can''t seem to get it running on a Windows XP machine. <br /><br /></p><p><br
+  /><br />I get the following message in the IDE <br /><br /><br />unknown protocol:
+  c Nested Exception unknown protocol: c<br /><br /></p><p><br /><br />In the dos
+  window i get<br /><br /><br />C:\Program Files\eclipse\workspace\testing\src\ocao\wads\model&gt;c:\hibern8ide.bat<br
+  /><br /></p><p><br /><br />13-Jun-2003 12:32:18 net.sf.hibernate.cfg.Environment
+  &lt;clinit&gt;<br /><br /><br />INFO: Hibernate 2.0 final<br /><br /><br />13-Jun-2003
+  12:32:18 net.sf.hibernate.cfg.Environment &lt;clinit&gt;<br /><br /><br />INFO:
+  <a href="http://disq.us/url?url=http%3A%2F%2Fhibernate.properties%3AxTkiEqr7vM8eq7z5tI6BNMvML-0&amp;cuid=1582918"
+  rel="nofollow noopener" title="hibernate.properties">hibernate.properties</a> not
+  found<br /><br /><br />13-Jun-2003 12:32:18 net.sf.hibernate.cfg.Environment &lt;clinit&gt;<br
+  /><br /><br />INFO: using CGLIB reflection optimizer<br /><br /><br />13-Jun-2003
+  12:32:18 net.sf.hibernate.cfg.Environment &lt;clinit&gt;<br /><br /><br />INFO:
+  JVM proxy support: true<br /><br /><br />13-Jun-2003 12:33:01 net.sf.hibernate.cfg.Configuration
+  addFile<br /><br /><br />INFO: Mapping file: C:\Program Files\eclipse\workspace\testing\src\ocao\wads\mod<br
+  /><br /><br />el\Address.hbm.xml<br /><br /><br />13-Jun-2003 12:33:01 net.sf.hibernate.cfg.Configuration
+  addFile<br /><br /><br />SEVERE: Could not configure datastore from file: C:\Program
+  Files\eclipse\worksp<br /><br /><br />ace\testing\src\ocao\wads\model\Address.hbm.xml<br
+  /><br /><br />org.dom4j.DocumentException: unknown protocol: c Nested exception:
+  unknown proto<br /><br /><br />col: c<br /><br /><br />        at <a href="http://disq.us/url?url=http%3A%2F%2Forg.dom4j.io.SAXReader.read%3AUm6dwWhd-D1BxnL60ugP7ifSuhc&amp;cuid=1582918"
+  rel="nofollow noopener" title="org.dom4j.io.SAXReader.read">org.dom4j.io.SAXReader.read</a>(<a
+  href="http://disq.us/url?url=http%3A%2F%2FSAXReader.java%3AGY8xmP8zKyPi8guC0ofComNngN4&amp;cuid=1582918"
+  rel="nofollow noopener" title="SAXReader.java">SAXReader.java</a>:358)<br /><br
+  /><br />...</p>'
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

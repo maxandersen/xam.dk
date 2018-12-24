@@ -1,0 +1,10 @@
+---
+id: disqus-comment-608704536
+date: '2004-07-24 23:26:45 +0000'
+updated: '2004-07-24 23:26:45 +0000'
+post_id: "/blog/does-ibm-not-support-full-speed-debugging-"
+name: Geert Bevin
+url: http://213-193-174-47.adsl.easynet.be/
+message: "<p>The switch -Xj9 is implemented under Intel Linux and Windows and should
+  use a new JIT that enables full speed debugging.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

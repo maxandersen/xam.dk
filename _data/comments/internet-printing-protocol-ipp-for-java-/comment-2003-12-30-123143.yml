@@ -1,0 +1,15 @@
+---
+id: disqus-comment-608700844
+date: '2003-12-30 12:31:43 +0000'
+updated: '2003-12-30 12:31:43 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: xampub
+url: http://3E6B256D.rev.stofanet.dk/
+message: <p>Guys - have you an example of that code ?<br /><br /></p><p><br /><br
+  />I have done stuff similar to that but I could never make it work reliable - especially
+  not if you got special document handling and stuff...it grows even worse with JFormatedTextField
+  which don't even have a document to insert/remove "keys" from....and what if it
+  is a special character/functionkey you pressed...what do you do then ?<br /><br
+  /></p><p><br /><br />The "bug" is thate the key get to the component before it get's
+  its focus...that should not be allowed to happen ;(</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

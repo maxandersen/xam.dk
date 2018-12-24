@@ -1,0 +1,15 @@
+---
+id: disqus-comment-608702079
+date: '2007-06-25 23:28:40 +0000'
+updated: '2007-06-25 23:28:40 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Max
+url: ''
+message: "<p>Maintaining compability would be a pain because of suttle changes in
+  some of the API we depend on - It could be done technically but would require a
+  massive amount of extra testing ;(</p><p>With respect to a full single easy to use
+  download then that is what Red Hat Developer Studio will provide.</p><p>Remember
+  that when Eclipse 3.3 comes out there will be one single download of it make the
+  installation much easier and then adding our plugins should become a breeze (especially
+  with the update site)</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

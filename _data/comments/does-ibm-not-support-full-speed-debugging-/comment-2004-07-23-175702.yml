@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608704528
+date: '2004-07-23 17:57:02 +0000'
+updated: '2004-07-23 17:57:02 +0000'
+post_id: "/blog/does-ibm-not-support-full-speed-debugging-"
+name: Ben C
+url: http://ccbf.com/
+message: "<p>My bad, we're actually running  WAS 5.0.1 or 2, when I thought we were
+  at 5.1.  Therefore ignore what I said earlier.  I have WSAD 5.1.0, which has the
+  5.1 WAS runtime and JDK1.4.1.  I wonder if I could just copy the JRE from the WSAD
+  JRE runtime to my WAS install?</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

@@ -1,0 +1,28 @@
+---
+id: disqus-comment-608701115
+date: '2003-12-24 21:55:18 +0000'
+updated: '2003-12-24 21:55:18 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Joe
+url: http://dialup-171.75.41.222.Dial1.Washington1.Level3.net/
+message: <p>you need to read the article Holub wrote (its in 6 parts, rather long,
+  but he writes a LOT).  The design is that the "Object" is responsible for its own
+  GUI, and internalizes its own GUI entirely, either in an inner class, or just by
+  directly having a JPanel as a member.  <br /><br /></p><p><br /><br />The idea is
+  that the outer object that manages the inner object does its own layout, asking
+  the inner object for its gui component, which it then embeds in its own JPanel,
+  which becomes its component to advertise out to any object that contains it.<br
+  /><br /></p><p><br /><br />The idea of using an inner class is simply to keep having
+  SOME separation of Object from GUI interface by having the GUI be its own class,
+  just an inner class embedded inside the object's own class.  Extremely-tight coupling,
+  but its definitely Object-Oriented.<br /><br /></p><p><br /><br />The problem then
+  comes to a head.  Is that amount of adherance to Object-Oriented really better in
+  the long run for application maintainance?  When you have separate Swing and Model
+  programmers, you have two people manipulating the same file in developing the work,
+  which may lead to problems if your CM isn't perfect (and no CM is).<br /><br /></p><p><br
+  /><br />Another significant drawback with that approach is that sometimes in GUI
+  layout design, pieces that conceptually are part of the same Object don't necessarilly
+  belong together on the screen.  Status display information is different from controllers,
+  and usually goes in a different place, but when the GUI only allows one component
+  per Object at that level, there's no way to separate them without significant rearchitecture.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

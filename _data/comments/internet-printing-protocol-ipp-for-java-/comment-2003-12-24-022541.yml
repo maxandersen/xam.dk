@@ -1,0 +1,14 @@
+---
+id: disqus-comment-608701094
+date: '2003-12-24 02:25:41 +0000'
+updated: '2003-12-24 02:25:41 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: xampub
+url: http://3E6B3EE3.rev.stofanet.dk/
+message: "<p>well - as i said, it's good - not perfect ;)<br /><br /></p><p><br /><br
+  />The stacktrace stuff i had not noticed - thanks for pointing it out...another
+  reason for building my own ;)<br /><br /></p><p><br /><br />...Action's is much
+  more preferred, but for example in the BeanContext API we got horrible names and
+  complex classes for simple stuff...here EventHandler (or a better replacement) would
+  make wonders to the readability of the code.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

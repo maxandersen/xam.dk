@@ -1,0 +1,20 @@
+---
+id: disqus-comment-608701021
+date: '2004-01-26 21:22:06 +0000'
+updated: '2004-01-26 21:22:06 +0000'
+post_id: "/blog/first-thought"
+name: Jesse Houwing
+url: http://rutherford.sogeti.nl/
+message: "<p>I'm looking for something quite similar. In our system we'll have:<br
+  /><br /></p><p><br /><br />System, clients, projects and projectdata.<br /><br /></p><p><br
+  /><br />there are roles that apply Systemwide, clientwide or per project.<br /><br
+  /></p><p><br /><br />I read the IBM document and it does encapsulate most of th
+  erequired functionality, but what I'm missing is the information that when replace
+  the security policy file if all the system policies that you usually set in there
+  need to conform the new format, because I was thinking of integrating all the permissions
+  for te different roles into a database for easy management as well as the user-role-target
+  relationships (eg user(john)-role(admin)-target(clienty\\projectx).<br /><br /></p><p><br
+  /><br />I've looked everywhere but I'm slowly sinking in the quicksand surrounding
+  this API, there is a little bit of info everywhere, but there seems to be no real
+  useful reference.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

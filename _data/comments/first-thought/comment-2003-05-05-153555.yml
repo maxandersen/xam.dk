@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608700885
+date: '2003-05-05 15:35:55 +0000'
+updated: '2003-05-05 15:35:55 +0000'
+post_id: "/blog/first-thought"
+name: LES
+url: http://clt56-97-164.carolina.rr.com/
+message: "<p>Create a nice little anonymous override of the focus event handler for
+  the JPanel (though a type would be better if you want reuse).  Then all you have
+  to do is catch the component shown and send a focus event to the panel. The panel
+  would then know what to do with the focus event.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

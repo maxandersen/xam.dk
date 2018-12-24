@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608704510
+date: '2009-07-16 20:22:43 +0000'
+updated: '2009-07-16 20:22:43 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Dmitri Vassiliev
+url: ''
+message: "<p>Just wanted to point out a minor inconsistency:</p><p>When you say the
+  Configuration Details should say:</p><p>This is expected and *correct*:</p><p>eclipse.vmargs=-Xms512m<br
+  />-Xmx512m<br />-jar<br />/opt/eclipse32-3.2.2/startup.jar</p><p>I think you actually
+  meant:</p><p>eclipse.vmargs=-Xms128m</p><p>since that is what you set it to.</p><p>:P</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

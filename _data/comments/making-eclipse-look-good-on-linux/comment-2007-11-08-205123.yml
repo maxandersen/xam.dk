@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608701126
+date: '2007-11-08 20:51:23 +0000'
+updated: '2007-11-08 20:51:23 +0000'
+post_id: "/blog/making-eclipse-look-good-on-linux"
+name: Max
+url: ''
+message: "<p>I tried doing the ~/.gtkrc-2.0 trick:</p><p>style &amp;#8220my-default&amp;#8221<br
+  />{<br />GtkTreeView::horizontal-separator = 0<br />GtkTreeView::vertical-separator
+  = 0<br />}<br />class &amp;#8220GtkTreeView&amp;#8221 style &amp;#8220my-default&amp;#8221</p><p>But
+  it had zero effect as far as I can tell (even after reboot)</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

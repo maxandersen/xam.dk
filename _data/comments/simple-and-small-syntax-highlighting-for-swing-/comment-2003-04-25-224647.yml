@@ -1,0 +1,19 @@
+---
+id: disqus-comment-608700745
+date: '2003-04-25 22:46:47 +0000'
+updated: '2003-04-25 22:46:47 +0000'
+post_id: "/blog/simple-and-small-syntax-highlighting-for-swing-"
+name: xampub
+url: http://fw1.lec.dk/
+message: '<p>1. It inherits from JComponent instead of JTextComponent (if it did it
+  would help a great deal)<br /><br /></p><p><br /><br />2. It swollows all keyevents,
+  making it impossible to install a shortcut in a menu and having the JEditArea react
+  to it ;(<br /><br /></p><p><br /><br />3. It installs it''s own Scrollbars! That
+  is a big sin in my book ... what the heck is wrong with new JScrollPane(new JEditTextArea())
+  ?<br /><br /></p><p><br /><br />4. because of 1-3 I have to "work-around" the component
+  to make it "behave" ...and me don''t like that ;)<br /><br /></p><p><br /><br />That
+  is just the ones i can come up with from memory ;)<br /><br /></p><p><br /><br />...and
+  i hate that the javadocs says: "It is also faster [then JEditorPane] and doesn''t
+  have as many problems" ....without saying why it is faster and which problems the
+  swing components have....</p>'
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

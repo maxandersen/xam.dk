@@ -1,0 +1,20 @@
+---
+id: disqus-comment-608704468
+date: '2007-10-24 16:23:04 +0000'
+updated: '2007-10-24 16:23:04 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Aryen
+url: ''
+message: "<p>Hi there,</p><p>Your blog has clarified a lot to me! It was basically
+  the only one which explains how to check whether the vmargs were read or not by
+  Eclipse.</p><p>So, despite all my changes on eclipse.ini, on Help-&gt;About-&gt;Configuration
+  I still read eclipse.vmargs=-jar. Even running eclipse by command line (using the
+  example you gave) keep generating the same result, as if it's ignoring the vmargs
+  no matter what.</p><p>I eliminated all the empty lines and blank spaces, I tried
+  to put the options in a different order, etc. It simply keeps ignoring. Concerning
+  the Eclipse bug#198823, I believe is not the case here, because I'm working under
+  Linux (openSuse) all the time - therefore eclipse.ini was never edited under Windows.</p><p>So,
+  my doubt is: all your comments and instructions are only valid for Eclipse under
+  Windows? Can it be that Eclipse is actually reading the ini file though I can't
+  confirm it via Help-&gt;About...?</p><p>Thanks.<br />Aryen</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

@@ -1,0 +1,25 @@
+---
+id: disqus-comment-608700984
+date: '2003-05-28 07:36:40 +0000'
+updated: '2003-05-28 07:36:40 +0000'
+post_id: "/blog/first-thought"
+name: xampub
+url: http://62.107.15.73/
+message: '<p>Great comments ;)<br /><br /></p><p><br /><br />Les first: Yes, i''m
+  well aware that JAAS won''t "deduce"/"calculate" wether the current actually got
+  the permisson or not. For that I''ll need my own Policy/Permission implementation
+  based on either code, magic, rules or whatever. But I really like the JAAS API,
+  it has all the correct ingredients, and i''m basically just looking for documentation
+  on how to implement such a best without interfeering (or rather how to integrate
+  it) with the default implememntation/behavior.<br /><br /></p><p><br /><br />And
+  Matt: Yes, the policytool is there, but it does not scale well and the declaritive
+  security in .net/J2EE just seems way to simple for my needs. I can for the life
+  of me not see how I can based on just a simple role e.g. "nurse" can declare that
+  she is not allowed to call "medicate()" ......because she can, if she has been given
+  the right permissions - and that the timing/data is correct.......<br /><br /></p><p><br
+  /><br />But thanks for the comments - I now know that I''m on the right "path" I
+  just need to find (or try to make a full example my own) of a good Policy/Permission
+  set that can integrate well with JAAS, J2EE <a href="http://disq.us/url?url=http%3A%2F%2Fet.al%3A6aezp-d7g56f8yLXypu0pTCfKjA&amp;cuid=1582918"
+  rel="nofollow noopener" title="et.al">et.al</a>. without to much pain for me as
+  a programmer and "they" as customers ;)</p>'
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

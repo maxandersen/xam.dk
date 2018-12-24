@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608704505
+date: '2009-03-24 01:52:29 +0000'
+updated: '2009-03-24 01:52:29 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Davis Nguyen
+url: http://wiki.glassfish.java.net/Wiki.jsp?page=GlassfishPluginQA
+message: "<p>Hi,</p><p>Have you tried this?</p><p>showsplash<br />org.eclipse.platform<br
+  />-framework<br />plugins\\org.eclipse.osgi_3.4.0.v20080605-1900.jar<br />-vmargs<br
+  />-Dosgi.requiredJavaVersion=1.5<br />-Xms40m<br />-Xmx512m<br />--launcher.XXMaxPermSize<br
+  />512m</p><p>Put --launcher.XXMaxPermSize value to the end of the eclipse.ini file</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

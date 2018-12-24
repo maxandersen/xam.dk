@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608701088
+date: '2003-12-24 02:21:22 +0000'
+updated: '2003-12-24 02:21:22 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Anthony Eden
+url: http://216.242.178.111/
+message: "<p>I've been using something like this long before Sun added it to the JDK.
+  \ Instead of invoking a property set method I can invoke any method.  In one sense
+  it is good because it removes a lot of extra code, on the other hand it probably
+  makes more sense in many cases to use an Action implementation instead.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

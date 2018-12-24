@@ -1,0 +1,17 @@
+---
+id: disqus-comment-608701084
+date: '2003-12-24 01:56:16 +0000'
+updated: '2003-12-24 01:56:16 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Dmitri Colebatch
+url: http://nme-pow-pr3.tpgi.com.au/
+message: <p>Are you kidding me.... just had a skim of the source, check this out:<br
+  /><br /></p><p><br /><br />            catch (IllegalAccessException ex) {<br /><br
+  /><br />                ex.printStackTrace();<br /><br /><br />            }<br
+  /><br /><br />            catch (InvocationTargetException ex) {<br /><br /><br
+  />                ex.getTargetException().printStackTrace();<br /><br /><br />            }<br
+  /><br /></p><p><br /><br />I'm sorry, but that is not appropriate exception handling
+  for any sort of library...<br /><br /></p><p><br /><br />been a while since I've
+  done some swing, so cant comment on 'better' appropaches, but that code snipped
+  I posted jumps out at me and says "I'm not ready"...</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

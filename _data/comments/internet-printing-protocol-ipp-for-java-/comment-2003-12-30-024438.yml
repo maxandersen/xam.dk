@@ -1,0 +1,18 @@
+---
+id: disqus-comment-608700841
+date: '2003-12-30 02:44:38 +0000'
+updated: '2003-12-30 02:44:38 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: R.J.
+url: http://kcecfp02.sprint.com/
+message: <p>This is off the top of my head, so I apologize if I'm not even close...
+  my first thought when reading this was to simply implement a custom cell editor...  <br
+  /><br /><br /><a href="http://disq.us/url?url=http%3A%2F%2Fwww.javaalmanac.com%2Fegs%2Fjavax.swing.table%2FCustEdit.html%3A2QIsX3KghoA4AcPEFor7vmnN0hI&amp;cuid=1582918"
+  rel="nofollow noopener" title="http://www.javaalmanac.com/egs/javax.swing.table/CustEdit.html">http://www.javaalmanac.com/...</a><br
+  /><br /><br />... but, that seems too easy. If that doesn't work, what if you captured
+  the keystroke itself, and if it was targeted to that component, clear the component,
+  and then let the keystroke be handled downstream.<br /><br /></p><p><br /><br />Here
+  is another resource I found which may or may not help too:<br /><br /><br /><a href="http://disq.us/url?url=http%3A%2F%2Fwww.javaalmanac.com%2Fegs%2Fjavax.swing.table%2FStopEdit.html%3Fl%3Dfind%3A_YISZNW4xPmvN_cjvH55_V61kAM&amp;cuid=1582918"
+  rel="nofollow noopener" title="http://www.javaalmanac.com/egs/javax.swing.table/StopEdit.html?l=find">http://www.javaalmanac.com/...</a><br
+  /><br /></p><p><br /><br />I may look at this more this evening...</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

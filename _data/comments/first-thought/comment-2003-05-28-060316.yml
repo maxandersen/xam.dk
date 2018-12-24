@@ -1,0 +1,18 @@
+---
+id: disqus-comment-608700982
+date: '2003-05-28 06:03:16 +0000'
+updated: '2003-05-28 06:03:16 +0000'
+post_id: "/blog/first-thought"
+name: Les
+url: http://clt56-97-164.carolina.rr.com/
+message: <p>xam - is what matt gives an example of what you want??  From what I gathered
+  you wanted something dynamic, not declarative (per the .net example above).  If
+  that is what you want,  ignore all of my previous comments because clearly I had
+  it wrong.  I thought that you wanted a credential check that's results could vary
+  both on the role of the user and the underlying state of the functional or data
+  components. Is this corrent?   In other words, .checkPermisions(new MedicatePermission("morphine"....)
+  == true if current nurse is certified, there is a heart specialist on duty, the
+  patient has only had x amount, etc.  If this is the case you should also really
+  look at a rules engine.  Since it sounds like this is as much business logic as
+  it is security.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

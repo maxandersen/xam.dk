@@ -1,0 +1,22 @@
+---
+id: disqus-comment-608700845
+date: '2004-09-30 00:02:20 +0000'
+updated: '2004-09-30 00:02:20 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Derek Karnes
+url: http://httpbalt.northgrum.com/
+message: <p>At the sake of losing the functionality where esc cancels your edits,
+  you can do something like:<br /><br /><br />table.addKeyListener(new KeyAdapter(){<br
+  /><br /><br />            public void keyPressed(KeyEvent e) {<br /><br /><br />                int
+  row = table.getSelectedRow();<br /><br /><br />                int col = table.getSelectedColumn();<br
+  /><br /><br />                TableCellEditor editor = table.getColumnModel().getColumn(col).getCellEditor();<br
+  /><br /><br />                if (editor!=null &amp;&amp; editor instanceof MyCellEditor){<br
+  /><br /><br />                    JTextField jtf = ((JTextField)(((MyCellEditor)editor).getComponent()));<br
+  /><br /></p><p><br /><br />                    KeyStroke keyStroke = KeyStroke.getKeyStroke(e.getKeyChar(),
+  e.getModifiers());<br /><br /><br />                    char c = e.getKeyChar();<br
+  /><br /><br />                    if (Character.isLetterOrDigit(c) || Character.isWhitespace(c))
+  {<br /><br /><br />                        jtf.getCaret().setDot(0);<br /><br /><br
+  />                        jtf.getCaret().moveDot(jtf.getText().length());<br /><br
+  /><br />                        table.setValueAt("", row, col);<br /><br /><br />                    }<br
+  /><br /><br />                }<br /><br /><br />            }<br /><br /><br />        });</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

@@ -1,0 +1,19 @@
+---
+id: disqus-comment-608701113
+date: '2003-12-24 20:37:41 +0000'
+updated: '2003-12-24 20:37:41 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: xampub
+url: http://50C556BB.flatrate.dk/
+message: "<p>As one of the developers of Hibernate :), I can promise you that Hibernate
+  is NOT depending on using runtime bytecode generation to access fields inside an
+  object. (the runtime bytecode gen is mostly for performance and to realize lazyloading)<br
+  /><br /></p><p><br /><br />Hibernate uses Reflection to access PROPERTIES - not
+  fields. Direct field access have actually only been made available lately, before
+  we only accessed properties (public, protected, private whatever ;)<br /><br /></p><p><br
+  /><br />But putting that aside - I refrain from making the event listeners part
+  of my public interface of my gui classes...thus I use inner anonymous classes....and
+  thus i'm also very much considering using EventHandler ;)<br /><br /></p><p><br
+  /><br />...but i don't follow your argument saying that having inner classes tightly
+  couples the gui to the model ?</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

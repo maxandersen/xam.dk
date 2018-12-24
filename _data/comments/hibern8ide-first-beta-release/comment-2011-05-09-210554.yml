@@ -1,0 +1,10 @@
+---
+id: disqus-comment-608704776
+date: '2011-05-09 21:05:54 +0000'
+updated: '2011-05-09 21:05:54 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Max
+url: http://blog.xam.dk/
+message: "<p>David, the data in eclipse.ini is just used as fallback; you can both
+  have eclipse.ini for defaults and use command line arguments for specific cases.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

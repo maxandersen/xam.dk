@@ -1,0 +1,11 @@
+---
+id: disqus-comment-608701203
+date: '2007-11-25 19:20:14 +0000'
+updated: '2007-11-25 19:20:14 +0000'
+post_id: "/blog/making-eclipse-look-good-on-linux"
+name: djo.mos
+url: http://djo-mos.developpez.com/
+message: "<p>Thank Wesley for the solution ! It works perfectly !<br />Just one thing:
+  in gnome 2.2, there is no ~/.gtk-2.0 file by default, so you have to create it manually.<br
+  />Regards.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

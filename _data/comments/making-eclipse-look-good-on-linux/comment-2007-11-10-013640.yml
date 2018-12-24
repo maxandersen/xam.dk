@@ -1,0 +1,22 @@
+---
+id: disqus-comment-608701164
+date: '2007-11-10 01:36:40 +0000'
+updated: '2007-11-10 01:36:40 +0000'
+post_id: "/blog/making-eclipse-look-good-on-linux"
+name: Vladimir Buell
+url: http://farjumper.livejournal.com/
+message: <p>Thanks, Willian!!</p><p>I've tweaked your theme a little for compacting
+  such elements as Toolbars, Statusbars and Editor's tabs.</p><p>style "gtkcompact"
+  {<br />font_name="Sans 8"<br />GtkButton::default_border={0,0,0,0}<br />GtkButton::default_outside_border={0,0,0,0}<br
+  />GtkButtonBox::child_min_width=0<br />GtkButtonBox::child_min_heigth=0<br />GtkButtonBox::child_internal_pad_x=0<br
+  />GtkButtonBox::child_internal_pad_y=0<br />GtkMenu::vertical-padding=1<br />GtkMenuBar::internal_padding=0<br
+  />GtkMenuItem::horizontal_padding=4<br />GtkToolbar::internal-padding=0<br />GtkToolbar::space-size=0<br
+  />GtkOptionMenu::indicator_size=0<br />GtkOptionMenu::indicator_spacing=0<br />GtkPaned::handle_size=4<br
+  />GtkRange::trough_border=0<br />GtkRange::stepper_spacing=0<br />GtkScale::value_spacing=0<br
+  />GtkScrolledWindow::scrollbar_spacing=0<br />GtkExpander::expander_size=10<br />GtkExpander::expander_spacing=0<br
+  />GtkTreeView::vertical-separator=0<br />GtkTreeView::horizontal-separator=0<br
+  />GtkTreeView::expander-size=8<br />GtkTreeView::fixed-height-mode=TRUE<br />GtkWidget::focus_padding=0<br
+  />}<br />class "GtkWidget" style "gtkcompact"</p><p>style "gtkcompactextra" {<br
+  />xthickness=0<br />ythickness=0<br />}<br />class "GtkButton" style "gtkcompactextra"<br
+  />class "GtkToolbar" style "gtkcompactextra"<br />class "GtkPaned" style "gtkcompactextra"</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

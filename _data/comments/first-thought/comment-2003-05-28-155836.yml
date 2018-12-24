@@ -1,0 +1,29 @@
+---
+id: disqus-comment-608700987
+date: '2003-05-28 15:58:36 +0000'
+updated: '2003-05-28 15:58:36 +0000'
+post_id: "/blog/first-thought"
+name: Distiller
+url: http://195.167.148.4/
+message: <p>I've missed some of this debate, but bascially I agree with what Matt
+  said. You need to implement your own Permission subclasses to do the checking. In
+  the system I wrote, I have two (main) sections where I apply permission checking:<br
+  /><br /></p><p><br /><br />* when executing struts actions<br /><br /><br />* when
+  creating system events<br /><br /></p><p><br /><br />I think it's best doing it
+  at a higher level, rather than checking in each method, although there may be some
+  special cases where this is necessary. For the struts case, I implemented my on
+  request processor that created permisions based on values set via properties in
+  the struts-config.xml file. That is better than explicitly checking them in methods,
+  because it isn't hidden in code and other developers can apply different permission
+  checking depending on the usage of the code. This of course creates an opportunity
+  for security holes, but you can apply "not-allowed-by-default" policy to remedie
+  this, so if it fails, then it fails to disallow ( much better than the alternative).
+  With the event system, I use the Interceptor pattern to check access to events.
+  <br /><br /></p><p><br /><br />The problem with "role-based" security is that it's
+  not fine-grained enough and can only be implemented statically and don't model the
+  real world that well. In my experience it is much better to create a "capabilities-based"
+  model and then build a collection of capabilities based on the user's roles ( a
+  subtle but important difference, because roles are only used to group capabilities).
+  The authorsation system in this case doesn't know anything about "roles" and only
+  cares about permissions.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

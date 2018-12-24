@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608700824
+date: '2003-05-04 11:41:07 +0000'
+updated: '2003-05-04 11:41:07 +0000'
+post_id: "/blog/swing-requestfocus-blues"
+name: xampublic
+url: http://3E6B1CDA.aarh.stofanet.dk/
+message: <p>That solves the "when first shown" problem - but how about the problem
+  of being able to just say "somepanel.requestFocus()" and have it make it's first
+  field show focus ?<br /><br /></p><p><br /><br />I don't want to do "somepanel.firstfieldIKnowOff.requestFocus()"
+  - as that breaks the encapsulation.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

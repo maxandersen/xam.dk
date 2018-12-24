@@ -1,0 +1,30 @@
+---
+id: disqus-comment-608701096
+date: '2003-12-24 03:34:34 +0000'
+updated: '2003-12-24 03:34:34 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Joe
+url: http://dialup-171.75.36.142.Dial1.Washington1.Level3.net/
+message: <p>There is no solution for the public v. private issue.  Its a side effect
+  of the security restrictions placed on reflection.  Reflection can not invoke a
+  method unless the class that's doing the invoking is doing it within the appropriate
+  scope, so even package-protected things have to be invoked in the same package.<br
+  /><br /></p><p><br /><br />Trouble is the invoker in this case belongs to java.beans,
+  not to the package of your gui code.  There's simply no way around that unless the
+  JDK opens up more aspects of the .classfile, and that opens up a larger can of worms
+  that I'd really rather not deal with.<br /><br /></p><p><br /><br />Besides, IMHO,
+  if something can be called via the GUI, its "public", and thus the method that invokes
+  it on my Object should also be public.  Its part of what something from the outside
+  can do to my object.  By having it public, it also gives me the room to test it
+  with external testing tools.<br /><br /></p><p><br /><br />As one noted, one could
+  instead advertise what actions are available by making public an array of Action
+  objects.<br /><br /></p><p><br /><br />With the stack-trace, that was just plain
+  bad, although my version had the same issue.  The trouble in that case is the general
+  problem of dispatching Exceptions in any GUI program.  If you can't catch them,
+  they propagate up to the AWT event queue, where they'll be printStackTraced anyways,
+  and in the case of InvocationException (written before JDK 1.4 built-in nested exceptions)
+  the real source of the problem may end up not displayed in the dump.<br /><br /></p><p><br
+  /><br />Really, in any framework for a GUI, one should have the means to add an
+  ExceptionHandler type of Object to deal with that sort of thing, but the JDK didn't
+  build it in.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

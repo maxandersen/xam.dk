@@ -1,0 +1,14 @@
+---
+id: disqus-comment-608704459
+date: '2007-06-19 16:38:30 +0000'
+updated: '2007-06-19 16:38:30 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Steve
+url: ''
+message: "<p>Hi,</p><p>If the problem occurs when you are running the JBoss apache
+  server perspective then the problem is not related to the eclipse.ini settings.
+  When you first add your server you will have to define the JDK to be used and it
+  is here that you can set the -Xms and -Xmx (and PermGen) settings for the chosen
+  JVM. Each server runs in it's own JVM and can be configured in isolation to the
+  eclipse javaw process.</p><p>Hope this helps someone :)</p><p>Steve K</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

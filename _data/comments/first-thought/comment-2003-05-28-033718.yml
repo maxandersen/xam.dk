@@ -1,0 +1,21 @@
+---
+id: disqus-comment-608700974
+date: '2003-05-28 03:37:18 +0000'
+updated: '2003-05-28 03:37:18 +0000'
+post_id: "/blog/first-thought"
+name: matt
+url: http://cache-1.lnh.md.webcache.rcn.net/
+message: "<p>xam - you have it correct.  You will need to implement your MedicatePermission
+  Permission but everything else is provided for you.  Sun even provides a GUI to
+  create your own policy files (although only the JDK 1.4.x versions are aware of
+  Prinicpals).<br /><br /></p><p><br /><br />If the default PolicyFile implementation
+  isn't good enough, you can implement a Policy class that hits a database.  I did
+  one recently that updates itself every 30 minutes.  A more elegant solution might
+  be a Policy that subscribes to JMS Topic to be notified of policy updates.<br /><br
+  /></p><p><br /><br />By the way, I have always felt that the call to java.security.AccessController.checkPermission(Permission)
+  and the Subject.doAs stuff just begged to be done as XDoclet tags.  Then you could
+  have something like<br /><br /></p><p><br /><br />/**<br /><br /><br /> * @security
+  require com.me.MedicatePermission<br /><br /><br /> */<br /><br /><br />public void
+  medicate(){<br /><br /><br />   morphine++<br /><br /><br />}<br /><br /></p><p><br
+  /><br />Nice clean code.  Declarative security.  This is how .NET does it.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

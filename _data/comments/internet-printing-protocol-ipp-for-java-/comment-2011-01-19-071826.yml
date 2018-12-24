@@ -1,0 +1,29 @@
+---
+id: disqus-comment-608700859
+date: '2011-01-19 07:18:26 +0000'
+updated: '2011-01-19 07:18:26 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: Alex
+url: ''
+message: "<p>I used Derek's code, but did it a bit different:</p><p>\t\tmyTable.addKeyListener(new
+  KeyAdapter() {<br />\t\t\t@Override<br />\t\t\tpublic void keyPressed(KeyEvent e)
+  {<br />\t\t\t\tint col = myTable.getSelectedColumn();<br />\t\t\t\tTableCellEditor
+  editor = myTable.getColumnModel().getColumn(col).getCellEditor();<br />\t\t\t\tif
+  (editor != null &amp;&amp; editor instanceof MyCellEditor) {<br />\t\t\t\t\tchar
+  c = e.getKeyChar();<br />\t\t\t\t\tif (Character.isLetterOrDigit(c) || Character.isWhitespace(c))
+  {<br />\t\t\t\t\t\t((MyCellEditor) editor).setIsActivatedByKeyboard(true);<br />\t\t\t\t\t}<br
+  />\t\t\t\t}<br />\t\t\t}<br />\t\t});</p><p>To MyCellEditor I added a field activatedByKeyboard,
+  which purpose is obvious.<br />MyCellEditor's  method for getting component looks
+  like this:</p><p>\t@Override<br />\tpublic Component getTableCellEditorComponent(JTable
+  table, Object value, boolean isSelected, int row, int column) {<br />\t\tComponent
+  editor = super.getTableCellEditorComponent(table, value, isSelected, row, column);<br
+  />\t\tif (activatedByKeyboard) {<br />\t\t\t((NumberField) editor).setText(\"\");<br
+  />\t\t}<br />\t\treturn editor;<br />\t}</p><p>Also I have an AncestorListener attached
+  to the component responsible for edititng cell values, and in that listener I wrote
+  such code:<br />@Override<br />\t\t\t\t\t\t\t\t\t\t\t\t\tpublic void ancestorRemoved(AncestorEvent
+  e) {<br />\t\t\t\t\t\t\t\t\t\t\t\t\t\tTableCellEditor editor = labsTable.getColumnModel().getColumn(1).getCellEditor();<br
+  />\t\t\t\t\t\t\t\t\t\t\t\t\t\t((NumberFieldCellEditor) editor).setIsActivatedByKeyboard(false);<br
+  />\t\t\t\t\t\t\t\t\t\t\t\t\t}</p><p>Now everything works just fine, including cancelling
+  edits by pressing Esc key.</p><p>sorry for my poor English and somewhat messy thinking,
+  but I hope I provided enough information anyone to grasp my idea.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

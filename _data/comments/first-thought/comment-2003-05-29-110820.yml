@@ -1,0 +1,17 @@
+---
+id: disqus-comment-608701009
+date: '2003-05-29 11:08:20 +0000'
+updated: '2003-05-29 11:08:20 +0000'
+post_id: "/blog/first-thought"
+name: xam
+url: http://62.107.15.73/
+message: <p>......and now I'm just wondering how one would use the Permission's to
+  express the more complicated permission check I wrote about.<br /><br /></p><p><br
+  /><br />All the Permissions I see is only created with two arguments (name and actions),
+  e.g. new FilePermission(""/tmp/abc", "read, write")<br /><br /></p><p><br /><br
+  />Should I limit my permissions to follow the same scheme or could I do something
+  like this:<br /><br /><br />new MedicationPermission("x", "A", "1", "morphine","create");<br
+  /><br /></p><p><br /><br />or should I encode those parameters into the 2 part string
+  ?<br /><br /></p><p><br /><br />new MedicationPermission("[pat=x][dep=A][type=1][drug=morphine]",
+  "create");<br /><br /></p><p><br /><br />Any comments ? ;)</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

@@ -1,0 +1,16 @@
+---
+id: disqus-comment-608701219
+date: '2009-07-15 11:43:42 +0000'
+updated: '2009-07-15 11:43:42 +0000'
+post_id: "/blog/making-eclipse-look-good-on-linux"
+name: Alejandro
+url: ''
+message: "<p>I honestly don't understand folks who prefer the cluttered Windows appearance
+  and the blocky, tiny ass fonts. Really, after you switch to Fedora and learn to
+  live without the straitjacket, your eyes really thank you for it.</p><p>Granted,
+  the default Fedora fonts are too big. However, once you set the font size to 10,
+  the resolution to 96 ppi and install the freetype-freeworld package (a true jewel
+  available from the RPM fusion repos), everything looks fantastic. Recent Ubuntu
+  distros (Jaunty for sure) come with freetype-freeworld (which has patent issues)
+  preinstalled, so you can enjoy the crisp fonts out of the box.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

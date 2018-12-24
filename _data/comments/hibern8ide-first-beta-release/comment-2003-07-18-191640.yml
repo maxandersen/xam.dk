@@ -1,0 +1,13 @@
+---
+id: disqus-comment-608704266
+date: '2003-07-18 19:16:40 +0000'
+updated: '2003-07-18 19:16:40 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Kevin
+url: http://65.83.43.33/
+message: "<p>This kind of tool could definitely be helpful.  I always write my SQL
+  in a client tool first, and HQL is worse.<br /><br /></p><p><br /><br />Getting
+  XML parse error messages with hbm.xml files: error on line X of document.   But
+  what document?  I need to add quite a few hbm.xml files to avoid unmapped class
+  errors.  <br /><br /></p><p><br /><br />I think I'll try using Jython for now.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

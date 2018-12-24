@@ -1,0 +1,13 @@
+---
+id: disqus-comment-608704258
+date: '2003-04-22 17:12:54 +0000'
+updated: '2003-04-22 17:12:54 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: alex
+url: http://cm61-18-31-22.hkcable.com.hk/
+message: <p>(at the front page)<br /><br /><br />How do I install it ?<br /><br /></p><p><br
+  /><br />Download hibern8ide.jar and put it whereever you want it.<br /><br /></p><p><br
+  /><br />Put hibern8ide.jar,hibernate2.jar and all its companion .jars in your classpath
+  and then run the class net.sf.hibern8ide.hibern8IDE. (!!NOTE!! &lt;--- the classname
+  is "Hibern8IDE")</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

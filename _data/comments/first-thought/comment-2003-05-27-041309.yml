@@ -1,0 +1,15 @@
+---
+id: disqus-comment-608700876
+date: '2003-05-27 04:13:09 +0000'
+updated: '2003-05-27 04:13:09 +0000'
+post_id: "/blog/first-thought"
+name: matt.
+url: http://cache-1.lnh.md.webcache.rcn.net/
+message: '<p>You need to do 2 things.  First the current Thread needs to be running
+  as the Subject whose Permissions you want to check.  You can achieve this via the
+  Subject.doAs() method.<br /><br /></p><p><br /><br />Secondly, you will need to
+  call out to the AccessController.checkPermission() method as that Subject.<br /><br
+  /></p><p><br /><br />I agree, it is poorly documented.  The best tutorial I have
+  found is actually an old O''Reilly conference presentation: <a href="http://disq.us/url?url=http%3A%2F%2Fwww.research.ibm.com%2Fpeople%2Fk%2Fkoved%2FPresentations%2FOReilly2000%2Findexc.htm%3AXfK5UgmS7MfJHo2MfOFoZ7bOo_c&amp;cuid=1582918"
+  rel="nofollow noopener" title="http://www.research.ibm.com/people/k/koved/Presentations/OReilly2000/indexc.htm">http://www.research.ibm.com...</a></p>'
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

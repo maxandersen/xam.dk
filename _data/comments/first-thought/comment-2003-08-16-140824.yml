@@ -1,0 +1,22 @@
+---
+id: disqus-comment-608701015
+date: '2003-08-16 14:08:24 +0000'
+updated: '2003-08-16 14:08:24 +0000'
+post_id: "/blog/first-thought"
+name: Shivajee.R.Sharma
+url: http://61.11.60.160/
+message: "<p>HI Xam,<br /><br /></p><p><br /><br />what you can do is implement your
+  permission with two constructor one protected which takes all the argument you mentioned
+  and another which is pulic and takes only name and action. <br /><br /></p><p><br
+  /><br />When AccessController is checking the permission. It will create a permission
+  with your public constructor and pass it the permission you have created in policy
+  collection in it's implies method. you can typecast the permission into your Class
+  and do whatever check you want based on the internal state of your permission.<br
+  /><br /></p><p><br /><br />only problem is you will also have to provide your own
+  Policy implementation.<br /><br /></p><p><br /><br />I am also working on the similar
+  problem, i have managed to get authentication to group/role based permissions (users
+  and groups defined in MySQL database), now i am writing PolicyDB which is an implementation
+  of <br /><br /><br />Policy based on permissions defined in DB.<br /><br /></p><p><br
+  /><br />let me know you want to see my code of authentication, and i can give you
+  authorization code once i complete it.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

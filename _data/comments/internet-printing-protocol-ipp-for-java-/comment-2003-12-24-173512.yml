@@ -1,0 +1,18 @@
+---
+id: disqus-comment-608701097
+date: '2003-12-24 17:35:12 +0000'
+updated: '2003-12-24 17:35:12 +0000'
+post_id: "/blog/internet-printing-protocol-ipp-for-java-"
+name: xampub
+url: http://50C556BB.flatrate.dk/
+message: <p>Joe, that is not true - otherwise persitenceengines and many J2EE servers
+  or other highly reflection based systems (such as Hibernate) would be living on
+  a lie ;)<br /><br /></p><p><br /><br />Yes - there is some security breachees, but
+  in general it is possible to call also private and protected methods via reflection.<br
+  /><br /></p><p><br /><br />Yes - i'm al for it being public on e.g. anonymous inner
+  classes, but the AIC's just fills up to much compared to what they provide. And
+  often they just relay the event to a protected method in the outer-class....thus
+  using EventHandler or similar would allow me to express what I actually do in much
+  less code.<br /><br /></p><p><br /><br />Regarding AWT exceptions there is an ExceptionHandler
+  object. Look for "sun.awt.exception.handler" via google.</p>
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

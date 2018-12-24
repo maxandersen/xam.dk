@@ -1,0 +1,14 @@
+---
+id: disqus-comment-608700937
+date: '2003-05-27 16:43:00 +0000'
+updated: '2003-05-27 16:43:00 +0000'
+post_id: "/blog/first-thought"
+name: Distiller
+url: http://195.167.148.4/
+message: "<p>I've written a JAAS system for my current contract. IMO you need to implement
+  you're own Policy subclass to do it properly. This is because the standard policy
+  file based implementation isn't very useful because of it's static nature. Then
+  you can do whatever you want. I've implemented the getPermissions abstract method
+  to return a collection of custom permissions from the db. Within the permissions,
+  you can do whatever you like.</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

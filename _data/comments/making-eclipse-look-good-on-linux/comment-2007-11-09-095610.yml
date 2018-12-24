@@ -1,0 +1,18 @@
+---
+id: disqus-comment-608701143
+date: '2007-11-09 09:56:10 +0000'
+updated: '2007-11-09 09:56:10 +0000'
+post_id: "/blog/making-eclipse-look-good-on-linux"
+name: wesley
+url: ''
+message: '<p>edit the config file: ~/.gtkrc-2.0</p><p>style "gtkcompact" {<br />  font_name="Sans
+  8"<br />  GtkButton::default_border={0,0,0,0}<br />  GtkButton::default_outside_border={0,0,0,0}<br
+  />  GtkButtonBox::child_min_width=0<br />  GtkButtonBox::child_min_heigth=0<br />  GtkButtonBox::child_internal_pad_x=0<br
+  />  GtkButtonBox::child_internal_pad_y=0<br />  GtkMenu::vertical-padding=1<br />  GtkMenuBar::internal_padding=0<br
+  />  GtkMenuItem::horizontal_padding=4<br />  GtkOptionMenu::indicator_size=0<br
+  />  GtkOptionMenu::indicator_spacing=0<br />  GtkPaned::handle_size=4<br />  GtkRange::trough_border=0<br
+  />  GtkRange::stepper_spacing=0<br />  GtkScale::value_spacing=0<br />  GtkScrolledWindow::scrollbar_spacing=0<br
+  />  GtkExpander::expander_size=10<br />  GtkExpander::expander_spacing=0<br />  GtkTreeView::vertical-separator=0<br
+  />  GtkTreeView::horizontal-separator=0<br />  GtkTreeView::expander-size=8<br />  GtkTreeView::fixed-height-mode=TRUE<br
+  />  GtkWidget::focus_padding=0<br />}<br />class "GtkWidget" style "gtkcompact"</p>'
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

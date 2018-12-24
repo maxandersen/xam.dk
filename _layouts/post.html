@@ -4,7 +4,7 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | relative_url }}')">
+<header class="masthead" style="background-image: url('{{ page.background | relativize_url }}')">
 {% else %}
 <header class="masthead">
 {% endif %}
@@ -26,19 +26,35 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-8 col-md-10 mx-auto">
 
-      {{ content }}
+          {{ content }}
 
-      <hr>
+          <hr>
+
+          {% assign comments = site.data.comments[page.slug] %}
+          {% if comments %}
+          {% assign comments = comments | sort %}
+          {% for comment in comments %}
+          {% assign avatar = comment[1].avatar %}
+          {% assign email = comment[1].email %}
+          {% assign name = comment[1].name %}
+          {% assign url = comment[1].url %}
+          {% assign date = comment[1].date %}
+          {% assign message = comment[1].message %}
+          {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
+          {% endfor %}
+          {% endif %}
+
+          <hr>
 
       <div class="clearfix">
 
         {% if page.previous.url %}
-        <a class="btn btn-primary float-left" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        <a class="btn btn-primary float-left" href="{{ page.previous.url | relativize_url }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         {% endif %}
         {% if page.next.url %}
-        <a class="btn btn-primary float-right" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="{{ page.next.url | relativize_url }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         {% endif %}
 
       </div>
@@ -46,3 +62,4 @@ layout: default
     </div>
   </div>
 </div>
+

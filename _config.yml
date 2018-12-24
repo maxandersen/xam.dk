@@ -61,13 +61,18 @@ defaults:
 
 
 feed:
-  path: blog/feed.atom
+  path: ./blog/feed.atom
 
 
 jekyll_analytics:
     GoogleAnalytics:
       id: UA-70032-1
       anonymizeIp: false
+
+comments:
+  disqus:
+    short_name: blogxamdk
+    api_key: PuDlF1o1zdjP9hll5fhfP53UgojHZNIjkZktEMgoEBWWpvl0ttXWgZIe5Lj9AJ8t
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

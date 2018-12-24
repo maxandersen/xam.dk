@@ -1,0 +1,24 @@
+---
+id: disqus-comment-608700970
+date: '2003-05-27 23:54:04 +0000'
+updated: '2003-05-27 23:54:04 +0000'
+post_id: "/blog/first-thought"
+name: Les
+url: http://216.215.184.5.nw.nuvox.net/
+message: "<p>OK...well here is what I am missing.  Are you looking for something in
+  JAAS that provides the .checkPermission method for you??  If so, you won't find
+  it.  I think that the most you can expect from JAAS is who am I and what are my
+  roles (you can, btw, get all of the roles for the current user).  So, you have to
+  write your framework that can take a MedicatePermission Object and determine if
+  the current user's roles (as currently in the database) are sufficient.  It shouldn't
+  be too hard to write. <br /><br /></p><p><br /><br />EJB does provide you with method
+  level role association, but I think this is a very narrow security model.  I do
+  think that OpenSymphony has an entitlement engine (OSAccess, I think).  It may do
+  more of what you want.  <br /><br /></p><p><br /><br />Anyway, my point is that
+  JAAS will do authentication, but it only does part of the authorization.  The rest
+  is pretty much custom.  I think that this is because JAAS was designed with EJB.
+  \ So, it was not until later that it became it's own framework.  As a result, half
+  of it is in JAAS and half in EJB...for what it's worth. :)<br /><br /></p><p><br
+  /><br />Anyway, check out OSAccess and let me know if it is useful (I havn't looked
+  at it much).</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"

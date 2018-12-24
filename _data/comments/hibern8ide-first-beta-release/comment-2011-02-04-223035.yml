@@ -1,0 +1,12 @@
+---
+id: disqus-comment-608704809
+date: '2011-02-04 22:30:35 +0000'
+updated: '2011-02-04 22:30:35 +0000'
+post_id: "/blog/hibern8ide-first-beta-release"
+name: Stephan
+url: ''
+message: "<p>Spent over 2 days trying to solve out of memory issue with Eclipse JBoss
+  plugin. Only thing worked for me is changing VM_ARGUMENTS value in .launch file
+  (see below) while Eclipse is closed:</p><p>..\\.plugins\\org.eclipse.debug.core\\.launches\\JBoss
+  4.2 Runtime Server.launch</p>"
+avatar: "//a.disquscdn.com/1541535443/images/noavatar92.png"
