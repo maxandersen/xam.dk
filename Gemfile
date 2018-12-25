@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem 'jekyll-analytics'
   gem 'jekyll-webmention_io'
   gem 'jekyll-postfiles'
+  gem 'jekyll-compose'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
