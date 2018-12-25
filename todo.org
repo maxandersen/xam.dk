@@ -1,0 +1,2 @@
+* enable staticman
+* look into webmention.org
