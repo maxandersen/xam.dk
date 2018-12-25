@@ -1,4 +1,8 @@
 # coding: utf-8
+
+
+require 'html-proofer'
+
 task :default => :preview
 
 # CONFIGURATION VARIABLES (on top of those defined by Jekyll in _config(_deploy).yml)
@@ -381,8 +385,6 @@ task :travis do
   
   fail unless success
 end
-
-require 'html-proofer'
 
 task :test do
   sh "bundle exec jekyll build"
