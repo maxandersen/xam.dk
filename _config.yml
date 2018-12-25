@@ -23,7 +23,7 @@ twitter_username: maxandersen
 github_username:  maxandersen
 facebook_username: maxandersen
 
-permalink: "/blog/:categories/:title:output_ext"
+permalink: "/blog/:categories/:title/"
 
 # Build settings
 markdown: kramdown
