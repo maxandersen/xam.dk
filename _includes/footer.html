@@ -5,11 +5,11 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="col-lg-8 col-md-10 mx-auto h-card">
                 <ul class="list-inline text-center">
                     <li class="list-inline-item">
-                        <a class="h-card" rel="me" href="/about">
-                            <img class="rounded-circle" src="{{ '/avatar.jpg' | relativize_url }}"/>
+                        <a rel="me" href="/about">
+                            <img class="rounded-circle u-photo" src="{{ '/avatar.jpg' | relativize_url }}"/>
                         </a>
                     </li>
                     {% for social in site.socialsites %}
@@ -23,7 +23,7 @@
                     </li> 
                     {% endfor %}
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+                <p class="copyright text-muted">Copyright &copy; <a class="p-name" rel="me" href=""{{ '/about' | relativize_url }}">{{ site.full_name }}</a> {{ 'now' | date: "%Y" }}</p>
             </div>
         </div>
     </div>
