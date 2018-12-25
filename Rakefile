@@ -380,7 +380,7 @@ task :travis do
   else
     Rake::Task["build"].invoke
     puts "## Deploying website via rsync"
-    success = system("sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www/jekyll")
+    success = system("sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")
   end
   
   fail unless success
