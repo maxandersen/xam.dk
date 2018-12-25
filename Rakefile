@@ -50,7 +50,7 @@ load '_rake-configuration.rb' if File.exist?('_rake-configuration.rb')
 load '_rake_configuration.rb' if File.exist?('_rake_configuration.rb')
 
 #Load custom rake scripts
-Dir['_rake/*.rake'].each { |r| load r }
+#Dir['_rake/*.rake'].each { |r| load r }
 
 # ... we are a bit redundant and allow two different file names
 
