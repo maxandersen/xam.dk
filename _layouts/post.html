@@ -32,6 +32,10 @@ layout: default
 
           <hr>
 
+          {% webmentions %}
+
+          <hr>
+
           {% assign comments = site.data.comments[page.slug] %}
           {% if comments %}
           {% assign comments = comments | sort %}

@@ -59,6 +59,8 @@ defaults:
       layout: "post"
       background: "/img/post-bg.jpg"
 
+webmentions:
+  debug: true
 
 feed:
   path: ./blog/feed.atom

@@ -39,7 +39,10 @@ GEM
       parallel (~> 1.3)
       typhoeus (~> 1.3)
       yell (~> 2.0)
+    htmlbeautifier (1.3.1)
     http_parser.rb (0.6.0)
+    httparty (0.15.7)
+      multi_xml (>= 0.5.2)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jekyll (3.8.5)
@@ -66,7 +69,17 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
+    jekyll-webmention_io (3.3.3)
+      htmlbeautifier (~> 1.1)
+      jekyll (>= 3.2.0, < 4.0)
+      json (~> 2.0)
+      openssl (~> 2.0)
+      string_inflection (~> 0.1)
+      uglifier (~> 4.1)
+      webmention (~> 0.1.6)
+    json (2.1.0)
     kramdown (1.17.0)
+    link_header (0.0.8)
     liquid (4.0.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -75,8 +88,10 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
+    multi_xml (0.6.0)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
+    openssl (2.1.2)
     parallel (1.12.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -93,11 +108,19 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    string_inflection (0.1.2)
     thread_safe (0.3.6)
     typhoeus (1.3.1)
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    uglifier (4.1.20)
+      execjs (>= 0.3.0, < 3)
+    webmention (0.1.6)
+      httparty (~> 0.15.5)
+      json
+      link_header (~> 0.0.8)
+      nokogiri
     yell (2.0.7)
 
 PLATFORMS
@@ -112,7 +135,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-theme-clean-blog!
-  rake
   tzinfo-data
 
 BUNDLED WITH
