@@ -7,6 +7,13 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="h-card"
+                           href="/about"
+                        >
+                            <img class="rounded-circle" src="{{ '/avatar.jpg' | relativize_url }}"/>
+                        </a>
+                    </li>
                     {% for social in site.socialsites %}
                     <li class="list-inline-item">
                         <a href="{{ social.url }}" rel="me">

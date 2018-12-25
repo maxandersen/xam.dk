@@ -391,10 +391,11 @@ task :test do
   options = { :assume_extension => true,
               :alt_ignore => [/./],
               :url_ignore => [
-                /www.goosync.com/,
+                /www.goosync.com/, 
                 /www.operamini.com/,
                 /63.209.20.13/,
                 /blogs.sun.com/,
+                'http://svnbook.red-bean.com/',
                 'http://www.eclipse.org/swt/launcher.html',
                 'http://labs.jboss.com/tools/',
                 'http://blog.xam.dk/archives/68-Eclipse-and-memory-settings.html',

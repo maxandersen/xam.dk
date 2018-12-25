@@ -58,16 +58,12 @@ defaults:
     values:
       layout: "post"
       background: "/img/post-bg.jpg"
-  - scope:
-      path: "_posts/wp-content"
-    values:
-      static: true
-      image: true
 
 webmentions:
   username: xam.dk
   # html_proofer: true
   #debug: true
+  js: false
   throttle_lookups:
     last_week: daily
     last_month: weekly
