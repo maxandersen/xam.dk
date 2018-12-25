@@ -1,5 +1,4 @@
-= Git client for iOS
-:page-
+= Git client for iOSx
 :page-author: Max Rydahl Andersen
 :page-tags: [website]
 
@@ -18,8 +17,6 @@ Once I commit (free) and push (needs app purchase) A Travis build is triggered t
 What is great by working copy is that it integrates with iOS 8 new feature of sharing and editing services so you can use it from and with any app. 
 
 Making it very interesting for on the go blogging and quick fixes. 
-
-/max
 
 
 
