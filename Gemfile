@@ -23,7 +23,7 @@ group :jekyll_plugins do
   gem 'jekyll-asciidoc'
   gem 'jekyll-paginate'
   gem 'jekyll-analytics'
-  gem 'jekyll-webmention_io'
+  gem 'jekyll-webmention_io', :git => 'https://github.com/maxandersen/jekyll-webmention_io', :branch => 'fixed_master'
   gem 'jekyll-postfiles'
   gem 'jekyll-compose'
 end

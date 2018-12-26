@@ -34,16 +34,17 @@ layout: default
   <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
           <div class="e-content">
-          {{ content }}
+              {{ content }}
           </div>
-        <hr>
-
-        {% webmentions %}
 
           <hr>
+          <h3>Webmentions</h3>
+          {% webmentions page.url %}
+
 
           {% assign comments = site.data.comments[page.slug] %}
           {% if comments %}
+          <hr>
           {% assign comments = comments | sort %}
           {% for comment in comments %}
           {% assign avatar = comment[1].avatar %}

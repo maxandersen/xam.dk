@@ -6,6 +6,20 @@ GIT
     jekyll-theme-clean-blog (4.0.1)
       jekyll (~> 3.6)
 
+GIT
+  remote: https://github.com/maxandersen/jekyll-webmention_io
+  revision: 5b9bd719670c7531b71da73289480b616977f070
+  branch: fixlinks
+  specs:
+    jekyll-webmention_io (3.3.3)
+      htmlbeautifier (~> 1.1)
+      jekyll (>= 3.2.0, < 4.0)
+      json (~> 2.0)
+      openssl (~> 2.0)
+      string_inflection (~> 0.1)
+      uglifier (~> 4.1)
+      webmention (~> 0.1.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -74,14 +88,6 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    jekyll-webmention_io (3.3.3)
-      htmlbeautifier (~> 1.1)
-      jekyll (>= 3.2.0, < 4.0)
-      json (~> 2.0)
-      openssl (~> 2.0)
-      string_inflection (~> 0.1)
-      uglifier (~> 4.1)
-      webmention (~> 0.1.6)
     json (2.1.0)
     kramdown (1.17.0)
     link_header (0.0.8)
@@ -142,7 +148,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-postfiles
   jekyll-theme-clean-blog!
-  jekyll-webmention_io
+  jekyll-webmention_io!
   rake
   tzinfo-data
 
