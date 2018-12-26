@@ -64,7 +64,7 @@ defaults:
 webmentions:
   username: xam.dk
   html_proofer: true
-  #debug: true
+  debug: true
   js: false
   throttle_lookups:
     last_week: daily

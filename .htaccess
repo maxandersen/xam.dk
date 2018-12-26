@@ -162,5 +162,7 @@ RewriteRule .* http://xam.dk/blog/my-pegboardstanding-desk-installation? [R=302,
 RewriteCond %{HTTP_HOST} ^blog.xam.dk [nc]
 RewriteRule ^(.*)$ http://xam.dk/$1 [nc]
 
-
 Redirect 302 /aeri/ https://redhat.ctrlflow.com/
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
