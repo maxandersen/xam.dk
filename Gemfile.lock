@@ -8,8 +8,8 @@ GIT
 
 GIT
   remote: https://github.com/maxandersen/jekyll-webmention_io
-  revision: 5b9bd719670c7531b71da73289480b616977f070
-  branch: fixlinks
+  revision: 44d23a4e09f40e58859c74f43723c923da65d7f4
+  branch: fixed_master
   specs:
     jekyll-webmention_io (3.3.3)
       htmlbeautifier (~> 1.1)
