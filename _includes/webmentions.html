@@ -1,0 +1,28 @@
+
+
+
+<aside>
+    {% capture wbmcount %}{% webmention_count page.url %}{% endcapture %}
+    {% assign wbmcount = wbmcount | strip_html | times:1 %}
+    
+    {% if wbmcount > 0 %}
+    <hr>
+    <h2 id="webmentions">{{ wbmcount }} Webmention{% if wbmcount > 1 %}s{% endif %}</h2>
+
+    {% capture likes %}{% webmention_count page.url likes %}{% endcapture %}
+    {% assign likes_int = likes | plus: 0 %}
+    {% if likes_int > 0 %}
+    <section>
+        <h3>{{ likes }} like{% if likes_int > 1 %}s{% endif %}</h3>
+        {% webmention_likes page.url %}
+    </section>
+    {% endif %}
+
+    {% if likes_int > 0 or reposts_int > 0 %}
+    <h3>Other Webmentions</h3>
+    {% endif %}
+    {% webmentions page.url posts replies links reposts %}
+
+{% endif %}
+
+</aside>

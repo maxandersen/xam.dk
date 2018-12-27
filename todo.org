@@ -1,2 +1,4 @@
 * enable staticman
 * look into webmention.org
+* check https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fxam.dk%2F
+

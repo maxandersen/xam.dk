@@ -64,13 +64,21 @@ defaults:
 webmentions:
   username: xam.dk
   html_proofer: true
-  debug: true
+  cache_folder: _data/webmentions
+  templates:
+    count: _includes/webmentions/count.html
+    likes: _includes/webmentions/likes.html
+    #reposts: _includes/webmentions/reposts.html
+    #webmentions: _includes/webmentions/webmentions.html
+  legacy_domains:
+    - http://xam.dk
+    # debug: true
   js: false
   throttle_lookups:
     last_week: daily
     last_month: weekly
     last_year: every 2 weeks
-    older: monthly
+    older: every 2 weeks
 
 feed:
   path: ./blog/feed.atom

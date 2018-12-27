@@ -1,0 +1,403 @@
+---
+"/blog/first-thought/": {}
+"/blog/internet-printing-protocol-ipp-for-java/": {}
+"/blog/deployment-time-blues/": {}
+"/blog/hibernate-interactive-hql/": {}
+"/blog/hibern8ide-first-beta-release/": {}
+"/blog/mr-hibernate-talking-at-jaoo/": {}
+"/blog/simple-and-small-syntax-highlighting-for-swing/": {}
+"/blog/swing-requestfocus-blues/": {}
+"/blog/swing-requestfocus-blues-part-ii/": {}
+"/blog/swingfoxtrot-wow/": {}
+"/blog/jaas-and-functional-security/": {}
+"/blog/part-ii-of-jaas-and-functional-security/": {}
+"/blog/classeszipjarwar-etal-dependency-analyzer/": {}
+"/blog/java-printing-on-unix-is-flakey-even-on-142/": {}
+"/blog/best-20-lines-of-swing-keyboardfocusmanager-code-ive-ever-written/": {}
+"/blog/hibern8ide-09/": {}
+"/blog/virtual-win32unix-printer-driver/": {}
+"/blog/sun-print-bug-database-blues/": {}
+"/blog/hibern8ide-hibernateextensions/": {}
+"/blog/jira-with-internationalization/": {}
+"/blog/eventhandlerjava-is-good-but-not-perfect/": {}
+"/blog/java-ipp-and-general-merry-x-mas/": {}
+"/blog/implement-proper-jtable-editing/": {}
+"/blog/light-weight-smtp/": {}
+"/blog/don039t-serialize-calendar039s/": {}
+"/blog/the-log-analyzer-someone-else-must-have-build/": {}
+"/blog/does-ibm-not-support-full-speed-debugging/": {}
+"/blog/cloudscape-os-but-where-is-cloudsync/": {}
+"/blog/fresh-laptop-what-to-install/": {}
+"/blog/new-job-at-jboss/": {}
+"/blog/todays-favorite-little-sql-gem/": {}
+"/blog/de-f248rste-dage-som-udenlandsdansker/": {}
+"/blog/papirnusseri-i-schweiz/": {}
+"/blog/lisbeths-f248dselsdag/": {}
+"/blog/elvis-lever/": {}
+"/blog/sidste-nat-i-atlanta/": {}
+"/blog/elvis-pas-bil-og-bordplader/": {}
+"/blog/sne-bil-og-hest/": {}
+"/blog/long-time-no-snow/": {}
+"/blog/computer-dog-and-new-furniture/": {}
+"/blog/copenhagen-trip/": {}
+"/blog/besoeg-fra-danmark/": {}
+"/blog/besog-fra-danmark/": {}
+"/blog/flying-to-israel/": {}
+"/blog/landed-in-israel/": {}
+"/blog/good-places-for-a-breakpoint-i/": {}
+"/blog/tracking-down-causes-of-exceptions-in-eclipse/": {}
+"/blog/pre-jbossworld-barcelona/": {}
+"/blog/eclipsecon-debug-emf-might-be-useful-and-xml-editors/": {}
+"/blog/hibernate-in-denmark/": {}
+"/blog/non-official-emacs-22-for-windows/": {}
+"/blog/hibernatejboss-jira-quick-search-in-opera/": {}
+"/blog/red-hat-developer-studio-and-me-at-javaone/": {}
+"/blog/importexport-of-eclipse-32x-working-sets-hack/": {}
+"/blog/we-are-moving/": {}
+"/blog/eclipse-and-memory-settings/": {}
+"/blog/eclipse-32-should-we-stay-or-should-we-go-to-eclipse-33/": {}
+"/blog/todays-favorite-tool-svnmergepy/": {}
+"/blog/exadel-plugins-are-now-opensourced/": {}
+"/blog/who-needs-an-iphone-anyway/": {}
+"/blog/red-hat-developer-studio-beta-1-released/": {}
+"/blog/we-are-hiring/": {}
+"/blog/red-hat-developer-studio-beta2-released/": {}
+"/blog/visual-page-editor-updated-now-with-macosx-support/": {}
+"/blog/eclipse-the-memory-hog-resolved/": {}
+"/blog/making-eclipse-look-good-on-linux/": {}
+"/blog/red-hat-developer-studio-candidate-release/": {}
+"/blog/jing-the-best-tool-for-reporting-bugs-for-any-ui/": {}
+"/blog/jboss-tools-amp-developer-studio-at-javapolis/": {}
+"/blog/this-category-is-moving-to-inrelationto/": {}
+"/blog/rant-about-international-airports-especially-geneva/": {}
+"/blog/migrating-from-serendipity-s9y-to-wordpress/": {}
+"/blog/calling-conference-bridge-numbers-with-skype/": {}
+"/blog/converting-thousands-of-wma-files-to-mp3/": {}
+"/blog/dial-numbers-incl-conference-bridges-with-skype-via-launch-bar-quick-silver-or-others/": {}
+"/blog/how-to-geek-pimp-your-christmas-party/": {}
+"/blog/my-pegboardstanding-desk-installation/": {}
+"/blog/4-years-zero-blog-streak/": {}
+"/blog/making-travis-upload-with-sshpass/": {}
+"/blog/git-client-for-ios/": {}
+"/blog/gdoc2adoc/": {}
+"/blog/test-webmention/":
+  '571763':
+    id: '571763'
+    uri: https://twitter.com/maxandersen/status/1077867184955772934#favorited-by-14687332
+    source: twitter
+    pubdate: 2018-12-26 10:08:36.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1077867184955772934/14687332
+      verified: true
+      verified_date: '2018-12-26T10:08:36+00:00'
+      id: 571763
+      private: false
+      data:
+        author: &1
+          name: Max Rydahl Andersen
+          url: https://twitter.com/maxandersen
+          photo: https://webmention.io/avatar/pbs.twimg.com/3a71357d46a1f05bbb3f9b442f0a2f6d2441733af8358e5f36f6f8939acce761.jpg
+        url: https://twitter.com/maxandersen/status/1077867184955772934#favorited-by-14687332
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Max Rydahl Andersen favorited a tweet http://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://twitter.com/maxandersen">Max Rydahl Andersen</a>
+          favorited a tweet <a href="http://xam.dk/blog/test-webmention/">http://xam.dk/blog/test-webmention/</a>
+      target: http://xam.dk/blog/test-webmention/
+    author: *1
+    type: like
+    content: <p><a href="https://twitter.com/maxandersen">Max Rydahl Andersen</a>
+      favorited a tweet <a href="http://xam.dk/blog/test-webmention/">http://xam.dk/blog/test-webmention/</a></p>
+  '571774':
+    id: '571774'
+    uri: https://twitter.com/maxandersen/status/1077867184955772934#favorited-by-149095901
+    source: twitter
+    pubdate: 2018-12-26 11:13:00.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1077867184955772934/149095901
+      verified: true
+      verified_date: '2018-12-26T11:13:00+00:00'
+      id: 571774
+      private: false
+      data:
+        author: &2
+          name: Silvio Silva
+          url: https://twitter.com/silvio_silva
+          photo: https://webmention.io/avatar/pbs.twimg.com/7253cb151f0be75430c60eee897351f75920983d9c77cabfab3af7610e035987.jpg
+        url: https://twitter.com/maxandersen/status/1077867184955772934#favorited-by-149095901
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Silvio Silva favorited a tweet http://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://twitter.com/silvio_silva">Silvio Silva</a>
+          favorited a tweet <a href="http://xam.dk/blog/test-webmention/">http://xam.dk/blog/test-webmention/</a>
+      target: http://xam.dk/blog/test-webmention/
+    author: *2
+    type: like
+    content: <p><a href="https://twitter.com/silvio_silva">Silvio Silva</a> favorited
+      a tweet <a href="http://xam.dk/blog/test-webmention/">http://xam.dk/blog/test-webmention/</a></p>
+  '571877':
+    id: '571877'
+    uri: https://twitter.com/maxandersen/status/1077999024593092608#favorited-by-14687332
+    source: twitter
+    pubdate: 2018-12-26 18:49:44.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1077999024593092608/14687332
+      verified: true
+      verified_date: '2018-12-26T18:49:44+00:00'
+      id: 571877
+      private: false
+      data:
+        author: &3
+          name: Max Rydahl Andersen
+          url: https://twitter.com/maxandersen
+          photo: https://webmention.io/avatar/pbs.twimg.com/3a71357d46a1f05bbb3f9b442f0a2f6d2441733af8358e5f36f6f8939acce761.jpg
+        url: https://twitter.com/maxandersen/status/1077999024593092608#favorited-by-14687332
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Max Rydahl Andersen favorited a tweet https://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://twitter.com/maxandersen">Max Rydahl Andersen</a>
+          favorited a tweet <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a>
+      target: https://xam.dk/blog/test-webmention/
+    author: *3
+    type: like
+    content: <p><a href="https://twitter.com/maxandersen">Max Rydahl Andersen</a>
+      favorited a tweet <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a></p>
+  '571921':
+    id: '571921'
+    uri: https://twitter.com/maxandersen/status/1077867184955772934#favorited-by-28953570
+    source: twitter
+    pubdate: 2018-12-27 00:02:45.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1077867184955772934/28953570
+      verified: true
+      verified_date: '2018-12-27T00:02:45+00:00'
+      id: 571921
+      private: false
+      data:
+        author: &4
+          name: Torkild Ulvøy Resheim
+          url: https://twitter.com/torkildr
+          photo: https://webmention.io/avatar/pbs.twimg.com/50d632c3bcd96927a60b497cf9ffc93c61dbe3c2d02e3011a7095c7cc459004f.jpg
+        url: https://twitter.com/maxandersen/status/1077867184955772934#favorited-by-28953570
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Torkild Ulvøy Resheim favorited a tweet https://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://twitter.com/torkildr">Torkild Ulvøy Resheim</a>
+          favorited a tweet <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a>
+      target: https://xam.dk/blog/test-webmention/
+    author: *4
+    type: like
+    content: <p><a href="https://twitter.com/torkildr">Torkild Ulvøy Resheim</a> favorited
+      a tweet <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a></p>
+  '571721':
+    id: '571721'
+    uri: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/hcardxss
+    source: false
+    pubdate: 2018-12-26 08:15:20.000000000 +01:00
+    raw:
+      source: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/hcardxss
+      verified: true
+      verified_date: '2018-12-26T07:15:25+00:00'
+      id: 571721
+      private: false
+      data:
+        author: &5
+          name: Does clicking me alert?
+          url: 
+          photo: https://webmention.io/avatar/checkmention.appspot.com/75232e0b1732e48930188394129043b56a9f44961eac063725de38d554a6cd36.jpeg
+        url: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/hcardxss
+        name: 
+        content: |-
+          This test embeds XSS within the hcard name and time field. Clicking on
+          the name or title should not raise an alert.
+        published: '2018-12-26T07:15:20+00:00'
+        published_ts: 1545808520
+      activity:
+        type: reply
+        sentence: Does clicking me alert? commented 'This test embeds XSS within the
+          hcard name and time field. Clicking on the name ...' on a post https://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/hcardxss">Does
+          clicking me alert?</a> commented 'This test embeds XSS within the hcard
+          name and time field. Clicking on the name ...' on a post <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a>
+      target: https://xam.dk/blog/test-webmention/
+    author: *5
+    type: reply
+    content: |-
+      <p>This test embeds XSS within the hcard name and time field. Clicking on
+      the name or title should not raise an alert.</p>
+  '571724':
+    id: '571724'
+    uri: https://www.apple.com/pr/bios/jonathan-ive.html
+    source: false
+    pubdate: 2018-12-26 08:15:20.000000000 +01:00
+    raw:
+      source: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/identity
+      verified: true
+      verified_date: '2018-12-26T07:15:27+00:00'
+      id: 571724
+      private: false
+      data:
+        author: &6
+          name: Jonathan Ive
+          url: https://www.apple.com/pr/bios/jonathan-ive.html
+          photo: https://webmention.io/avatar/checkmention.appspot.com/c658b9d3700c6b83d0a19e3e9c02ed40bdd65bb2a696f4b8b0efc42169447e56.png
+        url: https://www.apple.com/pr/bios/jonathan-ive.html
+        name: 
+        content: I love the way your site looks, though I'm <a href="https://checkmention.appspot.com">not
+          really <em>the</em> Jony Ive</a>. How easy is it for someone to discover
+          the real author of this note? Please also check that the links in this note
+          have no <code>rel="me"</code> attribute on them.
+        published: '2018-12-26T07:15:20+00:00'
+        published_ts: 1545808520
+      activity:
+        type: reply
+        sentence: Jonathan Ive commented 'I love the way your site looks, though I'm
+          not really the Jony Ive. How easy is ...' on a post https://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://www.apple.com/pr/bios/jonathan-ive.html">Jonathan
+          Ive</a> commented 'I love the way your site looks, though I'm not really
+          the Jony Ive. How easy is ...' on a post <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a>
+      target: https://xam.dk/blog/test-webmention/
+    author: *6
+    type: reply
+    content: <p>I love the way your site looks, though I’m <a href="https://checkmention.appspot.com">not
+      really <em>the</em> Jony Ive</a>. How easy is it for someone to discover the
+      real author of this note? Please also check that the links in this note have
+      no <code>rel="me"</code> attribute on them.</p>
+  '571723':
+    id: '571723'
+    uri: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/xss
+    source: false
+    pubdate: 2018-12-26 08:15:20.000000000 +01:00
+    raw:
+      source: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/xss
+      verified: true
+      verified_date: '2018-12-26T07:15:26+00:00'
+      id: 571723
+      private: false
+      data:
+        author: &7
+          name: Checkmention XSS test
+          url: https://checkmention.appspot.com/
+          photo: https://webmention.io/avatar/checkmention.appspot.com/75232e0b1732e48930188394129043b56a9f44961eac063725de38d554a6cd36.jpeg
+        url: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/xss
+        name: 
+        content: |-
+          <a>Clicking this</a>
+          should not cause an alert.
+          <span>This div
+          should not alert.</span>
+          Try clicking <a>this link</a>
+          &amp;&lt;script&gt;alert("encoded-xss")&amp;&lt;/script&gt;
+          and <a>this too</a>.
+          <b>Mouse over this</b>
+          should not cause an alert. This broken
+          <img src="http://not.really.an.image" alt="not.really.an.image" /> should not throw an alert.
+
+
+          Neither should <img src="https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/j&amp;#x41vascript:alert('test2')" alt="j&amp;#x41vascript:alert('test2')" />.<br />
+          Please look at the <a href="https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet">Owasp XSS prevention cheat sheet</a> for more information.
+        published: '2018-12-26T07:15:20+00:00'
+        published_ts: 1545808520
+      activity:
+        type: reply
+        sentence: Checkmention XSS test commented 'Clicking this should not cause
+          an alert. This div should not alert. Try clicking...' on a post https://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://checkmention.appspot.com/">Checkmention XSS
+          test</a> commented 'Clicking this should not cause an alert. This div should
+          not alert. Try clicking...' on a post <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a>
+      target: https://xam.dk/blog/test-webmention/
+    author: *7
+    type: reply
+    content: |-
+      <p><a>Clicking this</a>
+      should not cause an alert.
+      <span>This div
+      should not alert.</span>
+      Try clicking <a>this link</a>
+      &amp;&lt;script&gt;alert(“encoded-xss”)&amp;&lt;/script&gt;
+      and <a>this too</a>.
+      <b>Mouse over this</b>
+      should not cause an alert. This broken
+      <img src="http://not.really.an.image" alt="not.really.an.image" /> should not throw an alert.</p>
+
+      <p>Neither should <img src="https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/j&amp;#x41vascript:alert('test2')" alt="j&amp;#x41vascript:alert('test2')" />.<br />
+      Please look at the <a href="https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet">Owasp XSS prevention cheat sheet</a> for more information.</p>
+  '571722':
+    id: '571722'
+    uri: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/success
+    source: false
+    pubdate: 2018-12-26 08:15:20.000000000 +01:00
+    raw:
+      source: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/success
+      verified: true
+      verified_date: '2018-12-26T07:15:26+00:00'
+      id: 571722
+      private: false
+      data:
+        author: &8
+          name: Checkmention
+          url: https://checkmention.appspot.com/
+          photo: https://webmention.io/avatar/checkmention.appspot.com/18d522b2ddbef12a0a104dd17fbc24c15dcf0d123bc6611687e0051e13fc1559.png
+        url: https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/success
+        name: 
+        content: Congratulations! You've successfully handled a webmentioned note.
+        published: '2018-12-26T07:15:20+00:00'
+        published_ts: 1545808520
+      activity:
+        type: reply
+        sentence: Checkmention commented 'Congratulations! You've successfully handled
+          a webmentioned note.' on a post https://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://checkmention.appspot.com/">Checkmention</a>
+          commented 'Congratulations! You've successfully handled a webmentioned note.'
+          on a post <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a>
+      target: https://xam.dk/blog/test-webmention/
+    author: *8
+    type: reply
+    content: "<p>Congratulations! You’ve successfully handled a webmentioned note.</p>"
+  '1078000765053161472':
+    id: '1078000765053161472'
+    uri: https://twitter.com/maxandersen/status/1078000765053161472
+    source: twitter
+    pubdate: 2018-12-26 19:53:05.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/maxandersen/1077999024593092608/1078000765053161472
+      verified: true
+      verified_date: '2018-12-26T18:54:46+00:00'
+      id: 571878
+      private: false
+      data:
+        author: &9
+          name: Max Rydahl Andersen
+          url: https://twitter.com/maxandersen
+          photo: https://webmention.io/avatar/pbs.twimg.com/3a71357d46a1f05bbb3f9b442f0a2f6d2441733af8358e5f36f6f8939acce761.jpg
+        url: https://twitter.com/maxandersen/status/1078000765053161472
+        name: 
+        content: quoting and mentioning <a href="https://twitter.com/maxandersen">@maxandersen</a>…
+        published: '2018-12-26T18:53:05+00:00'
+        published_ts: 1545850385
+      activity:
+        type: reply
+        sentence: Max Rydahl Andersen replied 'quoting and mentioning @maxandersen…'
+          to a tweet https://xam.dk/blog/test-webmention/
+        sentence_html: <a href="https://twitter.com/maxandersen">Max Rydahl Andersen</a>
+          replied 'quoting and mentioning @maxandersen…' to a tweet <a href="https://xam.dk/blog/test-webmention/">https://xam.dk/blog/test-webmention/</a>
+      target: https://xam.dk/blog/test-webmention/
+    author: *9
+    type: reply
+    content: <p>quoting and mentioning <a href="https://twitter.com/maxandersen">@maxandersen</a>…</p>

@@ -1,7 +1,3 @@
-
-
-
-
 <span class="meta">
     <time datetime="{{ include.post.date }}" class="dt-published">{{ include.post.date | date: '%A %B %d, %Y' }}</time>
     {% for tag in include.post.tags %}
@@ -14,5 +10,6 @@
     <a class="badge">{{ wbmcount }} mentions</a>
     {% endif %}
     {% endif %}
+    {% assign wbmcount = "done" %}
 </span>
 
