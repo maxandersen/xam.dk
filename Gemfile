@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem 'jekyll-webmention_io', :git => 'https://github.com/maxandersen/jekyll-webmention_io', :branch => 'fixed_master'
   gem 'jekyll-postfiles'
   gem 'jekyll-compose'
+  gem 'jekyll-last-modified-at'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -1,9 +1,7 @@
 {% assign splitted = include.path | split: "." %}
 {% assign postfix = splitted.last %}
 {% if postfix == 'adoc' %}
-   aodcy
    {{ include.content | asciidocify }}
 {% else %}
-    markdonwy
    {{ include.content | markdownify }}
 {% endif %}

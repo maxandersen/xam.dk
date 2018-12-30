@@ -1,5 +1,28 @@
 <span class="meta">
-    <time datetime="{{ include.post.date }}" class="dt-published">{{ include.post.date | date: '%A %B %d, %Y' }}</time>
+    <time datetime="{{ include.post.date }}"
+          class="dt-published">
+        {{ include.post.date | date: '%A %B %d, %Y' }}
+    </time>
+    {% if include.detailed %}
+    {%   assign today = include.post.last_modified_at | date: '%s'      %}
+    {%   assign start = include.post.date | date: '%s'  %}
+    {%   assign secondsSince = today | minus: start     %}
+    {%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+    {%   assign daysSince = hoursSince | divided_by: 24  %}
+
+    {% if hoursSince > 24 %}
+    <div>
+        Updated:
+        <a href="https://github.com/maxandersen/xam.dk/commits/master/{{ include.post.path }}">
+    <time datetime="{{ include.post.last_modified_at }}"
+          class="dt-updated">
+        {{ include.post.last_modified_at | date: '%A %B %d, %Y' }}
+    </time>
+    </a>
+    </div>
+    {% endif %}
+    
+{% endif %}
     {% for tag in include.post.tags %}
     <a class="badge">{{ tag }}</a>
     {% endfor %}

@@ -12,13 +12,13 @@ background: /img/post-bg.jpg
         <h3 class="post-subtitle">{{ post.subtitle }}</h3>
         {% endif %}
     </a>
-    {% include post-meta.html %}
+    {% include post-meta.html post=post %}
     <!--
-         {% include contentify.html path=post.path content=post.content %}
+          include contentify.html path=post.path content=post.content 
     -->
-    <span>
+    <div>
         {{ post.excerpt | default: post.content | strip_html | truncatewords:15 }}
-    </span>
+    </div>
     <a href="{{ post.url | relativize_url }}">
         read more <i class="fa fa-arrow-right"></i></a>
 </article>

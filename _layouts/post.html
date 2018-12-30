@@ -17,7 +17,7 @@ layout: default
           {% if page.subtitle %}
           <h2 class="subheading">{{ page.subtitle }}</h2>
           {% endif %}
-          {% include post-meta.html post=page %}
+          {% include post-meta.html post=page detailed=true %}
           <div>
               <img class="rounded-circle u-photo" src="{{ '/avatar.jpg' | relativize_url }}">
               <link rel="author" class="p-author h-card" href="{{ '/about' | relativize_url }}">Max Rydahl Andersen</link>

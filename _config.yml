@@ -48,6 +48,9 @@ socialsites:
   - title: "linkedin"
     url: "https://linkedin.com/in/maxrydahlandersen"
 
+# liquid:
+ # strict_variables: true
+ # strict_filters: true
 
 asciidoctor:
   attributes:
