@@ -54,7 +54,7 @@ socialsites:
 
 asciidoctor:
   attributes:
-    - hardbreaks-option=@
+  - hardbreaks-option
 
 defaults:
   -

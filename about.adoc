@@ -24,6 +24,7 @@ I tweet too much about email clients!
 
 * Twitter: link:https://twitter.com/maxandersen[@maxandersen]
 * Github: link:https://github.com/maxandersen[maxandersen]
+* LinkedIn: https://www.linkedin.com/in/maxrydahlandersen/[maxrydahlandersen]
 * Freenode irc: maxandersen
 * Skype: link:callto://max.rydahl.andersen[max.rydahl.andersen]
 * personal e-mail: max@xam.dk
@@ -32,10 +33,12 @@ I tweet too much about email clients!
 
 === Acknowledgements
 
-[%hardbreaks]
 This site is built with https://jekyllrb.com[Jekyll].
+
 The style is derived from Apache Source Licensed http://startbootstrap.com/template-overviews/clean-blog/[Clean Blog] by startbootstrap.com.
+
 The http://www.inspiringwallpapers.net/superman-logo-dirty.html[Dirty Superman] logo is by Paul Mood.
+
 http://unrealdrw0w.deviantart.com/art/Thinking-chimp-310774912["Thinking chimp"] by uNrealDrw0w.
 
 Any examples, source, tips, tricks, etc. you find on this page written by me you are free to use.
