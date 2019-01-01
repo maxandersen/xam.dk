@@ -1,6 +1,7 @@
 indieweb:
-  micropub: https://9fa8e82b.ngrok.io/micropub/main
+  micropub: https://xamdk-micropub.now.sh
   token_endpoint: https://tokens.indieauth.com/token
   authorization_endpoint: https://indieauth.com/auth
+  microsub: https://aperture.p3k.io/microsub/193
 
 github: https://github.com/maxandersen/xam.dk
