@@ -2,6 +2,8 @@ IndexIgnore *
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 
+Header add "disablevcache" "true"
+
 RewriteEngine on
 
 RewriteCond %{QUERY_STRING} ^(feed=rss2)$
