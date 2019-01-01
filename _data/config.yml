@@ -1,0 +1,6 @@
+indieweb:
+  micropub: https://9fa8e82b.ngrok.io/micropub/main
+  token_endpoint: https://tokens.indieauth.com/token
+  authorization_endpoint: https://indieauth.com/auth
+
+github: https://github.com/maxandersen/xam.dk

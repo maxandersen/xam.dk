@@ -10,13 +10,13 @@
     {%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
     {%   assign daysSince = hoursSince | divided_by: 24  %}
 
-    <a href="https://github.com/maxandersen/xam.dk/edit/master/{{ include.post.path }}" title="Edit on GitHub">
+    <a href="{{ site.data.config.github }}/edit/master/{{ include.post.path }}" title="Edit on GitHub">
         <i class="fa fa-edit"></i>
         </a>
     {% if hoursSince > 24 %}
     <div>
         Updated:
-        <a href="https://github.com/maxandersen/xam.dk/commits/master/{{ include.post.path }}">
+        <a href="{{ site.data.config.github }}/commits/master/{{ include.post.path }}">
     <time datetime="{{ include.post.last_modified_at }}"
           class="dt-updated">
         {{ include.post.last_modified_at | date: '%A %B %d, %Y' }}
