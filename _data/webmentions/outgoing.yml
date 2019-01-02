@@ -315,3 +315,8 @@ https://xam.dk/blog/test-webmention/:
   https://webmention.rocks/test/21: false
   https://webmention.rocks/test/22: false
   https://webmention.rocks/test/23/page: false
+https://xam.dk/blog/website-refresh/:
+  https://s9y.org: false
+  https://wordpress.org: false
+  https://one.com: false
+  https://github.com/maxandersen/xam.dk/commit/973ba22b9e555be4286707ef97fc0f70051c1b19: false

@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="{{"/assets/user.css" | relativize_url }}">
 </link>
 
-{% for social in site.socialsites %}
-    <link href="{{ social.url}}" rel="me"></link>
+{% for social in site.data.config.socialsites %}
+    <link href="{{ social.url }}" rel="me"></link>
 {% endfor %}  
 
   {% webmentions_head %}

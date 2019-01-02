@@ -7,18 +7,17 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto h-card">
                 <ul class="list-inline text-center">
-                    <li class="list-inline-item">
-                        <a rel="me" href="/about">
-                            <img class="rounded-circle u-photo" src="{{ '/avatar.jpg' | relativize_url }}"/>
-                        </a>
-                    </li>
-                    {% for social in site.socialsites %}
+                    {% for social in site.data.config.socialsites %}
                     <li class="list-inline-item">
                         <a href="{{ social.url }}" rel="me">
+                            {% if social.avatar %}
+                            <img class="rounded-circle u-photo" src="{{ '/avatar.jpg' | relativize_url }}"/>
+                            {% else %}
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-{{ social.title }} fa-stack-1x fa-inverse"></i>
                             </span>
+                            {% endif %}
                         </a>
                     </li> 
                     {% endfor %}

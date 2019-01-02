@@ -5,3 +5,19 @@ indieweb:
   microsub: https://aperture.p3k.io/microsub/193
 
 github: https://github.com/maxandersen/xam.dk
+
+socialsites:
+  - title: "me"
+    url: "/about"
+    avatar: "/avatar.jpg"
+  - title: "twitter"
+    url: "https://twitter.com/maxandersen"
+  - title: "github"
+    url: "https://github.com/maxandersen"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/maxrydahlandersen"
+  - title: "envelope"
+    url: "mailto://max@xam.dk"
+  - title: "facebook"
+    url: "https://facebook.com/maxandersen"
+

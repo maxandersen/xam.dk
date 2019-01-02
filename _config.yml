@@ -21,9 +21,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xam.dk" # the base hostname & protocol for your site, e.g. http://example.com
 author: maxandersen
 full_name: Max Rydahl Andersen
-twitter_username: maxandersen
-github_username:  maxandersen
-facebook_username: maxandersen
 
 permalink: "/blog/:categories/:title/"
 
@@ -38,15 +35,6 @@ blog_path: "/blog"
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-socialsites:
-  - title: "twitter"
-    url: "https://twitter.com/maxandersen"
-  - title: "github"
-    url: "https://github.com/maxandersen"
-  - title: "facebook"
-    url: "https://facebook.com/maxandersen"
-  - title: "linkedin"
-    url: "https://linkedin.com/in/maxrydahlandersen"
 
 # liquid:
  # strict_variables: true
