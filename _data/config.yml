@@ -1,5 +1,5 @@
 indieweb:
-  micropub: https://xamdk-micropub.now.sh
+  micropub: https://xamdk-micropub.now.sh/micropub/main
   token_endpoint: https://tokens.indieauth.com/token
   authorization_endpoint: https://indieauth.com/auth
   microsub: https://aperture.p3k.io/microsub/193
