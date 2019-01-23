@@ -42,7 +42,7 @@ paginate_path: "/blog/page:num/"
 
 asciidoctor:
   attributes:
-  - hardbreaks-option
+  - hardbreaks=@
 
 defaults:
   -
