@@ -3,7 +3,12 @@ indieweb:
   token_endpoint: https://tokens.indieauth.com/token
   authorization_endpoint: https://indieauth.com/auth
   microsub: https://aperture.p3k.io/microsub/193
+  staticman: https://dev.staticman.net/v3/entry/github/maxandersen/xam.dk/master/comments
 
+recaptcha:
+  sitekey: 6LeKSYwUAAAAALgnHpLt_j7v8_F3Io5iLAPeKWRQ
+  secret: EFsjSz3Aa5UsgE0+BWfFeLJnmGbEhs8xaiBv/h59lma/rMiaOlAtTgHFlcuhzW9T5eJ9xfJuySTExcPkYNazWAch1V2cJ1TKpHmAziyKbUIMkLSWK55ar7ge9aAFEhymX+tK6/qgDy/QwZObxt3owFFKTozd4eebubyTCkIN5Y4=
+    
 github: https://github.com/maxandersen/xam.dk
 
 socialsites:
