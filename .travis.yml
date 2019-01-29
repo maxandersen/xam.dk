@@ -2,8 +2,7 @@ language: ruby
 cache:
   bundler: true
   directories:
-    - .jekyll-cache
-
+  - ".jekyll-cache"
 bundler_args: "--without development --path .bundle"
 rvm:
 - 2.5.3
@@ -17,5 +16,4 @@ before_script:
 script: bundle exec rake travis
 env:
   global:
-    secure: fpWVLgbveBCXlsXX7ef06qi7GrizwAE5MFq5pKH9G5AMFAdFL4xQxNOmeemRZ5fnMAn8LQUrA8otxwjiiq2RangRC9E11fBChEKC5V+FewBzsHONqkSTzKd6oAbmLynUizpXDofhVxIfRhtP03lfEDufzly4WaVDyoLJicvy9aM=
-
+  - secure: kGmOgyXVwb4NB+k9r6UQubfPm6R/CCZxVeqwzLG2VRf4HT07FpbVVy+uDBFkYVKU1nGZOF0TyQN+k0/pYJBRDU3vsOPWdOpQMBHavapT/RXHbRQy2N3isqaQ/koiatVgvRIyOhCEEdyTdurVxzKryVE3XHrjrBsjiJj9puX+uws=
