@@ -1,0 +1,24 @@
+= My Mars Story
+:page-layout: post
+:page-background: /img/opportunity-bg.jpg
+
+When I read the news that the Mars rover Opportunity was declared dead and the associated mission ended I felt sadness and pride at the same time.
+
+Sadness as such great mission by mankind came to an end, and pride because of the following story:
+
+Back sometime around 2006-2009 - not sure when exactly I attended a conference, probably JBoss World or Red Hat Summit. Here a software engineer, lets call him J. footnote:[I couldn't confirm the name I remembered, so J. if you by any way read this please ping me :)] from NASA Jet Propulsion Laboratory (JPL) was doing a talk.
+
+Afterwards I had a chat with J. and it turned out he and his team were a heavy user of Hibernate Tools. An open-source project I created and lead back in the day. They used it to generate code for the application built to handle all the data they were receiving from the Mars rover.
+
+I vividly remember J. explaining the sudden challenges they had by realizing the Rover would surpass the planned 90 mission days. One problem was to fix the code that until then had been simple and relied on a 2 digits slot to keep count as they would never go over 99. Time was literally ticking against them - if they couldn't get an update in place before the 99 days, bad things would happen.
+
+As history shows they managed to do so but then the next problem came which was that all the scientist and researchers analyzing the data was assumed to be on-site for the 90 days; and all the data local for the JPL site - this was way before the time of "The Cloud". When the mission went over 90 days the researchers wanted to go home to their own universities and families - which meant they needed to build/extend the apps to handle remote data. As I understood it, it was in this period that Hibernate Tools got in handy for them to deliver this in time.
+
+The realization of some code I started writing at late nights in my spare time got to help man kinds mission to Mars have stuck with me since then.
+
+You never know what world your open-source code will help explore next.
+
+Thank you NASA, JPL and their rover(s) for that memory!
+
+
+/max
