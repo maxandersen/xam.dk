@@ -1,5 +1,4 @@
 = You do not have to find out you are dying to start living
-
 :page-layout: post
 :page-background: /img/clouds-bg.jpg
 
