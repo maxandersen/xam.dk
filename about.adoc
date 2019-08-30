@@ -6,7 +6,11 @@ background: /img/about-bg.jpg
 
 == Danish guy enjoying working on open source software.
 
-Making things happen at Red Hat - though at the moment (Aug. 2018-2019) on a sabbatical.
+Making things happen at Red Hat as Distinguised Engineer.
+
+I currently work on https://quarkus.io[Quarkus].
+
+I was on a sabbatical in 2018-2019 taking care of family and rebooting.
 
 I worked as manager and technical lead of https://openshift.io[OpenShift.io] and before that http://tools.jboss.org[JBoss Tools] and http://devstudio.redhat.com[JBoss Developer Studio]. 
 
@@ -15,8 +19,6 @@ I co-host http://asylum.jboss.org[JBoss Asylum] podcast.
 I was on the http://eclipse.org[Eclipse board]. 
 
 I got an http://update.xam.dk[Eclipse Updatesite]
-
-I use this website to mainly blog about things that does not fit into Red Hat related blogs.
 
 I tweet too much about email clients!
 
