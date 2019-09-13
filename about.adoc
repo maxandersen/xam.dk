@@ -6,7 +6,7 @@ background: /img/about-bg.jpg
 
 == Danish guy enjoying working on open source software.
 
-Making things happen at Red Hat as Distinguised Engineer.
+Making things happen at Red Hat as Distinguished Engineer.
 
 I currently work on https://quarkus.io[Quarkus].
 
