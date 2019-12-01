@@ -1,0 +1,42 @@
+= The Black Swan of Java
+:page-layout: post
+:page-background: /images/nz-blackswan.png
+
+On a nice morning in March 2019 I was biking near Lake Rotorua in New Zealand; I was here as part of my sabbatical "adventures". On this bike ride, I spotted some dark birds in the water. It was three black swans.
+
+image:/images/nz-blackswan.png[width="1000"]
+
+https://en.wikipedia.org/wiki/Black_swan_theory[Black Swans was considered in impossibility in the 1600s in Europe]. Here it was considered a fact that there were only white swans. All that changed when Europeans traveled to Australia and spotted their black swans.
+
+This was an upset in Europe as they would have to redefine how they understood how animals related; how their pigments could be different and how they had been blindsided by only considering their data set not considering there could be different kinds of swans.
+
+Once they examined it they realized their mistake and afterward it was hard to grok why they would ever have thought there were only white swans. It should be obvious black swans is also a possibility.
+
+This experience brought forward the Black Swan Theory which in summarized form looks like the following:
+
+  1. It is a surprise
+  2. It has a major impact
+  3. People contend they expected the event to happen (in hindsight).
+
+== Quarkus
+
+The same day I saw these real-life black swans was the same day Quarkus was announced to the broader world - an event I think is something you can classify as a Black Swan event in the world of Java.
+
+It is/was surprising Java Enterprise applications can have not only sub-second startup times and sub-100's MB memory requirement but also instant reload times during development.
+
+It is a game-changer and I believe it will have a major impact on the way Java development will happen going forward.
+
+Yes, you can argue that there were signals that indicated it would be possible one day but very few believed it. A lot of the industry had given up on the White Swan of monolithic/semi-microserviced java architected applications. They moved on to other things and some still find it hard to believe how fast and efficient Java can be - even without having to sacrifice your existing knowledge base from well-known frameworks.
+
+== Personal Impact
+This revelation of how impactful it would be is part of why I returned to work in Red Hat on the Quarkus project. It's been a blast.
+
+In the last few days, I've been traveling in Denmark and given my https://www.slideshare.net/maxandersen/quarkus-denmark-2019[first presentations on Quarkus]. It is a thing of beauty to observe developers' expressions when you demo the creation of a *real* app and how insanely fast it works and how smooth the developer experience is when they try it for themself.
+
+I can only recommend everyone working in Java or who might have abandoned it to go take a look at Quarkus - it is truly remarkable and we welcome any feedback, good or bad.
+
+Quarkus is for me - A real Black Swan of Java.
+
+Have fun,
+/max
+
