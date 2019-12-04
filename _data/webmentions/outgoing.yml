@@ -320,3 +320,12 @@ https://xam.dk/blog/website-refresh/:
   https://wordpress.org: false
   https://one.com: false
   https://github.com/maxandersen/xam.dk/commit/973ba22b9e555be4286707ef97fc0f70051c1b19: false
+https://xam.dk/blog/my-mars-story/: {}
+https://xam.dk/blog/you-dont-have-to-die-to-start-living/:
+  https://www.reddit.com/r/videos/comments/b73g9q/in_2012_a_young_man_called_zach_sobiech_who_was/: false
+  https://en.wikipedia.org/wiki/Zach_Sobiech: false
+  https://en.wikipedia.org/wiki/Osteosarcoma: false
+  https://www.google.ch/search?q=zach+sobiech+choir: false
+https://xam.dk/blog/the-black-swan-of-java/:
+  https://en.wikipedia.org/wiki/Black_swan_theory: false
+  https://www.slideshare.net/maxandersen/quarkus-denmark-2019: false

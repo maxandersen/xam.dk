@@ -402,3 +402,2599 @@
     type: reply
     content: <p>quoting and mentioning <a href="https://twitter.com/maxandersen">@maxandersen</a>…</p>
 "/blog/website-refresh/": {}
+"/blog/my-mars-story/":
+  '588753':
+    id: '588753'
+    uri: https://twitter.com/maxandersen/status/1096043217496301572#favorited-by-11675272
+    source: twitter
+    pubdate: 2019-02-14 15:42:37.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1096043217496301572/11675272
+      verified: true
+      verified_date: '2019-02-14T15:42:37+00:00'
+      id: 588753
+      private: false
+      data:
+        author: &10
+          name: Doug Schaefer
+          url: https://twitter.com/dougschaefer
+          photo: https://webmention.io/avatar/pbs.twimg.com/036ede696a535e8b57fdcf4231e235d4c0b65686fc4a985665ea94523d48c7cc.jpg
+        url: https://twitter.com/maxandersen/status/1096043217496301572#favorited-by-11675272
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Doug Schaefer favorited a tweet https://xam.dk/blog/my-mars-story/
+        sentence_html: <a href="https://twitter.com/dougschaefer">Doug Schaefer</a>
+          favorited a tweet <a href="https://xam.dk/blog/my-mars-story/">https://xam.dk/blog/my-mars-story/</a>
+      target: https://xam.dk/blog/my-mars-story/
+    author: *10
+    type: like
+    content: <p><a href="https://twitter.com/dougschaefer">Doug Schaefer</a> favorited
+      a tweet <a href="https://xam.dk/blog/my-mars-story/">https://xam.dk/blog/my-mars-story/</a></p>
+  '1096048599513919489':
+    id: '1096048599513919489'
+    uri: https://twitter.com/tsmaeder/status/1096048599513919489
+    source: twitter
+    pubdate: 2019-02-14 15:08:44.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/maxandersen/1096043217496301572/1096048599513919489
+      verified: true
+      verified_date: '2019-02-14T14:22:00+00:00'
+      id: 588732
+      private: false
+      data:
+        author: &11
+          name: Thomas Mäder
+          url: https://twitter.com/tsmaeder
+          photo: https://webmention.io/avatar/pbs.twimg.com/052ecd13f37f5936da0df5ec6eeec98934d4404baaab25b897beaa6d306f5f01.jpg
+        url: https://twitter.com/tsmaeder/status/1096048599513919489
+        name: 
+        content: '"J"...hmmm black dude in a like suit with glasses, maybe?'
+        published: '2019-02-14T14:08:44+00:00'
+        published_ts: 1550153324
+      activity:
+        type: reply
+        sentence: Thomas Mäder replied '"J"...hmmm black dude in a like suit with
+          glasses, maybe?' to a tweet https://xam.dk/blog/my-mars-story/
+        sentence_html: <a href="https://twitter.com/tsmaeder">Thomas Mäder</a> replied
+          '"J"...hmmm black dude in a like suit with glasses, maybe?' to a tweet <a
+          href="https://xam.dk/blog/my-mars-story/">https://xam.dk/blog/my-mars-story/</a>
+      target: https://xam.dk/blog/my-mars-story/
+    author: *11
+    type: reply
+    content: "<p>“J”…hmmm black dude in a like suit with glasses, maybe?</p>"
+  '1096050093223014400':
+    id: '1096050093223014400'
+    uri: https://twitter.com/maxandersen/status/1096050093223014400
+    source: twitter
+    pubdate: 2019-02-14 15:14:40.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/maxandersen/1096043217496301572/1096050093223014400
+      verified: true
+      verified_date: '2019-02-14T14:21:59+00:00'
+      id: 588731
+      private: false
+      data:
+        author: &12
+          name: Max Rydahl Andersen
+          url: https://twitter.com/maxandersen
+          photo: https://webmention.io/avatar/pbs.twimg.com/3a71357d46a1f05bbb3f9b442f0a2f6d2441733af8358e5f36f6f8939acce761.jpg
+        url: https://twitter.com/maxandersen/status/1096050093223014400
+        name: 
+        content: i don’t remember a white flash so i don’t think so :)
+        published: '2019-02-14T14:14:40+00:00'
+        published_ts: 1550153680
+      activity:
+        type: reply
+        sentence: Max Rydahl Andersen replied 'i don’t remember a white flash so i
+          don’t think so :)' to a tweet https://xam.dk/blog/my-mars-story/
+        sentence_html: <a href="https://twitter.com/maxandersen">Max Rydahl Andersen</a>
+          replied 'i don’t remember a white flash so i don’t think so :)' to a tweet
+          <a href="https://xam.dk/blog/my-mars-story/">https://xam.dk/blog/my-mars-story/</a>
+      target: https://xam.dk/blog/my-mars-story/
+    author: *12
+    type: reply
+    content: "<p>i don’t remember a white flash so i don’t think so :)</p>"
+"/blog/you-dont-have-to-die-to-start-living/":
+  '603470':
+    id: '603470'
+    uri: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-9366492
+    source: twitter
+    pubdate: 2019-03-31 21:23:27.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1112267133528870918/9366492
+      verified: true
+      verified_date: '2019-03-31T21:23:27+00:00'
+      id: 603470
+      private: false
+      data:
+        author: &13
+          name: Mojito Bob
+          url: https://twitter.com/bobmcwhirter
+          photo: https://webmention.io/avatar/pbs.twimg.com/6095649ffc2ff5273a5ef26157a7839165841b80356100ed5d509c48fb7e0271.jpg
+        url: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-9366492
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Mojito Bob favorited a tweet https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+        sentence_html: <a href="https://twitter.com/bobmcwhirter">Mojito Bob</a> favorited
+          a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a>
+      target: https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+    author: *13
+    type: like
+    content: <p><a href="https://twitter.com/bobmcwhirter">Mojito Bob</a> favorited
+      a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a></p>
+  '603471':
+    id: '603471'
+    uri: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-1910853758
+    source: twitter
+    pubdate: 2019-03-31 21:23:27.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1112267133528870918/1910853758
+      verified: true
+      verified_date: '2019-03-31T21:23:27+00:00'
+      id: 603471
+      private: false
+      data:
+        author: &14
+          name: Ilya Buziuk
+          url: https://twitter.com/ilyabuziuk
+          photo: https://webmention.io/avatar/pbs.twimg.com/3a654281afca8c2133f54db768b80fd3310937d5645b4f97f787c9db7cc5fef0.jpg
+        url: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-1910853758
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Ilya Buziuk favorited a tweet https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+        sentence_html: <a href="https://twitter.com/ilyabuziuk">Ilya Buziuk</a> favorited
+          a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a>
+      target: https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+    author: *14
+    type: like
+    content: <p><a href="https://twitter.com/ilyabuziuk">Ilya Buziuk</a> favorited
+      a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a></p>
+  '603508':
+    id: '603508'
+    uri: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-51147845
+    source: twitter
+    pubdate: 2019-04-01 00:45:33.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1112267133528870918/51147845
+      verified: true
+      verified_date: '2019-04-01T00:45:33+00:00'
+      id: 603508
+      private: false
+      data:
+        author: &15
+          name: Sanne
+          url: https://twitter.com/SanneGrinovero
+          photo: https://webmention.io/avatar/pbs.twimg.com/7a125055c9a2683d0888a19c6ae2ddd00f389697070ec7afe8ea6f7781ec2f2e.jpg
+        url: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-51147845
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Sanne favorited a tweet https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+        sentence_html: <a href="https://twitter.com/SanneGrinovero">Sanne</a> favorited
+          a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a>
+      target: https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+    author: *15
+    type: like
+    content: <p><a href="https://twitter.com/SanneGrinovero">Sanne</a> favorited a
+      tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a></p>
+  '603509':
+    id: '603509'
+    uri: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-14622958
+    source: twitter
+    pubdate: 2019-04-01 00:45:34.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1112267133528870918/14622958
+      verified: true
+      verified_date: '2019-04-01T00:45:34+00:00'
+      id: 603509
+      private: false
+      data:
+        author: &16
+          name: aaronwalker
+          url: https://twitter.com/aaronwalker
+          photo: https://webmention.io/avatar/pbs.twimg.com/2cc1d668ba629d8092f7c7632712722a54dd7814d9b188aa824c49f1c83aaf57.png
+        url: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-14622958
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: aaronwalker favorited a tweet https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+        sentence_html: <a href="https://twitter.com/aaronwalker">aaronwalker</a> favorited
+          a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a>
+      target: https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+    author: *16
+    type: like
+    content: <p><a href="https://twitter.com/aaronwalker">aaronwalker</a> favorited
+      a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a></p>
+  '603516':
+    id: '603516'
+    uri: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-15182263
+    source: twitter
+    pubdate: 2019-04-01 01:18:55.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1112267133528870918/15182263
+      verified: true
+      verified_date: '2019-04-01T01:18:55+00:00'
+      id: 603516
+      private: false
+      data:
+        author: &17
+          name: Kevin Conner
+          url: https://twitter.com/kevinconner
+          photo: https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png
+        url: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-15182263
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Kevin Conner favorited a tweet https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+        sentence_html: <a href="https://twitter.com/kevinconner">Kevin Conner</a>
+          favorited a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a>
+      target: https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+    author: *17
+    type: like
+    content: <p><a href="https://twitter.com/kevinconner">Kevin Conner</a> favorited
+      a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a></p>
+  '603577':
+    id: '603577'
+    uri: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-421123554
+    source: twitter
+    pubdate: 2019-04-01 09:12:16.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1112267133528870918/421123554
+      verified: true
+      verified_date: '2019-04-01T09:12:16+00:00'
+      id: 603577
+      private: false
+      data:
+        author: &18
+          name: Martin Kouba
+          url: https://twitter.com/martunek
+          photo: https://webmention.io/avatar/pbs.twimg.com/dc127ced7758d4929fe5fcda28750cb777a533ce540b0e956ca1df247324443d.png
+        url: https://twitter.com/maxandersen/status/1112267133528870918#favorited-by-421123554
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Martin Kouba favorited a tweet https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+        sentence_html: <a href="https://twitter.com/martunek">Martin Kouba</a> favorited
+          a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a>
+      target: https://xam.dk/blog/you-dont-have-to-die-to-start-living/
+    author: *18
+    type: like
+    content: <p><a href="https://twitter.com/martunek">Martin Kouba</a> favorited
+      a tweet <a href="https://xam.dk/blog/you-dont-have-to-die-to-start-living/">https://xam.dk/blog/you-dont-have-to-die-to-start-living/</a></p>
+"/blog/the-black-swan-of-java/":
+  '729296':
+    id: '729296'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-25698588
+    source: twitter
+    pubdate: 2019-12-01 15:21:08.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/25698588
+      verified: true
+      verified_date: '2019-12-01T15:21:08+00:00'
+      id: 729296
+      private: false
+      data:
+        author: &19
+          name: André Dietisheim
+          url: https://twitter.com/adietisheim
+          photo: https://webmention.io/avatar/pbs.twimg.com/27064f78bff7360e323adb8bee09bd43c3249953d76a5610281f98b1d99c9587.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-25698588
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: André Dietisheim favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/adietisheim">André Dietisheim</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *19
+    type: like
+    content: <p><a href="https://twitter.com/adietisheim">André Dietisheim</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729298':
+    id: '729298'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-140136937
+    source: twitter
+    pubdate: 2019-12-01 15:21:11.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/140136937
+      verified: true
+      verified_date: '2019-12-01T15:21:11+00:00'
+      id: 729298
+      private: false
+      data:
+        author: &20
+          name: Cristhian Lopez
+          url: https://twitter.com/cristhianklv
+          photo: https://webmention.io/avatar/pbs.twimg.com/a142ea2a123a3f0d0eda26ac16de7402dd690f1fda530ec7d9def58ca45e0682.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-140136937
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Cristhian Lopez favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/cristhianklv">Cristhian Lopez</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *20
+    type: like
+    content: <p><a href="https://twitter.com/cristhianklv">Cristhian Lopez</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729297':
+    id: '729297'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-22241622
+    source: twitter
+    pubdate: 2019-12-01 15:21:10.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/22241622
+      verified: true
+      verified_date: '2019-12-01T15:21:10+00:00'
+      id: 729297
+      private: false
+      data:
+        author: &21
+          name: "Paul Robinson \U0001F1EA\U0001F1FA"
+          url: https://twitter.com/Pfrobinson
+          photo: https://webmention.io/avatar/pbs.twimg.com/5f1fbc29f4103ff0f86cbf09fea0fc2d46adc66e66c6d9981b23ac7e5a6be4f8.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-22241622
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Paul Robinson \U0001F1EA\U0001F1FA favorited a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: "<a href=\"https://twitter.com/Pfrobinson\">Paul Robinson \U0001F1EA\U0001F1FA</a>
+          favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a>"
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *21
+    type: like
+    content: "<p><a href=\"https://twitter.com/Pfrobinson\">Paul Robinson \U0001F1EA\U0001F1FA</a>
+      favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a></p>"
+  '729299':
+    id: '729299'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-84108490
+    source: twitter
+    pubdate: 2019-12-01 15:21:12.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/84108490
+      verified: true
+      verified_date: '2019-12-01T15:21:12+00:00'
+      id: 729299
+      private: false
+      data:
+        author: &22
+          name: Jonathan Vila
+          url: https://twitter.com/vilojona
+          photo: https://webmention.io/avatar/pbs.twimg.com/fcbdeb3b42bfec315784be5aa53624765be751d88ea00255103ca2414c186a94.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-84108490
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Jonathan Vila favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/vilojona">Jonathan Vila</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *22
+    type: like
+    content: <p><a href="https://twitter.com/vilojona">Jonathan Vila</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729301':
+    id: '729301'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-4002334589
+    source: twitter
+    pubdate: 2019-12-01 15:21:13.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/4002334589
+      verified: true
+      verified_date: '2019-12-01T15:21:13+00:00'
+      id: 729301
+      private: false
+      data:
+        author: &23
+          name: Gleb Kosteiko
+          url: https://twitter.com/gleb_kosteiko
+          photo: https://webmention.io/avatar/pbs.twimg.com/49529235527f0a9091a8e95030f46065c5dc6c1f06f8738d8563765c1128a0e2.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-4002334589
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Gleb Kosteiko favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/gleb_kosteiko">Gleb Kosteiko</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *23
+    type: like
+    content: <p><a href="https://twitter.com/gleb_kosteiko">Gleb Kosteiko</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729300':
+    id: '729300'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-4700249496
+    source: twitter
+    pubdate: 2019-12-01 15:21:13.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/4700249496
+      verified: true
+      verified_date: '2019-12-01T15:21:13+00:00'
+      id: 729300
+      private: false
+      data:
+        author: &24
+          name: Patrick Musembi
+          url: https://twitter.com/patumusembi
+          photo: https://webmention.io/avatar/pbs.twimg.com/e0811d849e6f9ace72d3a2e55a5106eac3d7eecc39365d1b76552a685a1076b7.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-4700249496
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Patrick Musembi favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/patumusembi">Patrick Musembi</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *24
+    type: like
+    content: <p><a href="https://twitter.com/patumusembi">Patrick Musembi</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729304':
+    id: '729304'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-29967509
+    source: twitter
+    pubdate: 2019-12-01 15:21:15.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/29967509
+      verified: true
+      verified_date: '2019-12-01T15:21:15+00:00'
+      id: 729304
+      private: false
+      data:
+        author: &25
+          name: William Antônio
+          url: https://twitter.com/William_Antonio
+          photo: https://webmention.io/avatar/pbs.twimg.com/e645ae8fbcf56c9cee32fbc83aa204bb67fbc6759e4b89d87099b2fb26181153.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-29967509
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: William Antônio favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/William_Antonio">William Antônio</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *25
+    type: like
+    content: <p><a href="https://twitter.com/William_Antonio">William Antônio</a>
+      favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729308':
+    id: '729308'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-16669912
+    source: twitter
+    pubdate: 2019-12-01 15:50:39.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/16669912
+      verified: true
+      verified_date: '2019-12-01T15:50:39+00:00'
+      id: 729308
+      private: false
+      data:
+        author: &26
+          name: Mark Little
+          url: https://twitter.com/nmcl
+          photo: https://webmention.io/avatar/pbs.twimg.com/5a72e3fc07df38928f67b6df34def5a6fd85c25ce862e163f542999c345d10ec.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-16669912
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Mark Little favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/nmcl">Mark Little</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *26
+    type: like
+    content: <p><a href="https://twitter.com/nmcl">Mark Little</a> favorited a tweet
+      <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729311':
+    id: '729311'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-14923009
+    source: twitter
+    pubdate: 2019-12-01 15:50:43.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/14923009
+      verified: true
+      verified_date: '2019-12-01T15:50:43+00:00'
+      id: 729311
+      private: false
+      data:
+        author: &27
+          name: Mike McCune
+          url: https://twitter.com/mccun934
+          photo: https://webmention.io/avatar/pbs.twimg.com/b1361a8ccb14a0a7406945fb91b23bd4bcb96dfd5f38b109acc3e21b9624cbd5.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-14923009
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Mike McCune favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/mccun934">Mike McCune</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *27
+    type: like
+    content: <p><a href="https://twitter.com/mccun934">Mike McCune</a> favorited a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729313':
+    id: '729313'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-14566379
+    source: twitter
+    pubdate: 2019-12-01 15:50:44.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/14566379
+      verified: true
+      verified_date: '2019-12-01T15:50:44+00:00'
+      id: 729313
+      private: false
+      data:
+        author: &28
+          name: Bruno Borges
+          url: https://twitter.com/brunoborges
+          photo: https://webmention.io/avatar/pbs.twimg.com/45aabc5cbcaf896db733410029ef3d77c5f24be22b908f5e9ea5936941a19720.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-14566379
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Bruno Borges favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/brunoborges">Bruno Borges</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *28
+    type: like
+    content: <p><a href="https://twitter.com/brunoborges">Bruno Borges</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729312':
+    id: '729312'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-44850418
+    source: twitter
+    pubdate: 2019-12-01 15:50:44.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/44850418
+      verified: true
+      verified_date: '2019-12-01T15:50:44+00:00'
+      id: 729312
+      private: false
+      data:
+        author: &29
+          name: Klaus
+          url: https://twitter.com/jforge
+          photo: https://webmention.io/avatar/pbs.twimg.com/446e1f71c870e0b9a64cdbc677c4be348e78fa19fd9557aed39a3827eb45912e.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-44850418
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Klaus favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/jforge">Klaus</a> favorited a
+          tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *29
+    type: like
+    content: <p><a href="https://twitter.com/jforge">Klaus</a> favorited a tweet <a
+      href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729317':
+    id: '729317'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-1530787238
+    source: twitter
+    pubdate: 2019-12-01 16:16:13.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/1530787238
+      verified: true
+      verified_date: '2019-12-01T16:16:13+00:00'
+      id: 729317
+      private: false
+      data:
+        author: &30
+          name: Héctor Ventura
+          url: https://twitter.com/hectorvent
+          photo: https://webmention.io/avatar/pbs.twimg.com/6fbb15322fcecab7242484bb0519f262a93f2ca0f23f9f4975a56168a4645ec0.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-1530787238
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Héctor Ventura favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/hectorvent">Héctor Ventura</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *30
+    type: like
+    content: <p><a href="https://twitter.com/hectorvent">Héctor Ventura</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729318':
+    id: '729318'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-17861962
+    source: twitter
+    pubdate: 2019-12-01 16:16:15.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/17861962
+      verified: true
+      verified_date: '2019-12-01T16:16:15+00:00'
+      id: 729318
+      private: false
+      data:
+        author: &31
+          name: Marc Nuri
+          url: https://twitter.com/MarcNuri
+          photo: https://webmention.io/avatar/pbs.twimg.com/42b8ae0e78f8e63a12621908ca68d6f1193b2069185e0bbfbb3805174daaffdd.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-17861962
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Marc Nuri favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/MarcNuri">Marc Nuri</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *31
+    type: like
+    content: <p><a href="https://twitter.com/MarcNuri">Marc Nuri</a> favorited a tweet
+      <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729319':
+    id: '729319'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-172727352
+    source: twitter
+    pubdate: 2019-12-01 16:16:16.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/172727352
+      verified: true
+      verified_date: '2019-12-01T16:16:16+00:00'
+      id: 729319
+      private: false
+      data:
+        author: &32
+          name: "Stephen Connolly \U0001F937\U0001F3FC‍♂️"
+          url: https://twitter.com/connolly_s
+          photo: https://webmention.io/avatar/pbs.twimg.com/e65b0dca9ec19112c501cc8f2777cda625712d8063a6838c6b5eaa111ae1679c.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-172727352
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Stephen Connolly \U0001F937\U0001F3FC‍♂️ favorited a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: "<a href=\"https://twitter.com/connolly_s\">Stephen Connolly
+          \U0001F937\U0001F3FC‍♂️</a> favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a>"
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *32
+    type: like
+    content: "<p><a href=\"https://twitter.com/connolly_s\">Stephen Connolly \U0001F937\U0001F3FC‍♂️</a>
+      favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a></p>"
+  '729326':
+    id: '729326'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18557347
+    source: twitter
+    pubdate: 2019-12-01 17:09:21.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/18557347
+      verified: true
+      verified_date: '2019-12-01T17:09:21+00:00'
+      id: 729326
+      private: false
+      data:
+        author: &33
+          name: Chris Bowland
+          url: https://twitter.com/ChrisBowland
+          photo: https://webmention.io/avatar/pbs.twimg.com/06fa600fe5c763492e237885b76162de2fe89165f2f3cd2faa26a8ec9439df61.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18557347
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Chris Bowland favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/ChrisBowland">Chris Bowland</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *33
+    type: like
+    content: <p><a href="https://twitter.com/ChrisBowland">Chris Bowland</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729335':
+    id: '729335'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-562058484
+    source: twitter
+    pubdate: 2019-12-01 17:35:48.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/562058484
+      verified: true
+      verified_date: '2019-12-01T17:35:48+00:00'
+      id: 729335
+      private: false
+      data:
+        author: &34
+          name: Georgios Andrianakis
+          url: https://twitter.com/geoand86
+          photo: https://webmention.io/avatar/pbs.twimg.com/ad25a334da057747819724473d7a3397ccfbfe8bbe3cf1d521945d6de2dfc66a.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-562058484
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Georgios Andrianakis favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/geoand86">Georgios Andrianakis</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *34
+    type: like
+    content: <p><a href="https://twitter.com/geoand86">Georgios Andrianakis</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729337':
+    id: '729337'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-17988073
+    source: twitter
+    pubdate: 2019-12-01 17:35:49.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/17988073
+      verified: true
+      verified_date: '2019-12-01T17:35:49+00:00'
+      id: 729337
+      private: false
+      data:
+        author: &35
+          name: Henrik Loevborg
+          url: https://twitter.com/henrik_loevborg
+          photo: https://webmention.io/avatar/pbs.twimg.com/26b02871ce62befcca7a937efb6f9175f1a8e1af5687ae76852f91a1aab56615.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-17988073
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Henrik Loevborg favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/henrik_loevborg">Henrik Loevborg</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *35
+    type: like
+    content: <p><a href="https://twitter.com/henrik_loevborg">Henrik Loevborg</a>
+      favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729348':
+    id: '729348'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-16778316
+    source: twitter
+    pubdate: 2019-12-01 18:41:12.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/16778316
+      verified: true
+      verified_date: '2019-12-01T18:41:12+00:00'
+      id: 729348
+      private: false
+      data:
+        author: &36
+          name: Phillip Krüger
+          url: https://twitter.com/phillipkruger
+          photo: https://webmention.io/avatar/pbs.twimg.com/7426f32cd92604335278e63566f6110fd1be14766254090bb6f9d629259711cb.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-16778316
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Phillip Krüger favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/phillipkruger">Phillip Krüger</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *36
+    type: like
+    content: <p><a href="https://twitter.com/phillipkruger">Phillip Krüger</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729356':
+    id: '729356'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-150427442
+    source: twitter
+    pubdate: 2019-12-01 19:41:50.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/150427442
+      verified: true
+      verified_date: '2019-12-01T19:41:50+00:00'
+      id: 729356
+      private: false
+      data:
+        author: &37
+          name: Stuart Douglas
+          url: https://twitter.com/stuartwdouglas
+          photo: https://webmention.io/avatar/pbs.twimg.com/6699390c1245df8485337ecdddccc5f5e968616f0106577caf5fce6158dcfc1a.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-150427442
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Stuart Douglas favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/stuartwdouglas">Stuart Douglas</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *37
+    type: like
+    content: <p><a href="https://twitter.com/stuartwdouglas">Stuart Douglas</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729365':
+    id: '729365'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-5815732
+    source: twitter
+    pubdate: 2019-12-01 20:11:05.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/5815732
+      verified: true
+      verified_date: '2019-12-01T20:11:05+00:00'
+      id: 729365
+      private: false
+      data:
+        author: &38
+          name: John Clingan
+          url: https://twitter.com/jclingan
+          photo: https://webmention.io/avatar/pbs.twimg.com/53846dfdd108450b350e8eb5f035b487dcfdbc912b9e07e1bb549d232b4ed24b.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-5815732
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: John Clingan favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/jclingan">John Clingan</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *38
+    type: like
+    content: <p><a href="https://twitter.com/jclingan">John Clingan</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729373':
+    id: '729373'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-15735507
+    source: twitter
+    pubdate: 2019-12-01 20:36:32.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/15735507
+      verified: true
+      verified_date: '2019-12-01T20:36:32+00:00'
+      id: 729373
+      private: false
+      data:
+        author: &39
+          name: Ray Ploski
+          url: https://twitter.com/rayploski
+          photo: https://webmention.io/avatar/pbs.twimg.com/74b53bde765d1f02178b3ec93988f915b372194951e8e9990ce77a9dabe884e9.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-15735507
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Ray Ploski favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/rayploski">Ray Ploski</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *39
+    type: like
+    content: <p><a href="https://twitter.com/rayploski">Ray Ploski</a> favorited a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729374':
+    id: '729374'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-9181042
+    source: twitter
+    pubdate: 2019-12-01 20:36:34.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/9181042
+      verified: true
+      verified_date: '2019-12-01T20:36:34+00:00'
+      id: 729374
+      private: false
+      data:
+        author: &40
+          name: "(((TheSteve0)))"
+          url: https://twitter.com/TheSteve0
+          photo: https://webmention.io/avatar/pbs.twimg.com/ded3587670926411ba29f5a6de673fc07cfb8abb974c58b80d4844ae592f2006.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-9181042
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "(((TheSteve0))) favorited a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: <a href="https://twitter.com/TheSteve0">(((TheSteve0)))</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *40
+    type: like
+    content: <p><a href="https://twitter.com/TheSteve0">(((TheSteve0)))</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729375':
+    id: '729375'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18576450
+    source: twitter
+    pubdate: 2019-12-01 20:36:37.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/18576450
+      verified: true
+      verified_date: '2019-12-01T20:36:37+00:00'
+      id: 729375
+      private: false
+      data:
+        author: &41
+          name: Christopher Smith
+          url: https://twitter.com/xcbsmith
+          photo: https://webmention.io/avatar/pbs.twimg.com/6cd2f927a371859244684f0594fe2bdb1c8aa902a23236abc97415d9fd819982.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18576450
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Christopher Smith favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/xcbsmith">Christopher Smith</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *41
+    type: like
+    content: <p><a href="https://twitter.com/xcbsmith">Christopher Smith</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729435':
+    id: '729435'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-268766136
+    source: twitter
+    pubdate: 2019-12-01 21:05:51.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/268766136
+      verified: true
+      verified_date: '2019-12-01T21:05:51+00:00'
+      id: 729435
+      private: false
+      data:
+        author: &42
+          name: Sébastien Hébert
+          url: https://twitter.com/sydisnet
+          photo: https://webmention.io/avatar/pbs.twimg.com/0b7130bf2ae71873166c1c2b0e1ba1ba723a00a0c47a9c5e4a5ab836dd83d793.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-268766136
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Sébastien Hébert favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/sydisnet">Sébastien Hébert</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *42
+    type: like
+    content: <p><a href="https://twitter.com/sydisnet">Sébastien Hébert</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729444':
+    id: '729444'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-209301840
+    source: twitter
+    pubdate: 2019-12-01 21:41:00.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/209301840
+      verified: true
+      verified_date: '2019-12-01T21:41:00+00:00'
+      id: 729444
+      private: false
+      data:
+        author: &43
+          name: Andres Giler
+          url: https://twitter.com/andresgilerc
+          photo: https://webmention.io/avatar/pbs.twimg.com/abcb2cba7f23192a96bf26ba8703f0dd6e7ce92ba92bfadade5d895f16517f60.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-209301840
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Andres Giler favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/andresgilerc">Andres Giler</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *43
+    type: like
+    content: <p><a href="https://twitter.com/andresgilerc">Andres Giler</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729450':
+    id: '729450'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-54165976
+    source: twitter
+    pubdate: 2019-12-01 22:13:23.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/54165976
+      verified: true
+      verified_date: '2019-12-01T22:13:23+00:00'
+      id: 729450
+      private: false
+      data:
+        author: &44
+          name: Lars Raunkjær Arnbak
+          url: https://twitter.com/larsarnbak
+          photo: https://webmention.io/avatar/pbs.twimg.com/c339f4e7fd40d8bcd4da41b447a25836e20930f24f548d9118494a49a4773680.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-54165976
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Lars Raunkjær Arnbak favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/larsarnbak">Lars Raunkjær Arnbak</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *44
+    type: like
+    content: <p><a href="https://twitter.com/larsarnbak">Lars Raunkjær Arnbak</a>
+      favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729451':
+    id: '729451'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-51147845
+    source: twitter
+    pubdate: 2019-12-01 22:13:23.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/51147845
+      verified: true
+      verified_date: '2019-12-01T22:13:23+00:00'
+      id: 729451
+      private: false
+      data:
+        author: &45
+          name: Sanne
+          url: https://twitter.com/SanneGrinovero
+          photo: https://webmention.io/avatar/pbs.twimg.com/7a125055c9a2683d0888a19c6ae2ddd00f389697070ec7afe8ea6f7781ec2f2e.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-51147845
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Sanne favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/SanneGrinovero">Sanne</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *45
+    type: like
+    content: <p><a href="https://twitter.com/SanneGrinovero">Sanne</a> favorited a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729461':
+    id: '729461'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-134497728
+    source: twitter
+    pubdate: 2019-12-01 23:09:48.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/134497728
+      verified: true
+      verified_date: '2019-12-01T23:09:48+00:00'
+      id: 729461
+      private: false
+      data:
+        author: &46
+          name: "Katia Aresti \U0001F469\U0001F3FB‍\U0001F4BB & \U0001F3AD"
+          url: https://twitter.com/karesti
+          photo: https://webmention.io/avatar/pbs.twimg.com/7bb68928f3faef6aa2ee3d81c0253a728b510858afb4bb6ef242d2b57d21f666.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-134497728
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Katia Aresti \U0001F469\U0001F3FB‍\U0001F4BB & \U0001F3AD favorited
+          a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: "<a href=\"https://twitter.com/karesti\">Katia Aresti \U0001F469\U0001F3FB‍\U0001F4BB
+          & \U0001F3AD</a> favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a>"
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *46
+    type: like
+    content: "<p><a href=\"https://twitter.com/karesti\">Katia Aresti \U0001F469\U0001F3FB‍\U0001F4BB
+      &amp; \U0001F3AD</a> favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a></p>"
+  '729483':
+    id: '729483'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18337218
+    source: twitter
+    pubdate: 2019-12-02 00:46:15.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/18337218
+      verified: true
+      verified_date: '2019-12-02T00:46:15+00:00'
+      id: 729483
+      private: false
+      data:
+        author: &47
+          name: Carl Dea Ⓒarl ⒻⓍ
+          url: https://twitter.com/carldea
+          photo: https://webmention.io/avatar/pbs.twimg.com/5e9f07101969347d0674dd8405e97b81b8fff4ec2580048726a9d22d4051b68a.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18337218
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Carl Dea Ⓒarl ⒻⓍ favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/carldea">Carl Dea Ⓒarl ⒻⓍ</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *47
+    type: like
+    content: <p><a href="https://twitter.com/carldea">Carl Dea Ⓒarl ⒻⓍ</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729512':
+    id: '729512'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-15981533
+    source: twitter
+    pubdate: 2019-12-02 01:14:15.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/15981533
+      verified: true
+      verified_date: '2019-12-02T01:14:15+00:00'
+      id: 729512
+      private: false
+      data:
+        author: &48
+          name: Burr Sutter
+          url: https://twitter.com/burrsutter
+          photo: https://webmention.io/avatar/pbs.twimg.com/16bb2b56df0e94d1cc18f78f9521b798419fc5c91e37e485d563ad744d6ad502.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-15981533
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Burr Sutter favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/burrsutter">Burr Sutter</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *48
+    type: like
+    content: <p><a href="https://twitter.com/burrsutter">Burr Sutter</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729513':
+    id: '729513'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-16832400
+    source: twitter
+    pubdate: 2019-12-02 01:14:16.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/16832400
+      verified: true
+      verified_date: '2019-12-02T01:14:16+00:00'
+      id: 729513
+      private: false
+      data:
+        author: &49
+          name: tivrfoa
+          url: https://twitter.com/tivrfoa
+          photo: https://webmention.io/avatar/pbs.twimg.com/8447ff260e92f0f0088082e2ad128b31f71f48cf84c52916b69910ae1876e6ec.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-16832400
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: tivrfoa favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/tivrfoa">tivrfoa</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *49
+    type: like
+    content: <p><a href="https://twitter.com/tivrfoa">tivrfoa</a> favorited a tweet
+      <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729523':
+    id: '729523'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-539649266
+    source: twitter
+    pubdate: 2019-12-02 01:48:47.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/539649266
+      verified: true
+      verified_date: '2019-12-02T01:48:47+00:00'
+      id: 729523
+      private: false
+      data:
+        author: &50
+          name: Juan Macias
+          url: https://twitter.com/1macias1
+          photo: https://webmention.io/avatar/pbs.twimg.com/ea80b42a11271d3eb9e5dfa0cff4b33b11c458ffbde6cb773675acc149df5895.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-539649266
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Juan Macias favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/1macias1">Juan Macias</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *50
+    type: like
+    content: <p><a href="https://twitter.com/1macias1">Juan Macias</a> favorited a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729672':
+    id: '729672'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-33496289
+    source: twitter
+    pubdate: 2019-12-02 05:46:00.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/33496289
+      verified: true
+      verified_date: '2019-12-02T05:46:00+00:00'
+      id: 729672
+      private: false
+      data:
+        author: &51
+          name: Clement Escoffier
+          url: https://twitter.com/clementplop
+          photo: https://webmention.io/avatar/pbs.twimg.com/66e5486b4d1900211e42489cfc25d6015b4a1a06151e01fc1c4b94d5c8a3d330.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-33496289
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Clement Escoffier favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/clementplop">Clement Escoffier</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *51
+    type: like
+    content: <p><a href="https://twitter.com/clementplop">Clement Escoffier</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729709':
+    id: '729709'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-71341812
+    source: twitter
+    pubdate: 2019-12-02 07:45:11.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/71341812
+      verified: true
+      verified_date: '2019-12-02T07:45:11+00:00'
+      id: 729709
+      private: false
+      data:
+        author: &52
+          name: HKEY_LOCAL_MACHINE
+          url: https://twitter.com/SachaLabourey
+          photo: https://webmention.io/avatar/pbs.twimg.com/ce2e6758eb8707d48318ec3c46b05b48865fb1a3822d957407c7a99ef80c4ba3.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-71341812
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: HKEY_LOCAL_MACHINE favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/SachaLabourey">HKEY_LOCAL_MACHINE</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *52
+    type: like
+    content: <p><a href="https://twitter.com/SachaLabourey">HKEY_LOCAL_MACHINE</a>
+      favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729708':
+    id: '729708'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-270719493
+    source: twitter
+    pubdate: 2019-12-02 07:45:11.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/270719493
+      verified: true
+      verified_date: '2019-12-02T07:45:11+00:00'
+      id: 729708
+      private: false
+      data:
+        author: &53
+          name: Anil Kurmi
+          url: https://twitter.com/anilkkurmi
+          photo: https://webmention.io/avatar/pbs.twimg.com/3bdd34674f757ef5349e63c231d9aa4ef82a50199f18a64d44ebfdaaed11174e.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-270719493
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Anil Kurmi favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/anilkkurmi">Anil Kurmi</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *53
+    type: like
+    content: <p><a href="https://twitter.com/anilkkurmi">Anil Kurmi</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729721':
+    id: '729721'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-14217219
+    source: twitter
+    pubdate: 2019-12-02 09:12:21.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/14217219
+      verified: true
+      verified_date: '2019-12-02T09:12:21+00:00'
+      id: 729721
+      private: false
+      data:
+        author: &54
+          name: Rick Hightower
+          url: https://twitter.com/RickHigh
+          photo: https://webmention.io/avatar/pbs.twimg.com/b8d53810424b5f950364148503d3d3c7b13512f6b6458b86b518e26b3cc63736.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-14217219
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Rick Hightower favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/RickHigh">Rick Hightower</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *54
+    type: like
+    content: <p><a href="https://twitter.com/RickHigh">Rick Hightower</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729731':
+    id: '729731'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-17899663
+    source: twitter
+    pubdate: 2019-12-02 09:42:14.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/17899663
+      verified: true
+      verified_date: '2019-12-02T09:42:14+00:00'
+      id: 729731
+      private: false
+      data:
+        author: &55
+          name: Claus Ibsen
+          url: https://twitter.com/davsclaus
+          photo: https://webmention.io/avatar/pbs.twimg.com/d114437dc76a6f7d3676a3a2081857084d6a09adf5ac00471d9e2f34ee930339.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-17899663
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Claus Ibsen favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/davsclaus">Claus Ibsen</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *55
+    type: like
+    content: <p><a href="https://twitter.com/davsclaus">Claus Ibsen</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729744':
+    id: '729744'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-8392972
+    source: twitter
+    pubdate: 2019-12-02 10:08:48.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/8392972
+      verified: true
+      verified_date: '2019-12-02T10:08:48+00:00'
+      id: 729744
+      private: false
+      data:
+        author: &56
+          name: "Jakub Korab \U0001F1EA\U0001F1FA"
+          url: https://twitter.com/jakekorab
+          photo: https://webmention.io/avatar/pbs.twimg.com/26003bf3e0ca269bc14c1b7400413ba8d3a6bdf8cb8fe422f24bda1711525965.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-8392972
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Jakub Korab \U0001F1EA\U0001F1FA favorited a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: "<a href=\"https://twitter.com/jakekorab\">Jakub Korab \U0001F1EA\U0001F1FA</a>
+          favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a>"
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *56
+    type: like
+    content: "<p><a href=\"https://twitter.com/jakekorab\">Jakub Korab \U0001F1EA\U0001F1FA</a>
+      favorited a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a></p>"
+  '729745':
+    id: '729745'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-763614783442710528
+    source: twitter
+    pubdate: 2019-12-02 10:08:49.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/763614783442710528
+      verified: true
+      verified_date: '2019-12-02T10:08:49+00:00'
+      id: 729745
+      private: false
+      data:
+        author: &57
+          name: Ingo Boernig
+          url: https://twitter.com/opensourceingo
+          photo: https://webmention.io/avatar/pbs.twimg.com/606bf2a9d5b3e82d2046d8856d315d2745689f7a857acf16f21ee0a254b65ba3.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-763614783442710528
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Ingo Boernig favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/opensourceingo">Ingo Boernig</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *57
+    type: like
+    content: <p><a href="https://twitter.com/opensourceingo">Ingo Boernig</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729755':
+    id: '729755'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-382534598
+    source: twitter
+    pubdate: 2019-12-02 11:11:09.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/382534598
+      verified: true
+      verified_date: '2019-12-02T11:11:09+00:00'
+      id: 729755
+      private: false
+      data:
+        author: &58
+          name: Andrés Torres
+          url: https://twitter.com/towerspro
+          photo: https://webmention.io/avatar/pbs.twimg.com/9ae1835cf2af79fde1facaef3448dad0c55e93259f69c802b63d54b41b9d24b1.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-382534598
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Andrés Torres favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/towerspro">Andrés Torres</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *58
+    type: like
+    content: <p><a href="https://twitter.com/towerspro">Andrés Torres</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729756':
+    id: '729756'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-829197624238542851
+    source: twitter
+    pubdate: 2019-12-02 11:11:12.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/829197624238542851
+      verified: true
+      verified_date: '2019-12-02T11:11:12+00:00'
+      id: 729756
+      private: false
+      data:
+        author: &59
+          name: 刘亚涛
+          url: https://twitter.com/liuyatao88
+          photo: https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-829197624238542851
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: 刘亚涛 favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/liuyatao88">刘亚涛</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *59
+    type: like
+    content: <p><a href="https://twitter.com/liuyatao88">刘亚涛</a> favorited a tweet
+      <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729762':
+    id: '729762'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-2822372363
+    source: twitter
+    pubdate: 2019-12-02 12:17:03.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/2822372363
+      verified: true
+      verified_date: '2019-12-02T12:17:03+00:00'
+      id: 729762
+      private: false
+      data:
+        author: &60
+          name: Gentrit Gojani
+          url: https://twitter.com/GentritGojani
+          photo: https://webmention.io/avatar/pbs.twimg.com/004fcdb9c2640458a005f455fef982ba49790a0a7124c8c074ad471858cf9b10.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-2822372363
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Gentrit Gojani favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/GentritGojani">Gentrit Gojani</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *60
+    type: like
+    content: <p><a href="https://twitter.com/GentritGojani">Gentrit Gojani</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729784':
+    id: '729784'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-227588754
+    source: twitter
+    pubdate: 2019-12-02 13:08:42.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/227588754
+      verified: true
+      verified_date: '2019-12-02T13:08:42+00:00'
+      id: 729784
+      private: false
+      data:
+        author: &61
+          name: Changsheng Yang
+          url: https://twitter.com/csyangchsh
+          photo: https://webmention.io/avatar/pbs.twimg.com/74fc5ad6d188bb9e41a3c00ba56068e39ea85ba6e95e2cde3fde4391a619151b.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-227588754
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Changsheng Yang favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/csyangchsh">Changsheng Yang</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *61
+    type: like
+    content: <p><a href="https://twitter.com/csyangchsh">Changsheng Yang</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729785':
+    id: '729785'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-1079932999
+    source: twitter
+    pubdate: 2019-12-02 13:08:44.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/1079932999
+      verified: true
+      verified_date: '2019-12-02T13:08:44+00:00'
+      id: 729785
+      private: false
+      data:
+        author: &62
+          name: Florent A.
+          url: https://twitter.com/unptitdev
+          photo: https://webmention.io/avatar/pbs.twimg.com/7e84c6ca5898721f814e8fa722677d6ac3694a402620e49216bb834bab935802.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-1079932999
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Florent A. favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/unptitdev">Florent A.</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *62
+    type: like
+    content: <p><a href="https://twitter.com/unptitdev">Florent A.</a> favorited a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729801':
+    id: '729801'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-20519998
+    source: twitter
+    pubdate: 2019-12-02 13:41:22.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/20519998
+      verified: true
+      verified_date: '2019-12-02T13:41:22+00:00'
+      id: 729801
+      private: false
+      data:
+        author: &63
+          name: Frederic Vaute
+          url: https://twitter.com/lefredfred
+          photo: https://webmention.io/avatar/pbs.twimg.com/a10b6e46c64af3e2916047b83ca3578a6548420dcade8a919389e9bff2b5032e.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-20519998
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Frederic Vaute favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/lefredfred">Frederic Vaute</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *63
+    type: like
+    content: <p><a href="https://twitter.com/lefredfred">Frederic Vaute</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729814':
+    id: '729814'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-276774423
+    source: twitter
+    pubdate: 2019-12-02 14:11:44.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/276774423
+      verified: true
+      verified_date: '2019-12-02T14:11:44+00:00'
+      id: 729814
+      private: false
+      data:
+        author: &64
+          name: Enercido Alcantara
+          url: https://twitter.com/ealcantara22
+          photo: https://webmention.io/avatar/pbs.twimg.com/595e602e90594c02d301f244c23a01e3be3b02bcb4ef137d7d100c439eab1c56.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-276774423
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Enercido Alcantara favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/ealcantara22">Enercido Alcantara</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *64
+    type: like
+    content: <p><a href="https://twitter.com/ealcantara22">Enercido Alcantara</a>
+      favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729862':
+    id: '729862'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-1960687723
+    source: twitter
+    pubdate: 2019-12-02 18:22:28.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/1960687723
+      verified: true
+      verified_date: '2019-12-02T18:22:28+00:00'
+      id: 729862
+      private: false
+      data:
+        author: &65
+          name: Dreamix
+          url: https://twitter.com/Dreamix_Ltd
+          photo: https://webmention.io/avatar/pbs.twimg.com/8cd65a79c9d3a640daa5d0f31779129f60c45e955566f1f35b69a3a73efbbe18.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-1960687723
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Dreamix favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/Dreamix_Ltd">Dreamix</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *65
+    type: like
+    content: <p><a href="https://twitter.com/Dreamix_Ltd">Dreamix</a> favorited a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729863':
+    id: '729863'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-223907481
+    source: twitter
+    pubdate: 2019-12-02 18:22:31.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/223907481
+      verified: true
+      verified_date: '2019-12-02T18:22:31+00:00'
+      id: 729863
+      private: false
+      data:
+        author: &66
+          name: Syed M Shaaf
+          url: https://twitter.com/syshaaf
+          photo: https://webmention.io/avatar/pbs.twimg.com/095041ee5f82d19ec28a1681f670a69b352715c18280d6dc0836f6bcb1c2d3d7.png
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-223907481
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Syed M Shaaf favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/syshaaf">Syed M Shaaf</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *66
+    type: like
+    content: <p><a href="https://twitter.com/syshaaf">Syed M Shaaf</a> favorited a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729878':
+    id: '729878'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-44870226
+    source: twitter
+    pubdate: 2019-12-02 20:20:17.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/44870226
+      verified: true
+      verified_date: '2019-12-02T20:20:17+00:00'
+      id: 729878
+      private: false
+      data:
+        author: &67
+          name: Rafael Ferreira
+          url: https://twitter.com/rafaelnferreira
+          photo: https://webmention.io/avatar/pbs.twimg.com/d444f402f73c34a5962feb47d49bf9b4d1cd9082b581d6a3d893314fd2e503b2.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-44870226
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Rafael Ferreira favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/rafaelnferreira">Rafael Ferreira</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *67
+    type: like
+    content: <p><a href="https://twitter.com/rafaelnferreira">Rafael Ferreira</a>
+      favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729915':
+    id: '729915'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-19570302
+    source: twitter
+    pubdate: 2019-12-02 23:00:45.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/19570302
+      verified: true
+      verified_date: '2019-12-02T23:00:45+00:00'
+      id: 729915
+      private: false
+      data:
+        author: &68
+          name: Bhangun Hartani
+          url: https://twitter.com/bhangun
+          photo: https://webmention.io/avatar/pbs.twimg.com/77e925daf935c7b593eb946f7da246dc65e658f04f1c374d5e17aa21d5be2ddc.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-19570302
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Bhangun Hartani favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/bhangun">Bhangun Hartani</a> favorited
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *68
+    type: like
+    content: <p><a href="https://twitter.com/bhangun">Bhangun Hartani</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729944':
+    id: '729944'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-272539783
+    source: twitter
+    pubdate: 2019-12-03 00:02:46.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/272539783
+      verified: true
+      verified_date: '2019-12-03T00:02:46+00:00'
+      id: 729944
+      private: false
+      data:
+        author: &69
+          name: Ross Brigoli
+          url: https://twitter.com/rossbrigoli
+          photo: https://webmention.io/avatar/pbs.twimg.com/6e32df7965b78e50d342c656ad0abda76c7e29c2ea5cab7b4e854d12a59e154e.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-272539783
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Ross Brigoli favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/rossbrigoli">Ross Brigoli</a>
+          favorited a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *69
+    type: like
+    content: <p><a href="https://twitter.com/rossbrigoli">Ross Brigoli</a> favorited
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '729961':
+    id: '729961'
+    uri: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18335865
+    source: twitter
+    pubdate: 2019-12-03 00:27:49.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/maxandersen/1201124756709351424/18335865
+      verified: true
+      verified_date: '2019-12-03T00:27:49+00:00'
+      id: 729961
+      private: false
+      data:
+        author: &70
+          name: rruss
+          url: https://twitter.com/rruss
+          photo: https://webmention.io/avatar/pbs.twimg.com/3b041700674183e607c88d23b6cd9be96b45a1ea9bf3a5475388986fedaa6957.jpg
+        url: https://twitter.com/maxandersen/status/1201124756709351424#favorited-by-18335865
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: rruss favorited a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/rruss">rruss</a> favorited a tweet
+          <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *70
+    type: like
+    content: <p><a href="https://twitter.com/rruss">rruss</a> favorited a tweet <a
+      href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201136426286505984':
+    id: '1201136426286505984'
+    uri: https://twitter.com/gleb_kosteiko/status/1201136426286505984
+    source: twitter
+    pubdate: 2019-12-01 14:50:14.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201136426286505984
+      verified: true
+      verified_date: '2019-12-01T15:21:14+00:00'
+      id: 729302
+      private: false
+      data:
+        author: &71
+          name: Gleb Kosteiko
+          url: https://twitter.com/gleb_kosteiko
+          photo: https://webmention.io/avatar/pbs.twimg.com/49529235527f0a9091a8e95030f46065c5dc6c1f06f8738d8563765c1128a0e2.jpg
+        url: https://twitter.com/gleb_kosteiko/status/1201136426286505984
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T13:50:14+00:00'
+        published_ts: 1575208214
+      activity:
+        type: repost
+        sentence: Gleb Kosteiko retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/gleb_kosteiko">Gleb Kosteiko</a>
+          retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *71
+    type: repost
+    content: <p><a href="https://twitter.com/gleb_kosteiko">Gleb Kosteiko</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201146310629511178':
+    id: '1201146310629511178'
+    uri: https://twitter.com/Pfrobinson/status/1201146310629511178
+    source: twitter
+    pubdate: 2019-12-01 15:29:31.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201146310629511178
+      verified: true
+      verified_date: '2019-12-01T15:21:15+00:00'
+      id: 729303
+      private: false
+      data:
+        author: &72
+          name: "Paul Robinson \U0001F1EA\U0001F1FA"
+          url: https://twitter.com/Pfrobinson
+          photo: https://webmention.io/avatar/pbs.twimg.com/5f1fbc29f4103ff0f86cbf09fea0fc2d46adc66e66c6d9981b23ac7e5a6be4f8.jpg
+        url: https://twitter.com/Pfrobinson/status/1201146310629511178
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T14:29:31+00:00'
+        published_ts: 1575210571
+      activity:
+        type: repost
+        sentence: "Paul Robinson \U0001F1EA\U0001F1FA retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: "<a href=\"https://twitter.com/Pfrobinson\">Paul Robinson \U0001F1EA\U0001F1FA</a>
+          retweeted a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a>"
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *72
+    type: repost
+    content: "<p><a href=\"https://twitter.com/Pfrobinson\">Paul Robinson \U0001F1EA\U0001F1FA</a>
+      retweeted a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a></p>"
+  '1201161395695443970':
+    id: '1201161395695443970'
+    uri: https://twitter.com/nmcl/status/1201161395695443970
+    source: twitter
+    pubdate: 2019-12-01 16:29:27.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201161395695443970
+      verified: true
+      verified_date: '2019-12-01T15:50:40+00:00'
+      id: 729310
+      private: false
+      data:
+        author: &73
+          name: Mark Little
+          url: https://twitter.com/nmcl
+          photo: https://webmention.io/avatar/pbs.twimg.com/5a72e3fc07df38928f67b6df34def5a6fd85c25ce862e163f542999c345d10ec.jpg
+        url: https://twitter.com/nmcl/status/1201161395695443970
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T15:29:27+00:00'
+        published_ts: 1575214167
+      activity:
+        type: repost
+        sentence: Mark Little retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/nmcl">Mark Little</a> retweeted
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *73
+    type: repost
+    content: <p><a href="https://twitter.com/nmcl">Mark Little</a> retweeted a tweet
+      <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201164429620068353':
+    id: '1201164429620068353'
+    uri: https://twitter.com/jforge/status/1201164429620068353
+    source: twitter
+    pubdate: 2019-12-01 16:41:31.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201164429620068353
+      verified: true
+      verified_date: '2019-12-01T15:50:40+00:00'
+      id: 729309
+      private: false
+      data:
+        author: &74
+          name: Klaus
+          url: https://twitter.com/jforge
+          photo: https://webmention.io/avatar/pbs.twimg.com/446e1f71c870e0b9a64cdbc677c4be348e78fa19fd9557aed39a3827eb45912e.jpg
+        url: https://twitter.com/jforge/status/1201164429620068353
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T15:41:31+00:00'
+        published_ts: 1575214891
+      activity:
+        type: repost
+        sentence: Klaus retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/jforge">Klaus</a> retweeted a
+          tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *74
+    type: repost
+    content: <p><a href="https://twitter.com/jforge">Klaus</a> retweeted a tweet <a
+      href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201170988207157248':
+    id: '1201170988207157248'
+    uri: https://twitter.com/connolly_s/status/1201170988207157248
+    source: twitter
+    pubdate: 2019-12-01 17:07:34.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201170988207157248
+      verified: true
+      verified_date: '2019-12-01T16:16:12+00:00'
+      id: 729316
+      private: false
+      data:
+        author: &75
+          name: "Stephen Connolly \U0001F937\U0001F3FC‍♂️"
+          url: https://twitter.com/connolly_s
+          photo: https://webmention.io/avatar/pbs.twimg.com/e65b0dca9ec19112c501cc8f2777cda625712d8063a6838c6b5eaa111ae1679c.jpg
+        url: https://twitter.com/connolly_s/status/1201170988207157248
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T16:07:34+00:00'
+        published_ts: 1575216454
+      activity:
+        type: repost
+        sentence: "Stephen Connolly \U0001F937\U0001F3FC‍♂️ retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: "<a href=\"https://twitter.com/connolly_s\">Stephen Connolly
+          \U0001F937\U0001F3FC‍♂️</a> retweeted a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a>"
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *75
+    type: repost
+    content: "<p><a href=\"https://twitter.com/connolly_s\">Stephen Connolly \U0001F937\U0001F3FC‍♂️</a>
+      retweeted a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a></p>"
+  '1201183669957865479':
+    id: '1201183669957865479'
+    uri: https://twitter.com/politrons/status/1201183669957865479
+    source: twitter
+    pubdate: 2019-12-01 17:57:58.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/maxandersen/1201124756709351424/1201183669957865479
+      verified: true
+      verified_date: '2019-12-01T17:09:24+00:00'
+      id: 729327
+      private: false
+      data:
+        author: &76
+          name: Pablo Pérez García
+          url: https://twitter.com/politrons
+          photo: https://webmention.io/avatar/pbs.twimg.com/d01746618c4bb6b3b48d6cd10f22b3fcb5e319759c992753f483622ab309676d.jpg
+        url: https://twitter.com/politrons/status/1201183669957865479
+        name: 
+        content: "I hope it will have more success that his young brother Vertx. Spring
+          boot casts a long shadow \U0001F613\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a
+          class=\"u-mention\" href=\"https://xam.dk/\"></a>"
+        published: '2019-12-01T16:57:58+00:00'
+        published_ts: 1575219478
+      activity:
+        type: reply
+        sentence: Pablo Pérez García replied 'I hope it will have more success that
+          his young brother Vertx. Spring boot casts...' to a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/politrons">Pablo Pérez García</a>
+          replied 'I hope it will have more success that his young brother Vertx.
+          Spring boot casts...' to a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *76
+    type: reply
+    content: "<p>I hope it will have more success that his young brother Vertx. Spring
+      boot casts a long shadow \U0001F613\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a
+      class=\"u-mention\" href=\"https://xam.dk/\"></a></p>"
+  '1201187071928479744':
+    id: '1201187071928479744'
+    uri: https://twitter.com/maxandersen/status/1201187071928479744
+    source: twitter
+    pubdate: 2019-12-01 18:11:29.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/maxandersen/1201124756709351424/1201187071928479744
+      verified: true
+      verified_date: '2019-12-01T17:35:45+00:00'
+      id: 729334
+      private: false
+      data:
+        author: &77
+          name: Max Rydahl Andersen
+          url: https://twitter.com/maxandersen
+          photo: https://webmention.io/avatar/pbs.twimg.com/4226983c80593262e9064dd86f1ed116c511540ffbe86eaca080c3b85e8e0ec8.jpg
+        url: https://twitter.com/maxandersen/status/1201187071928479744
+        name: 
+        content: |-
+          Quarkus is being carried on the shoulders of such great warriors as vertx. Standards, innovation and variety will prevail :)
+          <a class="u-mention" href="https://twitter.com/politrons"></a>
+        published: '2019-12-01T17:11:29+00:00'
+        published_ts: 1575220289
+      activity:
+        type: reply
+        sentence: Max Rydahl Andersen replied 'Quarkus is being carried on the shoulders
+          of such great warriors as vertx. Stand...' to a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/maxandersen">Max Rydahl Andersen</a>
+          replied 'Quarkus is being carried on the shoulders of such great warriors
+          as vertx. Stand...' to a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *77
+    type: reply
+    content: |-
+      <p>Quarkus is being carried on the shoulders of such great warriors as vertx. Standards, innovation and variety will prevail :)
+      <a class="u-mention" href="https://twitter.com/politrons"></a></p>
+  '1201190516362285058':
+    id: '1201190516362285058'
+    uri: https://twitter.com/politrons/status/1201190516362285058
+    source: twitter
+    pubdate: 2019-12-01 18:25:10.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/comment/twitter/maxandersen/1201124756709351424/1201190516362285058
+      verified: true
+      verified_date: '2019-12-01T17:35:48+00:00'
+      id: 729336
+      private: false
+      data:
+        author: &78
+          name: Pablo Pérez García
+          url: https://twitter.com/politrons
+          photo: https://webmention.io/avatar/pbs.twimg.com/d01746618c4bb6b3b48d6cd10f22b3fcb5e319759c992753f483622ab309676d.jpg
+        url: https://twitter.com/politrons/status/1201190516362285058
+        name: 
+        content: |-
+          I hope so, just like Vertx my favorite framework for Java.
+          <a class="u-mention" href="https://twitter.com/maxandersen"></a>
+          <a class="u-mention" href="https://xam.dk/"></a>
+        published: '2019-12-01T17:25:10+00:00'
+        published_ts: 1575221110
+      activity:
+        type: reply
+        sentence: Pablo Pérez García replied 'I hope so, just like Vertx my favorite
+          framework for Java.' to a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/politrons">Pablo Pérez García</a>
+          replied 'I hope so, just like Vertx my favorite framework for Java.' to
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *78
+    type: reply
+    content: |-
+      <p>I hope so, just like Vertx my favorite framework for Java.
+      <a class="u-mention" href="https://twitter.com/maxandersen"></a>
+      <a class="u-mention" href="https://xam.dk/"></a></p>
+  '1201231148271034368':
+    id: '1201231148271034368'
+    uri: https://twitter.com/jclingan/status/1201231148271034368
+    source: twitter
+    pubdate: 2019-12-01 21:06:38.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201231148271034368
+      verified: true
+      verified_date: '2019-12-01T20:11:05+00:00'
+      id: 729366
+      private: false
+      data:
+        author: &79
+          name: John Clingan
+          url: https://twitter.com/jclingan
+          photo: https://webmention.io/avatar/pbs.twimg.com/53846dfdd108450b350e8eb5f035b487dcfdbc912b9e07e1bb549d232b4ed24b.png
+        url: https://twitter.com/jclingan/status/1201231148271034368
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T20:06:38+00:00'
+        published_ts: 1575230798
+      activity:
+        type: repost
+        sentence: John Clingan retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/jclingan">John Clingan</a> retweeted
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *79
+    type: repost
+    content: <p><a href="https://twitter.com/jclingan">John Clingan</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201234874327158784':
+    id: '1201234874327158784'
+    uri: https://twitter.com/TheSteve0/status/1201234874327158784
+    source: twitter
+    pubdate: 2019-12-01 21:21:26.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201234874327158784
+      verified: true
+      verified_date: '2019-12-01T20:36:31+00:00'
+      id: 729372
+      private: false
+      data:
+        author: &80
+          name: "(((TheSteve0)))"
+          url: https://twitter.com/TheSteve0
+          photo: https://webmention.io/avatar/pbs.twimg.com/ded3587670926411ba29f5a6de673fc07cfb8abb974c58b80d4844ae592f2006.jpg
+        url: https://twitter.com/TheSteve0/status/1201234874327158784
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T20:21:26+00:00'
+        published_ts: 1575231686
+      activity:
+        type: repost
+        sentence: "(((TheSteve0))) retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: <a href="https://twitter.com/TheSteve0">(((TheSteve0)))</a>
+          retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *80
+    type: repost
+    content: <p><a href="https://twitter.com/TheSteve0">(((TheSteve0)))</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201245880797552641':
+    id: '1201245880797552641'
+    uri: https://twitter.com/sydisnet/status/1201245880797552641
+    source: twitter
+    pubdate: 2019-12-01 22:05:10.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201245880797552641
+      verified: true
+      verified_date: '2019-12-01T21:05:51+00:00'
+      id: 729434
+      private: false
+      data:
+        author: &81
+          name: Sébastien Hébert
+          url: https://twitter.com/sydisnet
+          photo: https://webmention.io/avatar/pbs.twimg.com/0b7130bf2ae71873166c1c2b0e1ba1ba723a00a0c47a9c5e4a5ab836dd83d793.jpg
+        url: https://twitter.com/sydisnet/status/1201245880797552641
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T21:05:10+00:00'
+        published_ts: 1575234310
+      activity:
+        type: repost
+        sentence: Sébastien Hébert retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/sydisnet">Sébastien Hébert</a>
+          retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *81
+    type: repost
+    content: <p><a href="https://twitter.com/sydisnet">Sébastien Hébert</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201262863488303104':
+    id: '1201262863488303104'
+    uri: https://twitter.com/SanneGrinovero/status/1201262863488303104
+    source: twitter
+    pubdate: 2019-12-01 23:12:39.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201262863488303104
+      verified: true
+      verified_date: '2019-12-01T22:13:24+00:00'
+      id: 729452
+      private: false
+      data:
+        author: &82
+          name: Sanne
+          url: https://twitter.com/SanneGrinovero
+          photo: https://webmention.io/avatar/pbs.twimg.com/7a125055c9a2683d0888a19c6ae2ddd00f389697070ec7afe8ea6f7781ec2f2e.jpg
+        url: https://twitter.com/SanneGrinovero/status/1201262863488303104
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-01T22:12:39+00:00'
+        published_ts: 1575238359
+      activity:
+        type: repost
+        sentence: Sanne retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/SanneGrinovero">Sanne</a> retweeted
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *82
+    type: repost
+    content: <p><a href="https://twitter.com/SanneGrinovero">Sanne</a> retweeted a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201299045832114176':
+    id: '1201299045832114176'
+    uri: https://twitter.com/carldea/status/1201299045832114176
+    source: twitter
+    pubdate: 2019-12-02 01:36:26.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201299045832114176
+      verified: true
+      verified_date: '2019-12-02T00:46:17+00:00'
+      id: 729484
+      private: false
+      data:
+        author: &83
+          name: Carl Dea Ⓒarl ⒻⓍ
+          url: https://twitter.com/carldea
+          photo: https://webmention.io/avatar/pbs.twimg.com/5e9f07101969347d0674dd8405e97b81b8fff4ec2580048726a9d22d4051b68a.png
+        url: https://twitter.com/carldea/status/1201299045832114176
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T00:36:26+00:00'
+        published_ts: 1575246986
+      activity:
+        type: repost
+        sentence: Carl Dea Ⓒarl ⒻⓍ retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/carldea">Carl Dea Ⓒarl ⒻⓍ</a>
+          retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *83
+    type: repost
+    content: <p><a href="https://twitter.com/carldea">Carl Dea Ⓒarl ⒻⓍ</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201308100738850816':
+    id: '1201308100738850816'
+    uri: https://twitter.com/burrsutter/status/1201308100738850816
+    source: twitter
+    pubdate: 2019-12-02 02:12:25.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201308100738850816
+      verified: true
+      verified_date: '2019-12-02T01:14:16+00:00'
+      id: 729514
+      private: false
+      data:
+        author: &84
+          name: Burr Sutter
+          url: https://twitter.com/burrsutter
+          photo: https://webmention.io/avatar/pbs.twimg.com/16bb2b56df0e94d1cc18f78f9521b798419fc5c91e37e485d563ad744d6ad502.jpg
+        url: https://twitter.com/burrsutter/status/1201308100738850816
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T01:12:25+00:00'
+        published_ts: 1575249145
+      activity:
+        type: repost
+        sentence: Burr Sutter retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/burrsutter">Burr Sutter</a> retweeted
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *84
+    type: repost
+    content: <p><a href="https://twitter.com/burrsutter">Burr Sutter</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201371408623906816':
+    id: '1201371408623906816'
+    uri: https://twitter.com/clementplop/status/1201371408623906816
+    source: twitter
+    pubdate: 2019-12-02 06:23:58.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201371408623906816
+      verified: true
+      verified_date: '2019-12-02T05:46:00+00:00'
+      id: 729671
+      private: false
+      data:
+        author: &85
+          name: Clement Escoffier
+          url: https://twitter.com/clementplop
+          photo: https://webmention.io/avatar/pbs.twimg.com/66e5486b4d1900211e42489cfc25d6015b4a1a06151e01fc1c4b94d5c8a3d330.jpg
+        url: https://twitter.com/clementplop/status/1201371408623906816
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T05:23:58+00:00'
+        published_ts: 1575264238
+      activity:
+        type: repost
+        sentence: Clement Escoffier retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/clementplop">Clement Escoffier</a>
+          retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *85
+    type: repost
+    content: <p><a href="https://twitter.com/clementplop">Clement Escoffier</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201405932766289924':
+    id: '1201405932766289924'
+    uri: https://twitter.com/anilkkurmi/status/1201405932766289924
+    source: twitter
+    pubdate: 2019-12-02 08:41:10.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201405932766289924
+      verified: true
+      verified_date: '2019-12-02T07:45:12+00:00'
+      id: 729710
+      private: false
+      data:
+        author: &86
+          name: Anil Kurmi
+          url: https://twitter.com/anilkkurmi
+          photo: https://webmention.io/avatar/pbs.twimg.com/3bdd34674f757ef5349e63c231d9aa4ef82a50199f18a64d44ebfdaaed11174e.jpg
+        url: https://twitter.com/anilkkurmi/status/1201405932766289924
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T07:41:10+00:00'
+        published_ts: 1575272470
+      activity:
+        type: repost
+        sentence: Anil Kurmi retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/anilkkurmi">Anil Kurmi</a> retweeted
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *86
+    type: repost
+    content: <p><a href="https://twitter.com/anilkkurmi">Anil Kurmi</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201425011095068672':
+    id: '1201425011095068672'
+    uri: https://twitter.com/RickHigh/status/1201425011095068672
+    source: twitter
+    pubdate: 2019-12-02 09:56:58.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201425011095068672
+      verified: true
+      verified_date: '2019-12-02T09:12:23+00:00'
+      id: 729722
+      private: false
+      data:
+        author: &87
+          name: Rick Hightower
+          url: https://twitter.com/RickHigh
+          photo: https://webmention.io/avatar/pbs.twimg.com/b8d53810424b5f950364148503d3d3c7b13512f6b6458b86b518e26b3cc63736.jpg
+        url: https://twitter.com/RickHigh/status/1201425011095068672
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T08:56:58+00:00'
+        published_ts: 1575277018
+      activity:
+        type: repost
+        sentence: Rick Hightower retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/RickHigh">Rick Hightower</a> retweeted
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *87
+    type: repost
+    content: <p><a href="https://twitter.com/RickHigh">Rick Hightower</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201438818118832128':
+    id: '1201438818118832128'
+    uri: https://twitter.com/jakekorab/status/1201438818118832128
+    source: twitter
+    pubdate: 2019-12-02 10:51:50.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201438818118832128
+      verified: true
+      verified_date: '2019-12-02T10:08:44+00:00'
+      id: 729743
+      private: false
+      data:
+        author: &88
+          name: "Jakub Korab \U0001F1EA\U0001F1FA"
+          url: https://twitter.com/jakekorab
+          photo: https://webmention.io/avatar/pbs.twimg.com/26003bf3e0ca269bc14c1b7400413ba8d3a6bdf8cb8fe422f24bda1711525965.jpg
+        url: https://twitter.com/jakekorab/status/1201438818118832128
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T09:51:50+00:00'
+        published_ts: 1575280310
+      activity:
+        type: repost
+        sentence: "Jakub Korab \U0001F1EA\U0001F1FA retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/"
+        sentence_html: "<a href=\"https://twitter.com/jakekorab\">Jakub Korab \U0001F1EA\U0001F1FA</a>
+          retweeted a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a>"
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *88
+    type: repost
+    content: "<p><a href=\"https://twitter.com/jakekorab\">Jakub Korab \U0001F1EA\U0001F1FA</a>
+      retweeted a tweet <a href=\"https://xam.dk/blog/the-black-swan-of-java/\">https://xam.dk/blog/the-black-swan-of-java/</a></p>"
+  '1201489863180275718':
+    id: '1201489863180275718'
+    uri: https://twitter.com/lefredfred/status/1201489863180275718
+    source: twitter
+    pubdate: 2019-12-02 14:14:40.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201489863180275718
+      verified: true
+      verified_date: '2019-12-02T13:41:21+00:00'
+      id: 729800
+      private: false
+      data:
+        author: &89
+          name: Frederic Vaute
+          url: https://twitter.com/lefredfred
+          photo: https://webmention.io/avatar/pbs.twimg.com/a10b6e46c64af3e2916047b83ca3578a6548420dcade8a919389e9bff2b5032e.jpg
+        url: https://twitter.com/lefredfred/status/1201489863180275718
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T13:14:40+00:00'
+        published_ts: 1575292480
+      activity:
+        type: repost
+        sentence: Frederic Vaute retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/lefredfred">Frederic Vaute</a>
+          retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *89
+    type: repost
+    content: <p><a href="https://twitter.com/lefredfred">Frederic Vaute</a> retweeted
+      a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201542168269246465':
+    id: '1201542168269246465'
+    uri: https://twitter.com/Dreamix_Ltd/status/1201542168269246465
+    source: twitter
+    pubdate: 2019-12-02 17:42:31.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201542168269246465
+      verified: true
+      verified_date: '2019-12-02T16:44:46+00:00'
+      id: 729842
+      private: false
+      data:
+        author: &90
+          name: Dreamix
+          url: https://twitter.com/Dreamix_Ltd
+          photo: https://webmention.io/avatar/pbs.twimg.com/8cd65a79c9d3a640daa5d0f31779129f60c45e955566f1f35b69a3a73efbbe18.jpg
+        url: https://twitter.com/Dreamix_Ltd/status/1201542168269246465
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T16:42:31+00:00'
+        published_ts: 1575304951
+      activity:
+        type: repost
+        sentence: Dreamix retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/Dreamix_Ltd">Dreamix</a> retweeted
+          a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *90
+    type: repost
+    content: <p><a href="https://twitter.com/Dreamix_Ltd">Dreamix</a> retweeted a
+      tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201594518056898562':
+    id: '1201594518056898562'
+    uri: https://twitter.com/rafaelnferreira/status/1201594518056898562
+    source: twitter
+    pubdate: 2019-12-02 21:10:32.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201594518056898562
+      verified: true
+      verified_date: '2019-12-02T20:20:18+00:00'
+      id: 729879
+      private: false
+      data:
+        author: &91
+          name: Rafael Ferreira
+          url: https://twitter.com/rafaelnferreira
+          photo: https://webmention.io/avatar/pbs.twimg.com/d444f402f73c34a5962feb47d49bf9b4d1cd9082b581d6a3d893314fd2e503b2.jpg
+        url: https://twitter.com/rafaelnferreira/status/1201594518056898562
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-02T20:10:32+00:00'
+        published_ts: 1575317432
+      activity:
+        type: repost
+        sentence: Rafael Ferreira retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/rafaelnferreira">Rafael Ferreira</a>
+          retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *91
+    type: repost
+    content: <p><a href="https://twitter.com/rafaelnferreira">Rafael Ferreira</a>
+      retweeted a tweet <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
+  '1201658830737641472':
+    id: '1201658830737641472'
+    uri: https://twitter.com/rruss/status/1201658830737641472
+    source: twitter
+    pubdate: 2019-12-03 01:26:05.000000000 +01:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/maxandersen/1201124756709351424/1201658830737641472
+      verified: true
+      verified_date: '2019-12-03T00:27:56+00:00'
+      id: 729962
+      private: false
+      data:
+        author: &92
+          name: rruss
+          url: https://twitter.com/rruss
+          photo: https://webmention.io/avatar/pbs.twimg.com/3b041700674183e607c88d23b6cd9be96b45a1ea9bf3a5475388986fedaa6957.jpg
+        url: https://twitter.com/rruss/status/1201658830737641472
+        name: 
+        content: "Quarkus - The Black Swan of Java ? \n\nxam.dk/blog/the-black…"
+        published: '2019-12-03T00:26:05+00:00'
+        published_ts: 1575332765
+      activity:
+        type: repost
+        sentence: rruss retweeted a tweet https://xam.dk/blog/the-black-swan-of-java/
+        sentence_html: <a href="https://twitter.com/rruss">rruss</a> retweeted a tweet
+          <a href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a>
+      target: https://xam.dk/blog/the-black-swan-of-java/
+    author: *92
+    type: repost
+    content: <p><a href="https://twitter.com/rruss">rruss</a> retweeted a tweet <a
+      href="https://xam.dk/blog/the-black-swan-of-java/">https://xam.dk/blog/the-black-swan-of-java/</a></p>
