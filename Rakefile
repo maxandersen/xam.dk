@@ -378,6 +378,7 @@ task :travis do
     Rake::Task["build"].invoke
     next
   else
+    ENV['JEKYLL_ENV'] = 'production'
     Rake::Task["build"].invoke
     puts "## Deploying website via rsync"
     success = system("sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")

@@ -17,4 +17,3 @@ script: bundle exec rake travis
 env:
   global:
   - secure: kGmOgyXVwb4NB+k9r6UQubfPm6R/CCZxVeqwzLG2VRf4HT07FpbVVy+uDBFkYVKU1nGZOF0TyQN+k0/pYJBRDU3vsOPWdOpQMBHavapT/RXHbRQy2N3isqaQ/koiatVgvRIyOhCEEdyTdurVxzKryVE3XHrjrBsjiJj9puX+uws=
-  - JEKYLL_ENV=production
