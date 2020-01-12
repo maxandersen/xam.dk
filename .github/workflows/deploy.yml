@@ -1,4 +1,4 @@
-name: deployment
+name: publish-to-xam.dk
 
 on:
   push: 
@@ -26,10 +26,11 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.5.x' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
-      - name: b-p
+      - name: install dependencies
         run: |
           sudo apt-get install -qq sshpass
           gem install bundler
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
-          bundle exec rake travis
+      - name: build-and-publish
+        run: bundle exec rake travis
