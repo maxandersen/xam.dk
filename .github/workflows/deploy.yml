@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: build-and-publish
     steps:
+      - uses: actions/checkout@master
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
@@ -22,7 +23,6 @@ jobs:
           key: ${{ runner.os }}
           restore-keys: |
             ${{ runner.os }}-jekyll-
-      - uses: actions/checkout@master
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.5.x' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
