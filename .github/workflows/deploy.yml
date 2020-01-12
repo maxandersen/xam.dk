@@ -28,8 +28,6 @@ jobs:
           ruby-version: '2.5.x' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
       - name: install-sshpass
         run: sudo apt-get install -qq sshpass
-      - name: setup-host
-        run: ssh-keygen -R ssh.xam.dk
       - name: install bundler
         run: | 
           gem install bundler
