@@ -10,6 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     name: build-and-publish
     steps:
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gem-
+      - uses: actions/cache@v1
+        with:
+          path: .jekyll-cache
+          key: ${{ runner.os }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-
       - uses: actions/checkout@master
       - uses: actions/setup-ruby@v1
         with:
@@ -17,6 +29,7 @@ jobs:
       - name: b-p
         run: |
           sudo apt-get install -qq sshpass
+          bundle config path vendor/bundle
           gem install bundler
           bundle install --jobs 4 --retry 3
           bundle exec rake travis
