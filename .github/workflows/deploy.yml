@@ -11,6 +11,14 @@ jobs:
     name: build-and-publish
     steps:
       - uses: actions/checkout@master
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.5.x' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
+      - name: install-commands
+        run: |
+          sudo apt-get install -qq sshpass
+          gem install bundler
+          bundle config path vendor/bundle
       - uses: actions/cache@v1
         id: cache-gems
         with:
@@ -25,18 +33,10 @@ jobs:
           key: ${{ runner.os }}
           restore-keys: |
             ${{ runner.os }}-jekyll-
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.5.x' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
-      - name: install-commands
-        run: |
-          sudo apt-get install -qq sshpass
-          gem install bundler
       - name: install dependencies
         if: steps.cache-gems.outputs.cache-hit != 'true'
         run: | 
-          bundle config path vendor/bundle
-          bundle install
+          bundle install --jobs 4 --retry 3
       - name: build-and-publish
         env:
           XAMSSH: "${{ secrets.XAMSSH }}"
