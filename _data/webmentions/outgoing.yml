@@ -329,3 +329,5 @@ https://xam.dk/blog/you-dont-have-to-die-to-start-living/:
 https://xam.dk/blog/the-black-swan-of-java/:
   https://en.wikipedia.org/wiki/Black_swan_theory: false
   https://www.slideshare.net/maxandersen/quarkus-denmark-2019: false
+https://xam.dk/blog/using-eclipse-from-commandline/:
+  https://bugs.eclipse.org/bugs/show_bug.cgi?id=559075: false
