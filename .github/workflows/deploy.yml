@@ -1,0 +1,15 @@
+name: deployment
+
+on:
+  push: 
+    branches:
+    - master
+
+jobs:
+  build:
+  steps:
+  - uses: actions/checkout@master
+  - uses: actions/setup-ruby@v1
+    with:
+      ruby-version: '2.5.3' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
+  - run: bundle exec rake travis
