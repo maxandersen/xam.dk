@@ -26,14 +26,18 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.5.x' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
-      - name: install dependencies
-        run: |
-          sudo apt-get install -qq sshpass
-          ssh-keygen -R ssh.xam.dk
+      - name: install-sshpass
+        run: sudo apt-get install -qq sshpass
+      - name: setup-host
+        run: ssh-keygen -R ssh.xam.dk
+      - name: install bundler
+        run: | 
           gem install bundler
-          mkdir -p vendor/bundle
           bundle config path vendor/bundle
-          #bundle install
+      - name: bundle-install
+        run: bundle install
+      - name: ehcoecho
+        run: echo Testing
       - name: build-and-publish
         env:
           XAMSSH: "${{ secrets.XAMSSH }}"
