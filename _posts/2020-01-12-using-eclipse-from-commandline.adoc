@@ -1,0 +1,33 @@
+= Using Eclipse from the Command line on OSX
+:page-layout: post
+
+If you want to open a file or a project with your favorite editor or IDE you might be doing something like:
+
+`editor myfile.ext`
+
+or even
+
+`editor myprojectdir`
+
+This approach works really well for `emacs`, `vi`, `code` (Visual Studio Code) and `idea` (IntelliJ Idea) and even `eclipse` but only on Windows and Linux.
+
+On OSX for reasons I https://bugs.eclipse.org/bugs/show_bug.cgi?id=559075[still don't understand] you have to do the following:
+
+`open -a Eclipse.app myfile.ext`
+
+Thus to avoid having to do that every time I for now have done the following:
+
+```
+echo "open -a ~/java-latest-released/Eclipse.app \$@" > /usr/local/bin/eclipse
+chmod +x /usr/local/bin/eclipse
+```
+
+From then on I can just use `eclipse` as it is meant to be:
+
+```
+eclipse `jbang --edit myfile.java`
+```
+
+Note: Eclipse has a https://bugs.eclipse.org/bugs/show_bug.cgi?id=559075[quirk] where it tries to always import folders even when the workspace has it imported. You can just dismiss that wizard and hopefully that will be fixed in an update.
+
+Have fun!
