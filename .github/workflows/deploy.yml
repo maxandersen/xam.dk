@@ -31,6 +31,7 @@ jobs:
           sudo apt-get install -qq sshpass
           ssh-keygen -R ssh.xam.dk
           gem install bundler
+          mkdir -p vendor/bundle
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
       - name: build-and-publish
