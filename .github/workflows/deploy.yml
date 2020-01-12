@@ -12,12 +12,14 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/cache@v1
+        id: cache-gems
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gem-
       - uses: actions/cache@v1
+        id: cache-jekyll
         with:
           path: .jekyll-cache
           key: ${{ runner.os }}
@@ -28,14 +30,12 @@ jobs:
           ruby-version: '2.5.x' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
       - name: install-sshpass
         run: sudo apt-get install -qq sshpass
-      - name: install bundler
+      - name: install dependencies
+        if: steps.cache-gems.outputs.cache-hit != 'true'
         run: | 
           gem install bundler
           bundle config path vendor/bundle
-      - name: bundle-install
-        run: bundle install
-      - name: ehcoecho
-        run: echo Testing
+          bundle install
       - name: build-and-publish
         env:
           XAMSSH: "${{ secrets.XAMSSH }}"

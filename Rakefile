@@ -381,7 +381,7 @@ task :travis do
     ENV['JEKYLL_ENV'] = 'production'
     Rake::Task["build"].invoke
     puts "## Deploying website via rsync"
-    success = system("sshpass -p $XAMSSH rsync -rvc --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")
+    success = system("sshpass -p $XAMSSH rsync -rvc -e 'ssh -o StrictHostKeyChecking=no -p 22' --delete  --exclude coppermine --stats --exclude update _site/ xam.dk@ssh.xam.dk:/www")
   end
   
   fail unless success
