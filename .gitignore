@@ -4,3 +4,4 @@ _site
 .DS_Store
 .bundle
 .jekyll-cache
+.idea

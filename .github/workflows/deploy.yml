@@ -33,7 +33,7 @@ jobs:
           gem install bundler
           mkdir -p vendor/bundle
           bundle config path vendor/bundle
-          bundle install
+          #bundle install
       - name: build-and-publish
         env:
           XAMSSH: "${{ secrets.XAMSSH }}"
