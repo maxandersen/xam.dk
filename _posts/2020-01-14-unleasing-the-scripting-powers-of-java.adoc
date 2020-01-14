@@ -1,0 +1,149 @@
+= Unleashing the scripting powers of Java
+:page-layout: post
+
+I made a "thing" over this holiday break - a small utility called https:/github.com/maxandersen/jbang[`jbang`] that you can use to run single file java files with built-in dependency fetching.
+
+For example you can take the following file and save in `classpath_example.java`. 
+
+You can run it as `jbang classpath_example.java` or make it executable `chmod +x classpath_example.java`.
+
+When you run this the first time with no existing dependencies installed you should get an output like this:
+
+[source, console]
+----
+$ ./classpath_example.java
+[jbang] Resolving dependencies...
+[jbang]     Resolving log4j:log4j:1.2.17...Done
+[jbang] Dependencies resolved
+0 [main] INFO classpath_example  - Welcome to jbang
+1 [main] INFO classpath_example  - Hello from Java!
+----
+
+There are more examples and details over at https://github.com/maxandersen/jbang.
+
+To install and try it you can use `sdk install jbang` or `brew install maxandersen/tap/jbang`.
+
+## Typesafe Scripting in your favorite Java IDE
+
+Having Java available to do scripts isn't on its own super interesting - you'll want to have it usable in your favorite IDE to get compile errors, typechecks, content assist etc.
+
+Fortunately that is easy, just run something like:
+
+[source, bash]
+----
+code `jbang --edit classpath_example.java`
+----
+This will open up your IDE (in this case Visual Studio Code). 
+
+It will behind the scenes generate a temporary Gradle based project with a symbolic link to your file and print out the location. When the IDE have Java/Gradle support it will be able to automatically setup the classpath and you now have all the Java features you are used to.
+
+If you add new `//DEPS` to the file just rerun `jbang --edit classpath_example.java` and the project will be updated.
+
+Its refreshing not having to bother with all that scaffolding and extra files in my repository. Its as minimal as a Python script.
+
+## Simplicity of scripting
+
+Since I made `jbang`, my normal urge to fall-back to use Python for scripting various tasks/text processing have greatly reduced. Having the full power of java and its vast ecosystem is powerful.
+
+Especially realizing that since Java 8 with streams/lambdas and additional improvements in Java 10 and 11 in the Java libraries your code end up being very compact.
+
+Like yesterday I was working on enabling automatic label of pull-request on Quarkus using GitHub action https://github.com/actions/labeler[labeler] and I needed a way to validate how the labels was applied. 
+
+Normally I would have started using python, but with `jbang` I had in matter of a few minutes a first working https://gist.github.com/maxandersen/590b8a0e824faeb3ee7ddfad741ce842/[Java based script] to do this. Not only did it do the one task I wanted but I also by using https://picocli.info[picocli] got command line help, validation and ANSI color output.
+
+And since `jbang` support file/http/https URL's as input you can run it like this:
+
+[source, bash]
+----
+jbang https://git.io/JvJox
+Missing required parameters: <yamlFile>, <rootDir>
+Usage: <main class> [--only-dirs] [--only-matches] <yamlFile> <rootDir>
+Prints matching labels for directories found in folder. Useful to check how
+labeler will work.
+      <yamlFile>       Path to .github/labeler.yml
+      <rootDir>        Path to dump labels for
+      --only-dirs      If set, only print for directories
+      --only-matches   Print only matches
+----
+
+Really powerful and a great improvement over my past Python and even Go based small utility scripts.
+
+Just imagine combining this with text processing, analytics, UI's, etc. you can do a lot very easily.
+
+This realization gave me an idea for something more.
+
+## Using Java for scripting your GitHub Actions
+
+GitHub Actions are really nice and I've enjoyed migrating my personal projects from Travis based publishing to GitHub Actions - so much I've even tried write some custom github actions; but GitHub's "love" for everything node/javascript by default made me be back in a slow world.
+
+Thus, I created https://github.com/maxandersen/jbang-action[`jbang-action`] that lets you write single file java scripts to use in your GitHub action workflows.
+
+Imagine you have a `createissue.java` that you use to create an issue based on some workflow in your GitHub actions - a minimal (dumb) version of that would be:
+
+.createissue.java
+[source, java]
+----
+//usr/bin/env jbang "$0" "$@" ; exit $?
+//DEPS org.kohsuke:github-api:1.101
+import static java.lang.System.*;
+import java.util.Arrays;
+import org.kohsuke.github.*;
+
+public class createissue {
+
+    public static void main(String... args) throws Exception {
+        GitHub github = new GitHubBuilder().withOAuthToken(getenv("GITHUB_TOKEN")).build();
+        var repo = github.getRepository(getenv("GITHUB_REPOSITORY"));
+        var message = "Test message with home set to " + getProperty("user.home");
+        message = message + "\n" + Arrays.toString(args); 
+        var x = repo.createIssue("Testing create issue from jbang").body(message).create();
+        out.println(x.getHtmlUrl());
+    }
+}
+----
+
+Then in your GitHub workflow you can do something like:
+
+..github/workflows/main.yml
+[source,yaml]
+----
+on: [push]
+
+jobs:
+    jbang:
+      runs-on: ubuntu-latest
+      name: A job to run jbang
+      steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - uses: actions/cache@v1 <.>
+        with:
+          path: /root/.jbang
+          key: ${{ runner.os }}-jbang-${{ hashFiles('*.java') }}
+          restore-keys: |
+            ${{ runner.os }}-jbang-
+      - name: jbang
+        uses: maxandersen/jbang-action@v2 <.>
+        with:
+          script: createissue.java  <.>
+          args: "my world"
+        env:
+          JBANG_REPO: /root/.jbang/repository
+          GITHUB_TOKEN: ${{ secrets.ISSUE_GITHUB_TOKEN }}
+----
+<1> Enable caching of resolved dependencies to save time on consecutive runs
+<2> Setup `jbang-action`
+<3> Define script with parameters to use.
+
+With that I can now have Java based "scripts" as part of my GitHub action workflows with full type checks and nice IDE support without all the tedious scaffolding until you actually need it.
+
+Got any other ideas where `jbang` could be enabler for more Java based experimentation ? 
+
+Leave a comment, tweet about it or https://github.com/maxandersen/jbang/issues/new[open an issue].
+
+/max
+
+
+
+
+

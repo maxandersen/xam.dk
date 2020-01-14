@@ -42,7 +42,15 @@ paginate_path: "/blog/page:num/"
 
 asciidoctor:
   attributes:
-  - hardbreaks=@
+    hardbreaks: "@"
+    source-highlighter: pygments
+    pygments-stylesheet: assets/asciidoc-pygments.css
+    pygments-css: class
+    pygments-linenums-mode: table
+    pygments-style: perldoc
+
+    icons: font
+    
 
 defaults:
   -
