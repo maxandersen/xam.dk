@@ -1,7 +1,7 @@
 = Unleashing the scripting powers of Java
 :page-layout: post
 
-I made a "thing" over this holiday break - a small utility called https:/github.com/maxandersen/jbang[`jbang`] that you can use to run single file java files with built-in dependency fetching.
+I made a "thing" over this holiday break - a small utility called https://github.com/maxandersen/jbang[`jbang`] that you can use to run single file java files with built-in dependency fetching.
 
 For example you can take the following file and save in `classpath_example.java`. 
 
