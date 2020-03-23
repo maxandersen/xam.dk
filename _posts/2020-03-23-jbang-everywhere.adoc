@@ -1,0 +1,173 @@
+= jbang everywhere!
+:page-layout: post
+
+Earlier this year I link:2020-01-14-unleashing-the-scripting-powers-of-java.adoc[posted] about a small utility called https://github.com/maxandersen/jbang[`jbang`].
+A utilitiy that lets you get started working with java with zero friction and just run your code as-is.
+
+A few things happened since then over a few late nights - `jbang` is now available to run "everywhere" and
+I found and saw more and more interesting things to apply jbang to.
+
+== Run Everywhere
+
+`jbang` is now available to install and run in the following distributions:
+
+* Windows
+** https://github.com/maxandersen/jbang#sdkman-linux-apple[SDKMan], https://github.com/maxandersen/jbang#scoop-windows[Scoop], https://github.com/maxandersen/jbang#chocolatey-windows[Chocolatey]
+* Linux
+** https://github.com/maxandersen/jbang#sdkman-linux-apple[SDKMan], https://github.com/maxandersen/jbang#experimental-linux-packages-linux[Fedora], https://copr.fedorainfracloud.org/coprs/maxandersen/jbang/[CentOS, Mageia, openSUSE]
+* OSX
+** https://github.com/maxandersen/jbang#sdkman-linux-apple[SDKMan], https://github.com/maxandersen/jbang#homebrew-apple[Homebrew]
+* Container
+** https://github.com/maxandersen/jbang#docker--github-action-docker[DockerHub, Quay.io]
+* https://github.com/marketplace/actions/java-scripting-w-jbang[GitHub Actions]
+
+The most obvious "missing" piece is a native Debian package for Debian/Ubuntu based distributions. If anyone reading this
+knows how to make that happen and would like to contribute do please reach out!
+
+Beyond that I consider it a pretty good start after a month.
+
+== Use Everywhere
+
+As I got used to having `jbang` available and could literally script anything I started to look for areas to apply `jbang` ;)
+A few notable ones are highlighted below.
+
+TIP: If you have `jbang` installed you can simply copy & paste the examples below into your favorite command line and they should Just Work!
+
+=== Mini web server apps
+
+Early on `jbang` got a good set of mini web server apps added.
+
+ratpack::
+  `jbang https://github.com/maxandersen/jbang/blob/master/examples/ratpack.java`
+spark::  `jbang https://github.com/maxandersen/jbang/blob/master/examples/sparkjava.java`
+undertow:: `jbang https://github.com/maxandersen/jbang/blob/master/examples/undertow.java`
+jetty:: `jbang https://github.com/maxandersen/jbang/blob/master/examples/jetty.java`
+
+=== Easy bug reporting
+
+Early on I realized that with `jbang` you now only need a single file or even just a code snippet marked up with `//DEPS`
+to report an issue with runnable code.
+
+I did exactly that for https://github.com/github-api/github-api/issues/708 and I will do that more often now.
+
+=== `git` and `kubectl` plugins
+
+It is also now possible to implement `git` and `kubectl` plugins in pure java.
+
+Meaning you can do:
+
+[source,console]
+----
+kubectl example pod list
+----
+
+where `example` is a plugin available under the name `kubectl-example`. Something not normally
+possible with Java; but with Jbang you can.
+
+You can see how its implemented at https://github.com/maxandersen/k8s-cli-java.
+
+One thing to remember that since `jbang` takes care of compiling and packaging when you run
+there is *zero* need for `pom.xml` / `build.gradle` files, maven or gradle wrapper nor extra layer of directories.
+
+To see what a difference that makes try and compare to the https://github.com/codementor/k8s-cli-java[original version]
+by https://github.com/codementor[codementor] which inspired me to enable `jbang` for plugin writing.
+
+.original version
+[source, console]
+----
+├── README.md
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+├── gradlew.bat
+└── src
+    └── main
+        └── java
+            └── com
+                └── d2iq
+                    └── kubectl
+                        ├── ExampleCommand.java
+                        ├── Main.java
+                        ├── PodAddCommand.java
+                        ├── PodCommand.java
+                        ├── PodList2Command.java
+                        ├── PodListCommand.java
+                        └── ResourcesCommand.java
+
+8 directories, 13 files
+----
+
+.jbang version
+[source, console]
+----
+.
+├── README.md
+└── kubectl-example
+
+0 directories, 2 files
+----
+
+Quite a difference in visual and technical complexity if you ask me.
+
+=== smee.io client
+
+The simplicity and no need for setting up a lot of scaffolding was also which made me
+quickly prototype a `smee-client` in java. https://smee.io[smee.io] is webproxy used for
+channeling external webhook events to your local host. Now there is one in Java, available
+a `jbang` script.
+
+`jbang https://github.com/maxandersen/jbang/blob/master/examples/smee.java`
+
+=== GitHub actions
+
+Git Hub Actions are awesome and really nice to extend if you like javascript, but what if you are more into Java ?
+well with `https://github.com/maxandersen/jbang-action/` which is a trivial Git hub action that lets
+your write single file java scripting code and hook it into your workflow.
+
+I've used it to implement a GitHub action that automatically mark pull-requests and issues based on what folder they references.
+You can see that repo at https://github.com/maxandersen/jbang-issuelabeler.
+
+=== Web testing/screenscraping with Selenium
+
+A very recent addition with thanks to Aaron Walker, is the example of using Selenium.
+By a simple maven dependency you are up and running with full access to selenium API's letting
+you take screenshots and introspect all the data on the website.
+
+image:/images/jbang-webdriver.gif[]
+
+I can see myself do a few boring task automations with this down the line.
+
+=== Highend desktop graphics and UI with JavaFX
+
+I always wanted `jbang` be able to launch JavaFX as historically I always struggled using it - especially with how its handled
+after introduction of Java Modules. Well, as luck has it you can now just do:
+
+[source,shell]
+----
+jbang https://github.com/maxandersen/jbang/blob/master/examples/jfxtiles.java
+----
+
+With the help of openjfx and Gluon who made the JavaFX native libraries available from maven central we can
+and it will download the proper JavaFX native binaries, launch it and you get to see a nice demo based on https://github.com/HanSolo/tilesfx[HanSolo's TilesFX] library.
+
+image:/images/jbang-javafx-tiles.gif[]
+
+Mind you, this works for both Java 8 (non-java modules) and Java 9+ (java modules).
+
+=== more...?
+
+I could go on but this blog been sitting in my outbox for too long so if you want see more examples take a look in https://github.com/maxandersen/jbang/examples.
+
+== Whats next ?
+
+Last night I https://github.com/maxandersen/jbang/releases/tag/v0.20.0[released `jbang` 0.20] which adds custom maven repository support.
+
+In the upcoming releases I want to add support for multiple files to allow for better reuse between scripts/apps and possibly
+have a native option to have the build be slower but make a native binary available.
+
+Stay safe!
+
+/max
