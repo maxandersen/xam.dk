@@ -159,7 +159,7 @@ Mind you, this works for both Java 8 (non-java modules) and Java 9+ (java module
 
 === more...?
 
-I could go on but this blog been sitting in my outbox for too long so if you want see more examples take a look in https://github.com/maxandersen/jbang/examples.
+I could go on but this blog been sitting in my outbox for too long so if you want see more examples take a look in https://github.com/maxandersen/jbang/tree/master/examples.
 
 == Whats next ?
 
