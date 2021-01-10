@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 4.0.1"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-clean-blog", :github => 'maxandersen/startbootstrap-clean-blog-jekyll', :branch => 'master'
@@ -19,12 +19,14 @@ gem "jekyll-theme-clean-blog", :github => 'maxandersen/startbootstrap-clean-blog
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-asciidoc'
   gem 'jekyll-paginate'
   gem 'jekyll-analytics'
 #  gem 'jekyll-webmention_io', :git => 'https://github.com/maxandersen/jekyll-webmention_io', :branch => 'fixed_master'
-  gem 'jekyll-webmention_io'
+# to get jekyll4 support  
+  gem 'jekyll-webmention_io', :git => 'https://github.com/danielpietzsch/jekyll-webmention_io.git', :branch => 'jekyll4'
+  #gem 'jekyll-webmention_io'
   gem 'jekyll-postfiles'
   gem 'jekyll-compose'
   gem 'jekyll-last-modified-at'
