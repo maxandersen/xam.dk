@@ -1,0 +1,139 @@
+= Dynamic github readme with jbang and quarkus
+:page-layout: post
+
+Today Red Hat has its quarterly learning day and I'm using it to finish up loose
+ends in some JBang experiments I had laying around.
+
+First of is my attempt to make a JBang version of Frankels kscript based github readme updater. He writes about it https://blog.frankel.ch/customizing-github-profile/1/[here] and https://blog.frankel.ch/customizing-github-profile/2/[here].
+
+Idea is to have your github README repo automatically update with things like latest blogs, video post, talks, etc. 
+
+Then that becomes part of your github profile landing page.
+
+## Try it out
+
+You can fork or copy https://github.com/maxandersen/maxandersen into your own personal repository and get hacking! 
+
+Just update the script and template to have the content you want!
+
+If you add some other additional fetching of data online I would love to get a PR or issue with link to see :)
+
+Below the script and workflow are described in a bit more detail if interested.
+
+## The script 
+
+The jbang script is using Quarkus - mainly just because it can but I actually saved some code and time as it comes pre-configured to use Qute for templating.
+
+Full script is https://github.com/maxandersen/maxandersen/blob/master/update.java[here] it is just ~70 lines, but I'll just call out the important bits below:
+
+### Dependencies
+The start is setting up bootstrap and dependencies that JBang will handle:
+
+[source,java]
+----
+///usr/bin/env jbang "$0" "$@" ; exit $?  <.>
+//DEPS io.quarkus:quarkus-bom:${quarkus.version:2.2.0.CR1}@pom <.>
+//DEPS io.quarkus:quarkus-qute <.>
+//DEPS https://github.com/w3stling/rssreader/tree/v2.5.0 <.>
+----
+<.> bash/zsh "shebang" line that also works as java comment. Lets you run the script directly
+<.> Quarkus 2.2 platform bom to manage versions - only use one currently so strictly not necessary
+<.> The script uses Qute - don't need to specify versions as managed by the Quarkus bom
+<.> rssreader is a library giving a fluent api to read rss feeds. They only publish to jcenter which is no longer thus here using jbangs support to build a github repo using jitpack. Just need to provide the URL for the specific branch and everything is taken care of.
+
+### Quarkus command mode
+
+To use Quarkus we need to tell Quarkus to run in command mode as we are not serving any content here just a cli - with that we can get injection working.
+
+[source,java]
+----
+@QuarkusMain <.>
+public class update implements QuarkusApplication { <.>
+
+    @Inject
+    Engine qute; <.>
+
+    public int run(String... args) throws Exception { <.>
+----
+<.> Define Quarkus main thus we will get called on start
+<.> Injecting of Qute for rendering from templates
+<.> The run method that will get passed any arguments. Which we don't use in this example.
+
+### Fetching blog posts
+
+In the core of the update I fetch my latest blogs using the rss reader. Could also fetch content from youtube, github commits, etc. but for now just adding blogs.
+
+That code is as below:
+
+[source,java]
+----
+Collection<Item> sorted = new PriorityQueue<>(Collections.reverseOrder()); // <1>
+RssReader reader = new RssReader();
+Stream<Item> rssFeed = reader.read("https://xam.dk/blog/feed.atom");
+sorted.addAll(rssFeed.limit(3).collect(Collectors.toList())); // <.>
+
+sorted.addAll(reader.read("https://quarkus.io/feed.xml").filter(p->p.getAuthor().get().contains("/maxandersen")).limit(3).collect(Collectors.toList())); // <.>
+----
+<.> Set up a list that is sorted in reverse date order
+<.> Read my personal rss feed using the RssReader, limiting to last 3 posts
+<.> Same from quarkus.io but this time add additional filter to have it only include the ones I authored.
+
+### Rendering README.adoc
+
+Finally the rendering - here using Qute to generate a Asciidoc page.
+
+[source,java]
+----
+Files.writeString(Path.of("readme.adoc"), qute.parse(Files.readString(Path.of("template.adoc.qute")))
+        .data("bio", bio)
+        .data("posts", sorted)
+        .render());
+----
+
+The template is https://github.com/maxandersen/maxandersen/blob/master/template.adoc.qute[here] and is a straightforward Qute template iterating over the `posts` and inserting the `bio` strings setup in the update script.
+
+### The workflow action
+
+The github workflow is fairly trivial, add a https://github.com/maxandersen/maxandersen/blob/master/.github/workflows/build.yml[.github/workflows/build.yml] like this:
+
+[source,yaml]
+----
+name: Update README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '47 1 * * *' # <.>
+  push:
+    branches:
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: jbang
+        uses: jbangdev/jbang-action@v0.78.0
+        with:
+          script: update.java # <.>
+          scriptargs: "my world"
+        env:
+          JBANG_REPO: /root/.jbang/repository
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # <.>
+      - name: Commit README and push
+        uses: EndBug/add-and-commit@v7 # <.>
+        with:
+          add: readme.adoc
+          default_author: github_actions
+          message: Automatically update README.adoc
+---- 
+<.> Setup cron schedule to build every day
+<.> Run jbang script to generate readme file
+<.> Setup a GITHUB_TOKEN in repository to use from script
+<.> Commit and push readme
+
+Hope that was useful showing the power and simplicity of Java when used with tools like JBang and Quarkus :)
+
+Have fun!
