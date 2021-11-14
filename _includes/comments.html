@@ -16,5 +16,19 @@
   {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
 {% endfor %}
 {% endif %}
-
+<script src="https://giscus.app/client.js"
+        data-repo="maxandersen/xam.dk"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkxMDkwMTY5Mw=="
+        data-category="Blog"
+        data-category-id="DIC_kwDOAKZYvc4B_3cA"
+        data-mapping="title"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="light_protanopia"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+{% comment %}
 {% include new-comment.html %}
+{% endcomment %}
