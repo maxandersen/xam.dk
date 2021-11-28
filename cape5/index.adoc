@@ -1,0 +1,9 @@
+---
+title: Rue de la Cape 5
+author: Max Rydahl Andersen
+#background: /images/house.jpg
+---
+Information for Rue de la Cape 5, 2207 Coffrane
+
+link:ruedelacape5.pdf[Notice de vente]
+
