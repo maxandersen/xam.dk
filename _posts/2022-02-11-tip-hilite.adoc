@@ -1,0 +1,24 @@
+= hilite
+:page-layout: post
+ifdef::env-github,env-browser,env-vscode[:imagesdir: ..]
+
+Today I was trying to verify which lines of output from https://jbang.dev[jbang] were standard out and which is standard error to write a better https://karatelabs.github.io/karate/[karate] based test.
+
+Reminded me I needed it before and found I had https://sourceforge.net/projects/hilite/[`hilite`] installed.
+
+A tool that does nothing than highlight standard error in red.
+
+So now instead of:
+
+image::/images/nolite-output.png[width=100%]
+
+I get:
+
+image::/images/hilite-output.png[width=100%]
+
+Clearly verifing that indeed the error is on standard error. Letting 
+me add the last test to relase https://github.com/jbangdev/jbang/releases/tag/v0.89.1[JBang 0.89.1].
+
+On OSX I got `hilite` by using `brew install hilite`.
+
+Have fun!
