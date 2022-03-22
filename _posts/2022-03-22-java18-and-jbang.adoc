@@ -1,0 +1,89 @@
+= Java 18 and JBang
+:page-layout: post
+ifdef::env-github,env-browser,env-vscode[:imagesdir: ..]
+
+Java 18 is coming out today, lets see how to use Java 18 with JBang.
+
+== Getting and Using Java 18 with JBang
+
+You can get any major version of Java with JBang using `--java` option, like: `jbang --java 17 myapp.java`.
+
+With Java 18 that won't work just yet - first when https://adoptium.net/ publish their first Java 18 GA download.
+
+Until then you can active "early access" downloads using `JBANG_JDK_RELEASE=ea jbang --java 18 -c 'println("Hello World!")'`
+
+OR if you already hava a Java 18 you can just set it as the default java and JBang will use it by default.
+
+You can also teach JBang about what JDK you want to use as Java 18, using `jbang jdk install`.
+
+Imagine your are using https://sdkman.io[SDKMan]
+and have already run `sdk install java 18-open` then you can run the following:
+
+```bash
+jbang jdk install 18 $(sdk home java 18-open)
+```
+
+Now when you use `jbang --java 18` or `//JAVA 18` it will use the JDK sdkman installed for you.
+
+== Some news in Java 18 ?
+
+I won't show all new things in Java 18, https://www.happycoders.eu/java/java-18-features/[happycoders.eu] does that better but here are some of the most interesting ones that JBang can show you.
+
+## Default file encoding is now UTF-8
+
+Finally! This is something that always been a mess when dealing with both Windows and Linux based installs. Charsets and file encoding easily got messed up.
+
+To illustrate the differences you can run this one-liner JBang with different Java versions and optimally different Operating systems:
+
+```
+jbang --java 18 -c 'println(String.format("Default charset %s\nfile.encoding %s\nnative.encoding %s", java.nio.charset.Charset.defaultCharset(),System.getProperty("file.encoding"),System.getProperty("native.encoding")))'
+```
+
+With `--java 18` the result is:
+
+```
+Default charset UTF-8
+file.encoding UTF-8
+native.encoding UTF-8
+```
+
+but on Windows with `--java 17` I get:
+
+```
+Default charset windows-1252
+file.encoding Cp1252
+native.encoding Cp1252
+```
+
+With `-java 18` the default values are the same across all platforms. A Great help!
+
+== Simple Web Server
+
+Java 18 with JEP 408 introduces `jwebserver` which can be used to serve out static pages.
+
+This is great and something other ecosystems have had for years. Thus Java is a bit late in the game here thus I'll just say that JBang has a similar web server that works on Java 9 and upwards: 
+
+```
+jbang httpd@jbangdev
+```
+
+Still happy Java 18 now comes with it built-in.
+
+## Internet-Address Resolution SPI
+
+This one is fun and lets you replace the way the JDK resolves the IP address of a hostname.
+
+For it to work you need an implementation of `java.net.spi.InetAddressResolverProvider`
+and a `META-INF/services/java.net.spi.InetAddressResolverProvider` file containing the class name.
+
+A minimal implementation of such that simply returns 127.0.0.1 for any hostname is https://github.com/jbangdev/jbang-examples/blob/main/examples/java/J18InetAddressResolverProvider.java[here].
+
+You can run it using `jbang j18inetresolver@jbangdev/jbang-examples fake.host` and any host name you try resolve will return 127.0.0.1.
+
+So yeah, give Java 18 a try and if it is too old for you now you can always try out Java 19:
+
+```
+JBANG_JDK_RELEASE=ea jbang --java 19 -c 'println("Hello World!")'
+```
+
+Have fun!
