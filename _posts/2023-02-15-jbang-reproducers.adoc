@@ -1,0 +1,49 @@
+= Benchmarks, Async profiler and JBang 
+:page-layout: post
+ifdef::env-github,env-browser,env-vscode[:imagesdir: ..]
+
+Ever wanted to share an example benchmark and be able to easily generate async profiler flamegraphs ? 
+
+This blog explains how that is trivial with JBang.  
+
+== Backstory
+
+The other day https://twitter.com/forked_franz[Francsco Nigro] aka. Mr. Performance Guru posted a message pointing to a https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff[gist] he made. 
+
+This gist has some code that uses https://github.com/openjdk/jmh[Java Microbenchmark Harness](JMH) to make some measurements related to Java 19 virtual threads (aka Loom) + some https://github.com/jvm-profiling-tools/async-profiler[async profiler] generated flamegraphs.
+
+All good and great - but how do you run this ?
+
+You can try copy the code to your local disk, then setup a maven project, add the dependencies, add the async profiler agent, etc.
+
+Or you can just run it with JBang.
+
+[source,bash]
+----
+jbang --deps org.openjdk.jmh:jmh-generator-annprocess:1.36 -m org.openjdk.jmh.Main -R=--enable-preview -R=--add-opens -R=java.base/java.lang=ALL-UNNAMED --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
+----
+
+== What does it do ?
+
+If you run that, you will get a nice flamegraph generated for you in `profile.html` that you can explore together with the JMH output numbers.
+
+That line is a bit of a mouthful, so let's break it down.
+
+`--deps org.openjdk.jmh:jmh-generator-annprocess:1.36`:: This is the JMH dependency. 
+`-m org.openjdk.jmh.Main`:: This is the main class to run; as the snippet is a JMH benchmark, we need to run the JMH main class.
+`-R=--enable-preview -R=--add-opens -R=java.base/java.lang=ALL-UNNAMED`:: These are the Java 19 preview flags needed to run the code. 
+`https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff`:: This is the gist to run.
+
+Those are fairly simple to understand, but what about this part:
+
+`--javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html`
+
+This loads the async profiler agent and cofigures it - but without you having to download a `async-profiler.jar` file and add it to your classpath. 
+
+It works because I made a https://github.com/maxandersen/jbang-catalog[jbang-catalog] that defines `ap-loader` alias that uses the https://github.com/jvm-profiling-tools/ap-loader[async profile loader] published to Github releases.
+
+== Make it even simpler
+
+If Franz had added a few jbang comment to his gist, then you could have just run it with:
+
+Have fun!
