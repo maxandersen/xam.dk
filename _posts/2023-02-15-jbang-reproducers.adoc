@@ -14,20 +14,30 @@ This gist has some code that uses https://github.com/openjdk/jmh[Java Microbench
 
 All good and great - but how do you run this ?
 
-You can try copy the code to your local disk, then setup a maven project, add the dependencies, add the async profiler agent, etc.
+You could try:
 
-Or you can just run it with JBang.
+. copy the code to your local disk
+. setup a maven project
+. add the dependencies
+. add the async profiler agent
+. ?
+. ?
+. profit?
+
+Or you (or Francesco) could just made a one-liner to run it with JBang.
 
 [source,bash]
 ----
 jbang --deps org.openjdk.jmh:jmh-generator-annprocess:1.36 -m org.openjdk.jmh.Main -R=--enable-preview -R=--add-opens -R=java.base/java.lang=ALL-UNNAMED --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
 ----
 
-== What does it do ?
-
 If you run that, you will get a nice flamegraph generated for you in `profile.html` that you can explore together with the JMH output numbers.
 
-That line is a bit of a mouthful, so let's break it down.
+Brilliant, right?
+
+== How does it work ?
+
+The command line is a bit of a mouthful, so let's break it down.
 
 `--deps org.openjdk.jmh:jmh-generator-annprocess:1.36`:: This is the JMH dependency. 
 `-m org.openjdk.jmh.Main`:: This is the main class to run; as the snippet is a JMH benchmark, we need to run the JMH main class.
@@ -38,12 +48,59 @@ Those are fairly simple to understand, but what about this part:
 
 `--javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html`
 
-This loads the async profiler agent and cofigures it - but without you having to download a `async-profiler.jar` file and add it to your classpath. 
+This loads the async profiler agent and configures it - without you having to download a `async-profiler.jar` file and add it to your classpath. 
 
 It works because I made a https://github.com/maxandersen/jbang-catalog[jbang-catalog] that defines `ap-loader` alias that uses the https://github.com/jvm-profiling-tools/ap-loader[async profile loader] published to Github releases.
 
-== Make it even simpler
+I've submitted a https://github.com/jvm-profiling-tools/ap-loader/pull/8[PR to the ap-loader project] to add this to the project itself, but until that is merged you can use my alias.
 
-If Franz had added a few jbang comment to his gist, then you could have just run it with:
+== Making your own (simple) reproducers
+
+Francseco did not know about this feature of JBang, but if he had known he could have made his gist even simpler to use. By adding a few comments JBang can configure itself to run the code.
+
+[source,java]
+----
+//JAVA 19
+//DEPS org.openjdk.jmh:jmh-generator-annprocess:1.36
+//JAVA_OPTIONS --enable-preview --add-opens java.base/java.lang=ALL-UNNAMED
+----
+
+With that the gist would be directly runnable. 
+
+I've made b1a6dd2019b359ec32b07f0599ee2d9e301a73e2[my own fork of the gist] to show it:
+
+```
+jbang https://gist.github.com/maxandersen/d6571c2e637702fb55cd18783e5bff1b
+```
+
+and to run it with async profiler you would just add the `--javaagent` part:
+
+```
+jbang --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
+```
+
+== Bonus tips
+
+Not only does the above make it possible run the gist, but if you have any of the JBang IDE plugins installed it will also just work with content assist, debugging etc. without further setup. All without having to setup a maven project or anything.
+
+This uses a gist, but could also been any .java or .jar file locally or on the web, a maven artifact or another jbang alias.
+
+For example if you wanted to generate flamegraph for Quarkus CLI and don't have jbang nor java installed you would do:
+
+```
+jbang --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html quarkus@quarkusio
+```
+
+This is loading  the agent on the `quarkus@quarkusio` alias which behind the scene points to a jar in maven central. 
+
+Furthermore, you can even make a command line that will install JBang and even Java Development Kit for you if you don't have it installed.
+
+```
+curl -Ls https://sh.jbang.dev | bash -s - --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html quarkus@quarkusio
+```
+
+== Intrigued ? 
+
+See https://jbang.dev[JBang] for more details and if you have any questions or feedback, please reach out to me on https://twitter.com/maxandersen[Twitter] or on https://github.com/jbangdev/jbang/discussions[JBang discussions].
 
 Have fun!
