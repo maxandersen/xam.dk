@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.0.1"
+gem "jekyll", "~> 4.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-clean-blog", :github => 'maxandersen/startbootstrap-clean-blog-jekyll', :branch => 'master'
@@ -19,7 +19,7 @@ gem "jekyll-theme-clean-blog", :github => 'maxandersen/startbootstrap-clean-blog
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.17"
   gem 'jekyll-asciidoc'
   gem 'jekyll-paginate'
   gem 'jekyll-analytics'
