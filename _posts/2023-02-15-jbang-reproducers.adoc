@@ -28,10 +28,16 @@ Or you (or Francesco) could just made a one-liner to run it with JBang.
 
 [source,bash]
 ----
-jbang --deps org.openjdk.jmh:jmh-generator-annprocess:1.36 -m org.openjdk.jmh.Main -R=--enable-preview -R=--add-opens -R=java.base/java.lang=ALL-UNNAMED --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
+jbang --java 19 --deps org.openjdk.jmh:jmh-generator-annprocess:1.36 -m org.openjdk.jmh.Main -R=--enable-preview -R=--add-opens -R=java.base/java.lang=ALL-UNNAMED --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
 ----
 
-If you run that, you will get a nice flamegraph generated for you in `profile.html` that you can explore together with the JMH output numbers.
+If you run that, you will get the JMH benchmark numbers...
+
+image::https://asciinema.org/a/HAWWlGBuzAqz4sWhVGDL4yk5d.svg[link="https://asciinema.org/a/HAWWlGBuzAqz4sWhVGDL4yk5d"]
+
+...and a nice flamegraph generated for you in `profile.html`.
+
+image::images/flamegraph.png[Flamegraph]
 
 Brilliant, right?
 
@@ -39,6 +45,7 @@ Brilliant, right?
 
 The command line is a bit of a mouthful, so let's break it down.
 
+`--java 19`:: This says it must use Java 19. You can use 19+ to use 19 or later.
 `--deps org.openjdk.jmh:jmh-generator-annprocess:1.36`:: This is the JMH dependency. 
 `-m org.openjdk.jmh.Main`:: This is the main class to run; as the snippet is a JMH benchmark, we need to run the JMH main class.
 `-R=--enable-preview -R=--add-opens -R=java.base/java.lang=ALL-UNNAMED`:: These are the Java 19 preview flags needed to run the code. 
@@ -85,7 +92,7 @@ Not only does the above make it possible run the gist, but if you have any of th
 
 This uses a gist, but could also been any .java or .jar file locally or on the web, a maven artifact or another jbang alias.
 
-For example if you wanted to generate flamegraph for Quarkus CLI and don't have jbang nor java installed you would do:
+For example if you wanted to generate flamegraph for Quarkus CLI you would do:
 
 ```
 jbang --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html quarkus@quarkusio
@@ -93,11 +100,13 @@ jbang --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html quarku
 
 This is loading  the agent on the `quarkus@quarkusio` alias which behind the scene points to a jar in maven central. 
 
-Furthermore, you can even make a command line that will install JBang and even Java Development Kit for you if you don't have it installed.
+Furthermore, you can even make a command line that will install JBang and even a Java Development Kit (JDK) for you if you don't have it installed.
 
 ```
 curl -Ls https://sh.jbang.dev | bash -s - --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html quarkus@quarkusio
 ```
+
+The combinations and possibilities are endless.
 
 == Intrigued ? 
 
