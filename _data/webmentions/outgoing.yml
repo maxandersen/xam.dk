@@ -331,3 +331,78 @@ https://xam.dk/blog/the-black-swan-of-java/:
   https://www.slideshare.net/maxandersen/quarkus-denmark-2019: false
 https://xam.dk/blog/using-eclipse-from-commandline/:
   https://bugs.eclipse.org/bugs/show_bug.cgi?id=559075: false
+https://xam.dk/blog/unleasing-the-scripting-powers-of-java/:
+  https://github.com/maxandersen/jbang: false
+  https://github.com/maxandersen/jbang.: false
+  "//DEPS`": false
+  https://github.com/actions/labeler: false
+  https://gist.github.com/maxandersen/590b8a0e824faeb3ee7ddfad741ce842/: false
+  https://picocli.info: false
+  https://git.io/JvJox: false
+  https://github.com/maxandersen/jbang-action: false
+  "//usr/bin/env": false
+  "//DEPS": false
+  https://github.com/maxandersen/jbang/issues/new: false
+https://xam.dk/blog/jbang-everywhere/:
+  https://github.com/maxandersen/jbang: false
+  https://copr.fedorainfracloud.org/coprs/maxandersen/jbang/: false
+  https://github.com/marketplace/actions/java-scripting-w-jbang: false
+  https://github.com/maxandersen/jbang/blob/master/examples/ratpack.java`: false
+  https://github.com/maxandersen/jbang/blob/master/examples/sparkjava.java`: false
+  https://github.com/maxandersen/jbang/blob/master/examples/undertow.java`: false
+  https://github.com/maxandersen/jbang/blob/master/examples/jetty.java`: false
+  "//DEPS`": false
+  https://github.com/github-api/github-api/issues/708: false
+  https://github.com/maxandersen/k8s-cli-java.: false
+  https://github.com/codementor/k8s-cli-java: false
+  https://github.com/codementor: false
+  https://smee.io: false
+  https://github.com/maxandersen/jbang/blob/master/examples/smee.java`: false
+  https://github.com/maxandersen/jbang-action/`: false
+  https://github.com/maxandersen/jbang-issuelabeler.: false
+  https://github.com/maxandersen/jbang/blob/master/examples/jfxtiles.java: false
+  https://github.com/HanSolo/tilesfx: false
+  https://github.com/maxandersen/jbang/tree/master/examples.: false
+  https://github.com/maxandersen/jbang/releases/tag/v0.20.0: false
+https://xam.dk/blog/dynamic-github-readme-with-jbang-quarkus/:
+  https://blog.frankel.ch/customizing-github-profile/1/: false
+  https://blog.frankel.ch/customizing-github-profile/2/: false
+  https://github.com/maxandersen/maxandersen: false
+  https://github.com/maxandersen/maxandersen/blob/master/update.java: false
+  "///usr/bin/env": false
+  "//DEPS": false
+  https://github.com/w3stling/rssreader/tree/v2.5.0: false
+  https://xam.dk/blog/feed.atom: false
+  https://quarkus.io/feed.xml: false
+  https://github.com/maxandersen/maxandersen/blob/master/template.adoc.qute: false
+  https://github.com/maxandersen/maxandersen/blob/master/.github/workflows/build.yml: false
+https://xam.dk/blog/tip-hilite/:
+  https://jbang.dev: false
+  https://karatelabs.github.io/karate/: false
+  https://sourceforge.net/projects/hilite/: false
+  https://github.com/jbangdev/jbang/releases/tag/v0.89.1: false
+https://xam.dk/blog/java18-and-jbang/:
+  https://adoptium.net/: false
+  https://sdkman.io: false
+  "//JAVA": false
+  https://www.happycoders.eu/java/java-18-features/: false
+  https://github.com/jbangdev/jbang-examples/blob/main/examples/java/J18InetAddressResolverProvider.java: false
+https://xam.dk/blog/jbang-reproducers/:
+  https://twitter.com/forked_franz: false
+  https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff: false
+  https://github.com/openjdk/jmh: false
+  https://github.com/jvm-profiling-tools/async-profiler: false
+  https://asciinema.org/a/HAWWlGBuzAqz4sWhVGDL4yk5d.svg: false
+  https://asciinema.org/a/HAWWlGBuzAqz4sWhVGDL4yk5d: false
+  'https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff`::': false
+  https://github.com/maxandersen/jbang-catalog: false
+  https://github.com/jvm-profiling-tools/ap-loader: false
+  https://github.com/jvm-profiling-tools/ap-loader/pull/8: false
+  "//JAVA": false
+  "//DEPS": false
+  "//JAVA_OPTIONS": false
+  https://gist.github.com/maxandersen/d6571c2e637702fb55cd18783e5bff1b: false
+  https://sh.jbang.dev: false
+  https://jbang.dev: false
+  https://twitter.com/maxandersen: false
+  https://github.com/jbangdev/jbang/discussions: false

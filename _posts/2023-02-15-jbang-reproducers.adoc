@@ -1,6 +1,5 @@
 = Benchmarks, Async profiler and JBang 
 :page-layout: post
-ifdef::env-github,env-browser,env-vscode[:imagesdir: ..]
 
 Ever wanted to share an example benchmark and be able to easily generate async profiler flamegraphs ? 
 
