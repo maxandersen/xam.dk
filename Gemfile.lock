@@ -45,6 +45,7 @@ GEM
       rake
     forwardable-extended (2.6.0)
     google-protobuf (3.21.12)
+    google-protobuf (3.21.12-x86_64-linux)
     html-proofer (4.4.3)
       addressable (~> 2.3)
       mercenary (~> 0.3)
@@ -123,6 +124,8 @@ GEM
     nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.14.2-x86_64-linux)
+      racc (~> 1.4)
     openssl (3.1.0)
     parallel (1.22.1)
     pathutil (0.16.2)
@@ -164,6 +167,7 @@ GEM
 
 PLATFORMS
   -darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   domainatrix
