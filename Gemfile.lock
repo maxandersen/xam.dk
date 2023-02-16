@@ -163,7 +163,7 @@ GEM
     zeitwerk (2.6.7)
 
 PLATFORMS
-  ruby
+  -darwin-22
 
 DEPENDENCIES
   domainatrix
@@ -183,4 +183,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.1.4
+   2.3.25
