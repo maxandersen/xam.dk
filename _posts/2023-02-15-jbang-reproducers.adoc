@@ -7,7 +7,7 @@ This blog explains how that is trivial with JBang.
 
 == Backstory
 
-The other day https://twitter.com/forked_franz[Francsco Nigro] aka. Mr. Performance Guru posted a message pointing to a https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff[gist] he made. 
+The other day https://twitter.com/forked_franz[Francesco Nigro] aka. Mr. Performance Guru posted a message pointing to a https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff[gist] he made. 
 
 This gist has some code that uses https://github.com/openjdk/jmh[Java Microbenchmark Harness](JMH) to make some measurements related to Java 19 virtual threads (aka Loom) + some https://github.com/jvm-profiling-tools/async-profiler[async profiler] generated flamegraphs.
 
@@ -62,7 +62,7 @@ I've submitted a https://github.com/jvm-profiling-tools/ap-loader/pull/8[PR to t
 
 == Making your own (simple) reproducers
 
-Francseco did not know about this feature of JBang, but if he had known he could have made his gist even simpler to use. By adding a few comments JBang can configure itself to run the code.
+Francesco did not know about this feature of JBang, but if he had known he could have made his gist even simpler to use. By adding a few comments JBang can configure itself to run the code.
 
 [source,java]
 ----
