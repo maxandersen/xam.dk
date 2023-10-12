@@ -3,6 +3,11 @@
   "aliases": {
     "tree": {
       "script-ref": "tree/main.java"
+    },
+    "qrcode": {
+      "script-ref": "qrcode/main.java",
+      "enable-preview": false,
+      "java-agents": []
     }
   },
   "templates": {}
