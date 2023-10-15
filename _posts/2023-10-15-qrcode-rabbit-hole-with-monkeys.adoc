@@ -1,0 +1,218 @@
+= A QRCode Rabbit Hole filled with 12 Monkeys
+:page-layout: post
+:imagesdir: ../
+
+Holly Cummins made a https://hollycummins.com/creating-QR-codes/[blog post] earlier this week about a QR code generator that merges images into the QR code like this one: 
+
+image:https://hollycummins.com/static/547325248258cece6ac0a3d6a559233d/6af66/myqr.png[width=320]
+
+I love the idea and while Holly's script is directly executable using JBang already like this:
+
+ `jbang https://hollycummins.com/5c25661ae4594167a9c41570824f955d/QrCode.java https://xam.dk myoverlay.png qrcode.png`
+
+You can also already install it locally using `jbang install https://hollycummins.com/5c25661ae4594167a9c41570824f955d/QrCode.java` and then run it using `qrcode` using remote file arguments like this:
+
+`qrcode https://xam.dk %{https://placedog.net/64/64} qrcode.png`
+
+To get this:
+
+image:images/qrcode-dog.png[width=320]
+
+I thought it would be interesting explaining how with quite simple means you can make initial setup simpler. 
+
+This let me down a rabbit hole of fun so you can now do this:
+
+`jbang install qrcode@xam.dk
+qrcode https://quarkus.io -i %{https://design.jboss.org/quarkus/logo/final/SVG/quarkus_icon_rgb_default.svg} -od 200`
+
+to get this:
+
+image::images/qrcode-quarkus.png[width=320]
+
+That is a QR code for https://quarkus.io with the Quarkus SVG logo in it scaled to 200x200.
+
+Now how did I get there? Let's start with the remote file arguments.
+
+
+== Remote file arguments
+
+No extra code is required for this to work. It even works with Holly's original script.
+
+JBang has a https://www.jbang.dev/documentation/guide/latest/running.html#remote-file-arguments[magic feature] where it will interpret arguments enclosed with `%{}` as remote files. It will attempt to download the argument and replace it with the path to the downloaded file.
+
+Meaning you can use a local file or any url from the internet withot code changes. All the following are valid arguments assuming you have internet access:
+
+`qrcode https://xam.dk -i xam.png`
+
+`qrcode https://xam.dk -i %{https://placekitten.com/128/128}`
+
+`qrcode https://xam.dk -i %{https://placedog.net/128/128}`
+
+Since JBang does the heavy lifting, you can use this feature with anything you run with JBang. It just needs to accept a file as input.
+
+NOTE: Java ImageIO actually supports loading directly from a URI so it is trivial to add support for this to Holly's script directly. I'll leave that as an exercise for the reader.
+
+Now, how about simplifying the name of the command ?
+
+== Simpler names
+
+In Holly's original script, she used `QrCode.java` as the name of the file and hosted it at https://hollycummins.com/5c25661ae4594167a9c41570824f955d/QrCode.java.
+
+That is a bit of a mouthful to type.
+
+There are multiple ways to simplify this.
+
+First, you can use JBang's https://www.jbang.dev/documentation/guide/latest/running.html#jbang-aliases[aliases] feature. This lets you create a short name for a script by adding a file called `jbang-catalog.json` in either your github repository or even on your website.
+
+Simply do:
+
+`jbang alias add -f . https://hollycummins.com/5c25661ae4594167a9c41570824f955d/QrCode.java qrcode`
+
+Now if that `jbang-catalog` was placed at `https://hollycummins.com/jbang-catalog.json` you could refer to it as:
+
+`jbang qrcode@hollycummins.com`
+
+Holly could also add a https://github.com/hollycummins/jbang-catalog repository with a `jbang-catalog.json` file in it and then you could refer to it as:
+
+`jbang qrcode@hollycummins`
+
+In my case I'm going to make it available on https://xam.dk using two combined features. `main.java` and `jbang-catalog`.
+
+=== `main.java`
+
+I place my qrcode.java at `https://xam.dk/qrcode/main.java` - this lets you refer to it using `jbang https://xam.dk/qrcode/main.java`, but you can also just let it be `jbang https://xam.dk/qrcode`.
+
+Mote how `main.java` is missing here. JBang automatically looks for a `/main.java` file if nothing else found at the URL. All to simplify the naming.
+
+=== `jbang-catalog` on a site
+
+Even `https://xam.dk/qrcode` is a bit long to type. So I can add a `jbang-catalog.json` file to my site at `https://xam.dk/jbang-catalog.json` and that is how you can refer to it:
+
+`jbang qrcode@xam.dk`
+
+== Flags and defaults
+ 
+I use https://picocli.info/[Picocli] for handling flags and arguments. It is a library that makes it easy to create command line tools with Java. 
+
+First, add the dependency to your `qrcode.java` file:
+
+[source,java]
+----
+//DEPS info.picocli:picocli:4.5.0
+//DEPS info.picocli:picocli-codegen:4.5.0
+----
+
+The latter `codegen` dependency is strictly not required but it enables Picocli's annotation processor which makes it so during the build you get much better and more complete error messages for the annotations Picocli requires. 
+
+Then add fields to you class for the flags I want:
+
+[source,java]
+----
+@Parameters(index = "0", description = "Text to encode")
+String text; 
+
+@Option(names = {"-i", "--image"}, description = "Image to overlay", required = true)
+Path imagePath;
+
+@Option(names = {"-o", "--output"}, description = "Output file", defaultValue = "qrcode.png")
+Path outPath;
+----
+
+There are also adjustments to move from a static method to a picocli annotated class, but that is not important for this post. You can see the full code at https://xam.dk/qrcode/main.java[https://xam.dk/qrcode/main.java] and read more on those details at https://picocli.info[Picocli's website].
+
+By those changes the qrcode command now has a help text:
+
+```bash
+jbang qrcode@xam.dk
+Missing required parameter: '<text>'
+Usage: qrcode [-hV] -i=<imagePath> [-o=<outPath>] <text>
+Make a QR code with an overlay image. Inspried by https://hollycummins.
+com/creating-QR-codes/
+      <text>                Text to encode
+  -h, --help                Show this help message and exit.
+  -i, --image=<imagePath>   Image to overlay
+  -o, --output=<outPath>    Output file
+  -V, --version             Print version information and exit.
+```
+
+and in addition:
+
+- only requires two arguments as default output file is now `qrcode.png`
+- let me put the flags in any order I want, `qrcode -i xam.png https://xam.dk` works just as well as `qrcode https://xam.dk -i xam.png`
+
+Then I come to the rabbit hole - I want to be able to load svg files from simpleicons.org and scale them.
+
+=== Monkey SVG and Scaling 
+
+Holly's script uses the awesome ImageIO library provided by the standard JDK. It is a great (albeit unmaintained) library for processing images in Java, but it does not support SVG files directly.
+
+Turns out that there is a library named https://github.com/haraldk/TwelveMonkeys[12 Monkeys] that via https://xmlgraphics.apache.org/batik/[Apache Batik] trivially adds SVG (and other image) support to ImageIO.
+
+So I add the dependency to my `qrcode.java` file:
+
+[source,java]
+----
+//DEPS org.apache.xmlgraphics:batik-transcoder:1.17
+//DEPS com.twelvemonkeys.imageio:imageio-batik:3.9.4
+----
+
+And then the code magically loads `.svg` files.
+
+Unfortunately SVG files are vector graphics and thus often have a size that is not apropriate for the "embedding image in QRCode" trick. So we need to add a flag to control the dimensions of the image. I add a `overlay-dimensions` flag together with a basic converter for it:
+
+[source,java]
+----
+@Option(names = { "-od",
+            "--overlay-dimensions" }, description = "Dimension to apply to overlay", converter = DimensionsConverter.class)
+    Dimension overlayDimensions;
+
+class DimensionsConverter implements ITypeConverter<Dimension> {
+    public Dimension convert(String value) throws Exception {
+        String[] dim = value.split("[x,:]");
+
+        if (dim.length < 1 && dim.length > 2) {
+            throw new IllegalArgumentException("Invalid dimensions " + value);
+        }
+
+        int width = Integer.parseInt(dim[0]);
+        int height = dim.length == 2 ? Integer.parseInt(dim[1]) : width;
+
+        return new Dimension(width, height);
+    }
+}
+----
+
+Then I add the scaling code to the `readImage` method to scale on read when reading SVG files but interoplate when reading other image types:
+
+[source,java]
+----
+ImageReadParam param = reader.getDefaultReadParam();
+
+// scale svg when reading
+if (dimensions != null && "svg".equals(reader.getFormatName())) {
+    param.setSourceRenderSize(dimensions);
+}
+
+BufferedImage image = reader.read(0, param);
+
+// scale non-svg by resampling
+if (dimensions != null && !"svg".equals(reader.getFormatName())) {
+    BufferedImageOp resampler = new ResampleOp(
+                                    dimensions.width, dimensions.height, 
+                                    ResampleOp.FILTER_LANCZOS);
+    image = resampler.filter(image, null);
+}
+
+return image;
+----
+
+There are slightly few more lines to this as can no longer rely on the static method to return the image, but you can see the full code at https://xam.dk/qrcode/main.java[https://xam.dk/qrcode/main.java].
+
+=== End of the rabbit hole
+
+I now also want to generate SVG file instead of a png but I must stop as otherwise this rabbit hole will never end. It is enough I found 12 monkeys on the way.
+
+
+
+
+
