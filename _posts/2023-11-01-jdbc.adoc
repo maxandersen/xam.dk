@@ -1,0 +1,84 @@
+= Simplifying JDBC Connections with JBang: Introducing the 'jdbc' Script
+:page-layout: post
+ifdef::env-github,env-browser,env-vscode[:imagesdir: ../] 
+
+== Introduction
+
+Hello, Java enthusiasts! Today, I'm excited to share a tool that I believe will make your database interactions much simpler. If you've worked with Java databases, you know that setting up JDBC connections can sometimes be a bit cumbersome. That's where my JBang script, conveniently named `jdbc`, comes into play. It's designed to streamline the process, making your life as a developer a bit easier.
+
+image:images/jdbc.png[]
+
+
+== What is JBang?
+
+For the uninitiated, JBang is a tool that allows Java applications to be run in a script-like manner. It eliminates the need for boilerplate code, simplifying the execution and even installation of Java applications.
+
+== Features of the 'jdbc' Script
+
+The `jdbc` script is a nifty tool with some compelling features:
+
+* *Ease of Use:* Run https://github.com/julianhyde/sqlline[`sqlline`] just by specifying the JDBC URL.
+* *Driver Management:* Automatically downloads the required driver for your database.
+* *JBang all the way down:* Use JBang, to make it all just work.
+
+== How to Use the 'jdbc' Script
+
+Using the script is as straightforward as it gets:
+
+. Run Directly: Execute `jbang jdbc@maxandersen` in your terminal.
+. Install with JBang: Use `jbang app install jdbc@maxandersen` to install, and then simply run `jdbc`.
+
+== Example in Action
+
+Let's say you want to connect to an Oracle database. Normally, you'd have to manually handle drivers and set up the connection. With `jdbc`, it's just a matter of executing:
+
+[source,shell]
+----
+jbang jdbc jdbc:oracle:thin:@myoracle.db.server:1521:my_sid
+----
+
+The script takes care of everything else, launching sqlline with the correct driver.
+
+If you want to pass additional arguments to `sqlline` you can pass them after a double-dash (`--`), like this:
+
+[source,shell]
+----
+jdbc jdbc:sqlite:sample.db -- -e "select * from mytable"
+----
+
+== Behind the Scenes
+
+Developing this script was very simple. Find a blog listing a https://vladmihalcea.com/jdbc-driver-maven-dependency/[bunch of Maven artifact locations] for common databases, and a https://www.baeldung.com/java-jdbc-url-format[blog with jdbc url examples] and I was off to the races. 
+
+With some help from chatgpt I just outlined the idea with links to the above pots and most was done.
+
+The script currently supports the following databases:
+
+    - Derby
+    - Firebird
+    - H2
+    - Hsqldb
+    - Informix
+    - Mariadb
+    - Mysql
+    - Oracle
+    - PostgreSQL
+    - SAP
+    - SQL Server
+    - SQLLite
+    
+== Looking Ahead
+
+I could see a few future improvements in making it even easier to make jdbc urls and connect but wanted to get this out as its already quite useful. 
+
+== Join the Journey
+
+I encourage you to try out the script and see how it can streamline your workflow. Your feedback is invaluable, so please share your experiences, suggest improvements, or https://github.com/maxandersen/jbang-catalog/blob/master/jdbc.java[even contribute] to its development.
+
+== Conclusion
+
+The `jdbc` script is a testament to how a tool like JBang can make Java development more efficient and enjoyable. I hope you find it as useful as I do in your daily coding adventures!
+
+Have fun!
+
+
