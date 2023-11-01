@@ -6,7 +6,7 @@ ifdef::env-github,env-browser,env-vscode[:imagesdir: ../]
 
 Hello, Java enthusiasts! Today, I'm excited to share a tool that I believe will make your database interactions much simpler. If you've worked with Java databases, you know that setting up JDBC connections can sometimes be a bit cumbersome. That's where my JBang script, conveniently named `jdbc`, comes into play. It's designed to streamline the process, making your life as a developer a bit easier.
 
-image:images/jdbc.png[]
+image:/images/jdbc.png[]
 
 
 == What is JBang?
