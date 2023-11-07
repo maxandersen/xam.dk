@@ -40,16 +40,14 @@ import org.apache.batik.transcoder.image.PNGTranscoder;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.BufferedImageOp;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.URI;
 import java.nio.file.Path;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.Callable;
+import java.util.regex.Pattern;
 
 class DimensionsConverter implements ITypeConverter<Dimension> {
     public Dimension convert(String value) throws Exception {
@@ -66,6 +64,18 @@ class DimensionsConverter implements ITypeConverter<Dimension> {
     }
 }
 
+class ColorConverter implements ITypeConverter<Color> {
+    public Color convert(String value) throws Exception {
+        Pattern colorPattern = Pattern.compile("#[A-F0-9]{6}");
+
+        if (!colorPattern.matcher(value).matches()) {
+            throw new IllegalArgumentException("Invalid color " + value + ". Must be css color in hexadecimal format #RRGGBB");
+        }
+
+        return Color.decode(value);
+    }
+}
+
 @Command(name = "qrcode", mixinStandardHelpOptions = true, version = "qrcode 0.1", description = "Make a QR code with an overlay image. Inspired by https://hollycummins.com/creating-QR-codes/")
 public class main implements Callable<Integer> {
 
@@ -78,6 +88,9 @@ public class main implements Callable<Integer> {
     @Option(names = { "-o", "--output" }, description = "Output file", defaultValue = "qrcode.png")
     Path outPath;
 
+    @Option(names = { "-qrc", "--qr-color" }, description = "The qr code color", defaultValue = "#000000", converter = ColorConverter.class)
+    Color qrColor;
+
     @Option(names = { "-od",
             "--overlay-dimensions" }, description = "Dimension to apply to overlay", converter = DimensionsConverter.class)
     Dimension overlayDimensions;
@@ -89,7 +102,7 @@ public class main implements Callable<Integer> {
     }
 
     public Integer call() {
-        writeQrCode(text, Path.of("").toUri().resolve(imagePath), outPath, 640);
+        writeQrCode(text, Path.of("").toUri().resolve(imagePath), outPath, 640, qrColor);
 
         if (outPath.toFile().exists()) {
             System.out.println("Created QR code at " + outPath);
@@ -100,7 +113,7 @@ public class main implements Callable<Integer> {
         return ExitCode.OK;
     }
 
-    private void writeQrCode(String text, URI imagePath, Path outPath, int width) {
+    private void writeQrCode(String text, URI imagePath, Path outPath, int width, Color color) {
         try {
             Map<EncodeHintType, ErrorCorrectionLevel> hints = new HashMap<>();
 
@@ -118,9 +131,8 @@ public class main implements Callable<Integer> {
             // Load QR image
             BufferedImage qrImage = MatrixToImageWriter.toBufferedImage(bitMatrix,
                     new MatrixToImageConfig(
-                            0xFF000000,
+                            color.getRGB(),
                             0xFFFFFFFF));
-
             // Initialize combined image
             BufferedImage combined = new BufferedImage(qrImage.getHeight(), qrImage.getWidth(),
                     BufferedImage.TYPE_INT_ARGB);
@@ -142,7 +154,7 @@ public class main implements Callable<Integer> {
     }
 
     private static BufferedImage addOverlayImage(Graphics2D g, BufferedImage qrImage,
-            URI imagePath, Dimension dimensions) {
+                                                 URI imagePath, Dimension dimensions) {
 
         ImageReadParam param = new SVGReadParam();
         param.setSourceRenderSize(new Dimension(400, 400));
@@ -196,8 +208,8 @@ public class main implements Callable<Integer> {
                 // scale non-svg by resampling
                 if (dimensions != null && !"svg".equals(reader.getFormatName())) {
                     BufferedImageOp resampler = new ResampleOp(
-                                                    dimensions.width, dimensions.height, 
-                                                    ResampleOp.FILTER_LANCZOS);
+                            dimensions.width, dimensions.height,
+                            ResampleOp.FILTER_LANCZOS);
                     image = resampler.filter(image, null);
                 }
 
