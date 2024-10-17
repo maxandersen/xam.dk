@@ -27,7 +27,12 @@ Or you (or Francesco) could just made a one-liner to run it with JBang.
 
 [source,bash]
 ----
-jbang --java 19 --deps org.openjdk.jmh:jmh-generator-annprocess:1.36 -m org.openjdk.jmh.Main -R=--enable-preview -R=--add-opens -R=java.base/java.lang=ALL-UNNAMED --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
+jbang --java 19 --deps org.openjdk.jmh:jmh-generator-annprocess:1.36 \
+-m org.openjdk.jmh.Main \
+ -R=--enable-preview -R=--add-opens \
+ -R=java.base/java.lang=ALL-UNNAMED \
+ --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html \
+ https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
 ----
 
 If you run that, you will get the JMH benchmark numbers...
@@ -75,15 +80,18 @@ With that the gist would be directly runnable.
 
 I've made b1a6dd2019b359ec32b07f0599ee2d9e301a73e2[my own fork of the gist] to show it:
 
-```
+[source,bash]
+----
 jbang https://gist.github.com/maxandersen/d6571c2e637702fb55cd18783e5bff1b
-```
+----
 
 and to run it with async profiler you would just add the `--javaagent` part:
 
-```
-jbang --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
-```
+[source,bash]
+----
+jbang --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html \
+https://gist.github.com/franz1981/4234195ca0168f3833023b610d91ddff
+----
 
 == Bonus tips
 
@@ -93,9 +101,10 @@ This uses a gist, but could also been any .java or .jar file locally or on the w
 
 For example if you wanted to generate flamegraph for Quarkus CLI you would do:
 
-```
+[source,bash]
+----
 jbang --javaagent=ap-loader@maxandersen=start,event=cpu,file=profile.html quarkus@quarkusio
-```
+----
 
 This is loading  the agent on the `quarkus@quarkusio` alias which behind the scene points to a jar in maven central. 
 
