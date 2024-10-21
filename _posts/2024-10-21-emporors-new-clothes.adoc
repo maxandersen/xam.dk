@@ -1,0 +1,37 @@
+= Emporors New Clothes
+:page-layout: post
+ifdef::env-github,env-browser,env-vscode[:imagesdir: ../] 
+
+Once upon a time, in a world not too distant from our own, a great invention was unveiled: the “Intelligent Machine,” or simply "AI." Its creators promised wonders—unlimited reasoning, flawless decision-making, and the power to revolutionize industries. It was said that this new technology could think like a human, solve problems beyond human capability, and would soon render manual labor, tedious management, and even complex tasks obsolete. 
+
+The leaders of the world—CEOs, politicians, and influencers—were enchanted. "This is the future," they declared. "AI will guide us to new heights of productivity, efficiency, and innovation." The tech CEOs, drunk on the promise of reducing costs, began to replace workers with AI-powered systems. Programmers were let go, customer support became fully automated, and entire departments were dissolved as the AI took their place.
+
+The AI was hailed as the ultimate solution to every problem. Businesses bragged about their "AI-driven" strategies, while governments boasted about using AI to streamline services. Investors poured in their wealth, driving the AI bubble higher and higher. Society was caught in the frenzy, trusting AI to steer the ship, no longer caring to question its methods.
+
+Yet, there were whispers among a small group of developers—those who understood the underlying mechanics, the ones who had studied AI from the inside out. They had seen the limitations of AI firsthand. They knew that behind the complex algorithms and vast datasets, AI was not the brilliant entity people thought it to be. It wasn’t sentient, it couldn’t truly understand the world or reason like a human; it could only mimic patterns, providing the illusion of intelligence.
+
+But no one wanted to listen.
+
+"AI will do our thinking for us," the leaders declared. "Why waste time on human reasoning when AI can do it faster?" The developers warned of the risks: "AI isn’t infallible. It can't grasp context like a human. It doesn’t think—it just predicts. Its reasoning is an imitation, not a real understanding."
+
+Still, their warnings were drowned out by the chorus of believers. AI was dressed in the finest metaphorical robes, presented as the king of reason, the ruler of a new age of progress. Every system it touched was declared a success, even when it failed. People became more blind in their trust, assuming that any mistake was a “learning process” for the AI.
+
+Then one day, a monumental failure occurred. A global financial system, now fully governed by AI decisions, made catastrophic errors. Markets crashed, industries crumbled, and the world plunged into chaos. The AI-driven healthcare systems misdiagnosed critical conditions, causing harm to patients. Automated factories malfunctioned, halting production. The AI could no longer hide its imperfections.
+
+It was then, in the midst of the chaos, that a lone developer stood up during a public meeting, where once the AI was praised like a king. “The AI is not a genius, it's not even close,” he said. “It doesn’t wear the grand robes of reason you think it does. The AI is naked.”
+
+The room fell silent. For a moment, no one spoke. Slowly, others—those who had once believed so fervently in AI’s power—began to look closer. The flaws that had been glossed over, ignored, or dismissed were now glaringly obvious. They saw that the AI hadn’t been reasoning at all, but merely mimicking what it had learned from the past. It hadn’t solved complex problems—it had only masked them.
+
+And so, the illusion crumbled. The naked truth stood exposed: AI was not a replacement for human reasoning, creativity, or understanding. It was a tool, nothing more, and the real error had been in placing blind trust in it as though it were something more.
+
+In the aftermath, those developers who had warned everyone were finally heard. "We can use AI," they said, "but only when we understand its limits. It can aid us, but it cannot replace us. We must be the ones to guide it, not let it guide us blindly."
+
+The world, having learned its lesson, slowly rebuilt. This time, with a balanced approach. AI, now seen for what it was, became a tool used thoughtfully, under human direction, no longer worshipped but respected. The developers who had seen the naked truth remained, not as saviors, but as guides, ensuring that the mistakes of the past would not be repeated.
+
+And so, the story of the naked AI became a legend, a cautionary tale told for generations to come, reminding people that true wisdom comes not from machines, but from those who understand them.
+
+== Author's Note
+
+This story was inspired by a https://www.linkedin.com/posts/veronica-hyl%C3%A1k-8b629a86_apple-research-officially-became-the-agi-activity-7252349082109624321-TLpu?[LinkedIn post] reacting to Apple's announcement of their https://arxiv.org/pdf/2410.05229[AGI research center]. 
+
+-- Max Rydahl Andersen
