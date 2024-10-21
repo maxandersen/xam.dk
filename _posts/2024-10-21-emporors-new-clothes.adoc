@@ -1,4 +1,4 @@
-= Emporors New Clothes
+= Emperors New Clothes
 :page-layout: post
 ifdef::env-github,env-browser,env-vscode[:imagesdir: ../] 
 
