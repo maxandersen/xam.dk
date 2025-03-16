@@ -108,6 +108,7 @@ exclude:
    - Rakefile
    - config.toml
 
-keep_files:
+include:
   - maxandersen/.well-known/atproto-did
+  
 
