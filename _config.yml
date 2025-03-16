@@ -107,3 +107,7 @@ exclude:
    - ".#*"
    - Rakefile
    - config.toml
+
+keep_files:
+  - maxandersen/.well-known/atproto-did
+
