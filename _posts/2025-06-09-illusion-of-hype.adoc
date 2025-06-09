@@ -1,10 +1,10 @@
-= Illusion of Hype — Why Apple’s Paper Doesn’t Mean LLMs Are Useless
+= Illusion of Hype
 :page-layout: post
 ifdef::env-github,env-browser,env-vscode[:imagesdir: ../] 
 
 Apple's recent paper, https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf[*The Illusion of Thinking*], has sparked a wave of discussions both online and offline. Some have latched onto it as a definitive "gotcha" moment against large language models (LLMs), claiming they're nothing but fancy statistical engines that can't truly reason. 
 
-But here’s the thing: **we already knew that.** Anyone who’s spent time digging into how LLMs work knows they’re built from neural networks, statistics, and sheer compute horsepower. There’s no magic “thinking” happening under the hood, no matter how many times a CEO stands on a stage and calls them “intelligent.” And yet — that doesn’t make them any less impressive or useful.
+But here’s the thing: **we already should know that.** Anyone who’s spent time digging into how LLMs work knows they’re built from neural networks, statistics, and sheer compute horsepower. There’s no magic “thinking” happening under the hood, no matter how many times a CEO stands on a stage and calls them “intelligent.” And yet — that doesn’t make them any less impressive or useful.
 
 ---
 
