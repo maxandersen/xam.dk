@@ -4,7 +4,7 @@ ifdef::env-github,env-browser,env-vscode[:imagesdir: ../]
 
 Apple's recent paper, https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf[*The Illusion of Thinking*], has sparked a wave of discussions both online and offline. Some have latched onto it as a definitive "gotcha" moment against large language models (LLMs), claiming they're nothing but fancy statistical engines that can't truly reason. 
 
-While the paper does a solid job showing that LLMs’ reasoning is, indeed, based on patterns rather than explicit algorithmic logic, that’s hardly a revelation. Anyone who has studied how LLMs are built knows they’re made from **neural networks, statistics, and a lot of big data plus compute**—not hard-coded algorithms or innate human-like reasoning. Of course they aren’t truly “reasoning” in a symbolic sense. But that’s **exactly** what makes their accomplishments so remarkable: they simulate reasoning so well that they can tackle tasks we once thought only humans could do.
+But here’s the thing: **we already knew that.** Anyone who’s spent time digging into how LLMs work knows they’re built from neural networks, statistics, and sheer compute horsepower. There’s no magic “thinking” happening under the hood, no matter how many times a CEO stands on a stage and calls them “intelligent.” And yet — that doesn’t make them any less impressive or useful.
 
 ---
 
@@ -12,59 +12,49 @@ While the paper does a solid job showing that LLMs’ reasoning is, indeed, base
 
 The *real* illusion is not in the models themselves—it’s in the hype cycle that surrounds them. Business leaders and CEOs often hype LLMs as though they’re fully capable, plug-and-play, general reasoning engines. That’s not how these systems work, and Apple’s paper simply reinforces what every ML researcher has known from the start: these models are fundamentally **pattern-matching systems**, powered by vast amounts of data and compute.
 
-But don’t mistake that as a condemnation of their usefulness. It’s a testament to just how far statistical learning has taken us—and how close we are to building tools that can augment human cognition in ways we’ve never seen before.
+Apple’s paper simply confirms what we’ve known all along: these models can look like they’re reasoning — and sometimes that’s good enough. Because at the end of the day, they’re **still** capable of doing things that were unimaginable just a few years ago.
 
 ---
 
 ## LLMs: The Most Algorithmic We’ve Ever Been
 
-Despite their statistical underpinnings, today’s LLMs come closer to *algorithmic reasoning* than any previous machine learning system. They can:
+Despite the statistical sausage machine that powers them, today’s LLMs are the closest thing we’ve ever had to algorithmic reasoning at scale. They can:
 
-- **Guide a blind person through the world**, describing scenes and reading labels.
-- **Serve as a coding assistant**, helping software developers build and debug faster.
-- **Summarize vast troves of information**, distilling knowledge that would otherwise take hours to sift through.
+- **Guide a blind person through the world**, describing scenes and reading labels in real time.
+- **Act as coding companions**, helping developers catch bugs, refactor, or even understand that new API you forgot existed.
+- **Summarize and organize massive amounts of information**, cutting through the noise that would otherwise bury us.
 
-These are not trivial achievements. They’re changing lives and workflows right now.
+These are not just party tricks. They’re changing lives — and they’re helping us do our jobs better.
 
 ---
 
-## The “Collapse at Scale” Isn’t New — And It’s Not the End
+## The “Collapse at Scale” Isn’t News — And It’s Not the End
 
-Yes, Apple’s study shows that LLMs fail when faced with extremely complex tasks, like a hundred-step Tower of Hanoi puzzle. But guess what? Most humans would fail there too. Even if an LLM’s chain-of-thought collapses at scale, it **still** does remarkably well at medium complexity—a sweet spot that covers most real-world use cases.
+Yes, Apple’s paper shows that LLMs fail when faced with extremely complex tasks, like a hundred-step Tower of Hanoi puzzle. But here’s the kicker: most humans would give up there too. Even if an LLM’s chain-of-thought collapses at scale, it **still** does remarkably well at medium complexity — and that’s where most of us actually live.
 
 ---
 
 ## Progress Never Starts Fully Formed
 
-We’ve seen this story before. The airplane couldn’t fly as far as a bird at first. Computers couldn’t think like a human at first. Every breakthrough technology is at first considered either underwhelming or threatening, and then, as we learn to harness it, society adapts and grows stronger.
+If you know me, you know I love pointing out that every breakthrough starts by looking clumsy. The airplane didn’t beat the bird at first. Computers didn’t outthink humans at first. That’s the nature of progress.
 
-In his classic talk *The Future of Programming* (presented in 2013 as if from 1973), Bret Victor reminded us that the tools and ideas we build today will shape the next generation of creativity and progress—even if they’re not yet fully mature. Just like the early computing pioneers couldn’t imagine where GUIs, networking, and interactive systems would take us, we can’t yet foresee where LLMs and the new wave of reasoning models will lead.
+Bret Victor's brilliant talk https://www.youtube.com/watch?v=gbHZNRda08o[*The Future of Programming*] (presented in 2013 as if from 1973) captures this perfectly: every tool we build shapes the next generation. Even if today's tools feel incomplete, they plant the seeds for what's next. Just like the early computing pioneers couldn't imagine where GUIs and the web would take us, we can't fully predict where LLMs and reasoning models will lead. That's both humbling and exciting.
 
-Victor’s talk is a masterclass in humility about the **incremental nature of innovation**—how each generation builds on the last, always feeling a bit dissatisfied with the present but full of hope for the future.
+All at the same time, we also realize that even things that showed up in 1970s, like interative GUIs, logic driven software and the web, are still evolving. It shapes the next generation and when looking at what was possible in 1970's elevator pitches and demos we are still not done yet.
 
 ---
 
 ## Apple’s Paper is a Reminder, Not a Rebuttal
 
-Apple’s paper is a great reminder that LLMs are not magic, and we shouldn’t expect them to perfectly reason through every problem. But it’s not a rebuttal of their usefulness. It’s a call to understand them better—and to build tools that make their strengths more accessible while acknowledging their weaknesses.
+Apple’s paper is a reminder that LLMs aren’t magic. We shouldn’t expect them to think like humans — and that’s okay. It doesn’t mean they’re useless. It just means we need to understand their limitations and build smarter systems around them.
 
 ---
 
 ## Let’s Keep Moving Forward
 
-LLMs aren’t the final answer to reasoning, but they are the closest we’ve ever come. They represent the culmination of decades of work in machine learning and language modeling. Let’s celebrate what they can do—and let’s keep building, learning, and evolving together.
+LLMs aren’t the final answer to reasoning, but they’re the closest we’ve ever come. They represent decades of work in machine learning and language modeling. Let’s celebrate what they can do — and keep building, learning, and evolving.
 
-As Bret Victor might say: **it’s not about the tool itself, but what it lets us *become* as creators, thinkers, and problem-solvers.**
-
----
-
-*Do you agree? Have a different perspective? Let’s keep the conversation going in the comments below!*
-
----
-
-📺 **Bonus:** If you haven’t seen Bret Victor’s “The Future of Programming” talk, it’s a must-watch for anyone interested in how we shape the future of technology:
-[Watch it here](https://www.youtube.com/watch?v=gbHZNRda08o).
+It is not about the tool itself, but about what it lets us become.
 
 Have fun!
-
--- Max Rydahl Andersen
+- Max Rydahl Andersen
