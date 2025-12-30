@@ -9,6 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
+gem "jekyll-sass-converter", "~> 2.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-clean-blog", :github => 'maxandersen/startbootstrap-clean-blog-jekyll', :branch => 'master'
@@ -29,7 +30,7 @@ group :jekyll_plugins do
   #gem 'jekyll-webmention_io'
   gem 'jekyll-postfiles'
   gem 'jekyll-compose'
-  gem 'jekyll-last-modified-at'
+  # gem 'jekyll-last-modified-at'  # Temporarily disabled due to posix-spawn compilation issue with Ruby 2.7.8
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
