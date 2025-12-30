@@ -1,0 +1,146 @@
+= 2026: The Year of Java in the Terminal
+:page-layout: post
+ifdef::env-github,env-browser,env-vscode[:imagesdir: ../] 
+
+Look, I'm going to say something that might sound crazy to some of you: Java deserves to be better in the terminal. And 2026? That's going to be the year we fix it!
+
+I've been watching people get absolutely amazed by AI terminal applications lately. LLM-powered CLI tools that help you write code, answer questions, generate content—all from your terminal. And you know what they're all written in? Python. Rust. Go. Node.js. Everything except Java.
+
+Meanwhile, millions of Java developers are sitting there thinking they need to learn Rust or Go to build something cool in the terminal. You don't.
+
+But here's the thing: there's nothing stopping us from building those exact same tools in Java. Nothing. We've got HTTP clients, JSON libraries, streaming APIs, everything you need. The only thing we're missing is the belief that Java belongs and works well in the terminal.
+
+For too long, we've accepted this weird reality where Java is everywhere—running massive enterprise systems, powering Android apps, handling billions of transactions—but when it comes to quick CLI tools, scripting, or just hacking around in the terminal, most Java developers reach for Python, Node, Go, or worse - do nothing at all. That needs to change.
+
+== Why Now
+
+Most of the needed tools are here. PicoCLI is well-known for handling argument passing. Project Loom gave us virtual threads—great for easy concurrency. GraalVM native image keeps getting better and faster. JBang makes running Java scripts as easy as running Python. JBang and JReleaser handle all your distribution headaches. The Java platform and its ecosystem have matured to the point where the old excuses just don't hold up anymore.
+
+Remember when we said "Java is too slow to start"? 
+
+Try a modern Java runtime. It's not slow.
+Try a GraalVM native image. Milliseconds. Gone.
+
+"Java tooling is too heavy"? Modern Java with jshell, single-file source programs, and tools like jbang are as lightweight as you want them to be.
+
+"Java is too verbose for quick scripts"? JBang lets you write a single .java file with dependencies declared right at the top and run it immediately. No build files, no ceremony, just code. JBang works on any Java version.
+
+"Distribution is too complicated"? JReleaser automates the entire release process—GitHub releases, Homebrew taps, SDKMAN, Docker images, native packages, you name it.
+
+Every excuse you've been telling yourself? It's outdated. The Java you think you know isn't the Java that exists today.
+
+== But Wait—It's Not Just About Scripts
+
+Here's where it gets really interesting: I'm not just talking about replacing your bash scripts with Java. I'm talking about building proper terminal applications. You know, the kind of beautiful TUIs you see in the Rust ecosystem with https://ratatui.rs/[ratatui], or Python with https://textual.textualize.io/[textual] or Go's Bubble Tea from https://charm.land/[Charm].
+
+Think about it. Why should terminal UI applications be the exclusive domain of other languages? We've had https://github.com/mabe02/lanterna[Lanterna] and https://jexer.sourceforge.io/[Jexer] for decades, but never really reaching the mainstream. Now Jexer has a new fork in https://github.com/crramirez/casciian[Casciian], and there's even a start of a Bubbletea port at https://github.com/flatscrew/latte[Latte]. The pieces are there to build something amazing.
+
+Imagine dashboards, file managers, log viewers, monitoring tools, AI chat interfaces with rich formatting—all with gorgeous terminal UIs, all written in Java, all running fast with native images, all leveraging the entire Java ecosystem.
+
+We need our *ratatui moment*. 
+We need our *Textual equivalent*. 
+
+And honestly? The foundation is already there. We just need to push it forward, make it easier, make it beautiful.
+
+== This Is Not About Competition - It Is About Addition
+
+Let me be clear: this isn't about taking away from the amazing work happening in Rust, Python, Go, or any other ecosystem. Those communities are doing incredible things with terminal tooling, and we should celebrate and be inspired by that.
+
+This is about making the Java ecosystem aware that they can just as easily—if not even better—help add to the world of terminal-based tools. We have millions of Java developers who know the language deeply, understand the ecosystem, and could be building amazing CLI tools and TUIs but think they need to learn Rust or Go first.
+
+You don't. 
+
+You already know Java. You already know how to build things. Stop reaching for another language just because you think Java "doesn't do terminals." It does. You just haven't tried.
+
+The terminal tool landscape benefits from diversity. Different tools, different approaches, different ecosystems all contributing. Java developers bring something unique to the table: a massive library ecosystem, battle-tested concurrency primitives, enterprise-grade reliability, and now with modern Java, the performance and startup characteristics to match anyone.
+
+We're not trying to replace anything. We're trying to expand what's possible. More tools. More options. More developers contributing to making terminal experiences better for everyone.
+
+== The JBang Revolution
+
+And let's talk about what https://www.jbang.dev/[JBang] really is, because I think many are missing its true potential.
+
+Yes, JBang runs single-file Java scripts. But it's so much more than that.
+
+Got a fat JAR from a Gradle or Maven build? `jbang myapp.jar` and you're running. 
+
+Want to run something straight from Maven Central? `jbang group:artifact:version` and JBang downloads it and runs it.
+
+Need custom Java flags for better performance or native libraries? JBang handles that too.
+
+This is the distribution model we've been missing. 
+
+You don't need Docker containers for simple CLI tools. You don't need complex installation instructions. You don't need users to have the right Java version installed — JBang can even manage that.
+
+"Here's my tool: `jbang app@myuser/myrepo`", or just `jbang org.example:mytool:1.0.0` and run it directly from Maven central.
+
+Done. That's the entire installation instruction. JBang downloads, resolves dependencies, and runs it. 
+
+It's trivial today to make most Java applications runnable on anyone else's machine.
+
+== Distribution That Actually Works
+
+But here's where it gets even better. You know what used to be a nightmare? Actually releasing your Java CLI tool. Creating GitHub releases. Building native images for multiple platforms. Getting into package managers. Making Homebrew formulas. Getting on SDKMAN. 
+
+Enter https://jreleaser.org/[JReleaser].
+
+JReleaser takes all that pain and makes it configuration. You describe what you want—native images for Linux, macOS, Windows; Homebrew tap; SDKMAN distribution; Docker images; whatever—and JReleaser handles it. One command, and your release goes out to all these channels.
+
+Now you can build a Java CLI tool or TUI, compile it to native images with GraalVM, and have JReleaser distribute it everywhere. Mac users can `brew install your-tool`. Linux users can use SDKMAN or native packages. Windows users get installers or Scoop packages.
+
+Suddenly, distributing Java CLI tools is as easy as—no, easier than— in any other ecosystem.. And you get the whole Java ecosystem as your foundation.
+
+== What Java in the Terminal Actually Looks Like
+
+I'm talking about reaching for Java when you need to:
+
+* Parse some JSON from an API and transform it
+* Build a quick CLI tool to automate something
+* Write a one-off script that needs proper error handling
+* Create utilities that your whole team can easily install and run
+* Prototype something fast, share it easily, and scale up later
+* Ship professional CLI tools that users install via their favorite package manager
+* Create a beautiful TUI dashboard for monitoring systems
+* Build an AI-powered assistant that runs in your terminal
+
+The beauty is that these "quick scripts" and tools can grow up. That thing you wrote in 20 minutes? When it needs to become more serious, you're already in Java. You've got the type safety, the IDE support, the testing frameworks, the entire ecosystem. You don't need to rewrite it in a "real" language because it already is one.
+
+Stop thinking of Java as only for "serious" applications. It's also for that quick script you need right now. It's for that TUI you want to build this weekend. It's for that CLI tool your team needs next week.
+
+== The Path Forward
+
+Here's what we need to do to make this happen:
+
+**Build the TUI ecosystem.** We need to rally around terminal UI libraries. Contribute to them. Make them easier to use. Create examples that make developers go "wow, I want that."
+
+**Share more examples.** When you solve something with Java in the terminal, blog it. Tweet it. Show people it's not just possible but actually pleasant. When you build a TUI, record a demo. Show it off.
+
+**Distribute with JBang and JReleaser.** Make your CLI tools and TUIs JBang-runnable for quick testing, then use JReleaser to get them into Homebrew, SDKMAN, and native package managers. Make installation so easy that nobody has an excuse not to try it.
+
+**Embrace native images.** For tools that need fast startup, invest in GraalVM native image. Yes, there's a learning curve with reflection configuration, but the payoff is real. And JReleaser makes building for multiple platforms straightforward.  
+
+**Normalize the single-file Java program.** Not everything needs a Maven project structure. Sometimes a script is just a script, and that's fine.
+
+**Leverage Frameworks.** Frameworks like my own favourite Quarkus, but also Micronaut, Spring Boot, and others already have great CLI support and have made native image compilation significantly easier. They allow building everything from small tools to full-blown applications — doing TUIs here should be a breeze.
+
+**Push the boundaries.** Build something ambitious. A file manager in Java. A system monitor with a gorgeous TUI. An AI coding assistant with a rich terminal interface. A log analysis tool that makes jq look boring. Show what's possible.
+
+== The Bottom Line
+
+Java is already an incredible language with a massive ecosystem, excellent performance, and rock-solid reliability. We've just been leaving it on the bench for an entire category of programming that it's actually well-suited for.
+
+The terminal isn't just about quick scripts—it's about powerful, interactive applications that developers use every day. Java can participate in this space.
+
+The world of terminal tools gets better when more ecosystems participate. We're not here to compete—we're here to contribute. To add our unique strengths and perspective. To make the terminal experience richer for everyone.
+
+2026 is the year we change that. The tools are ready. The language is ready. JBang makes distribution trivial. JReleaser makes professional releases easy. Native images make startup instant. Virtual threads make async programming elegant. We just need to shift our mindset and start building.
+
+*Who's with me?*
+
+Go write some Java based tools. Build some TUIs. Make them useful. Make them beautiful. Distribute them with JBang. Get feedback, iterate. Eventually Release them fully with JReleaser. Let's show the world what Java in the terminal can do.
+
+Because honestly? We've been sleeping on this for too long. Time to wake up.
+
+Stay tuned — and let's have fun in 2026!
+
+- Max Rydahl Andersen
