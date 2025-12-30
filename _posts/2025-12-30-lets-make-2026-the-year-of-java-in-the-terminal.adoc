@@ -10,7 +10,7 @@ Meanwhile, millions of Java developers are sitting there thinking they need to l
 
 But here's the thing: there's nothing stopping us from building those exact same tools in Java. Nothing. We've got HTTP clients, JSON libraries, streaming APIs, everything you need. The only thing we're missing is the belief that Java belongs and works well in the terminal.
 
-For too long, we've accepted this weird reality where Java is everywhere—running massive enterprise systems, powering Android apps, handling billions of transactions—but when it comes to quick CLI tools, scripting, or just hacking around in the terminal, most Java developers reach for Python, Node, Go, or worse - do nothing at all. That needs to change.
+For too long, we've accepted this weird reality where Java is everywhere—running massive enterprise systems, powering Android apps, handling billions of transactions—but when it comes to quick CLI tools, scripting, or just hacking around in the terminal, most Java developers reach for Python, Node, Go, or worse, do nothing at all. That needs to change.
 
 == Why Now
 
@@ -42,7 +42,7 @@ We need our *Textual equivalent*.
 
 And honestly? The foundation is already there. We just need to push it forward, make it easier, make it beautiful.
 
-== This Is Not About Competition - It Is About Addition
+== This Is Not About Competition, It Is About Addition
 
 Let me be clear: this isn't about taking away from the amazing work happening in Rust, Python, Go, or any other ecosystem. Those communities are doing incredible things with terminal tooling, and we should celebrate and be inspired by that.
 
