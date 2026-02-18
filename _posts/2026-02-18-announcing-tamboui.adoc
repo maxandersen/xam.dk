@@ -70,3 +70,4 @@ and of course to the Ratatui and Textual creators for their inspiration and work
 Max Rydahl Andersen & Cédric Champeau
 --
 
+
