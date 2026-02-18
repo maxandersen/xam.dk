@@ -4,7 +4,7 @@ ifdef::env-github,env-browser,env-vscode[:imagesdir: ../]
 
 [NOTE]
 ====
-This blog post is co-authored by Cédric Champeau (Micronaut) and Max Rydahl Andersen (Quarkus), and cross-posted on our respective personal blogs.
+This blog post is co-authored by https://melix.github.io/blog/2026/02/17-announcing-tamboui.html[Cédric Champeau] (Micronaut) and https://xam.dk/blog/announcing-tamboui[Max Rydahl Andersen] (Quarkus), and cross-posted on our respective personal blogs.
 ====
 
 Today we are excited to announce https://tamboui.dev/[TamboUI], an open-source Terminal UI framework for the Java ecosystem!
