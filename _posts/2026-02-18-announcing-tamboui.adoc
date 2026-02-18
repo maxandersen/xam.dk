@@ -51,6 +51,21 @@ Give TamboUI a try and let us know what worked and what could be improved!
 
 Check out the documentation at https://tamboui.dev/docs/main/[], join us on https://tamboui.zulipchat.com[Zulip], or browse the source on https://github.com/tamboui/tamboui[GitHub]. We'd love your feedback and contributions!
 
+== Acknowledgments
+
+We would like to thank the following people for their ideas, suggestions and contributions to the creation of first public release of TamboUI (in alphabetical order):
+
+- Andres Almiray
+- Andrea Peruffo
+- Charles Moulliard
+- Claus Ibsen
+- Graeme Rocher
+- Guillaume LaForge
+- Ståle Pedersen
+- Tako Schotanus
+
+and of course to the Ratatui and Textual creators for their inspiration and work.
+
 --  
 Max Rydahl Andersen & Cédric Champeau
 --
