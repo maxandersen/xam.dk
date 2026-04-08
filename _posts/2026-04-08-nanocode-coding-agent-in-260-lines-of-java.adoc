@@ -1,0 +1,190 @@
+= A Coding Agent in 260 Lines of Java
+:page-layout: post
+ifdef::env-github,env-browser,env-vscode[:imagesdir: ../] 
+
+A friend of mine pointed me to nanocode, and i found an article going about building https://levelup.gitconnected.com/build-your-own-ai-coding-agent-in-250-lines-no-dependencies-required-f120860dad0e[an AI coding agent in 250 lines of Python]. The original https://github.com/1rgs/nanocode[nanocode] project is a cool demo: a minimal Claude Code alternative using just the OpenRouter API or Anthropic API, tool definitions, and a loop. No frameworks, no magic.
+
+I thought: Java can do this just as cleanly. So I ported it.
+
+The result? https://github.com/maxandersen/nanocode[nanocode.java] — *261 lines*, one file, runnable with https://www.jbang.dev[JBang], and one dependency (Jackson for JSON). A fully functional AI coding agent.
+
+image::https://github.com/maxandersen/nanocode/raw/master/screenshot.png[nanocode screenshot]
+
+== What Makes a Coding Agent?
+
+Strip away the hype and a coding agent is surprisingly simple. It's a loop:
+
+1. Send a prompt and tool definitions to an LLM
+2. The LLM either responds with text or asks to use a tool
+3. Execute the tool, feed the result back
+4. Repeat until the LLM has nothing more to do
+
+That's it. The "intelligence" is in the LLM. Your code just needs to be the hands and eyes — reading files, writing files, running commands — and relaying results back.
+
+== The Tools
+
+nanocode gives the LLM six tools, which turns out to be enough to do real coding work:
+
+[cols="1,3"]
+|===
+| Tool | What it does
+
+| `read` | Read a file with line numbers (with offset/limit for big files)
+| `write` | Write content to a file
+| `edit` | Replace a string in a file (must be unique match)
+| `glob` | Find files by pattern, sorted by modification time
+| `grep` | Search files with regex
+| `bash` | Run a shell command
+|===
+
+Technically, you could remove `edit`, `glob`, and `grep` and still have a fully functional coding agent.
+
+Each tool is just a simple static method. Here's `read` for example:
+
+[source,java]
+----
+static String toolRead(JsonNode args) throws IOException {
+    var lines = readAllLines(Path.of(args.get("path").asText()));
+    int offset = args.path("offset").asInt(0), limit = args.path("limit").asInt(lines.size());
+    var sb = new StringBuilder();
+    for (int i = offset; i < Math.min(offset + limit, lines.size()); i++)
+        sb.append("%4d| %s%n".formatted(i + 1, lines.get(i)));
+    return sb.toString();
+}
+----
+
+No abstractions. No interfaces. Just read the file, format it, return a string.
+
+== The Agent Loop
+
+The core loop fits in about 30 lines. Here's the essence:
+
+[source,java]
+----
+while (true) {
+    var response = callApi(messages, systemPrompt);
+    var content = response.get("content");
+    var toolResults = JSON.createArrayNode();
+
+    for (var block : content) {
+        if ("text".equals(block.get("type").asText()))
+            // print it
+
+        if ("tool_use".equals(block.get("type").asText())) {
+            var result = runTool(block.get("name").asText(), block.get("input"));
+            toolResults.add(/* ... result ... */);
+        }
+    }
+
+    messages.add(/* assistant response */);
+    if (toolResults.isEmpty()) break;  // done!
+    messages.add(/* tool results as user message */);
+    // loop again — let the LLM decide what's next
+}
+----
+
+The LLM drives the interaction. It decides which tools to call, in what order, and when it's done. Your code just executes.
+
+== The API Call
+
+The API integration is just `HttpURLConnection` — no HTTP client library needed. Build a JSON body, POST it, parse the response. About 20 lines:
+
+[source,java]
+----
+var conn = (HttpURLConnection) URI.create(API_URL).toURL().openConnection();
+conn.setRequestMethod("POST");
+conn.setDoOutput(true);
+conn.setRequestProperty("Content-Type", "application/json");
+conn.setRequestProperty("anthropic-version", "2023-06-01");
+conn.setRequestProperty("x-api-key", getenv("ANTHROPIC_API_KEY"));
+
+try (var os = conn.getOutputStream()) {
+    os.write(JSON.writeValueAsBytes(body));
+}
+var response = JSON.readTree(conn.getInputStream());
+----
+
+Java 25's module imports (`import module java.base`) plus records and pattern matching keep the code concise. Java isn't verbose anymore — it's just... Java.
+
+== Python vs Java: Side by Side
+
+The original Python version is ~250 lines with zero dependencies (using `json` and `urllib` from the stdlib). The Java version is ~260 lines with one dependency (Jackson, because while `java.net.http` is built-in, Java's stdlib doesn't include a JSON parser — the one thing I'd love to see change).
+
+Both are remarkably similar in structure. The same tool definitions, same loop, same API calls. If anything, Java's `switch` expressions and `String.formatted()` make some parts _more_ readable than the Python equivalent.
+
+The key takeaway: *this is not a language problem*. Building an AI agent is an architecture pattern, and it's dead simple in any language.
+
+== Running It
+
+[source,bash]
+----
+export ANTHROPIC_API_KEY="your-key"
+jbang nanocode@maxandersen
+----
+
+That's https://www.jbang.dev[JBang] fetching the script directly from GitHub and running it. No build tool, no project setup, no compilation step. Or use OpenRouter to access any model:
+
+[source,bash]
+----
+export OPENROUTER_API_KEY="your-key"
+export MODEL="openai/gpt-4.1"
+jbang nanocode@maxandersen
+----
+
+== But What About Production?
+
+`nanocode` is deliberately minimal. It's a teaching tool. There's no streaming, no token counting, no retry logic, no permission system, no context window management, no MCP support, etc.
+
+For real applications, you'd want something like https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html[Quarkus LangChain4j] which gives you:
+
+- *Declarative AI services* — define your agent as a Java interface with annotations, let the framework handle the plumbing
+- *Automatic tool registration* — annotate methods with `@Tool` and they're available to the LLM, type-safe with proper descriptions
+- *Multiple LLM providers* — swap between Anthropic, OpenAI, Ollama, and others with configuration, no code changes
+- *Guardrails and safety* — input/output guardrails to validate what goes in and out
+- *RAG support* — built-in retrieval augmented generation with document ingestion and embedding stores  
+- *Observability* — metrics, tracing, and logging out of the box
+- *MCP (Model Context Protocol)* — connect to external tool servers
+
+Here's what the `nanocode` tools would look like as Quarkus LangChain4j tools:
+
+[source,java]
+----
+@ApplicationScoped
+public class CodingTools {
+
+    @Tool("Read a file with line numbers")
+    String readFile(String path, @Optional int offset, @Optional int limit) {
+        // same implementation, but now type-safe and auto-registered
+    }
+
+    @Tool("Run a shell command")
+    String bash(String command) {
+        // ...
+    }
+}
+----
+
+And your agent becomes:
+
+[source,java]
+----
+@RegisterAiService(tools = CodingTools.class)
+public interface CodingAgent {
+
+    @SystemMessage("Concise coding assistant. cwd: {cwd}")
+    String chat(@UserMessage String message);
+}
+----
+
+That's it. The framework handles the tool loop, message history, API calls, error handling, and retries. You focus on what matters: the tools and the prompt.
+
+The point of `nanocode` isn't to replace these frameworks — it's to show you what's _inside_ them. Once you understand the 260-line version, the frameworks make a lot more sense.
+
+== Try It
+
+The source is at https://github.com/maxandersen/nanocode[github.com/maxandersen/nanocode]. Read it, run it, break it, extend it. It's a great way to understand how tools like Claude Code, Cursor, and Windsurf work under the hood.
+
+And if you want to build something serious with Java and AI, check out https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html[Quarkus LangChain4j]. 
+
+- Max Rydahl Andersen
+
