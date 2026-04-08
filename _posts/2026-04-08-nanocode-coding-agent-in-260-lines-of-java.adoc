@@ -182,7 +182,7 @@ The point of `nanocode` isn't to replace these frameworks — it's to show you w
 
 == Try It
 
-The source is at https://github.com/maxandersen/nanocode[github.com/maxandersen/nanocode]. Read it, run it, break it, extend it. It's a great way to understand how tools like Claude Code, Cursor, and Windsurf work under the hood.
+The source is at https://github.com/maxandersen/nanocode[github.com/maxandersen/nanocode]. Read it, run it, break it, extend it. It's a great way to understand how tools like Claude Code, Cursor, and Co Pilot work under the hood.
 
 And if you want to build something serious with Java and AI, check out https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html[Quarkus LangChain4j]. 
 
