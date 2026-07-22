@@ -116,6 +116,7 @@ GEM
     llhttp-ffi (0.4.0)
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
+    logger (1.7.0)
     mercenary (0.4.0)
     mini_portile2 (2.8.9)
     multi_json (1.15.0)
@@ -131,7 +132,8 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.3)
-    pygments.rb (2.4.0)
+    pygments.rb (5.0.0)
+      logger (~> 1.7)
     racc (1.7.1)
     rainbow (3.1.1)
     rake (13.3.1)
@@ -180,7 +182,7 @@ DEPENDENCIES
   jekyll-sass-converter (~> 2.2)
   jekyll-theme-clean-blog!
   jekyll-webmention_io!
-  pygments.rb (~> 2.4.0)
+  pygments.rb (~> 5.0.0)
   rake
   tzinfo-data
 
