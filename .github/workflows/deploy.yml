@@ -1,7 +1,7 @@
 name: publish-to-xam.dk
 
 on:
-  push: 
+  push:
     branches:
     - master
   pull_request:
@@ -11,22 +11,22 @@ jobs:
     runs-on: ubuntu-latest
     name: build-and-publish
     steps:
-      - uses: actions/checkout@master
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
         with:
-          bundler-cache: true
-      - name: install-commands
-        run: |
-          sudo apt-get install -qq sshpass
-      - uses: actions/cache@v3
-        id: cache-jekyll
-        with:
-          path: .jekyll-cache
-          key: ${{ runner.os }}
-          restore-keys: |
-            ${{ runner.os }}-jekyll-
-      - name: build-and-publish
+          distribution: temurin
+          java-version: '21'
+      - uses: jbangdev/setup-jbang@main
+      - name: Install Roq CLI
+        run: jbang app install --fresh --force roq@quarkiverse/quarkus-roq
+      - name: Generate static site
+        run: roq generate
+      - name: Deploy via rsync
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         env:
           XAMSSH: "${{ secrets.XAMSSH }}"
-        run: bundle exec rake travis
-        
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -qq sshpass
+          sshpass -p "$XAMSSH" rsync -rvc -e 'ssh -o StrictHostKeyChecking=no -p 22' \
+            --delete --exclude coppermine --exclude update --stats \
+            target/roq/ xam.dk@ssh.xam.dk:/www

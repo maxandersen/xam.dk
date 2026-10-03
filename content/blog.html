@@ -1,0 +1,37 @@
+---
+layout: page
+title: What was I thinking ?
+background: /img/post-bg.jpg
+paginate:
+  collection: posts
+  size: 10
+  link: blog/page:page
+---
+{#for post in site.collections.posts.paginated(page.paginator)}
+
+<article class="post-preview">
+    <a href="{=post.url}">
+        <h2 class="post-title">{=post.title}</h2>
+        {#if post.data.subtitle}
+        <h3 class="post-subtitle">{=post.data.subtitle}</h3>
+        {/if}
+    </a>
+    {#include partials/post-meta post=post /}
+    <div>
+        {=post.contentAbstract(15)}
+    </div>
+    <a href="{=post.url}">
+        read more <i class="fa fa-arrow-right"></i></a>
+</article>
+
+<hr>
+
+{/for}
+
+<!-- Pager -->
+<div class="clearfix">
+{#include fm/pagination.html}
+  {#newer}<span class="btn btn-primary float-left">&larr; Newer Posts</span>{/newer}
+  {#older}<span class="btn btn-primary float-right">Older Posts &rarr;</span>{/older}
+{/include}
+</div>
