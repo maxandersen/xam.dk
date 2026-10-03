@@ -1,7 +1,9 @@
-= There is no great iOS mail client app
-:page-
-:page-author: Max Rydahl Andersen
-:page-tags: [email]
+---
+title: There is no great iOS mail client app
+author: Max Rydahl Andersen
+tags: [email]
+draft: true
+---
 
 Every now and then I find me going through the various 3rd party email apps on iOS to see if there is an app that is actually great.
 

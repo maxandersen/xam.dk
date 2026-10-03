@@ -1,0 +1,4 @@
+---
+link: /blog/feed.atom
+---
+{#include fm/rss.html contentLimit=0 /}

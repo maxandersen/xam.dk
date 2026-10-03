@@ -34,6 +34,19 @@ effective `/blog/<slug>/`. Roq: `site.collections.posts.link=/blog/:slug/`.
 
 Commit after each phase.
 
+## Status: DONE (A, B, C all green — `roq generate` = BUILD SUCCESS, 119 pages)
+- Posts URL: `site.collections.posts.link=/blog/:name/` (filename-based = matches old
+  Jekyll `:title` permalink exactly).
+- RSS: `content/rss.xml` → `/blog/feed.atom` (full content, contentLimit=0).
+- Blog pagination: `content/blog.html` → `/blog/`, `/blog/page2/` ...
+- Dropped speculative plugins (sitemap/tagging/aliases) — original site had none.
+  Old WP URLs were `?p=N` query strings (no static redirect possible); Jekyll
+  permalink `/blog/:title/` == new `/blog/:name/`, so no aliases needed.
+- CI: `.github/workflows/deploy.yml` builds via jbang `roq generate`, rsyncs
+  `target/roq/` to `xam.dk@ssh.xam.dk:/www` (excludes coppermine/update, as before).
+- `.htaccess` moved to `public/` (apache target still serves it).
+- Draft moved to `content/posts/` with `draft: true` (excluded from output).
+
 ## Known corner-cuts (ponytail debt)
 - `tree/index.md` uses `layout: splash` (minimal-mistakes theme, not clean-blog) —
   legacy/broken under current Jekyll too. Move to public/ as static.
