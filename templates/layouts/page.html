@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
+
+<!-- Page Header -->
+{#if page.data.background}
+<header class="masthead" style="background-image: url('{=page.data.background}')">
+{#else}
+<header class="masthead">
+{/if}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>{=page.title}</h1>
+          {#if page.description}
+            <span class="subheading">{=page.description}</span>
+          {/if}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      {#insert /}
+
+    </div>
+  </div>
+</div>

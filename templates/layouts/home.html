@@ -1,0 +1,60 @@
+---
+layout: default
+---
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
+
+<!-- Page Header -->
+    {#if page.data.background}
+    <header class="masthead" style="background-image: url('{=page.data.background}')">
+    {#else}
+    <header class="masthead">
+    {/if}
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>{=site.title}</h1>
+                        {#if site.description}
+                        <span class="subheading">{=site.description}</span>
+                        {/if}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+
+                {#insert /}
+
+                <!-- Home Post List -->
+                {#for post in site.collections.posts.featured(5)}
+
+                <article class="post-preview">
+                    <a href="{=post.url}">
+                        <h2 class="post-title">{=post.title}</h2>
+                        {#if post.data.subtitle}
+                        <h3 class="post-subtitle">{=post.data.subtitle}</h3>
+                        {#else}
+                        <h3 class="post-subtitle">{=post.contentAbstract(15)}</h3>
+                        {/if}
+                    </a>
+                    {#include partials/post-meta post=post /}
+                </article>
+
+                <hr>
+
+                {/for}
+
+                <!-- Pager -->
+                <div class="clearfix">
+                    <a class="btn btn-primary float-right" href="/blog">View All Posts &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
