@@ -7,9 +7,9 @@
 <div class="webmentions">
   {#if ms.likes.size > 0 || ms.reposts.size > 0 || ms.links.size > 0}
   <div class="facepile">
-    {#for m in ms.likes}<a href="{=m.author_url}" title="{=m.author} liked this">{#if m.photo}<img class="avatar" src="{=m.photo}" alt="{=m.author}" loading="lazy">{/if}</a>{/for}
-    {#for m in ms.reposts}<a href="{=m.author_url}" title="{=m.author} reposted this">{#if m.photo}<img class="avatar wm-repost" src="{=m.photo}" alt="{=m.author}" loading="lazy">{/if}</a>{/for}
-    {#for m in ms.links}<a href="{=m.author_url}" title="{=m.author} mentioned this">{#if m.photo}<img class="avatar wm-link" src="{=m.photo}" alt="{=m.author}" loading="lazy">{/if}</a>{/for}
+    {#for m in ms.likes}<a href="{=m.author_url}" title="{=m.author} liked this"><span class="avatar initials" style="background:{=m.color}">{=m.initials}</span></a>{/for}
+    {#for m in ms.reposts}<a href="{=m.author_url}" title="{=m.author} reposted this"><span class="avatar initials wm-repost" style="background:{=m.color}">{=m.initials}</span></a>{/for}
+    {#for m in ms.links}<a href="{=m.author_url}" title="{=m.author} mentioned this"><span class="avatar initials wm-link" style="background:{=m.color}">{=m.initials}</span></a>{/for}
   </div>
   <p class="wm-counts">
     {#if ms.likes.size > 0}{=ms.likes.size} like{#if ms.likes.size != 1}s{/if}{/if}{#if ms.reposts.size > 0} · {=ms.reposts.size} repost{#if ms.reposts.size != 1}s{/if}{/if}{#if ms.links.size > 0} · {=ms.links.size} mention{#if ms.links.size != 1}s{/if}{/if}
@@ -19,7 +19,7 @@
   <h3>{=ms.replies.size} Response{#if ms.replies.size != 1}s{/if} from around the web</h3>
   {#for m in ms.replies}
   <div class="webmention h-cite">
-    {#if m.photo}<img class="avatar u-photo" src="{=m.photo}" alt="" loading="lazy">{/if}
+    <span class="avatar initials" style="background:{=m.color}">{=m.initials}</span>
     <div class="comment-meta">
       {#if m.author_url}<a class="p-author h-card" href="{=m.author_url}">{=m.author}</a>{#else}<span class="p-author">{=m.author}</span>{/if}
       {#if m.url}<a class="u-url" href="{=m.url}"><time class="dt-published">{=m.date}</time></a>{/if}

@@ -483,3 +483,13 @@ body {
 .facepile .wm-repost { box-shadow: 0 0 0 2px #4c9a4c; }
 .facepile .wm-link { box-shadow: 0 0 0 2px #aaa; }
 .wm-counts { color: #888; font-size: .85em; margin: 0 0 1.5rem; }
+
+/* Initials avatars (webmention photos were dead webmention.io links) */
+.avatar.initials {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; border-radius: 50%; margin: 0;
+  color: #fff; font-size: .72rem; font-weight: 600; line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  text-decoration: none; overflow: hidden;
+}
+.webmention .avatar.initials { width: 40px; height: 40px; font-size: .85rem; float: left; margin: .2rem .75rem 0 0; }
