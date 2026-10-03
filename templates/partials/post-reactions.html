@@ -1,0 +1,34 @@
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
+{! Read-only display of historical webmentions (_data/mentions.json) and
+   imported comments (_data/comments.json), keyed by the post URL path.
+   New comments/webmentions are no longer accepted (staticman/webmention_io gone). !}
+{#let ms=cdi:mentions.get(page.url.path)}
+{#if ms}
+<div class="webmentions">
+  <h3>{=ms.size} Webmention{#if ms.size != 1}s{/if}</h3>
+  {#for m in ms}
+  <div class="webmention h-cite">
+    {#if m.photo}<img class="avatar u-photo" src="{=m.photo}" alt="" loading="lazy">{/if}
+    {#if m.author_url}<a class="p-author h-card" href="{=m.author_url}">{=m.author}</a>{#else}<span class="p-author">{=m.author}</span>{/if}
+    <span class="wm-type">{=m.type}</span>
+    {#if m.content}<div class="e-content">{=m.content.raw}</div>{/if}
+  </div>
+  {/for}
+</div>
+{/if}
+{#let cs=cdi:comments.get(page.url.path)}
+{#if cs}
+<div class="comments">
+  <h3>{=cs.size} Comment{#if cs.size != 1}s{/if}</h3>
+  {#for c in cs}
+  <div class="comment h-cite">
+    {#if c.avatar}<img class="avatar u-photo" src="{=c.avatar}" alt="" loading="lazy">{/if}
+    <div class="comment-meta">
+      {#if c.url}<a class="p-author h-card" href="{=c.url}">{=c.name}</a>{#else}<span class="p-author">{=c.name}</span>{/if}
+      <time class="dt-published">{=c.date}</time>
+    </div>
+    <div class="comment-body e-content">{=c.message.raw}</div>
+  </div>
+  {/for}
+</div>
+{/if}

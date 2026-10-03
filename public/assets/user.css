@@ -465,3 +465,13 @@ body {
 }
 
 
+
+/* Read-only historical comments + webmentions (see templates/partials/post-reactions.html) */
+.comments, .webmentions { margin: 2.5rem 0; }
+.comments h3, .webmentions h3 { font-size: 1.1rem; margin-bottom: 1rem; }
+.comment, .webmention { display: flow-root; margin: 0; padding: .9rem 0; border-top: 1px solid #eee; }
+.comment .avatar, .webmention .avatar { width: 40px; height: 40px; border-radius: 50%; float: left; margin: .2rem .75rem 0 0; }
+.comment-meta time, .wm-type { color: #999; font-size: .8em; margin-left: .5rem; }
+.wm-type { text-transform: capitalize; }
+.comment-body, .webmention .e-content { margin-top: .25rem; }
+.comment-body p, .webmention .e-content p { margin-bottom: .4rem; }

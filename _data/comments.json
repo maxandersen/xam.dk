@@ -1,0 +1,1549 @@
+{
+ "/blog/best-20-lines-of-swing-keyboardfocusmanager-code-ive-ever-written-/": [
+  {
+   "name": "dave",
+   "url": "http://wdcsun19.usdoj.gov/",
+   "message": "<p>Nice abuse of anonymous classes.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-24 20:09:01 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://0x3ef39928.arcnxx3.adsl-dhcp.tele.dk/",
+   "message": "<p>Abuse ? I would call it \"Nice USE of anonymous classes\" - ain't it ? ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-24 20:59:37 +0000"
+  },
+  {
+   "name": "roberttindle",
+   "url": "http://pcp03778193pcs.pimaco01.az.comcast.net/",
+   "message": "<p>This is slick, thanks!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-25 06:13:47 +0000"
+  }
+ ],
+ "/blog/classeszipjarwar-etal-dependency-analyzer-/": [
+  {
+   "name": "Eric",
+   "url": "http://cacheng.unige.ch/",
+   "message": "<p>Have a look at BeanShell's 'which' command (<a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.beanshell.org%2Fmanual%2Fcommands.html%23Commands_Overview%3AX578O3sFMni-SpDqmOi68hMfgiY&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.beanshell.org/manual/commands.html#Commands_Overview\">http://www.beanshell.org/ma...</a>).</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-06-17 17:57:34 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>Yes - it provides the basic func. that is needed for e.g. genjar, pack etc. - I would like a top-10 list of to-little used comparated to their size of .jar\" files <br /><br /></p><p><br /><br />But thanks for the tip.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-06-17 18:05:14 +0000"
+  }
+ ],
+ "/blog/computer-dog-and-new-furniture/": [
+  {
+   "name": "Marshall",
+   "url": "http://www.arcaner.com/",
+   "message": "<p>When are we going to see some more english blog postings around here? =P</p><p>Could you at least post in both languages for the illiterate americans?? =)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2005-04-25 10:00:06 +0000"
+  },
+  {
+   "name": "Alexander Miller",
+   "url": "http://www.metalrailings.org/",
+   "message": "<p>i really love dogs as pets because they are so adorable and very loyal pets too*'~</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-07-19 06:18:51 +0000"
+  }
+ ],
+ "/blog/copenhagen-trip/": [
+  {
+   "name": "Koen",
+   "url": "",
+   "message": "<p>Well, it was Max who ate at least 1kg of it... :-)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2005-05-04 01:10:48 +0000"
+  }
+ ],
+ "/blog/dial-numbers-incl-conference-bridges-with-skype-via-launch-bar-quick-silver-or-others/": [
+  {
+   "name": "Pete Muir",
+   "url": "http://in.relation.to/Bloggers/Pete",
+   "message": "<p>How do you save it as a Service?</p>",
+   "avatar": "https://disqus.com/api/users/avatars/pmuir.jpg",
+   "date": "2010-07-13 21:36:54 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>Use Automator, create service , paste code, save as with a name. Now available in service menu.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-07-14 00:03:27 +0000"
+  },
+  {
+   "name": "Jeff",
+   "url": "",
+   "message": "<p>This is wonderful!!! Thanks so much for posting this! I've been looking for a way to automatically dial conference numbers in Skype for years.</p><p>I was able to use your code in an Apple script I use with the dialer Dialectic.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2015-03-15 04:54:10 +0000"
+  }
+ ],
+ "/blog/does-ibm-not-support-full-speed-debugging-/": [
+  {
+   "name": "Ben C",
+   "url": "http://user-0c8hndd.cable.mindspring.com/",
+   "message": "<p>I don't think their JDK1.4 is available for Windows yet.  I believe they're holding out for Websphere 6.  I had a link on IBM's developerWorks site, but I can't seem to find it.  Anyways, good luck with that POS also known as Websphere.  Can't wait to get rid of it...</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-23 06:20:21 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://3E6B3E70.rev.stofanet.dk/",
+   "message": "<p>we are running WS 5.1 and their java -version list it's J2SE v. 1.4.something.<br /><br /></p><p><br /><br />So, I think/hope it's part of WS 5.x</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-23 10:59:50 +0000"
+  },
+  {
+   "name": "Ben C",
+   "url": "http://ccbf.com/",
+   "message": "<p>My bad, we're actually running  WAS 5.0.1 or 2, when I thought we were at 5.1.  Therefore ignore what I said earlier.  I have WSAD 5.1.0, which has the 5.1 WAS runtime and JDK1.4.1.  I wonder if I could just copy the JRE from the WSAD JRE runtime to my WAS install?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-23 17:57:02 +0000"
+  },
+  {
+   "name": "Geert Bevin",
+   "url": "http://213-193-174-47.adsl.easynet.be/",
+   "message": "<p>The switch -Xj9 is implemented under Intel Linux and Windows and should use a new JIT that enables full speed debugging.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-24 23:26:45 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://3E6B3E70.rev.stofanet.dk/",
+   "message": "<p>Nice - I'll try that ASAP ;)<br /><br /></p><p><br /><br />..btw. do you have any docs on these \"hidden\" features of the JDK ? ;)<br /><br /></p><p><br /><br />Google does not list anything usefull about it ;(</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-25 22:09:24 +0000"
+  }
+ ],
+ "/blog/eclipse-32-should-we-stay-or-should-we-go-to-eclipse-33-/": [
+  {
+   "name": "Eugene Kuleshov",
+   "url": "http://jroller.com/page/eu",
+   "message": "<p>&gt; but hey what can I do when there is no public DOM editor API</p><p>File a freakin' enhancement request to make it public or to have some way to hook into it.</p><p>&gt; and previously there where no public java code completion API ?</p><p>You see, someone asked for that and everybody have it now!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-09 01:45:03 +0000"
+  },
+  {
+   "name": "Max Rydahl Andersen",
+   "url": "",
+   "message": "<p>Eugene - *I* was the reporter and testers of the public code completion API we got for Eclipse 3.2.</p><p>And I have voted and reported several issues against the WTP DOM API ever since WTP got release for the first time.</p><p>What freakin' did you expect ?  ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-09 02:38:48 +0000"
+  },
+  {
+   "name": "Max Rydahl Andersen",
+   "url": "",
+   "message": "<p>Correction: I was *one of the* reporters and testers of the public code completion API...</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-09 03:08:48 +0000"
+  },
+  {
+   "name": "Eugene Kuleshov",
+   "url": "http://jroller.com/page/eu",
+   "message": "<p>More good bug reports, of course. ;-)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-09 08:11:13 +0000"
+  },
+  {
+   "name": "JS",
+   "url": "http://js.jipiju.com/",
+   "message": "<p>go for it:  seam + EJB3 + RHDS are all new stuff.  People adopting them are making a statement towards new ways to develop.  Hence, let's give'em new tools.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-19 23:55:19 +0000"
+  },
+  {
+   "name": "Panagiotis Astithas",
+   "url": "http://astithas.blogspot.com/",
+   "message": "<p>I'd say go for Eclipse 3.3 compatibility. One of the great things about open-source is that you get to upgrade your stuff pretty easily and cheaply to boot. Couple that with the fact that developers (i.e. your target audience) are of the adventurous kind anyway and I think it becomes a no-brainer.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-25 17:00:37 +0000"
+  },
+  {
+   "name": "Jed Cousin",
+   "url": "",
+   "message": "<p>Go with Eclipse-3.3 and WTP-2.0 if RHT has to pick one.  Eclipse-3.2 and WTP-1.5 will be put into \"maintenance mode\" soon enough.</p><p>Perhaps have two versions?  One for 3.2/1.5 and the other for 3.3/2.0.  This only seems feasible if the code for 3.2/1.5 can be generated from the 3.3/2.0-compatible source, and/or the divergence between 3.2/1.5-compatibility and 3.3/2.0-compatibility ends up being quite small.</p><p>I think the value in supporting two versions is the greatest upon the launch of JBoss Tools/RHDS proper.  As Eclipse-3.2.x and its Web Tools Platform-1.5.x will have the largest degree of market penetration -- relative to 3.3/2.0 -- at that point in time, which should decrease as time passes.  (And JBoss Tools/RHDS itself could be a vigorous driver of 3.3/2.0 adoption.)</p><p>But if JBoss Tools requires inquisitive adopters to either scrap their current Eclipse instance, or install a parallel instance, that could be a turn off as well.  (This could be ameliorated by offering a \"ready-mix\" version of JBT for download, as was common while the old-school JBossIDE had regular releases.)  Plus, JBoss Tools could risk being a Europa-only \"island\" if the rest of the Eclipse-plugin ecosystem takes its sweet time moving from Callisto to Europa.</p><p>That said, I concur with JS above, Europa will certainly have Teh Shiny(tm) factor, as will RHMW's tooling offerings.  It also gives JBoss Tools/Red Hat Developer Studio (RHDS) a competitive advantage over offerings from other firms.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-25 23:05:40 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>Maintaining compability would be a pain because of suttle changes in some of the API we depend on - It could be done technically but would require a massive amount of extra testing ;(</p><p>With respect to a full single easy to use download then that is what Red Hat Developer Studio will provide.</p><p>Remember that when Eclipse 3.3 comes out there will be one single download of it make the installation much easier and then adding our plugins should become a breeze (especially with the update site)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-25 23:28:40 +0000"
+  },
+  {
+   "name": "Jed Cousin",
+   "url": "",
+   "message": "<p>\"[W]hen Eclipse 3.3 comes out there will be one single download of it make the installation much easier\"</p><p>I didn't know that.  Cool!  Then by all means, 3.3/2.0-only.  If 3.2/1.5 compatibility is required, then the community can backport.  (And yes, I know this is a lame \"catch-all\" excuse.)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-25 23:43:02 +0000"
+  }
+ ],
+ "/blog/eclipse-and-memory-settings/": [
+  {
+   "name": "Steve",
+   "url": "",
+   "message": "<p>Hi,</p><p>If the problem occurs when you are running the JBoss apache server perspective then the problem is not related to the eclipse.ini settings. When you first add your server you will have to define the JDK to be used and it is here that you can set the -Xms and -Xmx (and PermGen) settings for the chosen JVM. Each server runs in it's own JVM and can be configured in isolation to the eclipse javaw process.</p><p>Hope this helps someone :)</p><p>Steve K</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-06-19 16:38:30 +0000"
+  },
+  {
+   "name": "Gautam",
+   "url": "http://www.wishlost.com/",
+   "message": "<p>I came here searching for memory related options for eclipse and found a lot more things on this site.</p><p>I've bookmarked this site as I have a lot to read and get from here :) ..</p><p>Btw, congrats on moving into your new house.</p><p>Gautam</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-09-13 16:16:56 +0000"
+  },
+  {
+   "name": "Aryen",
+   "url": "",
+   "message": "<p>Hi there,</p><p>Your blog has clarified a lot to me! It was basically the only one which explains how to check whether the vmargs were read or not by Eclipse.</p><p>So, despite all my changes on eclipse.ini, on Help-&gt;About-&gt;Configuration I still read eclipse.vmargs=-jar. Even running eclipse by command line (using the example you gave) keep generating the same result, as if it's ignoring the vmargs no matter what.</p><p>I eliminated all the empty lines and blank spaces, I tried to put the options in a different order, etc. It simply keeps ignoring. Concerning the Eclipse bug#198823, I believe is not the case here, because I'm working under Linux (openSuse) all the time - therefore eclipse.ini was never edited under Windows.</p><p>So, my doubt is: all your comments and instructions are only valid for Eclipse under Windows? Can it be that Eclipse is actually reading the ini file though I can't confirm it via Help-&gt;About...?</p><p>Thanks.<br />Aryen</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-10-24 16:23:04 +0000"
+  },
+  {
+   "name": "Alexander",
+   "url": "",
+   "message": "<p>Thanks Steve for the valuable comment. I have been going nuts because my server was always out of heap memory while being run through Red Hat Developer Studio.</p><p>But now, I know that the JVM has to be configured in RHDS... :)</p><p>Thanks again.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-07 14:42:10 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>We added default arguments to the JBoss launch to have more permgen space; so now it should be able to do more hotdeployments outofthebox.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-07 14:56:06 +0000"
+  },
+  {
+   "name": "Pete Muir",
+   "url": "http://in.relation.to/Blloggers/pmuir",
+   "message": "<p>If you are using Mac OS X, and launch eclipse using the Finder, the eclipse.ini in eclipse folder doesn't have any effect.  You need to open the Eclipse package (right click, show package content), open the Max OS folder, and edit the eclipse ini located there.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-18 01:28:05 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>yes - mac osx bundles things differently just to be different ( and annoying :)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-18 02:08:00 +0000"
+  },
+  {
+   "name": "LK",
+   "url": "",
+   "message": "<p>Hi, I have 9GB of main memory and I am wondering what is the maximum memory I can assigned to Eclipse?</p><p>This is the content of my eclipse.ini:</p><p>-showsplash<br />org.eclipse.platform<br />--launcher.XXMaxPermSize<br />512m<br />-framework<br />plugins\\org.eclipse.osgi_3.4.0.v20080605-1900.jar<br />-vmargs<br />-Dosgi.requiredJavaVersion=1.5<br />-Xms40m<br />-Xmx512m</p><p>I tried to change XXMaxPermSize and -Xmx to 1g or 2g but it gives error when I tried to launch eclipse :(</p><p>Hope you can help me out, thanks a lot!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2008-09-22 06:15:42 +0000"
+  },
+  {
+   "name": "Kriley",
+   "url": "",
+   "message": "<p>Thank you so much for this clear explanation of eclipse memory settings.  I looked before when I was having out of memory problems and got wrong information. This should be made available in the eclipse faq or wiki. Thanks again!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2008-11-07 02:43:18 +0000"
+  },
+  {
+   "name": "Alexander Jesse",
+   "url": "",
+   "message": "<p>-XX:MaxPermSize=128m gives errors on startup<br />-XX:MaxPermSize128m is correct</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-03-10 18:08:59 +0000"
+  },
+  {
+   "name": "Davis Nguyen",
+   "url": "http://wiki.glassfish.java.net/Wiki.jsp?page=GlassfishPluginQA",
+   "message": "<p>Hi,</p><p>Have you tried this?</p><p>showsplash<br />org.eclipse.platform<br />-framework<br />plugins\\org.eclipse.osgi_3.4.0.v20080605-1900.jar<br />-vmargs<br />-Dosgi.requiredJavaVersion=1.5<br />-Xms40m<br />-Xmx512m<br />--launcher.XXMaxPermSize<br />512m</p><p>Put --launcher.XXMaxPermSize value to the end of the eclipse.ini file</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-03-24 01:52:29 +0000"
+  },
+  {
+   "name": "Rodrigo Pinto",
+   "url": "",
+   "message": "<p>try:</p><p>-XXMaxPermSize=1024m<br />-Xmx1024m</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-03-24 18:43:37 +0000"
+  },
+  {
+   "name": "Dmitri Vassiliev",
+   "url": "",
+   "message": "<p>Just wanted to point out a minor inconsistency:</p><p>When you say the Configuration Details should say:</p><p>This is expected and *correct*:</p><p>eclipse.vmargs=-Xms512m<br />-Xmx512m<br />-jar<br />/opt/eclipse32-3.2.2/startup.jar</p><p>I think you actually meant:</p><p>eclipse.vmargs=-Xms128m</p><p>since that is what you set it to.</p><p>:P</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-07-16 20:22:43 +0000"
+  },
+  {
+   "name": "Kory Lovre",
+   "url": "",
+   "message": "<p>Hi Xam,</p><p>Subject - .ini file name must match the .exe file name and<br />not all versions of eclipse require separate lines for .ini.</p><p>Thanks for the info - it was great.  I am running Eclipse Ganymede version 3.4.2 on a Windows XP box.  The command line solution worked great for me but when I tried to add the commands to my eclipse.ini file they were never picked up - verifying the changes were made the way you indicate in your helpful solution.  As it turns out I had changed the name of my eclipse.exe file to eclipse-3.4.2.exe.  Thus, per</p><p><a href=\"http://disq.us/url?url=http%3A%2F%2Fhelp.eclipse.org%2Fhelp33%2Findex.jsp%3Ftopic%3D%2Forg.eclipse.platform.doc.user%2Ftasks%2Frunning_eclipse.htm%3A-g4AWYqdA08QCvhRgc_6gi3yQwg&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://help.eclipse.org/help33/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/running_eclipse.htm\">http://help.eclipse.org/hel...</a></p><p>the init parameters will be read from a corresponding .ini file called eclipse-3.4.2.ini or you can specify a particular file name using the command</p><p>--launcher.ini &lt;location&gt; (Executable) NEW<br />    the location of the product .ini file to use.  If not specified the executable will look for a file beside the launcher with the same name and the extension .ini.  (ie eclipse.exe looks for eclipse.ini, product.exe looks for product.ini)</p><p>So, when I made this change and started Eclipse nothing happened - eclipse did not start up at all (my file had the commands on separate lines as you indicate in your solution).  I changed my .ini file to be on one line and wham - Eclipse started just fine and the init parameter I had set in the .ini file were read in just fine.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-08-25 21:04:03 +0000"
+  },
+  {
+   "name": "Spel",
+   "url": "http://www.coolaspel.se/",
+   "message": "<p>Ahh thanks, I've been looking for a solution.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-01-20 19:44:50 +0000"
+  },
+  {
+   "name": "Rob",
+   "url": "http://edwards.sdsu.edu/labsite",
+   "message": "<p>It is really important that you rename your .ini file if your executable is not called \"eclipse\". The changes will not be picked up otherwise.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-03-09 03:11:01 +0000"
+  },
+  {
+   "name": "Dárcio Nuno",
+   "url": "",
+   "message": "<p>I had a problem about OutOfMemoryError because of the Eclipse and I read this article but the suggest didn't solve. I found another solution in the net and I am going to share with you.<br />On Eclipse select the menu Window&gt;&gt;Preferences&gt;&gt;Java&gt;&gt;Installed JREs</p><p>Select the version that you use and click on the button Edit</p><p>In field \"Default VM Arguments\" put for example:<br />-Xms512m -Xmx1g</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-04-13 15:40:11 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>Darcio, that works too but has the disadvantage that any Java App you run will (potentially) use that much memory. Just something to be aware of.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-04-19 15:50:56 +0000"
+  },
+  {
+   "name": "Ric.",
+   "url": "",
+   "message": "<p>Many thanks Pete Muir for your Mac Os X hints!! :-)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-05-23 14:08:31 +0000"
+  },
+  {
+   "name": "Tom Koenig",
+   "url": "",
+   "message": "<p>Thanks. Appreciate the solution and the background.  Fixed my problem and helped tie things together.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-05-30 21:16:04 +0000"
+  },
+  {
+   "name": "Carlos Roberto",
+   "url": "",
+   "message": "<p>I really wonder why these problems started with me now that I'm using windows 7, last week with Windows XP I had no problems at all (I got 2GB of Ram - before opening Eclipse I have 1GB free ) and this Eclipse WTP of mine is just the same as the other one (Copied and pasted the its folder), besides I got stupid projects in it, I mean, just have training and basic stuff so no real projects to cause such problems.</p><p>* Using the lastest JDK though</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-07-23 06:54:34 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>if the latest JDK is JDK6u20 then upgrade since u20 made Eclipse think it was no longer needed to pass the permgen flags to the VM since it was no longer called \"Sun\" but an \"Oracle\" VM.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-07-31 19:04:49 +0000"
+  },
+  {
+   "name": "Marcus",
+   "url": "",
+   "message": "<p>This post is solving you problems for sure.<br />Pls approve. This is an excellent article with screen shots and will help many<br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fdinu.blog.com%2F2010%2F06%2F02%2Fout-of-memory%2F%3AZjZmIcMF6QfyaAPT4xPq7xwuHGs&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://dinu.blog.com/2010/06/02/out-of-memory/\">http://dinu.blog.com/2010/0...</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-12-11 18:46:36 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>Marcus, your link just talks about how apps are launched *from* eclipse - not eclipse it self.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-12-13 18:52:03 +0000"
+  },
+  {
+   "name": "Stephan",
+   "url": "",
+   "message": "<p>Spent over 2 days trying to solve out of memory issue with Eclipse JBoss plugin. Only thing worked for me is changing VM_ARGUMENTS value in .launch file (see below) while Eclipse is closed:</p><p>..\\.plugins\\org.eclipse.debug.core\\.launches\\JBoss 4.2 Runtime Server.launch</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-02-04 22:30:35 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>Stephan, easier if you just double click the server inside Eclipse and add the memory settings via the launch configuration.</p><p>p.s. the external launch of Jboss does not have anything to do with the memory setting of what Eclipse is running with/under.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-02-07 17:17:07 +0000"
+  },
+  {
+   "name": "David",
+   "url": "",
+   "message": "<p>I prefer to configure multiple shortcuts with different command line arguments. Like this i can allocate memory depending on the need of the current project i'm working on :</p><p><a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.java-tutorial.ch%2Feclipse%2Feclipse-memory%3AIzmhC2cz9VCl6aZN7jZ8T5Rl4_k&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.java-tutorial.ch/eclipse/eclipse-memory\">http://www.java-tutorial.ch...</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-05-04 13:30:00 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>David, the data in eclipse.ini is just used as fallback; you can both have eclipse.ini for defaults and use command line arguments for specific cases.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-05-09 21:05:54 +0000"
+  },
+  {
+   "name": "spel",
+   "url": "http://www.popspel.se/",
+   "message": "<p>great! thanks for posting this..I have been looking around for a while</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-05-12 17:45:49 +0000"
+  },
+  {
+   "name": "Jurgen",
+   "url": "",
+   "message": "<p>Wow, Oct 11 2011 and this still has to be fixed this way... thanks for sharing!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-10-11 16:07:38 +0000"
+  },
+  {
+   "name": "Asmo",
+   "url": "http://geckolandmarks.com/",
+   "message": "<p>Note for anyone working with eclipse.ini in Mac OS for the first time: The file is NOT in the same directory as the Eclipse-executable, it is found as a part of the <a href=\"http://disq.us/url?url=http%3A%2F%2FEclipse.app%3A2X8qjbG-PgQtwf_3W43q-joQoQo&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"Eclipse.app\">Eclipse.app</a> -package.</p><p><a href=\"http://disq.us/url?url=http%3A%2F%2Fwiki.eclipse.org%2FEclipse.ini%3ArVU3NExF3iK41L7f7euY4hK_BzA&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://wiki.eclipse.org/Eclipse.ini\">http://wiki.eclipse.org/Ecl...</a></p><p>---<br />On a Mac OS X system, you can find eclipse.ini by right-clicking (or Ctrl+click) on the Eclipse executable in Finder, choose Show Package Contents, and then locate eclipse.ini in the MacOS folder under Contents.<br />---</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-10-18 12:15:44 +0000"
+  },
+  {
+   "name": "kamil",
+   "url": "",
+   "message": "<p>Dárcio Nuno, thank you so much!!!! You saved my life! And you did it on my birthday.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2012-02-01 20:37:00 +0000"
+  },
+  {
+   "name": "reclaim your money",
+   "url": "",
+   "message": "<p>\"y/ Thanks for that awesome posting. It saved MUCH time :-)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2012-04-19 15:29:49 +0000"
+  }
+ ],
+ "/blog/first-thought/": [
+  {
+   "name": "pingosvin",
+   "url": "http://park521.koll.au.dk/",
+   "message": "<p>skal DU nu ogs?il det her...</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-03-24 22:55:08 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://62.107.17.119/",
+   "message": "<p>Yup - man skal jo se hvad det nymoderne pjat er :)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-03-25 00:13:56 +0000"
+  }
+ ],
+ "/blog/hibern8ide-first-beta-release/": [
+  {
+   "name": "KJ Henrie",
+   "url": "http://cpe-24-221-251-186.ut.sprintbbd.net/",
+   "message": "<p>I like it!  It is nice to be able to quickly test mappings and queries.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-02 08:33:20 +0000"
+  },
+  {
+   "name": "Hector",
+   "url": "http://195.55.30.21/",
+   "message": "<p>Hello,<br /><br /></p><p><br /><br />I've just had a look to your HSQL interpreter and its background looks pretty good.<br /><br /></p><p><br /><br />I'm actually developing a tool that in some way administrates the BBDD form  Hibernate by using a relational object explorer where such objects,collections and mapping entities can be created, modified or removed. They can be dynamically loaded as it is your case, and I will be developing the functionality soon.<br /><br /></p><p><br /><br />To be completly honest, this is my first serious project involing internet, so I'm a bit mixed up. I would like to use your code (if it is Opensource) in order to add it to my tool or I could take part in the development of the interpreter by adding part of my application. I'm not sure about how to do this: do I have to do it through \"SourceForge\" using Hibernate Forum or do I have to comment it right to you?.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-03 21:49:56 +0000"
+  },
+  {
+   "name": "Max Andersen",
+   "url": "http://62.107.2.66/",
+   "message": "<p>Go write about your project on the Hibernate Forum and let's see what your project is about ;)<br /><br /></p><p><br /><br />What do you mean by BBDD ?<br /><br /></p><p><br /><br />And btw. my hibern8 ide does not contain any interpreter - it is all done via standard Hibernate calls.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-04 00:03:59 +0000"
+  },
+  {
+   "name": "Geoff",
+   "url": "http://172.Red-80-58-34.pooles.rima-tde.net/",
+   "message": "<p>If hector is spanish, as his email suggests, BBDD is \"Base de Datos\", ie. database or DB.  (The spanish double the letters in an acronym.)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-17 16:49:39 +0000"
+  },
+  {
+   "name": "lagcisco",
+   "url": "http://hsa238.pool012.at001.earthlink.net/",
+   "message": "<p>hope you make a version for hibernate 1.x!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-20 15:31:13 +0000"
+  },
+  {
+   "name": "xampublic",
+   "url": "http://0x503e7f9c.hrnxx4.adsl.tele.dk/",
+   "message": "<p>I probably won't do that, sorry.<br /><br /></p><p><br /><br />Hibernate2 is the future ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-20 15:41:25 +0000"
+  },
+  {
+   "name": "alex",
+   "url": "http://cm61-18-31-22.hkcable.com.hk/",
+   "message": "<p>(at the front page)<br /><br /><br />How do I install it ?<br /><br /></p><p><br /><br />Download hibern8ide.jar and put it whereever you want it.<br /><br /></p><p><br /><br />Put hibern8ide.jar,hibernate2.jar and all its companion .jars in your classpath and then run the class net.sf.hibern8ide.hibern8IDE. (!!NOTE!! &lt;--- the classname is \"Hibern8IDE\")</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-22 17:12:54 +0000"
+  },
+  {
+   "name": "Qasim",
+   "url": "http://khawaja.offices.ox.ac.uk/",
+   "message": "<p>I can't seem to get it running on a Windows XP machine. <br /><br /></p><p><br /><br />I get the following message in the IDE <br /><br /><br />unknown protocol: c Nested Exception unknown protocol: c<br /><br /></p><p><br /><br />In the dos window i get<br /><br /><br />C:\\Program Files\\eclipse\\workspace\\testing\\src\\ocao\\wads\\model&gt;c:\\hibern8ide.bat<br /><br /></p><p><br /><br />13-Jun-2003 12:32:18 net.sf.hibernate.cfg.Environment &lt;clinit&gt;<br /><br /><br />INFO: Hibernate 2.0 final<br /><br /><br />13-Jun-2003 12:32:18 net.sf.hibernate.cfg.Environment &lt;clinit&gt;<br /><br /><br />INFO: <a href=\"http://disq.us/url?url=http%3A%2F%2Fhibernate.properties%3AxTkiEqr7vM8eq7z5tI6BNMvML-0&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"hibernate.properties\">hibernate.properties</a> not found<br /><br /><br />13-Jun-2003 12:32:18 net.sf.hibernate.cfg.Environment &lt;clinit&gt;<br /><br /><br />INFO: using CGLIB reflection optimizer<br /><br /><br />13-Jun-2003 12:32:18 net.sf.hibernate.cfg.Environment &lt;clinit&gt;<br /><br /><br />INFO: JVM proxy support: true<br /><br /><br />13-Jun-2003 12:33:01 net.sf.hibernate.cfg.Configuration addFile<br /><br /><br />INFO: Mapping file: C:\\Program Files\\eclipse\\workspace\\testing\\src\\ocao\\wads\\mod<br /><br /><br />el\\Address.hbm.xml<br /><br /><br />13-Jun-2003 12:33:01 net.sf.hibernate.cfg.Configuration addFile<br /><br /><br />SEVERE: Could not configure datastore from file: C:\\Program Files\\eclipse\\worksp<br /><br /><br />ace\\testing\\src\\ocao\\wads\\model\\Address.hbm.xml<br /><br /><br />org.dom4j.DocumentException: unknown protocol: c Nested exception: unknown proto<br /><br /><br />col: c<br /><br /><br />        at <a href=\"http://disq.us/url?url=http%3A%2F%2Forg.dom4j.io.SAXReader.read%3AUm6dwWhd-D1BxnL60ugP7ifSuhc&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"org.dom4j.io.SAXReader.read\">org.dom4j.io.SAXReader.read</a>(<a href=\"http://disq.us/url?url=http%3A%2F%2FSAXReader.java%3AGY8xmP8zKyPi8guC0ofComNngN4&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"SAXReader.java\">SAXReader.java</a>:358)<br /><br /><br />...</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-06-13 15:37:54 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>Best guess: try to use paths which have no  spaces in the file name.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-06-13 15:45:48 +0000"
+  },
+  {
+   "name": "Professr",
+   "url": "http://aist118.gtri.gatech.edu/",
+   "message": "<p>Or put quotes around the paths when they have spaces in them.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-06-21 00:05:14 +0000"
+  },
+  {
+   "name": "Leonardo Bueno",
+   "url": "http://ES131023.user.veloxzone.com.br/",
+   "message": "<p>Very nice tool! A couple of suggestions:<br /><br /></p><p><br /><br />1) Make the query text area auto-wrap<br /><br /><br />2) Enable copy`n`paste<br /><br /><br />3) The results could be displayed in table format using reflection and double clicking  a table row could pop-up a dialog showing a tree-view of the object. You may be able to find code to help implement this functionality in any open-source IDE project<br /><br /></p><p><br /><br />If you want help implementing any of this I`m willing to help!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-06-23 20:53:03 +0000"
+  },
+  {
+   "name": "Kevin",
+   "url": "http://65.83.43.33/",
+   "message": "<p>This kind of tool could definitely be helpful.  I always write my SQL in a client tool first, and HQL is worse.<br /><br /></p><p><br /><br />Getting XML parse error messages with hbm.xml files: error on line X of document.   But what document?  I need to add quite a few hbm.xml files to avoid unmapped class errors.  <br /><br /></p><p><br /><br />I think I'll try using Jython for now.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-18 19:16:40 +0000"
+  },
+  {
+   "name": "Eric Pugh",
+   "url": "http://205.160.101.136/",
+   "message": "<p>Great little tool..  I run it from Eclipse as an application and it works great!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-22 02:04:03 +0000"
+  },
+  {
+   "name": "Kevin",
+   "url": "http://65.83.43.33/",
+   "message": "<p>Jython works great as alternative:<br /><br /></p><p><br /><br />1) set up classpath and start (jython hung when started by ant, so set to verbose, and copied classpath) into .bat file to start.<br /><br /></p><p><br /><br />2) at jython prompt:<br /><br /></p><p><br /><br />&gt;&gt;&gt;import foo<br /><br /><br />&gt;&gt;&gt;sess = foo.ServiceLocator.currentSession()<br /><br /><br />&gt;&gt;&gt;query=\"from o in class foo.beans.Opportunity\"<br /><br /><br />&gt;&gt;&gt;list = sess.find(query)<br /><br /><br />&gt;&gt;list<br /><br /><br />[com.revenuetech.mpi.beans.Opportunity@79ca2e[planTermId=96], <a href=\"http://disq.us/url?url=http%3A%2F%2Fcom.revenuetech.mp%3AqE2AOFWprJhYYJ8iSrn47G1XlyU&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"com.revenuetech.mp\">com.revenuetech.mp</a><br /><br /><br />i.beans.Opportunity@164e3e2[planTermId=97]]<br /><br /><br />&gt;&gt;&gt; [ x.planTerm.value for x in list]<br /><br /><br />[-5.40, -7.63]</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-22 03:58:45 +0000"
+  },
+  {
+   "name": "Ted Husted",
+   "url": "http://roc-24-93-14-71.rochester.rr.com/",
+   "message": "<p>Please consider donating the source back to the Hibernate project or setting up a SourceForge project so that others can help create a great IDE tool that we can use and share.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-22 21:54:37 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://3E6B1DF1.rev.stofanet.dk/",
+   "message": "<p>It will be available in the hibernate-tools subproject of hibernate at some point. Just need time...<br /><br /></p><p><br /><br />/max</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-22 22:26:59 +0000"
+  }
+ ],
+ "/blog/hibernate-interactive-hql-/": [
+  {
+   "name": "Andy Paul",
+   "url": "http://mailgate.auriga.co.uk/",
+   "message": "<p>Looks great. <br /><br /><br />I'm looking forward to taking a look!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-03-30 16:09:52 +0000"
+  },
+  {
+   "name": "Lluis Rodriguez",
+   "url": "http://135.240.ibercom.com/",
+   "message": "<p>Nice one. Can't wait.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-23 19:12:06 +0000"
+  }
+ ],
+ "/blog/implement-proper-jtable-editing-/": [
+  {
+   "name": "R.J.",
+   "url": "http://kcecfp02.sprint.com/",
+   "message": "<p>This is off the top of my head, so I apologize if I'm not even close... my first thought when reading this was to simply implement a custom cell editor...  <br /><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.javaalmanac.com%2Fegs%2Fjavax.swing.table%2FCustEdit.html%3A2QIsX3KghoA4AcPEFor7vmnN0hI&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.javaalmanac.com/egs/javax.swing.table/CustEdit.html\">http://www.javaalmanac.com/...</a><br /><br /><br />... but, that seems too easy. If that doesn't work, what if you captured the keystroke itself, and if it was targeted to that component, clear the component, and then let the keystroke be handled downstream.<br /><br /></p><p><br /><br />Here is another resource I found which may or may not help too:<br /><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.javaalmanac.com%2Fegs%2Fjavax.swing.table%2FStopEdit.html%3Fl%3Dfind%3A_YISZNW4xPmvN_cjvH55_V61kAM&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.javaalmanac.com/egs/javax.swing.table/StopEdit.html?l=find\">http://www.javaalmanac.com/...</a><br /><br /></p><p><br /><br />I may look at this more this evening...</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-30 02:44:38 +0000"
+  },
+  {
+   "name": "Ryan Ackley",
+   "url": "http://142.37.35.65.cfl.rr.com/",
+   "message": "<p>To add to R.J's soln, You listen for the first keystroke by using a KeyListener on the JTextComponent. Use the focusLost in the FocusListener to set a flag for the first keystroke.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-30 02:53:09 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://3E6B256D.rev.stofanet.dk/",
+   "message": "<p>Guys - have you an example of that code ?<br /><br /></p><p><br /><br />I have done stuff similar to that but I could never make it work reliable - especially not if you got special document handling and stuff...it grows even worse with JFormatedTextField which don't even have a document to insert/remove \"keys\" from....and what if it is a special character/functionkey you pressed...what do you do then ?<br /><br /></p><p><br /><br />The \"bug\" is thate the key get to the component before it get's its focus...that should not be allowed to happen ;(</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-30 12:31:43 +0000"
+  },
+  {
+   "name": "Derek Karnes",
+   "url": "http://httpbalt.northgrum.com/",
+   "message": "<p>At the sake of losing the functionality where esc cancels your edits, you can do something like:<br /><br /><br />table.addKeyListener(new KeyAdapter(){<br /><br /><br />            public void keyPressed(KeyEvent e) {<br /><br /><br />                int row = table.getSelectedRow();<br /><br /><br />                int col = table.getSelectedColumn();<br /><br /><br />                TableCellEditor editor = table.getColumnModel().getColumn(col).getCellEditor();<br /><br /><br />                if (editor!=null &amp;&amp; editor instanceof MyCellEditor){<br /><br /><br />                    JTextField jtf = ((JTextField)(((MyCellEditor)editor).getComponent()));<br /><br /></p><p><br /><br />                    KeyStroke keyStroke = KeyStroke.getKeyStroke(e.getKeyChar(), e.getModifiers());<br /><br /><br />                    char c = e.getKeyChar();<br /><br /><br />                    if (Character.isLetterOrDigit(c) || Character.isWhitespace(c)) {<br /><br /><br />                        jtf.getCaret().setDot(0);<br /><br /><br />                        jtf.getCaret().moveDot(jtf.getText().length());<br /><br /><br />                        table.setValueAt(\"\", row, col);<br /><br /><br />                    }<br /><br /><br />                }<br /><br /><br />            }<br /><br /><br />        });</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-09-30 00:02:20 +0000"
+  },
+  {
+   "name": "Michael van der Gulik",
+   "url": "",
+   "message": "<p>Hi.</p><p>This is an old thread, but Google finds it so I'll contribute.</p><p>For JTable, set the default editor:</p><p>[geshi lang=Java] <br />myJTable.setDefaultEditor(String.class, new NonStupidTableCellEditor());</p><p>public class NonStupidTableCellEditor extends javax.swing.AbstractCellEditor implements<br />\t\tTableCellEditor {<br />\tJTextField component = new JTextField();</p><p>\t@Override<br />\tpublic Component getTableCellEditorComponent(JTable table, Object value,<br />\t\t\tboolean isSelected, int row, int column) {<br />\t\t\tcomponent.setText(value.toString());<br />\t\t\tcomponent.setSelectionStart(0);<br />\t\t\tcomponent.setSelectionEnd(value.toString().length());<br />\t\t\treturn component;<br />\t}</p><p>\t@Override<br />\tpublic Object getCellEditorValue() {<br />\t\treturn component.getText();<br />\t}<br />}<br />[/geshi]</p><p>For standard JTextFields (which have the same stupid behaviour), set the caret:</p><p>[geshi lang=Java]<br />myJTextField.setCaret(new NonStupidCaret());</p><p>public class NonStupidCaret extends DefaultCaret {<br />\tpublic void focusGained(FocusEvent e) {<br />\t\tJTextComponent c;<br />\t\tc = getComponent();<br />\t\tif (c.isEnabled()) {<br />\t\t\tc.setSelectionStart(0);<br />\t\t\tc.setSelectionEnd(c.getText().length());<br />\t\t\tsetSelectionVisible(true);<br />\t\t\tif (c.isEditable()) {<br />\t\t\t\tsetVisible(true);<br />\t\t\t\tsetBlinkRate(500);<br />\t\t\t}<br />\t\t}<br />\t}<br />}<br />[/geshi]</p><p>The \"setBlinkRate(500)\" is a bit dumb, but it occasionally brings the flashing cursor back (and sometimes doesn't).</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-09-02 06:48:35 +0000"
+  },
+  {
+   "name": "Panos",
+   "url": "",
+   "message": "<p>thanks for the hint</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-01-26 18:59:59 +0000"
+  },
+  {
+   "name": "dhen",
+   "url": "",
+   "message": "<p>thanks</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-05-14 13:15:47 +0000"
+  },
+  {
+   "name": "Alex",
+   "url": "",
+   "message": "<p>I used Derek's code, but did it a bit different:</p><p>\t\tmyTable.addKeyListener(new KeyAdapter() {<br />\t\t\t@Override<br />\t\t\tpublic void keyPressed(KeyEvent e) {<br />\t\t\t\tint col = myTable.getSelectedColumn();<br />\t\t\t\tTableCellEditor editor = myTable.getColumnModel().getColumn(col).getCellEditor();<br />\t\t\t\tif (editor != null &amp;&amp; editor instanceof MyCellEditor) {<br />\t\t\t\t\tchar c = e.getKeyChar();<br />\t\t\t\t\tif (Character.isLetterOrDigit(c) || Character.isWhitespace(c)) {<br />\t\t\t\t\t\t((MyCellEditor) editor).setIsActivatedByKeyboard(true);<br />\t\t\t\t\t}<br />\t\t\t\t}<br />\t\t\t}<br />\t\t});</p><p>To MyCellEditor I added a field activatedByKeyboard, which purpose is obvious.<br />MyCellEditor's  method for getting component looks like this:</p><p>\t@Override<br />\tpublic Component getTableCellEditorComponent(JTable table, Object value, boolean isSelected, int row, int column) {<br />\t\tComponent editor = super.getTableCellEditorComponent(table, value, isSelected, row, column);<br />\t\tif (activatedByKeyboard) {<br />\t\t\t((NumberField) editor).setText(\"\");<br />\t\t}<br />\t\treturn editor;<br />\t}</p><p>Also I have an AncestorListener attached to the component responsible for edititng cell values, and in that listener I wrote such code:<br />@Override<br />\t\t\t\t\t\t\t\t\t\t\t\t\tpublic void ancestorRemoved(AncestorEvent e) {<br />\t\t\t\t\t\t\t\t\t\t\t\t\t\tTableCellEditor editor = labsTable.getColumnModel().getColumn(1).getCellEditor();<br />\t\t\t\t\t\t\t\t\t\t\t\t\t\t((NumberFieldCellEditor) editor).setIsActivatedByKeyboard(false);<br />\t\t\t\t\t\t\t\t\t\t\t\t\t}</p><p>Now everything works just fine, including cancelling edits by pressing Esc key.</p><p>sorry for my poor English and somewhat messy thinking, but I hope I provided enough information anyone to grasp my idea.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-01-19 07:18:26 +0000"
+  },
+  {
+   "name": "Tom Fennelly",
+   "url": "",
+   "message": "<p>Respect!!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-09-03 17:03:30 +0000"
+  }
+ ],
+ "/blog/internet-printing-protocol-ipp-for-java-/": [
+  {
+   "name": "bchoi",
+   "url": "http://202.172.54.24/",
+   "message": "<p>Why don't you try your hand at writing one ?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-03-30 07:09:30 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://62.107.17.119/",
+   "message": "<p>I would like to do it, but don't currently have the time....but I would support anyone willing to start it..;)<br /><br /></p><p><br /><br />But maybe one day....</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-03-30 13:55:59 +0000"
+  },
+  {
+   "name": "Fred Grott",
+   "url": "http://cache-1-laporte.netnitco.net/",
+   "message": "<p>That is bad very bad..<br /><br /></p><p><br /><br />I mean we have had unix print services for awhile..when I picke dup unix exp in early 1990s that was one the first neat things you learned..:)<br /><br /></p><p><br /><br />you would think that this bug would have priority under the Orion project..or bug similar to it..<br /><br /></p><p><br /><br />oh well SUN and it's superior bug fix process..</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-11 06:40:51 +0000"
+  },
+  {
+   "name": "Mister Cheese",
+   "url": "http://pcp03512380pcs.dallas01.ga.comcast.net/",
+   "message": "<p>Use .NET under windows.  It's \"enterprise-grade\".  Oh, that's funny.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-09-16 02:49:49 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>funny funny funny ;)<br /><br /></p><p><br /><br />Their print suck even more - especially since i can't fix their bugs because it's closed-source ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-09-16 11:26:19 +0000"
+  },
+  {
+   "name": "jeje",
+   "url": "http://159.50.203.7/",
+   "message": "<p>Maybe you could use some AOP tools, like AspectWerkz. Basically you need to use HotSwap.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-09-16 15:29:56 +0000"
+  },
+  {
+   "name": "Andrew Lovell",
+   "url": "http://82.140.200.92/",
+   "message": "<p>There seems to be such an implementation in CUPS, I'm gonna be checking it out and will post again soon</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-08 02:12:05 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://3E6B247B.rev.stofanet.dk/",
+   "message": "<p>yes - i know of it. <br /><br /></p><p><br /><br />Is actually also using it - but now we just need to make it a IPPPrintService (which it is not)<br /><br /></p><p><br /><br />...and then find some way to make a CUPSLookupService</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-08 02:29:58 +0000"
+  },
+  {
+   "name": "Andrew Lovell",
+   "url": "http://d168219.snt.net.KPNQwest.pt/",
+   "message": "<p>...so fancy start an IPPPrintService and IPPLookupService project?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-02-26 03:14:41 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://3E6B25D2.rev.stofanet.dk/",
+   "message": "<p>oh - forgot to tell ;)<br /><br /></p><p><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fjipsi%2F%3AfOWRWfMO-6Ucx4vDLeZf4jz6Ryo&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://sourceforge.net/projects/jipsi/\">http://sourceforge.net/proj...</a><br /><br /></p><p><br /><br />has arrived since these postings ... looks just like the thing I want ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-02-26 09:30:37 +0000"
+  },
+  {
+   "name": "Marc Logemann",
+   "url": "http://p508FCD3B.dip0.t-ipconnect.de/",
+   "message": "<p>did you managed to do a discovery of all available LPR printers on the network? I am just examining the JPS API for that capability.<br /><br /></p><p><br /><br />Perhaps it only works when creating output queues where the application run. Dont know yet.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-20 17:42:54 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>The default api does not have such a provider!<br /><br /></p><p><br /><br />I've been aware of jipsi for some time, but haven't had the time to test it.<br /><br /><br />(jipsi just need to know the address of an IPP print server)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-20 18:36:35 +0000"
+  },
+  {
+   "name": "Marc Logemann",
+   "url": "http://p508FCD3B.dip0.t-ipconnect.de/",
+   "message": "<p>Thanks a lot for posting this link, damn the internet is just too big. I searched for exactly this kind of SPI.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-21 03:06:54 +0000"
+  },
+  {
+   "name": "Marc Logemann",
+   "url": "http://p508FCD3B.dip0.t-ipconnect.de/",
+   "message": "<p>Wow. Read your blog because you wrote something about IPP with java, now i backread your blog and saw that you also use JGoodies, i am heavy user of JGoodies SwingSuite (yes, the one with everything included for some hundred bucks).<br /><br /></p><p><br /><br />Seems we have the same kind of projects ;-)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-07-21 03:10:12 +0000"
+  },
+  {
+   "name": "naveen",
+   "url": "http://ma-exit-three.pfpc.com/",
+   "message": "<p>I am having problems in printing to different trays on widnows using jdk1.4 can anybody help me how to do it?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-11-11 02:27:44 +0000"
+  },
+  {
+   "name": "Maria",
+   "url": "",
+   "message": "<p>Have you found any solution to get LPR print servers? <br />Thanks.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-08-26 22:01:58 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>Sorry, been years since I last looked into it; but I remember we ended up using a CUPS Server to handle all the driver setup and just use this trick to print to the CUPS server.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-08-27 16:01:44 +0000"
+  }
+ ],
+ "/blog/java-ipp-and-general-merry-x-mas/": [
+  {
+   "name": "Dmitri Colebatch",
+   "url": "http://nme-pow-pr3.tpgi.com.au/",
+   "message": "<p>Are you kidding me.... just had a skim of the source, check this out:<br /><br /></p><p><br /><br />            catch (IllegalAccessException ex) {<br /><br /><br />                ex.printStackTrace();<br /><br /><br />            }<br /><br /><br />            catch (InvocationTargetException ex) {<br /><br /><br />                ex.getTargetException().printStackTrace();<br /><br /><br />            }<br /><br /></p><p><br /><br />I'm sorry, but that is not appropriate exception handling for any sort of library...<br /><br /></p><p><br /><br />been a while since I've done some swing, so cant comment on 'better' appropaches, but that code snipped I posted jumps out at me and says \"I'm not ready\"...</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 01:56:16 +0000"
+  },
+  {
+   "name": "Anthony Eden",
+   "url": "http://216.242.178.111/",
+   "message": "<p>I've been using something like this long before Sun added it to the JDK.  Instead of invoking a property set method I can invoke any method.  In one sense it is good because it removes a lot of extra code, on the other hand it probably makes more sense in many cases to use an Action implementation instead.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 02:21:22 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://3E6B3EE3.rev.stofanet.dk/",
+   "message": "<p>well - as i said, it's good - not perfect ;)<br /><br /></p><p><br /><br />The stacktrace stuff i had not noticed - thanks for pointing it out...another reason for building my own ;)<br /><br /></p><p><br /><br />...Action's is much more preferred, but for example in the BeanContext API we got horrible names and complex classes for simple stuff...here EventHandler (or a better replacement) would make wonders to the readability of the code.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 02:25:41 +0000"
+  },
+  {
+   "name": "Joe",
+   "url": "http://dialup-171.75.36.142.Dial1.Washington1.Level3.net/",
+   "message": "<p>There is no solution for the public v. private issue.  Its a side effect of the security restrictions placed on reflection.  Reflection can not invoke a method unless the class that's doing the invoking is doing it within the appropriate scope, so even package-protected things have to be invoked in the same package.<br /><br /></p><p><br /><br />Trouble is the invoker in this case belongs to java.beans, not to the package of your gui code.  There's simply no way around that unless the JDK opens up more aspects of the .classfile, and that opens up a larger can of worms that I'd really rather not deal with.<br /><br /></p><p><br /><br />Besides, IMHO, if something can be called via the GUI, its \"public\", and thus the method that invokes it on my Object should also be public.  Its part of what something from the outside can do to my object.  By having it public, it also gives me the room to test it with external testing tools.<br /><br /></p><p><br /><br />As one noted, one could instead advertise what actions are available by making public an array of Action objects.<br /><br /></p><p><br /><br />With the stack-trace, that was just plain bad, although my version had the same issue.  The trouble in that case is the general problem of dispatching Exceptions in any GUI program.  If you can't catch them, they propagate up to the AWT event queue, where they'll be printStackTraced anyways, and in the case of InvocationException (written before JDK 1.4 built-in nested exceptions) the real source of the problem may end up not displayed in the dump.<br /><br /></p><p><br /><br />Really, in any framework for a GUI, one should have the means to add an ExceptionHandler type of Object to deal with that sort of thing, but the JDK didn't build it in.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 03:34:34 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://50C556BB.flatrate.dk/",
+   "message": "<p>Joe, that is not true - otherwise persitenceengines and many J2EE servers or other highly reflection based systems (such as Hibernate) would be living on a lie ;)<br /><br /></p><p><br /><br />Yes - there is some security breachees, but in general it is possible to call also private and protected methods via reflection.<br /><br /></p><p><br /><br />Yes - i'm al for it being public on e.g. anonymous inner classes, but the AIC's just fills up to much compared to what they provide. And often they just relay the event to a protected method in the outer-class....thus using EventHandler or similar would allow me to express what I actually do in much less code.<br /><br /></p><p><br /><br />Regarding AWT exceptions there is an ExceptionHandler object. Look for \"sun.awt.exception.handler\" via google.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 17:35:12 +0000"
+  },
+  {
+   "name": "Joe",
+   "url": "http://dialup-171.75.41.122.Dial1.Washington1.Level3.net/",
+   "message": "<p>Well, first off, as a security feature, it is possible to turn it off at start-up time.  I believe the start-up systems/scripts of most J2EE servers do that, but I haven't the time to confirm.<br /><br /></p><p><br /><br />Second, several persistence engines work by code-generation, and in the case of many OODBMS's, work by modifying the .class files themselves.  There are lots of options for getting to private data.  One approach I've seen used is parsing serialization streams.<br /><br /></p><p><br /><br />In any case, that's not invoking a public/private method, thats reading the value of a member variable, which is not quite the same thing.  Hibernate, for example, uses RunTime bytecode generation, meaning it creates new classes that internally have access to the private fields they need to access to persist.  In effect, its doing much the same as the OODBMS approach, but at runtime instead of using a pre-processor.  This is possible because of how much faster machines and JVMs are over what they were in the early OODBMS days of 1997.<br /><br /></p><p><br /><br />Part of the real problem with this is the degree to which GUIs should remain Object-Oriented.  Object-Oriented approaches that are designed to protect behavioural classes and data classes have a tendency to hide internals that in actuallity the GUI needs to be extremely public in order to display and manipulate correctly.  The trouble with making them more public than they should be from an OO standpoint is that other developers may see that they are public and use them improperly.  The trouble with hiding them is that the GUI has to go through rediculous hoops in order to get the info it needs to display or execute properly.<br /><br /></p><p><br /><br />Basically there are two options.  First is just make things public, and document in the javadocs that certain methods or properties are for GUI access only, not to be called by other parts of the codebase, and hope that other developers pay attention to that.  Second is to encapsulate the GUI through inner classes as Allen Holub wrote in JavaWorld back in 1999.  That approach of extremely-tight coupling of the GUI to the model has the negative effects of <br /><br /><br />placing too much GUI code in something that may get moved out to a web application or web service, and requires that one do the GUI design and implementation by hand.  Few code generators will \"think\" like that and be able to manage that kind of architecture.<br /><br /></p><p><br /><br />Sun is not going to blindly give developers the tools to break their own OO &amp; security standards.  I wouldn't expect them to.  So either grin and bear it and make your button-clicking methods public, or write your own reflection tool that bypasses the standard security restriction.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 19:53:48 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://50C556BB.flatrate.dk/",
+   "message": "<p>As one of the developers of Hibernate :), I can promise you that Hibernate is NOT depending on using runtime bytecode generation to access fields inside an object. (the runtime bytecode gen is mostly for performance and to realize lazyloading)<br /><br /></p><p><br /><br />Hibernate uses Reflection to access PROPERTIES - not fields. Direct field access have actually only been made available lately, before we only accessed properties (public, protected, private whatever ;)<br /><br /></p><p><br /><br />But putting that aside - I refrain from making the event listeners part of my public interface of my gui classes...thus I use inner anonymous classes....and thus i'm also very much considering using EventHandler ;)<br /><br /></p><p><br /><br />...but i don't follow your argument saying that having inner classes tightly couples the gui to the model ?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 20:37:41 +0000"
+  },
+  {
+   "name": "Joe",
+   "url": "http://dialup-171.75.41.222.Dial1.Washington1.Level3.net/",
+   "message": "<p>you need to read the article Holub wrote (its in 6 parts, rather long, but he writes a LOT).  The design is that the \"Object\" is responsible for its own GUI, and internalizes its own GUI entirely, either in an inner class, or just by directly having a JPanel as a member.  <br /><br /></p><p><br /><br />The idea is that the outer object that manages the inner object does its own layout, asking the inner object for its gui component, which it then embeds in its own JPanel, which becomes its component to advertise out to any object that contains it.<br /><br /></p><p><br /><br />The idea of using an inner class is simply to keep having SOME separation of Object from GUI interface by having the GUI be its own class, just an inner class embedded inside the object's own class.  Extremely-tight coupling, but its definitely Object-Oriented.<br /><br /></p><p><br /><br />The problem then comes to a head.  Is that amount of adherance to Object-Oriented really better in the long run for application maintainance?  When you have separate Swing and Model programmers, you have two people manipulating the same file in developing the work, which may lead to problems if your CM isn't perfect (and no CM is).<br /><br /></p><p><br /><br />Another significant drawback with that approach is that sometimes in GUI layout design, pieces that conceptually are part of the same Object don't necessarilly belong together on the screen.  Status display information is different from controllers, and usually goes in a different place, but when the GUI only allows one component per Object at that level, there's no way to separate them without significant rearchitecture.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-24 21:55:18 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://50C556BB.flatrate.dk/",
+   "message": "<p>Do you have a link to the article ?<br /><br /></p><p><br /><br />But your small resume indicate to me that i do not agree on his viewpoints ;) <br /><br /><br />I normally disagree with people saying that the objectmodels should have a \"getPresentation()\" method or similar...that simply does not work .... most of the time i see gui much like persistence, it is something orthogonal on the domain - something that is best \"externalized\" and modelled in its own right.<br /><br /></p><p><br /><br />And yes - if Holub write about objects having their own presentation then i do understand what you mean about strong coupling...and that is bad ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-12-25 03:33:31 +0000"
+  }
+ ],
+ "/blog/jing---the-best-tool-for-reporting-bugs-for-any-ui/": [
+  {
+   "name": "Kito D. Mann",
+   "url": "http://www.jsfcentral.com/",
+   "message": "<p>Cool! I'm currently a SnagIt user, and since this from the same company, I'm intrigued. SnagIt is really cool.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-16 20:10:02 +0000"
+  },
+  {
+   "name": "Sidney de Koning",
+   "url": "http://www.funky-monkey.nl/blog/",
+   "message": "<p>Hi Max,</p><p>Have you tried TinyGrab already? Both for mac and win, free version lets you upload to their server, you pay 10 bucks you can use your own server. I love it, also good for sending / sharing stuff to/for clients.</p><p>Cheers,</p><p>Sidney</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-07-29 17:52:38 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>Well, TinyGrab doesn't provide video capture as far as I can see and Jing Free allows you to use your own server.<br />No need to pay 10$ for that.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-07-31 19:03:31 +0000"
+  }
+ ],
+ "/blog/light-weight-smtp-/": [
+  {
+   "name": "Andy",
+   "url": "http://207.59.112.179/",
+   "message": "<p>I feel your pain.  JavaMail sucks doesn't it?<br /><br /></p><p><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fcvs.sourceforge.net%2Fviewcvs.py%2F%3Ae9G8jQFOPR2bsrvwI8ykfy5Ihe4&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://cvs.sourceforge.net/viewcvs.py/\">http://cvs.sourceforge.net/...</a><br /><br /><br />javaemailserver/src/com/ericdaugherty/<br /><br /><br />mail/server/services/smtp/<br /><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2FSMTPRemoteSender.java%3Frev%3D1.7%26amp%3B%3Aje4ET91UxaEHubOeCKLyrJVR76c&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"SMTPRemoteSender.java?rev=1.7&amp;amp;\">SMTPRemoteSender.java?rev=1...</a><br /><br /><br />view=markup</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-01-20 18:32:10 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>And that stuff is in a GPL'ed library and is rather dependent on other stuff....not very lightweight and usable in a non-GPL'ed context ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-01-20 18:35:26 +0000"
+  },
+  {
+   "name": "Torgeir",
+   "url": "http://160.79.55.82/",
+   "message": "<p>Check the java glossary, <a href=\"http://disq.us/url?url=http%3A%2F%2Fmindprod.com%2Fjgloss%2Fsmtp.html%2C%3A1iuh_4qIMuYa-xLK-b-qiPcvbe4&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://mindprod.com/jgloss/smtp.html,\">http://mindprod.com/jgloss/...</a> and the link to David Flanagan's example.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-01-20 20:44:29 +0000"
+  },
+  {
+   "name": "Brian McCallister",
+   "url": "http://delmar-209-137-167-162-dsl.cavtel.net/",
+   "message": "<p><a href=\"http://disq.us/url?url=http%3A%2F%2Fjakarta.apache.org%2Fcommons%2Fnet%2F%3AVo3cE6fMEfzz46Eg0MHm8hypo2Q&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://jakarta.apache.org/commons/net/\">http://jakarta.apache.org/c...</a><br /><br /></p><p><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fjakarta.apache.org%2Fcommons%2Fnet%2Fapidocs%2Forg%2Fapache%2Fcommons%2Fnet%2Fsmtp%2Fpackage-summary.html%3AjcrpslYulLHhl9dMhm1c8PWALAY&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://jakarta.apache.org/commons/net/apidocs/org/apache/commons/net/smtp/package-summary.html\">http://jakarta.apache.org/c...</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-01-20 22:46:09 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>that's more like it guys - thanks..weird that google did not pop that stuff up the first 5 pages of \"java smtp\"</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-01-20 22:54:41 +0000"
+  }
+ ],
+ "/blog/making-eclipse-look-good-on-linux/": [
+  {
+   "name": "Boris Bokowski",
+   "url": "",
+   "message": "<p>Cool!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 18:57:09 +0000"
+  },
+  {
+   "name": "nobody",
+   "url": "",
+   "message": "<p>How about making Linux look good on Linux first and Eclipse will follow!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 20:14:56 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>For some reason it is actually only Eclipse that looks this clunky - other apps seem to be designed/done with the understanding extra space is added.</p><p>But yes, I would prefer these or similar \"compact\" settings were available out of the box.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 20:21:04 +0000"
+  },
+  {
+   "name": "me again",
+   "url": "",
+   "message": "<p>See <a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.codecommit.com%2Fblog%2Feclipse%2Fone-wild-week-with-ubuntu-linux%3ApU_abgbczUbor5HunNwO6Q9tVdU&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.codecommit.com/blog/eclipse/one-wild-week-with-ubuntu-linux\">http://www.codecommit.com/b...</a> for a description of how to get rid of space</p><p>Which other app?  Is it running GTK?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 20:25:08 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>I tried doing the ~/.gtkrc-2.0 trick:</p><p>style &amp;#8220my-default&amp;#8221<br />{<br />GtkTreeView::horizontal-separator = 0<br />GtkTreeView::vertical-separator = 0<br />}<br />class &amp;#8220GtkTreeView&amp;#8221 style &amp;#8220my-default&amp;#8221</p><p>But it had zero effect as far as I can tell (even after reboot)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 20:51:23 +0000"
+  },
+  {
+   "name": "David Carver",
+   "url": "",
+   "message": "<p>Under Ubuntu 07.10, just change the point size from the default 10 or 12 points, to 8 points, and use the Sans font.   This affects all applications, but my personal preference is for smaller fonts system wide.   The default that comes with Ubunutu at higher screen resolutions appears to large.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 22:03:37 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>This is exactly what I did...that does not change the margin's that GTK adds between components.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 22:07:51 +0000"
+  },
+  {
+   "name": "Willian Mitsuda",
+   "url": "http://www.willianmitsuda.com/",
+   "message": "<p>This is the polishment item #1 which prevents me from switch to Linux definitely.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-08 23:51:42 +0000"
+  },
+  {
+   "name": "wesley",
+   "url": "",
+   "message": "<p>edit the config file: ~/.gtkrc-2.0</p><p>style \"gtkcompact\" {<br />  font_name=\"Sans 8\"<br />  GtkButton::default_border={0,0,0,0}<br />  GtkButton::default_outside_border={0,0,0,0}<br />  GtkButtonBox::child_min_width=0<br />  GtkButtonBox::child_min_heigth=0<br />  GtkButtonBox::child_internal_pad_x=0<br />  GtkButtonBox::child_internal_pad_y=0<br />  GtkMenu::vertical-padding=1<br />  GtkMenuBar::internal_padding=0<br />  GtkMenuItem::horizontal_padding=4<br />  GtkOptionMenu::indicator_size=0<br />  GtkOptionMenu::indicator_spacing=0<br />  GtkPaned::handle_size=4<br />  GtkRange::trough_border=0<br />  GtkRange::stepper_spacing=0<br />  GtkScale::value_spacing=0<br />  GtkScrolledWindow::scrollbar_spacing=0<br />  GtkExpander::expander_size=10<br />  GtkExpander::expander_spacing=0<br />  GtkTreeView::vertical-separator=0<br />  GtkTreeView::horizontal-separator=0<br />  GtkTreeView::expander-size=8<br />  GtkTreeView::fixed-height-mode=TRUE<br />  GtkWidget::focus_padding=0<br />}<br />class \"GtkWidget\" style \"gtkcompact\"</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-09 09:56:10 +0000"
+  },
+  {
+   "name": "Guanglin Du",
+   "url": "",
+   "message": "<p>Try *WenQuanYi bitmap font* (<a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.wenq.org%2F%29%3AwRBpECuW9QvdkxpU9nTBCqMKZyY&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.wenq.org/)\">http://www.wenq.org/)</a>. It was designed for Chinese characters, but looks thin and sharp when used to English fonts. Change all your font settings from System - &gt; Preferences -&gt; Font for Gnome desktop.<br />On Ubuntu 6.10 and 7.04: *sudo apt-get install xfonts-wqy*<br />On Ubuntu 7.10: *sudo apt-get install wqy-bitmapfont*<br />Don't know how to install this font on Fedora, or the KDE desktop. Sorry, don't know why I cannot attach the screenshot.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-09 11:56:34 +0000"
+  },
+  {
+   "name": "bob",
+   "url": "",
+   "message": "<p>Personnaly I use the Arial (could also be verdana, etc) font at 10pt size, without anti-alising at all *but* with freetype supporting the bytecode interpreter (it's the case by default with Ubuntu) to have sharp and accurate shapes.<br />Doesn't fix the widget spacing problem though.</p><p>Eclipse should always be delivered with a brand new 24p wide screen!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 00:14:52 +0000"
+  },
+  {
+   "name": "Vladimir Buell",
+   "url": "http://farjumper.livejournal.com/",
+   "message": "<p>Thanks, Willian!!</p><p>I've tweaked your theme a little for compacting such elements as Toolbars, Statusbars and Editor's tabs.</p><p>style \"gtkcompact\" {<br />font_name=\"Sans 8\"<br />GtkButton::default_border={0,0,0,0}<br />GtkButton::default_outside_border={0,0,0,0}<br />GtkButtonBox::child_min_width=0<br />GtkButtonBox::child_min_heigth=0<br />GtkButtonBox::child_internal_pad_x=0<br />GtkButtonBox::child_internal_pad_y=0<br />GtkMenu::vertical-padding=1<br />GtkMenuBar::internal_padding=0<br />GtkMenuItem::horizontal_padding=4<br />GtkToolbar::internal-padding=0<br />GtkToolbar::space-size=0<br />GtkOptionMenu::indicator_size=0<br />GtkOptionMenu::indicator_spacing=0<br />GtkPaned::handle_size=4<br />GtkRange::trough_border=0<br />GtkRange::stepper_spacing=0<br />GtkScale::value_spacing=0<br />GtkScrolledWindow::scrollbar_spacing=0<br />GtkExpander::expander_size=10<br />GtkExpander::expander_spacing=0<br />GtkTreeView::vertical-separator=0<br />GtkTreeView::horizontal-separator=0<br />GtkTreeView::expander-size=8<br />GtkTreeView::fixed-height-mode=TRUE<br />GtkWidget::focus_padding=0<br />}<br />class \"GtkWidget\" style \"gtkcompact\"</p><p>style \"gtkcompactextra\" {<br />xthickness=0<br />ythickness=0<br />}<br />class \"GtkButton\" style \"gtkcompactextra\"<br />class \"GtkToolbar\" style \"gtkcompactextra\"<br />class \"GtkPaned\" style \"gtkcompactextra\"</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 01:36:40 +0000"
+  },
+  {
+   "name": "Willian Mitsuda",
+   "url": "http://www.willianmitsuda.com/",
+   "message": "<p>Vladimir, it was Wesley's response, not mine... And yes, the CSS for comments is confusing ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 01:56:18 +0000"
+  },
+  {
+   "name": "Martin Ankerl",
+   "url": "http://martin.ankerl.com/",
+   "message": "<p>Hi there, you can use the Clearlooks Compact theme that I have created especially because eclipse looks so bad:</p><p><a href=\"http://disq.us/url?url=http%3A%2F%2Fmartin.ankerl.com%2F2007%2F11%2F04%2Fclearlooks-compact-gnome-theme%2F%3AJ7hNp-KD0xG-2MLdR1P35d-4hW4&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://martin.ankerl.com/2007/11/04/clearlooks-compact-gnome-theme/\">http://martin.ankerl.com/20...</a></p>",
+   "avatar": "https://disqus.com/api/users/avatars/MartinAnkerl.jpg",
+   "date": "2007-11-10 03:33:43 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>I tried using exactly your theme, but I saw no change in the margin used between components.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 04:22:22 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>Hi Vladimir,</p><p>Thanks for this style; but its kinda \"overdoing\" it since (to me atleast) it result in very narrow buttons/views...I'll try and adjust it a bit after our next release ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 04:33:18 +0000"
+  },
+  {
+   "name": "Martin Ankerl",
+   "url": "http://martin.ankerl.com/",
+   "message": "<p>It should be most visible for the tabs, which are much too high in the default clearlooks theme. You have to restart eclipse for this change.</p>",
+   "avatar": "https://disqus.com/api/users/avatars/MartinAnkerl.jpg",
+   "date": "2007-11-10 13:34:36 +0000"
+  },
+  {
+   "name": "martel",
+   "url": "http://aie.pl/",
+   "message": "<p>Anyone knows how to add these spaces to windows programs? GTK Eclipse looks a whole lot better compared to the cluttered and tight windows eclipse.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 15:04:59 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "",
+   "message": "<p>hehe - yeah, everyone has their own taste. But sorry - I don't know of a way to tweak windows \"spacing\".</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 15:24:58 +0000"
+  },
+  {
+   "name": "Vladimir Buell",
+   "url": "http://farjumper.livejournal.com/",
+   "message": "<p>In this case my greetings to Wesley :)</p><p>One question remains for me: How can I bind left and right cursor keys for tree view collapsing and expanding (now only grey plus and minus works)?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-10 21:44:04 +0000"
+  },
+  {
+   "name": "Kim Sullivan",
+   "url": "",
+   "message": "<p>Why couldn't I find anything like this when I was searching for a solution? The only thing I came up was the vertical-separator, which helped a bit (when using default fonts).... Thanks a lot!</p><p>BTW, When I tried to apply the vertical-separator setting to GTKWidget, gnome started acting really weird (I couldn't restart it using ctrl-alt-backspace)... I'll definitely try your theme once I get a working notebook back :-)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-14 13:26:28 +0000"
+  },
+  {
+   "name": "djo.mos",
+   "url": "http://djo-mos.developpez.com/",
+   "message": "<p>Thank Wesley for the solution ! It works perfectly !<br />Just one thing: in gnome 2.2, there is no ~/.gtk-2.0 file by default, so you have to create it manually.<br />Regards.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-11-25 19:20:14 +0000"
+  },
+  {
+   "name": "Andries Inzé",
+   "url": "http://designparadigm.wordpress.com/",
+   "message": "<p>Great post. Bugged me for ages!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-12-07 02:00:02 +0000"
+  },
+  {
+   "name": "Alan",
+   "url": "",
+   "message": "<p>Thank you so much for your .gtkrc-2.0 settings. This makes eclipse so much nicer to use on my little laptop screen.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2007-12-08 11:55:52 +0000"
+  },
+  {
+   "name": "Alessio",
+   "url": "http://www.uhlala.it/",
+   "message": "<p>sorry but I can't understand how you find the win version being better than standard linux (gtk) version.<br />Extra dimension is for bettere legibility, indeed.<br />Take care of your eyes, and trust the default.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2008-06-03 19:26:02 +0000"
+  },
+  {
+   "name": "rick",
+   "url": "",
+   "message": "<p>You guys are lifesavers! Thanks. The ugliness of eclipse on linux was driving me crazy until I found these gtkrc-2.0 settings.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2008-07-05 21:22:51 +0000"
+  },
+  {
+   "name": "Sarath",
+   "url": "http://blog.sarathonline.com/2008/10/solved-eclipse-looks-good-in-ubuntu-now.html",
+   "message": "<p>Added an easy way, one simple script and a gtkrc, read here.<br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fblog.sarathonline.com%2F2008%2F10%2Fsolved-eclipse-looks-good-in-ubuntu-now.html%3A60RWslsQ8j8ON4j4tAOJnWV6AOE&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://blog.sarathonline.com/2008/10/solved-eclipse-looks-good-in-ubuntu-now.html\">http://blog.sarathonline.co...</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2008-11-03 08:00:33 +0000"
+  },
+  {
+   "name": "Daniel Verner",
+   "url": "",
+   "message": "<p>Thank you.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-06-01 22:41:17 +0000"
+  },
+  {
+   "name": "sachin poddar",
+   "url": "",
+   "message": "<p>You guys rock! Provided tweak works perfect for eclipse on my 14.1\" laptop. Thanks a ton :)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-07-05 01:00:11 +0000"
+  },
+  {
+   "name": "Alejandro",
+   "url": "",
+   "message": "<p>I honestly don't understand folks who prefer the cluttered Windows appearance and the blocky, tiny ass fonts. Really, after you switch to Fedora and learn to live without the straitjacket, your eyes really thank you for it.</p><p>Granted, the default Fedora fonts are too big. However, once you set the font size to 10, the resolution to 96 ppi and install the freetype-freeworld package (a true jewel available from the RPM fusion repos), everything looks fantastic. Recent Ubuntu distros (Jaunty for sure) come with freetype-freeworld (which has patent issues) preinstalled, so you can enjoy the crisp fonts out of the box.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-07-15 11:43:42 +0000"
+  },
+  {
+   "name": "Attila Zilizi",
+   "url": "",
+   "message": "<p>You'r awesome guys! The gtkrc-2.0 setting worked as expected.<br />Thank you.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-04-19 01:44:29 +0000"
+  },
+  {
+   "name": "Prasad Annadata",
+   "url": "",
+   "message": "<p>Thank you Vladimir.  <br />If anyone is planning to use Vladimir's gtkrc, please note that, when you copy-paste from this webpage, make sure you have the right double-quote characters.  It took me a while to figure out why the gtkrc is not affecting the view at all.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-10-18 06:55:12 +0000"
+  },
+  {
+   "name": "Jonas",
+   "url": "",
+   "message": "<p>Please vote for the bug in Ubuntu: <br /><a href=\"https://disq.us/url?url=https%3A%2F%2Fbugs.launchpad.net%2Fubuntu%2F%2Bsource%2Feclipse%2F%2Bbug%2F653010%3A-wrWzTVSmke7xBO6fAFt2sAlL_o&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"https://bugs.launchpad.net/ubuntu/+source/eclipse/+bug/653010\">https://bugs.launchpad.net/...</a></p><p>...so this can be fixed where it should be.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-11-24 15:15:46 +0000"
+  },
+  {
+   "name": "Felix",
+   "url": "",
+   "message": "<p>Wesley and Vladimir are true heroes!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2012-08-16 15:33:42 +0000"
+  },
+  {
+   "name": "Seth",
+   "url": "",
+   "message": "<p>What are you even talking about?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2012-11-05 04:24:40 +0000"
+  },
+  {
+   "name": "TLoD,Snake",
+   "url": "",
+   "message": "<p>Still very bad. Look at the x letter in the tree view. In your linux variant it is still much thicker than in windows one.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2015-08-21 07:09:16 +0000"
+  },
+  {
+   "name": "maxandersen",
+   "url": "",
+   "message": "<p>It was made 8 years ago - sorry for not doing better back then ;)</p>",
+   "avatar": "https://disqus.com/api/users/avatars/maxandersen.jpg",
+   "date": "2015-08-24 07:21:58 +0000"
+  }
+ ],
+ "/blog/migrating-from-serendipity-s9y-to-wordpress/": [
+  {
+   "name": "Joaquim Homrighausen",
+   "url": "http://www.joho.se/",
+   "message": "<p>Hmm.. all I get is the default index page loaded in WP ;)</p><p>After all your stuff, I kept the default WP .htaccess rewriting like so:</p><p>RewriteRule ^index\\.php$ - [L]<br />RewriteCond %{REQUEST_FILENAME} !-f<br />RewriteCond %{REQUEST_FILENAME} !-d<br />RewriteRule . /index.php [L]</p><p>(I want post URLs to be like: <a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.joho.se%2F2010%2F09%2F01%2Fhow-myphoneexplorer-helps-android-htc-droid-x10-owners%2F%29%3Auc39ZNmThMEKeKNa3lWJ3_22aAE&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.joho.se/2010/09/01/how-myphoneexplorer-helps-android-htc-droid-x10-owners/)\">http://www.joho.se/2010/09/...</a></p>",
+   "avatar": "https://disqus.com/api/users/avatars/joho68.jpg",
+   "date": "2011-02-16 04:42:52 +0000"
+  },
+  {
+   "name": "Muammar",
+   "url": "http://muammar.me/",
+   "message": "<p>Have you found a way of get the comments from s9y to wordpress as well? I'd love to migrate from s9y, but I haven't done that because I'd not like loosing all the comments I have currently.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-08-02 03:31:56 +0000"
+  },
+  {
+   "name": "Max",
+   "url": "http://blog.xam.dk/",
+   "message": "<p>The s9y importer takes care of that AFAIR.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2011-08-05 14:52:51 +0000"
+  },
+  {
+   "name": "O",
+   "url": "",
+   "message": "<p>Thanks for this, very useful</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2015-01-15 15:12:01 +0000"
+  }
+ ],
+ "/blog/new-job-at-jboss/": [
+  {
+   "name": "Marshall",
+   "url": "http://c-67-162-185-117.client.comcast.net/",
+   "message": "<p>welcome to the team man =). i started only 3 weeks ago and it's been an awesome ride ever since. here's to jboss &lt;tips glass&gt;</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-10-12 20:29:19 +0000"
+  },
+  {
+   "name": "Ian Lim",
+   "url": "http://www.mallim.per.sg/",
+   "message": "<p>Would JBoss considering setup a regional office in Singapore? :P</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2005-04-17 08:15:55 +0000"
+  }
+ ],
+ "/blog/part-ii-of-jaas-and-functional-security/": [
+  {
+   "name": "matt.",
+   "url": "http://cache-1.lnh.md.webcache.rcn.net/",
+   "message": "<p>You need to do 2 things.  First the current Thread needs to be running as the Subject whose Permissions you want to check.  You can achieve this via the Subject.doAs() method.<br /><br /></p><p><br /><br />Secondly, you will need to call out to the AccessController.checkPermission() method as that Subject.<br /><br /></p><p><br /><br />I agree, it is poorly documented.  The best tutorial I have found is actually an old O'Reilly conference presentation: <a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.research.ibm.com%2Fpeople%2Fk%2Fkoved%2FPresentations%2FOReilly2000%2Findexc.htm%3AXfK5UgmS7MfJHo2MfOFoZ7bOo_c&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.research.ibm.com/people/k/koved/Presentations/OReilly2000/indexc.htm\">http://www.research.ibm.com...</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 04:13:09 +0000"
+  },
+  {
+   "name": "Distiller",
+   "url": "http://195.167.148.4/",
+   "message": "<p>I've written a JAAS system for my current contract. IMO you need to implement you're own Policy subclass to do it properly. This is because the standard policy file based implementation isn't very useful because of it's static nature. Then you can do whatever you want. I've implemented the getPermissions abstract method to return a collection of custom permissions from the db. Within the permissions, you can do whatever you like.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 16:43:00 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>And there isn't \"tricky\" situations regarding having the OwnPolicy integrate well with the default policy implementation ?<br /><br /></p><p><br /><br />Can you show the highlights of the implementation or is to secret ? ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 17:00:15 +0000"
+  },
+  {
+   "name": "Distiller",
+   "url": "http://195.167.148.4/",
+   "message": "<p>You need to override the default policy by making a call to javax.auth.Policy.setPolicy, or set this via a <a href=\"http://disq.us/url?url=http%3A%2F%2Fjava.security%3AnJLtAPDoZvjQwcLw3SelzxMUNI0&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"java.security\">java.security</a> property ( I prefer the former because it means that you can deploy without changing vm parameters). <br /><br /></p><p><br /><br />I must say that there is some fiddling around so that some of the default protection domains don't interfere with your policy. This is achieved by creating a new AccessControlContext with a SubjectDomainController inside it when you execute priveleged actions. You can do without this step, but I had some problems with the code-based policy interfering with it.  There are also situations where your domains get lost because parts of the system get called within another context i.e. logging into a system is called back by the LoginContext in a different protection domain, and so it is not possible to check permissions from here. You might think this is unnecessary, but in the system I built, I don't really have the concept of an anonymous user, but rather a guest user that has it's own set of credentials / permissions. And a guest has permission to log into certain systems. <br /><br /></p><p><br /><br />IMO the whole authorisation part of it is a bit flakey and takes a lot of experimenting to determine exactly how it's meant to work, because as you said, it's not documented that well (if at all).</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 17:20:01 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>But was it worth while then ? <br /><br /></p><p><br /><br />Would you rather have choosen another approach ?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 18:54:07 +0000"
+  },
+  {
+   "name": "Les",
+   "url": "http://216.215.184.5.nw.nuvox.net/",
+   "message": "<p>In most servlet or J2EE books (or even tomcat documentation) you will find the Realm portion documented pretty well. This will let you define multiple roles per principle.  It does, however, leave it up to you how you validate those roles against your functionality.  However, it is pretty easy to create a role to function table in the database.  (BTW, there are DataSourceRealms and JDBCRealms that come with most app servers - even tomcat).  So, you should be able to keep all of your data there.  <br /><br /></p><p><br /><br />I didn't read your first entry...but, I hope that this helps with this one.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 21:48:40 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://62.107.15.73/",
+   "message": "<p>Les, that is all fine and dandy - and that  all relates to &lt;b&gt;authentication&lt;/b&gt; which is more or less straight forward. <br /><br /></p><p><br /><br />The problem is that I need &lt;b&gt;non-basic authorization&lt;/b&gt;, meaning that a simple \"isInRole()\" call is NOT enough! <br /><br /></p><p><br /><br />I need something like .checkPermission(new  MedicatePermission(\"department X\", \"patient Y\", \"drug Z\", \"10 o'clock\")); which should dynamically check up against the current state of the system wether the current Subject is allowed to perform a medication on department X, regarding Patient Y with the Drug Z at 10 o'clock. This is not very easy to do with any realm or policy implementation I've seen.<br /><br /></p><p><br /><br />But thanks for your comments anyway ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 22:22:59 +0000"
+  },
+  {
+   "name": "Les",
+   "url": "http://216.215.184.5.nw.nuvox.net/",
+   "message": "<p>OK...well here is what I am missing.  Are you looking for something in JAAS that provides the .checkPermission method for you??  If so, you won't find it.  I think that the most you can expect from JAAS is who am I and what are my roles (you can, btw, get all of the roles for the current user).  So, you have to write your framework that can take a MedicatePermission Object and determine if the current user's roles (as currently in the database) are sufficient.  It shouldn't be too hard to write. <br /><br /></p><p><br /><br />EJB does provide you with method level role association, but I think this is a very narrow security model.  I do think that OpenSymphony has an entitlement engine (OSAccess, I think).  It may do more of what you want.  <br /><br /></p><p><br /><br />Anyway, my point is that JAAS will do authentication, but it only does part of the authorization.  The rest is pretty much custom.  I think that this is because JAAS was designed with EJB.  So, it was not until later that it became it's own framework.  As a result, half of it is in JAAS and half in EJB...for what it's worth. :)<br /><br /></p><p><br /><br />Anyway, check out OSAccess and let me know if it is useful (I havn't looked at it much).</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-27 23:54:04 +0000"
+  },
+  {
+   "name": "matt",
+   "url": "http://cache-1.lnh.md.webcache.rcn.net/",
+   "message": "<p>xam - you have it correct.  You will need to implement your MedicatePermission Permission but everything else is provided for you.  Sun even provides a GUI to create your own policy files (although only the JDK 1.4.x versions are aware of Prinicpals).<br /><br /></p><p><br /><br />If the default PolicyFile implementation isn't good enough, you can implement a Policy class that hits a database.  I did one recently that updates itself every 30 minutes.  A more elegant solution might be a Policy that subscribes to JMS Topic to be notified of policy updates.<br /><br /></p><p><br /><br />By the way, I have always felt that the call to java.security.AccessController.checkPermission(Permission) and the Subject.doAs stuff just begged to be done as XDoclet tags.  Then you could have something like<br /><br /></p><p><br /><br />/**<br /><br /><br /> * @security require com.me.MedicatePermission<br /><br /><br /> */<br /><br /><br />public void medicate(){<br /><br /><br />   morphine++<br /><br /><br />}<br /><br /></p><p><br /><br />Nice clean code.  Declarative security.  This is how .NET does it.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-28 03:37:18 +0000"
+  },
+  {
+   "name": "matt",
+   "url": "http://cache-3.lnh.md.webcache.rcn.net/",
+   "message": "<p>I should also mention, JACC (Java Authorization Contract For Containers) will be included in J2EE 1.4 so you will be able to declare several Permissions in the various deployment descriptors.  <br /><br /></p><p><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fjava.sun.com%2Fj2ee%2Fjavaacc%2F%3AVWfhKaRFn0FS2By_r1brM6rDF68&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://java.sun.com/j2ee/javaacc/\">http://java.sun.com/j2ee/ja...</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-28 03:44:04 +0000"
+  },
+  {
+   "name": "Les",
+   "url": "http://clt56-97-164.carolina.rr.com/",
+   "message": "<p>xam - is what matt gives an example of what you want??  From what I gathered you wanted something dynamic, not declarative (per the .net example above).  If that is what you want,  ignore all of my previous comments because clearly I had it wrong.  I thought that you wanted a credential check that's results could vary both on the role of the user and the underlying state of the functional or data components. Is this corrent?   In other words, .checkPermisions(new MedicatePermission(\"morphine\"....) == true if current nurse is certified, there is a heart specialist on duty, the patient has only had x amount, etc.  If this is the case you should also really look at a rules engine.  Since it sounds like this is as much business logic as it is security.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-28 06:03:16 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://62.107.15.73/",
+   "message": "<p>Great comments ;)<br /><br /></p><p><br /><br />Les first: Yes, i'm well aware that JAAS won't \"deduce\"/\"calculate\" wether the current actually got the permisson or not. For that I'll need my own Policy/Permission implementation based on either code, magic, rules or whatever. But I really like the JAAS API, it has all the correct ingredients, and i'm basically just looking for documentation on how to implement such a best without interfeering (or rather how to integrate it) with the default implememntation/behavior.<br /><br /></p><p><br /><br />And Matt: Yes, the policytool is there, but it does not scale well and the declaritive security in .net/J2EE just seems way to simple for my needs. I can for the life of me not see how I can based on just a simple role e.g. \"nurse\" can declare that she is not allowed to call \"medicate()\" ......because she can, if she has been given the right permissions - and that the timing/data is correct.......<br /><br /></p><p><br /><br />But thanks for the comments - I now know that I'm on the right \"path\" I just need to find (or try to make a full example my own) of a good Policy/Permission set that can integrate well with JAAS, J2EE <a href=\"http://disq.us/url?url=http%3A%2F%2Fet.al%3A6aezp-d7g56f8yLXypu0pTCfKjA&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"et.al\">et.al</a>. without to much pain for me as a programmer and \"they\" as customers ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-28 07:36:40 +0000"
+  },
+  {
+   "name": "Distiller",
+   "url": "http://195.167.148.4/",
+   "message": "<p>I've missed some of this debate, but bascially I agree with what Matt said. You need to implement your own Permission subclasses to do the checking. In the system I wrote, I have two (main) sections where I apply permission checking:<br /><br /></p><p><br /><br />* when executing struts actions<br /><br /><br />* when creating system events<br /><br /></p><p><br /><br />I think it's best doing it at a higher level, rather than checking in each method, although there may be some special cases where this is necessary. For the struts case, I implemented my on request processor that created permisions based on values set via properties in the struts-config.xml file. That is better than explicitly checking them in methods, because it isn't hidden in code and other developers can apply different permission checking depending on the usage of the code. This of course creates an opportunity for security holes, but you can apply \"not-allowed-by-default\" policy to remedie this, so if it fails, then it fails to disallow ( much better than the alternative). With the event system, I use the Interceptor pattern to check access to events. <br /><br /></p><p><br /><br />The problem with \"role-based\" security is that it's not fine-grained enough and can only be implemented statically and don't model the real world that well. In my experience it is much better to create a \"capabilities-based\" model and then build a collection of capabilities based on the user's roles ( a subtle but important difference, because roles are only used to group capabilities). The authorsation system in this case doesn't know anything about \"roles\" and only cares about permissions.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-28 15:58:36 +0000"
+  },
+  {
+   "name": "Les",
+   "url": "http://216.215.184.5.nw.nuvox.net/",
+   "message": "<p>BTW -- since you got me interested I looked around and found this link. Don't know if you have seen it yet, but it talks a little to some things you want (except the declarative part).<br /><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.theserverside.com%2Fresources%2Freview%2FAspectJ%2Fchapter10_AspectJ.zip%3A9cVmkBn00RtgCkjUlqHkpY8AWW4&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.theserverside.com/resources/review/AspectJ/chapter10_AspectJ.zip\">http://www.theserverside.co...</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-28 23:33:31 +0000"
+  },
+  {
+   "name": "Les",
+   "url": "http://216.215.184.5.nw.nuvox.net/",
+   "message": "<p>OK -- yet more.  I realize that you may know this....but well, I found it interesting.  They previous link I posted shows you how to use the <a href=\"http://disq.us/url?url=http%3A%2F%2Fjava.security%3AnJLtAPDoZvjQwcLw3SelzxMUNI0&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"java.security\">java.security</a> infrastructure.  However the &lt;a href=\"<a href=\"http://disq.us/url?url=http%3A%2F%2Fjava.sun.com%2Fj2se%2F1.4.1%2Fdocs%2Fguide%2Fsecurity%2FPolicyFiles.html%23ChangingDefault%22%3EJDK%3A-MSI1Jj8Sov1GteknELkr8bMCkY&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://java.sun.com/j2se/1.4.1/docs/guide/security/PolicyFiles.html#ChangingDefault&amp;quot;&amp;gt;JDK\">http://java.sun.com/j2se/1....</a> docs&lt;/a&gt; show you how to change the Policy impl.  The policy file is represented in memory by (you guessed) an object.  The default implementation uses the static policy files.  However, you can implement the abstract class java.security.Policy yourself to read from the db or whereever to accomplish your dynamic permissions requirements.  <br /><br /></p><p><br /><br />Anyway, you are right, the more I have looked into it the more impressed I am with the design.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-29 00:41:46 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://62.107.15.73/",
+   "message": "<p>Thanx for the comments....i'll dwelve deeper and hopefully come out on the top and blog about the result ;)<br /><br /></p><p><br /><br />But please keep any good suggestions and links coming in a steady flow if you got'em ;)<br /><br /></p><p><br /><br />I'm still missing an real-life example of an working alternative Policy impl. ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-29 01:27:26 +0000"
+  },
+  {
+   "name": "matt",
+   "url": "http://cache-1.lnh.md.webcache.rcn.net/",
+   "message": "<p>It's only 3 methods xam! ;-)<br /><br /></p><p><br /><br />Ok fine, <a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.oreilly.com%2Fcatalog%2Fjavasec2%2F%3AWMUwikAS53Bi1CiV_-0-WGW1bzY&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.oreilly.com/catalog/javasec2/\">http://www.oreilly.com/cata...</a><br /><br /></p><p><br /><br />Click the Examples link on the left.  The Policy implementation is javasec.samples.ch05.MyPolicy.<br /><br /></p><p><br /><br />I recommend the book although it is starting to get dated (May 2001).</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-29 04:27:18 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://62.107.15.73/",
+   "message": "<p>Thank you matt! ;)<br /><br /></p><p><br /><br />I actually \"got\" and read this book through the <a href=\"http://disq.us/url?url=http%3A%2F%2Fsafari.oreilly.com%3AMDuxYKvV1nSHFdG2CQ_OBNne1YY&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"safari.oreilly.com\">safari.oreilly.com</a> last week - and for some reason I never discovered those examples......thank you ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-29 11:01:13 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://62.107.15.73/",
+   "message": "<p>......and now I'm just wondering how one would use the Permission's to express the more complicated permission check I wrote about.<br /><br /></p><p><br /><br />All the Permissions I see is only created with two arguments (name and actions), e.g. new FilePermission(\"\"/tmp/abc\", \"read, write\")<br /><br /></p><p><br /><br />Should I limit my permissions to follow the same scheme or could I do something like this:<br /><br /><br />new MedicationPermission(\"x\", \"A\", \"1\", \"morphine\",\"create\");<br /><br /></p><p><br /><br />or should I encode those parameters into the 2 part string ?<br /><br /></p><p><br /><br />new MedicationPermission(\"[pat=x][dep=A][type=1][drug=morphine]\", \"create\");<br /><br /></p><p><br /><br />Any comments ? ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-29 11:08:20 +0000"
+  },
+  {
+   "name": "Shivajee.R.Sharma",
+   "url": "http://61.11.60.160/",
+   "message": "<p>HI Xam,<br /><br /></p><p><br /><br />what you can do is implement your permission with two constructor one protected which takes all the argument you mentioned and another which is pulic and takes only name and action. <br /><br /></p><p><br /><br />When AccessController is checking the permission. It will create a permission with your public constructor and pass it the permission you have created in policy collection in it's implies method. you can typecast the permission into your Class and do whatever check you want based on the internal state of your permission.<br /><br /></p><p><br /><br />only problem is you will also have to provide your own Policy implementation.<br /><br /></p><p><br /><br />I am also working on the similar problem, i have managed to get authentication to group/role based permissions (users and groups defined in MySQL database), now i am writing PolicyDB which is an implementation of <br /><br /><br />Policy based on permissions defined in DB.<br /><br /></p><p><br /><br />let me know you want to see my code of authentication, and i can give you authorization code once i complete it.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-08-16 14:08:24 +0000"
+  },
+  {
+   "name": "xam",
+   "url": "http://3E6B0AEB.rev.stofanet.dk/",
+   "message": "<p>I wrote to you by e-mail - no answers yet ;(<br /><br /></p><p><br /><br />hope you get this one then ;)<br /><br /></p><p><br /><br />And yes - i would love to see ya' code!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-09-05 00:53:49 +0000"
+  },
+  {
+   "name": "javaj",
+   "url": "http://203.200.198.9/",
+   "message": "<p>What if I want more sophistication with the way roles are handled. I want to group roles into capabilities and assign subjects/princples/users/whatever they are called to this capability (a group of roles). For example a manager has role - a,b,c,d&amp;e. A developer has role d,e,f,g&amp;h. when I create a manager instead of assigning him to 5 roles I assign him 1 capability &amp; he gets linked to 5 roles. Then I shud be able to check from the app/code if he has role -'e'. I know this should be possible but how to go about doing this? Any pointers to this?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-10-10 14:09:11 +0000"
+  },
+  {
+   "name": "Jesse Houwing",
+   "url": "http://rutherford.sogeti.nl/",
+   "message": "<p>I'm looking for something quite similar. In our system we'll have:<br /><br /></p><p><br /><br />System, clients, projects and projectdata.<br /><br /></p><p><br /><br />there are roles that apply Systemwide, clientwide or per project.<br /><br /></p><p><br /><br />I read the IBM document and it does encapsulate most of th erequired functionality, but what I'm missing is the information that when replace the security policy file if all the system policies that you usually set in there need to conform the new format, because I was thinking of integrating all the permissions for te different roles into a database for easy management as well as the user-role-target relationships (eg user(john)-role(admin)-target(clienty\\projectx).<br /><br /></p><p><br /><br />I've looked everywhere but I'm slowly sinking in the quicksand surrounding this API, there is a little bit of info everywhere, but there seems to be no real useful reference.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-01-26 21:22:06 +0000"
+  },
+  {
+   "name": "Jesse Houwing",
+   "url": "http://rutherford.sogeti.nl/",
+   "message": "<p>I've looked further into this and have come to th econclusion that at this moment there is no way I can implement this using JAAS in our current production environment.<br /><br /></p><p><br /><br />Simply because every solution I've come up with that looks nice and includes both users/roles and object specific permissions involves writing and replecing the JVM side auth.policy.provider.<br /><br /></p><p><br /><br />I did find a reference to an article on IBM's website that shows taht they're workign on improving the situetion:<br /><br /></p><p><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.research.ibm.com%2Fjournal%2Fsj%2F412%2Fgoodwin.html%3AGQFLHrLbNoCucw1YZMDp8EPhv6o&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.research.ibm.com/journal/sj/412/goodwin.html\">http://www.research.ibm.com...</a><br /><br /></p><p><br /><br />Jesse</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2004-01-28 20:47:21 +0000"
+  }
+ ],
+ "/blog/rant-about-international-airports-especially-geneva/": [
+  {
+   "name": "Gilles",
+   "url": "",
+   "message": "<p>And besides: Its not like they could need the extra tip anyway. The staff people earn probably more money than any other airport staff people, because its switzerland.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-09-01 10:40:45 +0000"
+  }
+ ],
+ "/blog/simple-and-small-syntax-highlighting-for-swing-/": [
+  {
+   "name": "Dan",
+   "url": "http://ulugh.nationwide.com/",
+   "message": "<p><a href=\"http://disq.us/url?url=http%3A%2F%2Fsyntax.jedit.org%2F%3AvUi3ySIYCCZo56O6lmJ1SB5bACI&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://syntax.jedit.org/\">http://syntax.jedit.org/</a></p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-25 22:24:14 +0000"
+  },
+  {
+   "name": "Dan",
+   "url": "http://wren.nationwide.com/",
+   "message": "<p>whoops, should have read more :-)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-25 22:24:51 +0000"
+  },
+  {
+   "name": "xampublic",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>Yup - already used that one. And it ain't too good....it is tweaking the Swing API in directions that make it non-conformant to other JTextComponents. Me don't like that ;)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-25 22:27:43 +0000"
+  },
+  {
+   "name": "Carlos E. Perez",
+   "url": "http://ip66-106-51-34.z51-106-66.customer.algx.net/",
+   "message": "<p>I'm puzzled.  What do you mean by \"non-conformant\".  I use syntax jedit in a swing application and it seems to work fine.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-25 22:35:18 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>1. It inherits from JComponent instead of JTextComponent (if it did it would help a great deal)<br /><br /></p><p><br /><br />2. It swollows all keyevents, making it impossible to install a shortcut in a menu and having the JEditArea react to it ;(<br /><br /></p><p><br /><br />3. It installs it's own Scrollbars! That is a big sin in my book ... what the heck is wrong with new JScrollPane(new JEditTextArea()) ?<br /><br /></p><p><br /><br />4. because of 1-3 I have to \"work-around\" the component to make it \"behave\" ...and me don't like that ;)<br /><br /></p><p><br /><br />That is just the ones i can come up with from memory ;)<br /><br /></p><p><br /><br />...and i hate that the javadocs says: \"It is also faster [then JEditorPane] and doesn't have as many problems\" ....without saying why it is faster and which problems the swing components have....</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-04-25 22:46:47 +0000"
+  },
+  {
+   "name": "Tobias",
+   "url": "http://p3EE0CE46.dip.t-dialin.net/",
+   "message": "<p>Hi, have you found anything, yet? Because I'm looking for the same thing.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-10 16:55:47 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>Nope - not yet!</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-10 18:03:21 +0000"
+  },
+  {
+   "name": "Robin",
+   "url": "http://02-067.061.popsite.net/",
+   "message": "<p>Did you see this article: <br /><br /><br /><a href=\"http://disq.us/url?url=http%3A%2F%2Fwww.fawcette.com%2Fjavapro%2F2003_07%2Fmagazine%2Fcolumns%2Fvisualcomponents%2F%3AosZGwodxjn7k8XLDyCnHmQMiJhM&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://www.fawcette.com/javapro/2003_07/magazine/columns/visualcomponents/\">http://www.fawcette.com/jav...</a><br /><br /><br />Might be a good start.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-11 11:49:16 +0000"
+  },
+  {
+   "name": "xampub",
+   "url": "http://fw1.lec.dk/",
+   "message": "<p>Looks a tad performance heavy - but it sure is a good start ;)<br /><br /></p><p><br /><br />Thanks for the tip</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-07-11 14:20:31 +0000"
+  },
+  {
+   "name": "Joachim",
+   "url": "",
+   "message": "<p>Found the open source RSyntaxTextArea<br /><a href=\"http://disq.us/url?url=http%3A%2F%2Ffifesoft.com%2Frsyntaxtextarea%2F%3AHe1n-pBZvNzrAwewYqaNrTbrV2o&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://fifesoft.com/rsyntaxtextarea/\">http://fifesoft.com/rsyntax...</a></p><p>New version realesed today:</p><p>Syntax highlighting for over 20 programming languages<br />Code completion (Addon library, work in progress)<br />Find/Replace with standard options (regex, match case, etc.).<br />Loading and saving of local or remote files (via FTP).<br />User-defined macros<br />Code templates<br />Unlimited undo/redo<br />Drag and drop<br />Edit with multiple fonts simultaneously<br />Bracket matching<br />Current line highlighting<br />Clickable hyperlinks (only certain languages)</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2009-02-23 21:13:45 +0000"
+  },
+  {
+   "name": "Mircea",
+   "url": "",
+   "message": "<p>Thanks. Saved my life.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2010-10-06 19:45:18 +0000"
+  }
+ ],
+ "/blog/swing-requestfocus-blues/": [
+  {
+   "name": "Krage Termini",
+   "url": "http://bgp400786bgs.jersyc01.nj.comcast.net/",
+   "message": "<p>Just catch component shown event and then request focus</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-04 09:01:52 +0000"
+  },
+  {
+   "name": "xampublic",
+   "url": "http://3E6B1CDA.aarh.stofanet.dk/",
+   "message": "<p>That solves the \"when first shown\" problem - but how about the problem of being able to just say \"somepanel.requestFocus()\" and have it make it's first field show focus ?<br /><br /></p><p><br /><br />I don't want to do \"somepanel.firstfieldIKnowOff.requestFocus()\" - as that breaks the encapsulation.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-04 11:41:07 +0000"
+  },
+  {
+   "name": "KT",
+   "url": "http://bgp400786bgs.jersyc01.nj.comcast.net/",
+   "message": "<p>Just add an inner class - listener of shown event inside your \"somepanel\" to transfer focus to the disired private  field.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-05 01:00:36 +0000"
+  },
+  {
+   "name": "LES",
+   "url": "http://clt56-97-164.carolina.rr.com/",
+   "message": "<p>Create a nice little anonymous override of the focus event handler for the JPanel (though a type would be better if you want reuse).  Then all you have to do is catch the component shown and send a focus event to the panel. The panel would then know what to do with the focus event.</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-05 15:35:55 +0000"
+  }
+ ],
+ "/blog/swingfoxtrot-wow-/": [
+  {
+   "name": "rsk",
+   "url": "http://AI9.BPA.Arizona.EDU/",
+   "message": "<p>I'm really glad you posted this. I've been hesitant to dive into FoxTrot for a while (the Netbeans mailing list brought it to my attention a while ago when the netbeans team thought of using it to help out the GUI).<br /><br /></p><p><br /><br />Anyway, after hearing the first-hand experience and seeing some quick example code. I think its going to be a snap!<br /><br /></p><p><br /><br />thanks</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-09 23:01:54 +0000"
+  },
+  {
+   "name": "Matt Cornell",
+   "url": "http://h00065b5e7c3b.ne.client2.attbi.com/",
+   "message": "<p>Have you looked at <a href=\"http://disq.us/url?url=http%3A%2F%2Fspin.sourceforge.net%2F%3ASD6PU8-782XBZ-IJe7YanBxbYWQ&amp;cuid=1582918\" rel=\"nofollow noopener\" title=\"http://spin.sourceforge.net/\">http://spin.sourceforge.net/</a> ?</p>",
+   "avatar": "//a.disquscdn.com/1541535443/images/noavatar92.png",
+   "date": "2003-05-11 04:48:39 +0000"
+  }
+ ],
+ "/blog/test-webmention/": [
+  {
+   "name": "Max Andersen",
+   "url": "",
+   "message": "First comment to approve via staticman.net",
+   "avatar": "",
+   "date": "2019-01-24T14:36:21.309Z"
+  },
+  {
+   "name": "Max Andersen",
+   "url": "",
+   "message": "Second comment",
+   "avatar": "",
+   "date": "2019-01-24T14:54:21.785Z"
+  }
+ ],
+ "/blog/the-black-swan-of-java/": [
+  {
+   "name": "karthik karuppannan",
+   "url": "",
+   "message": "I moved to serverless architecture and had almost given up on Java because of the cold start issues. Quarkus gives me hope and excitement, will be trying it out for a simple serverless app.",
+   "avatar": "",
+   "date": "2019-12-02T18:01:25.606Z"
+  }
+ ],
+ "/blog/unleasing-the-scripting-powers-of-java/": [
+  {
+   "name": "akostadinov",
+   "url": "",
+   "message": "This is truly great! Now how can it become standard part of OpenJDK?",
+   "avatar": "",
+   "date": "2020-01-19T18:28:13.944Z"
+  },
+  {
+   "name": "Ondra",
+   "url": "",
+   "message": "Would be nice to have for Kotlin as well",
+   "avatar": "",
+   "date": "2020-01-20T23:38:20.646Z"
+  },
+  {
+   "name": "Kumar Satyarth",
+   "url": "",
+   "message": "Great Work Sir!\r\nTruly Appreciable !!\r\nNow Everyone Can Use Java for Scripting.... No Need To Switch To Python Just For A Few Lines Of Script.",
+   "avatar": "",
+   "date": "2020-03-21T15:42:26.255Z"
+  }
+ ],
+ "/blog/you-dont-have-to-die-to-start-living/": [
+  {
+   "name": "Danièle Bianchi",
+   "url": "",
+   "message": "Je suis allée me promener au jardin botanique ce matin avec mon chien Watson. J'ai vu un magnifique papillon jaune et blanc butiner les fleurs d'un prunelier en fleurs et des rouge-queue qui jouaient dans les branches. Quand mon mari se réveillera de sa sieste, je lui ferai un gros bisou ! Et ce soir je parlerai à mon fils sur FaceTime. J'espère que vous allez bien Lisbeth les enfants et vous...",
+   "avatar": "",
+   "date": "2019-04-22T12:39:29.722Z"
+  }
+ ]
+}

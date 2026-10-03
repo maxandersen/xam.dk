@@ -68,6 +68,26 @@ public class SiteGenerationTest {
     }
 
     @Test
+    public void historicalCommentsRender() {
+        when().get("/blog/new-job-at-jboss/").then().statusCode(200)
+                .body(containsString("Comment"))
+                .body(containsString("class=\"comment h-cite\""));
+    }
+
+    @Test
+    public void historicalWebmentionsRender() {
+        when().get("/blog/the-black-swan-of-java/").then().statusCode(200)
+                .body(containsString("Webmention"))
+                .body(containsString("class=\"webmention h-cite\""));
+    }
+
+    @Test
+    public void webmentionDiscoveryLinkPresent() {
+        when().get("/").then().statusCode(200)
+                .body(containsString("rel=\"webmention\""));
+    }
+
+    @Test
     public void micrositeRenders() {
         when().get("/hibern8ide/").then().statusCode(200)
                 .body(containsString("Hibernate Query Language"));
