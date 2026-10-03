@@ -6,7 +6,7 @@ layout: default
 <article class="h-entry">
 <!-- Page Header -->
 {#if page.data.background}
-<header class="masthead" style="background-image: url('{=page.data.background}')">
+<header class="masthead" style="background-image: url('{=site.url(page.data.background)}')">
 {#else}
 <header class="masthead">
 {/if}
@@ -21,8 +21,8 @@ layout: default
           {/if}
           {#include partials/post-meta post=page detailed=true /}
           <div>
-              <img class="rounded-circle u-photo" src="/avatar.jpg">
-              <link rel="author" class="p-author h-card" href="/about">Max Rydahl Andersen</link>
+              <img class="rounded-circle u-photo" src="{=site.url('/avatar.jpg')}">
+              <link rel="author" class="p-author h-card" href="{=site.url('/about')}">Max Rydahl Andersen</link>
           </div>
           <div>
               <a class="u-url" href="{=page.url}"></a>

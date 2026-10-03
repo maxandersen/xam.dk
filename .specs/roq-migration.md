@@ -86,6 +86,14 @@ Remaining AsciiDoc config (small, matches old behaviour):
   (same markup as old).
 - dropped `site.escaped-pages` (redundant under alt-expr-syntax).
 
+## URL portability (relativize equivalent)
+Jekyll used `relativize_url` so links worked under any base path. Roq has no
+per-page relative (`../`) URLs, but `site.url(path)` / `page.url` emit
+host-relative paths that respect `site.path-prefix`. All internal links/assets
+now go through `site.url(...)` (externals pass through unchanged), so setting
+`site.path-prefix=/sub` relocates the whole site (verified: links become
+`/sub/...`). Not `file://`-portable (Roq limitation).
+
 ## Known corner-cuts (ponytail debt)
 - `tree/index.md` uses `layout: splash` (minimal-mistakes theme, not clean-blog) —
   legacy/broken under current Jekyll too. Move to public/ as static.

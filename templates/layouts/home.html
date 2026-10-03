@@ -6,7 +6,7 @@ layout: default
 
 <!-- Page Header -->
     {#if page.data.background}
-    <header class="masthead" style="background-image: url('{=page.data.background}')">
+    <header class="masthead" style="background-image: url('{=site.url(page.data.background)}')">
     {#else}
     <header class="masthead">
     {/if}
@@ -52,7 +52,7 @@ layout: default
 
                 <!-- Pager -->
                 <div class="clearfix">
-                    <a class="btn btn-primary float-right" href="/blog">View All Posts &rarr;</a>
+                    <a class="btn btn-primary float-right" href="{=site.url('/blog')}">View All Posts &rarr;</a>
                 </div>
 
             </div>
