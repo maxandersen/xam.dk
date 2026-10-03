@@ -11,3 +11,5 @@ assets/asciidoc-pygments.css
 # Roq / Quarkus
 target/
 .quarkus/
+
+node_modules/
