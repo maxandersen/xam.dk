@@ -89,7 +89,13 @@ Remaining AsciiDoc config (small, matches old behaviour):
 ## Known corner-cuts (ponytail debt)
 - `tree/index.md` uses `layout: splash` (minimal-mistakes theme, not clean-blog) —
   legacy/broken under current Jekyll too. Move to public/ as static.
-- webmentions + disqus comments were already disabled in layouts — not ported.
+- New comments/webmentions can no longer be submitted (staticman + jekyll-webmention_io
+  plugins are gone). Historical ones are shown READ-ONLY: `_data/comments/` and
+  `_data/webmentions/received.yml` were consolidated into `_data/comments.json`
+  and `_data/mentions.json` (keyed by post URL path) and rendered by
+  `templates/partials/post-reactions.html` (213 comments / 147 mentions).
+  Webmention receiving endpoint (`<link rel="webmention">` -> webmention.io) is
+  kept in the head, but incoming mentions won't display until re-exported.
 - recaptcha/contact form JS ported verbatim; untested.
 
 ## Follow-ups to investigate
