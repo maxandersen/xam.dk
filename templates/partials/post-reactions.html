@@ -1,15 +1,17 @@
 {@io.quarkiverse.roq.frontmatter.runtime.model.Page page}
 {! Read-only display of historical webmentions (_data/mentions.json, grouped by
    likes/reposts/links/replies) and imported comments (_data/comments.json),
-   keyed by the post URL path. New ones are no longer accepted. !}
+   keyed by the post URL path. New ones are no longer accepted.
+   Webmention avatars come from unavatar.io (original webmention.io photos are dead),
+   falling back to an initials circle via onerror. !}
 {#let ms=cdi:mentions.get(page.url.path)}
 {#if ms}
 <div class="webmentions">
   {#if ms.likes.size > 0 || ms.reposts.size > 0 || ms.links.size > 0}
   <div class="facepile">
-    {#for m in ms.likes}<a href="{=m.author_url}" title="{=m.author} liked this"><span class="avatar initials" style="background:{=m.color}">{=m.initials}</span></a>{/for}
-    {#for m in ms.reposts}<a href="{=m.author_url}" title="{=m.author} reposted this"><span class="avatar initials wm-repost" style="background:{=m.color}">{=m.initials}</span></a>{/for}
-    {#for m in ms.links}<a href="{=m.author_url}" title="{=m.author} mentioned this"><span class="avatar initials wm-link" style="background:{=m.color}">{=m.initials}</span></a>{/for}
+    {#for m in ms.likes}<a href="{=m.author_url}" title="{=m.author} liked this">{#include partials/avatar m=m extra="" /}</a>{/for}
+    {#for m in ms.reposts}<a href="{=m.author_url}" title="{=m.author} reposted this">{#include partials/avatar m=m extra=" wm-repost" /}</a>{/for}
+    {#for m in ms.links}<a href="{=m.author_url}" title="{=m.author} mentioned this">{#include partials/avatar m=m extra=" wm-link" /}</a>{/for}
   </div>
   <p class="wm-counts">
     {#if ms.likes.size > 0}{=ms.likes.size} like{#if ms.likes.size != 1}s{/if}{/if}{#if ms.reposts.size > 0} · {=ms.reposts.size} repost{#if ms.reposts.size != 1}s{/if}{/if}{#if ms.links.size > 0} · {=ms.links.size} mention{#if ms.links.size != 1}s{/if}{/if}
@@ -19,7 +21,7 @@
   <h3>{=ms.replies.size} Response{#if ms.replies.size != 1}s{/if} from around the web</h3>
   {#for m in ms.replies}
   <div class="webmention h-cite">
-    <span class="avatar initials" style="background:{=m.color}">{=m.initials}</span>
+    {#include partials/avatar m=m extra="" /}
     <div class="comment-meta">
       {#if m.author_url}<a class="p-author h-card" href="{=m.author_url}">{=m.author}</a>{#else}<span class="p-author">{=m.author}</span>{/if}
       {#if m.url}<a class="u-url" href="{=m.url}"><time class="dt-published">{=m.date}</time></a>{/if}

@@ -94,7 +94,9 @@ Remaining AsciiDoc config (small, matches old behaviour):
   `_data/webmentions/received.yml` were consolidated into `_data/comments.json`
   and `_data/mentions.json` (keyed by post URL path) and rendered by
   `templates/partials/post-reactions.html` (213 comments / 147 mentions).
-  Webmention receiving endpoint (`<link rel="webmention">` -> webmention.io) is
+  Webmention avatars are served by unavatar.io (derived from the author twitter
+  handle; original webmention.io photos are 404) with an initials-circle onerror
+  fallback. Webmention receiving endpoint (`<link rel="webmention">` -> webmention.io) is
   kept in the head, but incoming mentions won't display until re-exported.
 - recaptcha/contact form JS ported verbatim; untested.
 
