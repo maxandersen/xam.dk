@@ -47,8 +47,54 @@ Commit after each phase.
 - `.htaccess` moved to `public/` (apache target still serves it).
 - Draft moved to `content/posts/` with `draft: true` (excluded from output).
 
+## Testing & content parity (how we verify it matches xam.dk)
+Two layers:
+1. **`@RoqAndRoll` generation test** (`src/test/java/dk/xam/SiteGenerationTest.java`)
+   — validates the full site generates with no render errors and asserts the
+   specific regressions stay fixed (AsciiDoc body renders, no duplicate title,
+   pagination, RSS, microsite). Run: `./mvnw test` (7 tests).
+2. **Content-parity diff vs live** (`/tmp/parity.py`, ad-hoc) — for every
+   generated page, fetch the same URL on https://xam.dk and compare main-content
+   word counts; also HEAD-checks all 98 post URLs for 200 (URL preservation).
+
+Findings after fixes: 0 URL drift, every page r~1.00. Only residual: nanocode
+`r=0.82` is a code-highlighting word-count artifact (live wraps each code token
+in a span -> extra whitespace -> inflated count); prose is byte-identical.
+
+### AsciiDoc engine: use the jruby plugin (AsciidoctorJ)
+The old site was Jekyll + jekyll-asciidoc = **AsciidoctorJ**. The default Roq
+plugin (`quarkus-roq-plugin-asciidoc`) uses Yupiik **asciidoc-java** (pure Java),
+which has rendering gaps vs AsciidoctorJ that each needed a workaround:
+- single-line `ifdef::env-github,...[:imagesdir: ..]` silently dropped the entire
+  post body (reported as quarkiverse/quarkus-roq#1287);
+- the `video::` macro dropped `width`/`height`;
+- admonition markup differed.
+
+To match the old site by construction and avoid per-gap hacks, we switched to
+**`quarkus-roq-plugin-asciidoc-jruby`** (AsciidoctorJ). With it:
+- single-line `ifdef` renders correctly (kept as-is, no block-form rewrite);
+- `video::[... width=640, height=480]` emits `<iframe width height>` like old;
+- content keeps its original `= Title`/`:page-*` headers.
+Trade-off: bundles a JRuby runtime (heavier/slower than pure Java); fine for a
+personal blog. JRuby inits lazily on first conversion, within the generator's
+60s per-request timeout.
+
+Remaining AsciiDoc config (small, matches old behaviour):
+- `quarkus.asciidoc.attributes.notitle=true` — suppress the body doctitle so the
+  title shows once (in the masthead), as the old site did.
+- `quarkus.asciidoc.attributes.icons=font` — admonitions emit `<i class="fa icon-note">`
+  (same markup as old).
+- dropped `site.escaped-pages` (redundant under alt-expr-syntax).
+
 ## Known corner-cuts (ponytail debt)
 - `tree/index.md` uses `layout: splash` (minimal-mistakes theme, not clean-blog) —
   legacy/broken under current Jekyll too. Move to public/ as static.
 - webmentions + disqus comments were already disabled in layouts — not ported.
 - recaptcha/contact form JS ported verbatim; untested.
+
+## Follow-ups to investigate
+- **FA `icon-note` admonition icons**: with `icons=font`, admonitions emit
+  `<i class="fa icon-note">` but no stylesheet maps `icon-note` to a glyph
+  (true on the old site too, so the icon cell is effectively empty on both).
+  Investigate adding the Asciidoctor admonition CSS (or a Font Awesome glyph
+  mapping) so NOTE/TIP/WARNING show real icons instead of a blank cell.
