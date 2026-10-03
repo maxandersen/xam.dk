@@ -1,1163 +1,977 @@
 {
- "/blog/my-pegboardstanding-desk-installation/": {
-  "replies": [
-   {
-    "type": "reply",
-    "author": "Max Rydahl Andersen",
-    "author_url": "https://twitter.com/maxandersen",
-    "url": "https://twitter.com/maxandersen/status/1554450703430606849",
-    "content": "<p>yeah, I do something similar for my desks, using pegboards: <a href=\"https://xam.dk/blog/my-pegboardstanding-desk-installation/\">xam.dk/blog/my-pegboa…</a></p>\n\n<p>the challenge is to somehow have a durable flexible electric + ethernet cable to stay connected but not get  in the way….\n<a class=\"u-mention\" href=\"https://twitter.com/alexsnaps\"></a></p>",
-    "date": "2022-08-02 14:55:02+02:00",
-    "initials": "MR",
-    "color": "hsl(284, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/maxandersen?size=96"
-   },
-   {
-    "type": "reply",
-    "author": "Alex Snaps",
-    "author_url": "https://twitter.com/alexsnaps",
-    "url": "https://twitter.com/alexsnaps/status/1554483772833370112",
-    "content": "<p>I use this, but unsure it’d help you:</p>\n\n<p><a href=\"https://ergonofis.com/products/cable-management-spine\">ergonofis.com/products/cable…</a></p>\n\n<p><a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
-    "date": "2022-08-02 17:06:27+02:00",
-    "initials": "AS",
-    "color": "hsl(23, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/alexsnaps?size=96"
-   }
-  ],
-  "likes": [],
-  "reposts": [],
-  "links": []
- },
- "/blog/test-webmention/": {
-  "likes": [
-   {
-    "author": "Max Rydahl Andersen",
-    "author_url": "https://twitter.com/maxandersen",
-    "initials": "MR",
-    "color": "hsl(284, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/maxandersen?size=96"
-   },
-   {
-    "author": "Silvio Silva",
-    "author_url": "https://twitter.com/silvio_silva",
-    "initials": "SS",
-    "color": "hsl(223, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/silvio_silva?size=96"
-   },
-   {
-    "author": "Max Rydahl Andersen",
-    "author_url": "https://twitter.com/maxandersen",
-    "initials": "MR",
-    "color": "hsl(284, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/maxandersen?size=96"
-   },
-   {
-    "author": "Torkild Ulvøy Resheim",
-    "author_url": "https://twitter.com/torkildr",
-    "initials": "TU",
-    "color": "hsl(206, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/torkildr?size=96"
-   }
-  ],
-  "replies": [
-   {
-    "type": "reply",
-    "author": "Does clicking me alert?",
-    "author_url": "",
-    "url": "https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/hcardxss",
-    "content": "<p>This test embeds XSS within the hcard name and time field. Clicking on\nthe name or title should not raise an alert.</p>",
-    "date": "2018-12-26 08:15:20+01:00",
-    "initials": "DC",
-    "color": "hsl(188, 52%, 45%)"
-   },
-   {
-    "type": "reply",
-    "author": "Jonathan Ive",
-    "author_url": "https://www.apple.com/pr/bios/jonathan-ive.html",
-    "url": "https://www.apple.com/pr/bios/jonathan-ive.html",
-    "content": "<p>I love the way your site looks, though I’m <a href=\"https://checkmention.appspot.com\">not really <em>the</em> Jony Ive</a>. How easy is it for someone to discover the real author of this note? Please also check that the links in this note have no <code>rel=\"me\"</code> attribute on them.</p>",
-    "date": "2018-12-26 08:15:20+01:00",
-    "initials": "JI",
-    "color": "hsl(57, 52%, 45%)"
-   },
-   {
-    "type": "reply",
-    "author": "Checkmention XSS test",
-    "author_url": "https://checkmention.appspot.com/",
-    "url": "https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/xss",
-    "content": "<p><a>Clicking this</a>\nshould not cause an alert.\n<span>This div\nshould not alert.</span>\nTry clicking <a>this link</a>\n&amp;&lt;script&gt;alert(“encoded-xss”)&amp;&lt;/script&gt;\nand <a>this too</a>.\n<b>Mouse over this</b>\nshould not cause an alert. This broken\n<img src=\"http://not.really.an.image\" alt=\"not.really.an.image\" /> should not throw an alert.</p>\n\n<p>Neither should <img src=\"https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/j&amp;#x41vascript:alert('test2')\" alt=\"j&amp;#x41vascript:alert('test2')\" />.<br />\nPlease look at the <a href=\"https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet\">Owasp XSS prevention cheat sheet</a> for more information.</p>",
-    "date": "2018-12-26 08:15:20+01:00",
-    "initials": "CX",
-    "color": "hsl(80, 52%, 45%)"
-   },
-   {
-    "type": "reply",
-    "author": "Checkmention",
-    "author_url": "https://checkmention.appspot.com/",
-    "url": "https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/success",
-    "content": "<p>Congratulations! You’ve successfully handled a webmentioned note.</p>",
-    "date": "2018-12-26 08:15:20+01:00",
-    "initials": "CH",
-    "color": "hsl(114, 52%, 45%)"
-   },
-   {
-    "type": "reply",
-    "author": "Max Rydahl Andersen",
-    "author_url": "https://twitter.com/maxandersen",
-    "url": "https://twitter.com/maxandersen/status/1078000765053161472",
-    "content": "<p>quoting and mentioning <a href=\"https://twitter.com/maxandersen\">@maxandersen</a>…</p>",
-    "date": "2018-12-26 19:53:05+01:00",
-    "initials": "MR",
-    "color": "hsl(284, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/maxandersen?size=96"
-   }
-  ],
-  "reposts": [],
-  "links": []
- },
- "/blog/my-mars-story/": {
-  "likes": [
-   {
-    "author": "Doug Schaefer",
-    "author_url": "https://twitter.com/dougschaefer",
-    "initials": "DS",
-    "color": "hsl(346, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/dougschaefer?size=96"
-   }
-  ],
-  "replies": [
-   {
-    "type": "reply",
-    "author": "Thomas Mäder",
-    "author_url": "https://twitter.com/tsmaeder",
-    "url": "https://twitter.com/tsmaeder/status/1096048599513919489",
-    "content": "<p>“J”…hmmm black dude in a like suit with glasses, maybe?</p>",
-    "date": "2019-02-14 15:08:44+01:00",
-    "initials": "TM",
-    "color": "hsl(54, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/tsmaeder?size=96"
-   },
-   {
-    "type": "reply",
-    "author": "Max Rydahl Andersen",
-    "author_url": "https://twitter.com/maxandersen",
-    "url": "https://twitter.com/maxandersen/status/1096050093223014400",
-    "content": "<p>i don’t remember a white flash so i don’t think so :)</p>",
-    "date": "2019-02-14 15:14:40+01:00",
-    "initials": "MR",
-    "color": "hsl(284, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/maxandersen?size=96"
-   }
-  ],
-  "reposts": [],
-  "links": []
- },
- "/blog/you-dont-have-to-die-to-start-living/": {
-  "likes": [
-   {
-    "author": "Mojito Bob",
-    "author_url": "https://twitter.com/bobmcwhirter",
-    "initials": "MB",
-    "color": "hsl(321, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/bobmcwhirter?size=96"
-   },
-   {
-    "author": "Ilya Buziuk",
-    "author_url": "https://twitter.com/ilyabuziuk",
-    "initials": "IB",
-    "color": "hsl(301, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/ilyabuziuk?size=96"
-   },
-   {
-    "author": "Sanne",
-    "author_url": "https://twitter.com/SanneGrinovero",
-    "initials": "SA",
-    "color": "hsl(111, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/SanneGrinovero?size=96"
-   },
-   {
-    "author": "aaronwalker",
-    "author_url": "https://twitter.com/aaronwalker",
-    "initials": "AA",
-    "color": "hsl(271, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/aaronwalker?size=96"
-   },
-   {
-    "author": "Kevin Conner",
-    "author_url": "https://twitter.com/kevinconner",
-    "initials": "KC",
-    "color": "hsl(24, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/kevinconner?size=96"
-   },
-   {
-    "author": "Martin Kouba",
-    "author_url": "https://twitter.com/martunek",
-    "initials": "MK",
-    "color": "hsl(99, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/martunek?size=96"
-   }
-  ],
-  "reposts": [],
-  "links": [],
-  "replies": []
- },
- "/blog/the-black-swan-of-java/": {
-  "likes": [
-   {
-    "author": "André Dietisheim",
-    "author_url": "https://twitter.com/adietisheim",
-    "initials": "AD",
-    "color": "hsl(73, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/adietisheim?size=96"
-   },
-   {
-    "author": "Paul Robinson 🇪🇺",
-    "author_url": "https://twitter.com/Pfrobinson",
-    "initials": "PR",
-    "color": "hsl(0, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/Pfrobinson?size=96"
-   },
-   {
-    "author": "Cristhian Lopez",
-    "author_url": "https://twitter.com/cristhianklv",
-    "initials": "CL",
-    "color": "hsl(147, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/cristhianklv?size=96"
-   },
-   {
-    "author": "Jonathan Vila",
-    "author_url": "https://twitter.com/vilojona",
-    "initials": "JV",
-    "color": "hsl(7, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/vilojona?size=96"
-   },
-   {
-    "author": "Gleb Kosteiko",
-    "author_url": "https://twitter.com/gleb_kosteiko",
-    "initials": "GK",
-    "color": "hsl(139, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/gleb_kosteiko?size=96"
-   },
-   {
-    "author": "Patrick Musembi",
-    "author_url": "https://twitter.com/patumusembi",
-    "initials": "PM",
-    "color": "hsl(212, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/patumusembi?size=96"
-   },
-   {
-    "author": "William Antônio",
-    "author_url": "https://twitter.com/William_Antonio",
-    "initials": "WA",
-    "color": "hsl(282, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/William_Antonio?size=96"
-   },
-   {
-    "author": "Mark Little",
-    "author_url": "https://twitter.com/nmcl",
-    "initials": "ML",
-    "color": "hsl(249, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/nmcl?size=96"
-   },
-   {
-    "author": "Mike McCune",
-    "author_url": "https://twitter.com/mccun934",
-    "initials": "MM",
-    "color": "hsl(193, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/mccun934?size=96"
-   },
-   {
-    "author": "Bruno Borges",
-    "author_url": "https://twitter.com/brunoborges",
-    "initials": "BB",
-    "color": "hsl(346, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/brunoborges?size=96"
-   },
-   {
-    "author": "Klaus",
-    "author_url": "https://twitter.com/jforge",
-    "initials": "KL",
-    "color": "hsl(302, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jforge?size=96"
-   },
-   {
-    "author": "Héctor Ventura",
-    "author_url": "https://twitter.com/hectorvent",
-    "initials": "HV",
-    "color": "hsl(132, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/hectorvent?size=96"
-   },
-   {
-    "author": "Marc Nuri",
-    "author_url": "https://twitter.com/MarcNuri",
-    "initials": "MN",
-    "color": "hsl(137, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/MarcNuri?size=96"
-   },
-   {
-    "author": "Stephen Connolly 🤷🏼‍♂️",
-    "author_url": "https://twitter.com/connolly_s",
-    "initials": "SC",
-    "color": "hsl(254, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/connolly_s?size=96"
-   },
-   {
-    "author": "Chris Bowland",
-    "author_url": "https://twitter.com/ChrisBowland",
-    "initials": "CB",
-    "color": "hsl(52, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/ChrisBowland?size=96"
-   },
-   {
-    "author": "Georgios Andrianakis",
-    "author_url": "https://twitter.com/geoand86",
-    "initials": "GA",
-    "color": "hsl(190, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/geoand86?size=96"
-   },
-   {
-    "author": "Henrik Loevborg",
-    "author_url": "https://twitter.com/henrik_loevborg",
-    "initials": "HL",
-    "color": "hsl(323, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/henrik_loevborg?size=96"
-   },
-   {
-    "author": "Phillip Krüger",
-    "author_url": "https://twitter.com/phillipkruger",
-    "initials": "PK",
-    "color": "hsl(47, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/phillipkruger?size=96"
-   },
-   {
-    "author": "Stuart Douglas",
-    "author_url": "https://twitter.com/stuartwdouglas",
-    "initials": "SD",
-    "color": "hsl(240, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/stuartwdouglas?size=96"
-   },
-   {
-    "author": "John Clingan",
-    "author_url": "https://twitter.com/jclingan",
-    "initials": "JC",
-    "color": "hsl(265, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jclingan?size=96"
-   },
-   {
-    "author": "Ray Ploski",
-    "author_url": "https://twitter.com/rayploski",
-    "initials": "RP",
-    "color": "hsl(76, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rayploski?size=96"
-   },
-   {
-    "author": "(((TheSteve0)))",
-    "author_url": "https://twitter.com/TheSteve0",
-    "initials": "?",
-    "color": "hsl(123, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/TheSteve0?size=96"
-   },
-   {
-    "author": "Christopher Smith",
-    "author_url": "https://twitter.com/xcbsmith",
-    "initials": "CS",
-    "color": "hsl(2, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/xcbsmith?size=96"
-   },
-   {
-    "author": "Sébastien Hébert",
-    "author_url": "https://twitter.com/sydisnet",
-    "initials": "SH",
-    "color": "hsl(338, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/sydisnet?size=96"
-   },
-   {
-    "author": "Andres Giler",
-    "author_url": "https://twitter.com/andresgilerc",
-    "initials": "AG",
-    "color": "hsl(16, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/andresgilerc?size=96"
-   },
-   {
-    "author": "Lars Raunkjær Arnbak",
-    "author_url": "https://twitter.com/larsarnbak",
-    "initials": "LR",
-    "color": "hsl(282, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/larsarnbak?size=96"
-   },
-   {
-    "author": "Sanne",
-    "author_url": "https://twitter.com/SanneGrinovero",
-    "initials": "SA",
-    "color": "hsl(111, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/SanneGrinovero?size=96"
-   },
-   {
-    "author": "Katia Aresti 👩🏻‍💻 & 🎭",
-    "author_url": "https://twitter.com/karesti",
-    "initials": "KA",
-    "color": "hsl(357, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/karesti?size=96"
-   },
-   {
-    "author": "Carl Dea Ⓒarl ⒻⓍ",
-    "author_url": "https://twitter.com/carldea",
-    "initials": "CD",
-    "color": "hsl(15, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/carldea?size=96"
-   },
-   {
-    "author": "Burr Sutter",
-    "author_url": "https://twitter.com/burrsutter",
-    "initials": "BS",
-    "color": "hsl(356, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/burrsutter?size=96"
-   },
-   {
-    "author": "tivrfoa",
-    "author_url": "https://twitter.com/tivrfoa",
-    "initials": "TI",
-    "color": "hsl(319, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/tivrfoa?size=96"
-   },
-   {
-    "author": "Juan Macias",
-    "author_url": "https://twitter.com/1macias1",
-    "initials": "JM",
-    "color": "hsl(156, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/1macias1?size=96"
-   },
-   {
-    "author": "Clement Escoffier",
-    "author_url": "https://twitter.com/clementplop",
-    "initials": "CE",
-    "color": "hsl(222, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/clementplop?size=96"
-   },
-   {
-    "author": "HKEY_LOCAL_MACHINE",
-    "author_url": "https://twitter.com/SachaLabourey",
-    "initials": "HK",
-    "color": "hsl(259, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/SachaLabourey?size=96"
-   },
-   {
-    "author": "Anil Kurmi",
-    "author_url": "https://twitter.com/anilkkurmi",
-    "initials": "AK",
-    "color": "hsl(260, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/anilkkurmi?size=96"
-   },
-   {
-    "author": "Rick Hightower",
-    "author_url": "https://twitter.com/RickHigh",
-    "initials": "RH",
-    "color": "hsl(126, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/RickHigh?size=96"
-   },
-   {
-    "author": "Claus Ibsen",
-    "author_url": "https://twitter.com/davsclaus",
-    "initials": "CI",
-    "color": "hsl(313, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/davsclaus?size=96"
-   },
-   {
-    "author": "Jakub Korab 🇪🇺",
-    "author_url": "https://twitter.com/jakekorab",
-    "initials": "JK",
-    "color": "hsl(80, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jakekorab?size=96"
-   },
-   {
-    "author": "Ingo Boernig",
-    "author_url": "https://twitter.com/opensourceingo",
-    "initials": "IB",
-    "color": "hsl(167, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/opensourceingo?size=96"
-   },
-   {
-    "author": "Andrés Torres",
-    "author_url": "https://twitter.com/towerspro",
-    "initials": "AT",
-    "color": "hsl(60, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/towerspro?size=96"
-   },
-   {
-    "author": "刘亚涛",
-    "author_url": "https://twitter.com/liuyatao88",
-    "initials": "刘亚",
-    "color": "hsl(257, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/liuyatao88?size=96"
-   },
-   {
-    "author": "Gentrit Gojani",
-    "author_url": "https://twitter.com/GentritGojani",
-    "initials": "GG",
-    "color": "hsl(97, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/GentritGojani?size=96"
-   },
-   {
-    "author": "Changsheng Yang",
-    "author_url": "https://twitter.com/csyangchsh",
-    "initials": "CY",
-    "color": "hsl(189, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/csyangchsh?size=96"
-   },
-   {
-    "author": "Florent A.",
-    "author_url": "https://twitter.com/unptitdev",
-    "initials": "FA",
-    "color": "hsl(235, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/unptitdev?size=96"
-   },
-   {
-    "author": "Frederic Vaute",
-    "author_url": "https://twitter.com/lefredfred",
-    "initials": "FV",
-    "color": "hsl(77, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/lefredfred?size=96"
-   },
-   {
-    "author": "Enercido Alcantara",
-    "author_url": "https://twitter.com/ealcantara22",
-    "initials": "EA",
-    "color": "hsl(288, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/ealcantara22?size=96"
-   },
-   {
-    "author": "Dreamix",
-    "author_url": "https://twitter.com/Dreamix_Ltd",
-    "initials": "DR",
-    "color": "hsl(130, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/Dreamix_Ltd?size=96"
-   },
-   {
-    "author": "Syed M Shaaf",
-    "author_url": "https://twitter.com/syshaaf",
-    "initials": "SM",
-    "color": "hsl(331, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/syshaaf?size=96"
-   },
-   {
-    "author": "Rafael Ferreira",
-    "author_url": "https://twitter.com/rafaelnferreira",
-    "initials": "RF",
-    "color": "hsl(41, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rafaelnferreira?size=96"
-   },
-   {
-    "author": "Bhangun Hartani",
-    "author_url": "https://twitter.com/bhangun",
-    "initials": "BH",
-    "color": "hsl(118, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/bhangun?size=96"
-   },
-   {
-    "author": "Ross Brigoli",
-    "author_url": "https://twitter.com/rossbrigoli",
-    "initials": "RB",
-    "color": "hsl(267, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rossbrigoli?size=96"
-   },
-   {
-    "author": "rruss",
-    "author_url": "https://twitter.com/rruss",
-    "initials": "RR",
-    "color": "hsl(245, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rruss?size=96"
-   }
-  ],
-  "reposts": [
-   {
-    "author": "Gleb Kosteiko",
-    "author_url": "https://twitter.com/gleb_kosteiko",
-    "initials": "GK",
-    "color": "hsl(139, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/gleb_kosteiko?size=96"
-   },
-   {
-    "author": "Paul Robinson 🇪🇺",
-    "author_url": "https://twitter.com/Pfrobinson",
-    "initials": "PR",
-    "color": "hsl(0, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/Pfrobinson?size=96"
-   },
-   {
-    "author": "Mark Little",
-    "author_url": "https://twitter.com/nmcl",
-    "initials": "ML",
-    "color": "hsl(249, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/nmcl?size=96"
-   },
-   {
-    "author": "Klaus",
-    "author_url": "https://twitter.com/jforge",
-    "initials": "KL",
-    "color": "hsl(302, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jforge?size=96"
-   },
-   {
-    "author": "Stephen Connolly 🤷🏼‍♂️",
-    "author_url": "https://twitter.com/connolly_s",
-    "initials": "SC",
-    "color": "hsl(254, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/connolly_s?size=96"
-   },
-   {
-    "author": "John Clingan",
-    "author_url": "https://twitter.com/jclingan",
-    "initials": "JC",
-    "color": "hsl(265, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jclingan?size=96"
-   },
-   {
-    "author": "(((TheSteve0)))",
-    "author_url": "https://twitter.com/TheSteve0",
-    "initials": "?",
-    "color": "hsl(123, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/TheSteve0?size=96"
-   },
-   {
-    "author": "Sébastien Hébert",
-    "author_url": "https://twitter.com/sydisnet",
-    "initials": "SH",
-    "color": "hsl(338, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/sydisnet?size=96"
-   },
-   {
-    "author": "Sanne",
-    "author_url": "https://twitter.com/SanneGrinovero",
-    "initials": "SA",
-    "color": "hsl(111, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/SanneGrinovero?size=96"
-   },
-   {
-    "author": "Carl Dea Ⓒarl ⒻⓍ",
-    "author_url": "https://twitter.com/carldea",
-    "initials": "CD",
-    "color": "hsl(15, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/carldea?size=96"
-   },
-   {
-    "author": "Burr Sutter",
-    "author_url": "https://twitter.com/burrsutter",
-    "initials": "BS",
-    "color": "hsl(356, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/burrsutter?size=96"
-   },
-   {
-    "author": "Clement Escoffier",
-    "author_url": "https://twitter.com/clementplop",
-    "initials": "CE",
-    "color": "hsl(222, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/clementplop?size=96"
-   },
-   {
-    "author": "Anil Kurmi",
-    "author_url": "https://twitter.com/anilkkurmi",
-    "initials": "AK",
-    "color": "hsl(260, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/anilkkurmi?size=96"
-   },
-   {
-    "author": "Rick Hightower",
-    "author_url": "https://twitter.com/RickHigh",
-    "initials": "RH",
-    "color": "hsl(126, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/RickHigh?size=96"
-   },
-   {
-    "author": "Jakub Korab 🇪🇺",
-    "author_url": "https://twitter.com/jakekorab",
-    "initials": "JK",
-    "color": "hsl(80, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jakekorab?size=96"
-   },
-   {
-    "author": "Frederic Vaute",
-    "author_url": "https://twitter.com/lefredfred",
-    "initials": "FV",
-    "color": "hsl(77, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/lefredfred?size=96"
-   },
-   {
-    "author": "Dreamix",
-    "author_url": "https://twitter.com/Dreamix_Ltd",
-    "initials": "DR",
-    "color": "hsl(130, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/Dreamix_Ltd?size=96"
-   },
-   {
-    "author": "Rafael Ferreira",
-    "author_url": "https://twitter.com/rafaelnferreira",
-    "initials": "RF",
-    "color": "hsl(41, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rafaelnferreira?size=96"
-   },
-   {
-    "author": "rruss",
-    "author_url": "https://twitter.com/rruss",
-    "initials": "RR",
-    "color": "hsl(245, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rruss?size=96"
-   }
-  ],
-  "links": [
-   {
-    "author": "",
-    "author_url": "",
-    "initials": "?",
-    "color": "hsl(0, 52%, 45%)"
-   }
-  ],
-  "replies": [
-   {
-    "type": "reply",
-    "author": "Pablo Pérez García",
-    "author_url": "https://twitter.com/politrons",
-    "url": "https://twitter.com/politrons/status/1201183669957865479",
-    "content": "<p>I hope it will have more success that his young brother Vertx. Spring boot casts a long shadow 😓\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
-    "date": "2019-12-01 17:57:58+01:00",
-    "initials": "PP",
-    "color": "hsl(237, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/politrons?size=96"
-   },
-   {
-    "type": "reply",
-    "author": "Max Rydahl Andersen",
-    "author_url": "https://twitter.com/maxandersen",
-    "url": "https://twitter.com/maxandersen/status/1201187071928479744",
-    "content": "<p>Quarkus is being carried on the shoulders of such great warriors as vertx. Standards, innovation and variety will prevail :)\n<a class=\"u-mention\" href=\"https://twitter.com/politrons\"></a></p>",
-    "date": "2019-12-01 18:11:29+01:00",
-    "initials": "MR",
-    "color": "hsl(284, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/maxandersen?size=96"
-   },
-   {
-    "type": "reply",
-    "author": "Pablo Pérez García",
-    "author_url": "https://twitter.com/politrons",
-    "url": "https://twitter.com/politrons/status/1201190516362285058",
-    "content": "<p>I hope so, just like Vertx my favorite framework for Java.\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
-    "date": "2019-12-01 18:25:10+01:00",
-    "initials": "PP",
-    "color": "hsl(237, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/politrons?size=96"
-   }
-  ]
- },
- "/blog/using-eclipse-from-commandline/": {
-  "likes": [
-   {
-    "author": "Tom Schindl",
-    "author_url": "https://twitter.com/tomsontom",
-    "initials": "TS",
-    "color": "hsl(47, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/tomsontom?size=96"
-   },
-   {
-    "author": "Gilles Iachelini",
-    "author_url": "https://twitter.com/GIachelini",
-    "initials": "GI",
-    "color": "hsl(128, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/GIachelini?size=96"
-   }
-  ],
-  "reposts": [
-   {
-    "author": "Tom Schindl",
-    "author_url": "https://twitter.com/tomsontom",
-    "initials": "TS",
-    "color": "hsl(47, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/tomsontom?size=96"
-   }
-  ],
-  "replies": [
-   {
-    "type": "reply",
-    "author": "Andres Almiray",
-    "author_url": "https://twitter.com/aalmiray",
-    "url": "https://twitter.com/aalmiray/status/1315931675801649152",
-    "content": "<p>Stumbled into the same rock, didn’t we?\n<a class=\"u-mention\" href=\"https://bugs.eclipse.org/bugs/show_bug.cgi?id=567828\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
-    "date": "2020-10-13 10:25:34+02:00",
-    "initials": "AA",
-    "color": "hsl(284, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/aalmiray?size=96"
-   }
-  ],
-  "links": []
- },
- "/blog/unleasing-the-scripting-powers-of-java/": {
-  "likes": [
-   {
-    "author": "Jeff MAURY",
-    "author_url": "https://twitter.com/jeffmaury",
-    "initials": "JM",
-    "color": "hsl(83, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jeffmaury?size=96"
-   },
-   {
-    "author": "fiorenzo pizza",
-    "author_url": "https://twitter.com/fiorenzino",
-    "initials": "FP",
-    "color": "hsl(36, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/fiorenzino?size=96"
-   },
-   {
-    "author": "Gleb Kosteiko",
-    "author_url": "https://twitter.com/gleb_kosteiko",
-    "initials": "GK",
-    "color": "hsl(139, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/gleb_kosteiko?size=96"
-   },
-   {
-    "author": "Georgios Andrianakis",
-    "author_url": "https://twitter.com/geoand86",
-    "initials": "GA",
-    "color": "hsl(190, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/geoand86?size=96"
-   },
-   {
-    "author": "Karabo K. Tebelelo 🇧🇼",
-    "author_url": "https://twitter.com/kayne_103",
-    "initials": "KK",
-    "color": "hsl(230, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/kayne_103?size=96"
-   },
-   {
-    "author": "Gavin Mabie",
-    "author_url": "https://twitter.com/GavinMabie",
-    "initials": "GM",
-    "color": "hsl(131, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/GavinMabie?size=96"
-   },
-   {
-    "author": "Ⓓⓐⓥⓘⓩ",
-    "author_url": "https://twitter.com/crucoba",
-    "initials": "?",
-    "color": "hsl(319, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/crucoba?size=96"
-   },
-   {
-    "author": "Seif Ibrahim",
-    "author_url": "https://twitter.com/seif_ib",
-    "initials": "SI",
-    "color": "hsl(51, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/seif_ib?size=96"
-   },
-   {
-    "author": "Ingo",
-    "author_url": "https://twitter.com/lasombra_br",
-    "initials": "IN",
-    "color": "hsl(277, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/lasombra_br?size=96"
-   },
-   {
-    "author": "Edoardo Vacchi",
-    "author_url": "https://twitter.com/evacchi",
-    "initials": "EV",
-    "color": "hsl(296, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/evacchi?size=96"
-   },
-   {
-    "author": "Robert Munteanu",
-    "author_url": "https://twitter.com/rombert",
-    "initials": "RM",
-    "color": "hsl(231, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rombert?size=96"
-   },
-   {
-    "author": "Marco van den Akker",
-    "author_url": "https://twitter.com/marcozelf",
-    "initials": "MV",
-    "color": "hsl(24, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/marcozelf?size=96"
-   },
-   {
-    "author": "Ioannis Canellos",
-    "author_url": "https://twitter.com/iocanel",
-    "initials": "IC",
-    "color": "hsl(308, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/iocanel?size=96"
-   }
-  ],
-  "reposts": [
-   {
-    "author": "Gleb Kosteiko",
-    "author_url": "https://twitter.com/gleb_kosteiko",
-    "initials": "GK",
-    "color": "hsl(139, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/gleb_kosteiko?size=96"
-   },
-   {
-    "author": "fiorenzo pizza",
-    "author_url": "https://twitter.com/fiorenzino",
-    "initials": "FP",
-    "color": "hsl(36, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/fiorenzino?size=96"
-   },
-   {
-    "author": "Jeff MAURY",
-    "author_url": "https://twitter.com/jeffmaury",
-    "initials": "JM",
-    "color": "hsl(83, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/jeffmaury?size=96"
-   },
-   {
-    "author": "Stéphane Épardaud",
-    "author_url": "https://twitter.com/UnFroMage",
-    "initials": "SÉ",
-    "color": "hsl(204, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/UnFroMage?size=96"
-   },
-   {
-    "author": "Fred Bricon",
-    "author_url": "https://twitter.com/fbricon",
-    "initials": "FB",
-    "color": "hsl(94, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/fbricon?size=96"
-   },
-   {
-    "author": "VSCode Java",
-    "author_url": "https://twitter.com/VSCodeJava",
-    "initials": "VJ",
-    "color": "hsl(216, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/VSCodeJava?size=96"
-   },
-   {
-    "author": "Seif Ibrahim",
-    "author_url": "https://twitter.com/seif_ib",
-    "initials": "SI",
-    "color": "hsl(51, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/seif_ib?size=96"
-   },
-   {
-    "author": "Ingo",
-    "author_url": "https://twitter.com/lasombra_br",
-    "initials": "IN",
-    "color": "hsl(277, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/lasombra_br?size=96"
-   },
-   {
-    "author": "Edoardo Vacchi",
-    "author_url": "https://twitter.com/evacchi",
-    "initials": "EV",
-    "color": "hsl(296, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/evacchi?size=96"
-   },
-   {
-    "author": "Antonio Scatoloni",
-    "author_url": "https://twitter.com/ascatox",
-    "initials": "AS",
-    "color": "hsl(126, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/ascatox?size=96"
-   },
-   {
-    "author": "Ioannis Canellos",
-    "author_url": "https://twitter.com/iocanel",
-    "initials": "IC",
-    "color": "hsl(308, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/iocanel?size=96"
-   }
-  ],
-  "links": [
-   {
-    "author": "madhatter_ns",
-    "author_url": "https://twitter.com/madhatter_ns",
-    "initials": "MA",
-    "color": "hsl(70, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/madhatter_ns?size=96"
-   },
-   {
-    "author": "Alex Soto",
-    "author_url": "https://twitter.com/alexsotob",
-    "initials": "AS",
-    "color": "hsl(81, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/alexsotob?size=96"
-   },
-   {
-    "author": "Sebastian Daschner",
-    "author_url": "https://twitter.com/DaschnerS",
-    "initials": "SD",
-    "color": "hsl(204, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/DaschnerS?size=96"
-   },
-   {
-    "author": "Rustam Mehmandarov",
-    "author_url": "https://twitter.com/rmehmandarov",
-    "initials": "RM",
-    "color": "hsl(138, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/rmehmandarov?size=96"
-   },
-   {
-    "author": "MattPayneOrg",
-    "author_url": "https://twitter.com/MattPayneOrg",
-    "initials": "MA",
-    "color": "hsl(297, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/MattPayneOrg?size=96"
-   },
-   {
-    "author": "Juan Antonio Breña 🇪🇺🇪🇸",
-    "author_url": "https://twitter.com/juanantoniobm",
-    "initials": "JA",
-    "color": "hsl(301, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/juanantoniobm?size=96"
-   },
-   {
-    "author": "",
-    "author_url": "",
-    "initials": "?",
-    "color": "hsl(0, 52%, 45%)"
-   },
-   {
-    "author": "",
-    "author_url": "",
-    "initials": "?",
-    "color": "hsl(0, 52%, 45%)"
-   }
-  ],
-  "replies": []
- },
- "/blog/jbang-everywhere/": {
-  "likes": [
-   {
-    "author": "Chitimbo Jr",
-    "author_url": "https://twitter.com/chitson1990",
-    "initials": "CJ",
-    "color": "hsl(303, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/chitson1990?size=96"
-   },
-   {
-    "author": "Tako Schotanus",
-    "author_url": "https://twitter.com/5esse",
-    "initials": "TS",
-    "color": "hsl(25, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/5esse?size=96"
-   }
-  ],
-  "reposts": [
-   {
-    "author": "Tako Schotanus",
-    "author_url": "https://twitter.com/5esse",
-    "initials": "TS",
-    "color": "hsl(25, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/5esse?size=96"
-   }
-  ],
-  "links": [
-   {
-    "author": "Manik Magar",
-    "author_url": "https://twitter.com/ManikMagar",
-    "initials": "MM",
-    "color": "hsl(272, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/ManikMagar?size=96"
-   }
-  ],
-  "replies": []
- },
- "/blog/dynamic-github-readme-with-jbang-quarkus/": {
-  "likes": [
-   {
-    "author": "Otavio Piske",
-    "author_url": "https://twitter.com/otavio021",
-    "initials": "OP",
-    "color": "hsl(4, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/otavio021?size=96"
-   },
-   {
-    "author": "Syed M Shaaf",
-    "author_url": "https://twitter.com/syshaaf",
-    "initials": "SM",
-    "color": "hsl(331, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/syshaaf?size=96"
-   },
-   {
-    "author": "Mark Little",
-    "author_url": "https://twitter.com/nmcl",
-    "initials": "ML",
-    "color": "hsl(249, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/nmcl?size=96"
-   }
-  ],
-  "links": [
-   {
-    "author": "Otavio Piske",
-    "author_url": "https://twitter.com/otavio021",
-    "initials": "OP",
-    "color": "hsl(4, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/otavio021?size=96"
-   },
-   {
-    "author": "",
-    "author_url": "",
-    "initials": "?",
-    "color": "hsl(0, 52%, 45%)"
-   }
-  ],
-  "replies": [
-   {
-    "type": "reply",
-    "author": "Otavio Piske",
-    "author_url": "https://twitter.com/otavio021",
-    "url": "https://twitter.com/otavio021/status/1431218853946671111",
-    "content": "<p>Damn this Twitter that doesn’t allow me to correct my typos … Thanks for the updated link!\n<a class=\"u-mention\" href=\"https://twitter.com/jbangdev\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
-    "date": "2021-08-27 13:35:40+02:00",
-    "initials": "OP",
-    "color": "hsl(4, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/otavio021?size=96"
-   }
-  ],
-  "reposts": []
- },
- "/blog/java18-and-jbang/": {
-  "likes": [
-   {
-    "author": "Nándor Holozsnyák",
-    "author_url": "https://twitter.com/TheRealHNK",
-    "initials": "NH",
-    "color": "hsl(236, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/TheRealHNK?size=96"
-   },
-   {
-    "author": "Robin Howlett",
-    "author_url": "https://twitter.com/robinhowlett",
-    "initials": "RH",
-    "color": "hsl(187, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/robinhowlett?size=96"
-   },
-   {
-    "author": "Antón",
-    "author_url": "https://twitter.com/antonmry",
-    "initials": "AN",
-    "color": "hsl(194, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/antonmry?size=96"
-   },
-   {
-    "author": "George Gastaldi 🇧🇷",
-    "author_url": "https://twitter.com/gegastaldi",
-    "initials": "GG",
-    "color": "hsl(140, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/gegastaldi?size=96"
-   },
-   {
-    "author": "Juan Antonio Breña 🇪🇸🇪🇺",
-    "author_url": "https://twitter.com/juanantoniobm",
-    "initials": "JA",
-    "color": "hsl(181, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/juanantoniobm?size=96"
-   }
-  ],
-  "reposts": [
-   {
-    "author": "Nándor Holozsnyák",
-    "author_url": "https://twitter.com/TheRealHNK",
-    "initials": "NH",
-    "color": "hsl(236, 52%, 45%)",
-    "photo": "https://unavatar.io/twitter/TheRealHNK?size=96"
-   }
-  ],
-  "links": [],
-  "replies": []
- }
+  "/blog/my-pegboardstanding-desk-installation/" : {
+    "replies" : [ {
+      "type" : "reply",
+      "author" : "Max Rydahl Andersen",
+      "author_url" : "https://twitter.com/maxandersen",
+      "url" : "https://twitter.com/maxandersen/status/1554450703430606849",
+      "content" : "<p>yeah, I do something similar for my desks, using pegboards: <a href=\"https://xam.dk/blog/my-pegboardstanding-desk-installation/\">xam.dk/blog/my-pegboa…</a></p>\n\n<p>the challenge is to somehow have a durable flexible electric + ethernet cable to stay connected but not get  in the way….\n<a class=\"u-mention\" href=\"https://twitter.com/alexsnaps\"></a></p>",
+      "date" : "2022-08-02 14:55:02+02:00",
+      "initials" : "MR",
+      "color" : "hsl(284, 52%, 45%)",
+      "photo" : "/avatars/maxandersen.jpg"
+    }, {
+      "type" : "reply",
+      "author" : "Alex Snaps",
+      "author_url" : "https://twitter.com/alexsnaps",
+      "url" : "https://twitter.com/alexsnaps/status/1554483772833370112",
+      "content" : "<p>I use this, but unsure it’d help you:</p>\n\n<p><a href=\"https://ergonofis.com/products/cable-management-spine\">ergonofis.com/products/cable…</a></p>\n\n<p><a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
+      "date" : "2022-08-02 17:06:27+02:00",
+      "initials" : "AS",
+      "color" : "hsl(23, 52%, 45%)",
+      "photo" : "/avatars/alexsnaps.jpg"
+    } ],
+    "likes" : [ ],
+    "reposts" : [ ],
+    "links" : [ ]
+  },
+  "/blog/test-webmention/" : {
+    "likes" : [ {
+      "author" : "Max Rydahl Andersen",
+      "author_url" : "https://twitter.com/maxandersen",
+      "initials" : "MR",
+      "color" : "hsl(284, 52%, 45%)",
+      "photo" : "/avatars/maxandersen.jpg"
+    }, {
+      "author" : "Silvio Silva",
+      "author_url" : "https://twitter.com/silvio_silva",
+      "initials" : "SS",
+      "color" : "hsl(223, 52%, 45%)",
+      "photo" : "/avatars/silvio_silva.jpg"
+    }, {
+      "author" : "Max Rydahl Andersen",
+      "author_url" : "https://twitter.com/maxandersen",
+      "initials" : "MR",
+      "color" : "hsl(284, 52%, 45%)",
+      "photo" : "/avatars/maxandersen.jpg"
+    }, {
+      "author" : "Torkild Ulvøy Resheim",
+      "author_url" : "https://twitter.com/torkildr",
+      "initials" : "TU",
+      "color" : "hsl(206, 52%, 45%)",
+      "photo" : "/avatars/torkildr.jpg"
+    } ],
+    "replies" : [ {
+      "type" : "reply",
+      "author" : "Does clicking me alert?",
+      "author_url" : "",
+      "url" : "https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/hcardxss",
+      "content" : "<p>This test embeds XSS within the hcard name and time field. Clicking on\nthe name or title should not raise an alert.</p>",
+      "date" : "2018-12-26 08:15:20+01:00",
+      "initials" : "DC",
+      "color" : "hsl(188, 52%, 45%)"
+    }, {
+      "type" : "reply",
+      "author" : "Jonathan Ive",
+      "author_url" : "https://www.apple.com/pr/bios/jonathan-ive.html",
+      "url" : "https://www.apple.com/pr/bios/jonathan-ive.html",
+      "content" : "<p>I love the way your site looks, though I’m <a href=\"https://checkmention.appspot.com\">not really <em>the</em> Jony Ive</a>. How easy is it for someone to discover the real author of this note? Please also check that the links in this note have no <code>rel=\"me\"</code> attribute on them.</p>",
+      "date" : "2018-12-26 08:15:20+01:00",
+      "initials" : "JI",
+      "color" : "hsl(57, 52%, 45%)"
+    }, {
+      "type" : "reply",
+      "author" : "Checkmention XSS test",
+      "author_url" : "https://checkmention.appspot.com/",
+      "url" : "https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/xss",
+      "content" : "<p><a>Clicking this</a>\nshould not cause an alert.\n<span>This div\nshould not alert.</span>\nTry clicking <a>this link</a>\n&amp;&lt;script&gt;alert(“encoded-xss”)&amp;&lt;/script&gt;\nand <a>this too</a>.\n<b>Mouse over this</b>\nshould not cause an alert. This broken\n<img src=\"http://not.really.an.image\" alt=\"not.really.an.image\" /> should not throw an alert.</p>\n\n<p>Neither should <img src=\"https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/j&amp;#x41vascript:alert('test2')\" alt=\"j&amp;#x41vascript:alert('test2')\" />.<br />\nPlease look at the <a href=\"https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet\">Owasp XSS prevention cheat sheet</a> for more information.</p>",
+      "date" : "2018-12-26 08:15:20+01:00",
+      "initials" : "CX",
+      "color" : "hsl(80, 52%, 45%)"
+    }, {
+      "type" : "reply",
+      "author" : "Checkmention",
+      "author_url" : "https://checkmention.appspot.com/",
+      "url" : "https://checkmention.appspot.com/content/167e95e25e9/7567324bbf7aaf256651454af34c5c53d0d7cf39/success",
+      "content" : "<p>Congratulations! You’ve successfully handled a webmentioned note.</p>",
+      "date" : "2018-12-26 08:15:20+01:00",
+      "initials" : "CH",
+      "color" : "hsl(114, 52%, 45%)"
+    }, {
+      "type" : "reply",
+      "author" : "Max Rydahl Andersen",
+      "author_url" : "https://twitter.com/maxandersen",
+      "url" : "https://twitter.com/maxandersen/status/1078000765053161472",
+      "content" : "<p>quoting and mentioning <a href=\"https://twitter.com/maxandersen\">@maxandersen</a>…</p>",
+      "date" : "2018-12-26 19:53:05+01:00",
+      "initials" : "MR",
+      "color" : "hsl(284, 52%, 45%)",
+      "photo" : "/avatars/maxandersen.jpg"
+    } ],
+    "reposts" : [ ],
+    "links" : [ ]
+  },
+  "/blog/my-mars-story/" : {
+    "likes" : [ {
+      "author" : "Doug Schaefer",
+      "author_url" : "https://twitter.com/dougschaefer",
+      "initials" : "DS",
+      "color" : "hsl(346, 52%, 45%)",
+      "photo" : "/avatars/dougschaefer.jpg"
+    } ],
+    "replies" : [ {
+      "type" : "reply",
+      "author" : "Thomas Mäder",
+      "author_url" : "https://twitter.com/tsmaeder",
+      "url" : "https://twitter.com/tsmaeder/status/1096048599513919489",
+      "content" : "<p>“J”…hmmm black dude in a like suit with glasses, maybe?</p>",
+      "date" : "2019-02-14 15:08:44+01:00",
+      "initials" : "TM",
+      "color" : "hsl(54, 52%, 45%)",
+      "photo" : "/avatars/tsmaeder.jpg"
+    }, {
+      "type" : "reply",
+      "author" : "Max Rydahl Andersen",
+      "author_url" : "https://twitter.com/maxandersen",
+      "url" : "https://twitter.com/maxandersen/status/1096050093223014400",
+      "content" : "<p>i don’t remember a white flash so i don’t think so :)</p>",
+      "date" : "2019-02-14 15:14:40+01:00",
+      "initials" : "MR",
+      "color" : "hsl(284, 52%, 45%)",
+      "photo" : "/avatars/maxandersen.jpg"
+    } ],
+    "reposts" : [ ],
+    "links" : [ ]
+  },
+  "/blog/you-dont-have-to-die-to-start-living/" : {
+    "likes" : [ {
+      "author" : "Mojito Bob",
+      "author_url" : "https://twitter.com/bobmcwhirter",
+      "initials" : "MB",
+      "color" : "hsl(321, 52%, 45%)",
+      "photo" : "/avatars/bobmcwhirter.jpg"
+    }, {
+      "author" : "Ilya Buziuk",
+      "author_url" : "https://twitter.com/ilyabuziuk",
+      "initials" : "IB",
+      "color" : "hsl(301, 52%, 45%)",
+      "photo" : "/avatars/ilyabuziuk.jpg"
+    }, {
+      "author" : "Sanne",
+      "author_url" : "https://twitter.com/SanneGrinovero",
+      "initials" : "SA",
+      "color" : "hsl(111, 52%, 45%)",
+      "photo" : "/avatars/SanneGrinovero.jpg"
+    }, {
+      "author" : "aaronwalker",
+      "author_url" : "https://twitter.com/aaronwalker",
+      "initials" : "AA",
+      "color" : "hsl(271, 52%, 45%)",
+      "photo" : "/avatars/aaronwalker.jpg"
+    }, {
+      "author" : "Kevin Conner",
+      "author_url" : "https://twitter.com/kevinconner",
+      "initials" : "KC",
+      "color" : "hsl(24, 52%, 45%)",
+      "photo" : "/avatars/kevinconner.jpg"
+    }, {
+      "author" : "Martin Kouba",
+      "author_url" : "https://twitter.com/martunek",
+      "initials" : "MK",
+      "color" : "hsl(99, 52%, 45%)",
+      "photo" : "/avatars/martunek.jpg"
+    } ],
+    "reposts" : [ ],
+    "links" : [ ],
+    "replies" : [ ]
+  },
+  "/blog/the-black-swan-of-java/" : {
+    "likes" : [ {
+      "author" : "André Dietisheim",
+      "author_url" : "https://twitter.com/adietisheim",
+      "initials" : "AD",
+      "color" : "hsl(73, 52%, 45%)",
+      "photo" : "/avatars/adietisheim.jpg"
+    }, {
+      "author" : "Paul Robinson \uD83C\uDDEA\uD83C\uDDFA",
+      "author_url" : "https://twitter.com/Pfrobinson",
+      "initials" : "PR",
+      "color" : "hsl(0, 52%, 45%)",
+      "photo" : "/avatars/Pfrobinson.jpg"
+    }, {
+      "author" : "Cristhian Lopez",
+      "author_url" : "https://twitter.com/cristhianklv",
+      "initials" : "CL",
+      "color" : "hsl(147, 52%, 45%)",
+      "photo" : "/avatars/cristhianklv.jpg"
+    }, {
+      "author" : "Jonathan Vila",
+      "author_url" : "https://twitter.com/vilojona",
+      "initials" : "JV",
+      "color" : "hsl(7, 52%, 45%)",
+      "photo" : "/avatars/vilojona.jpg"
+    }, {
+      "author" : "Gleb Kosteiko",
+      "author_url" : "https://twitter.com/gleb_kosteiko",
+      "initials" : "GK",
+      "color" : "hsl(139, 52%, 45%)"
+    }, {
+      "author" : "Patrick Musembi",
+      "author_url" : "https://twitter.com/patumusembi",
+      "initials" : "PM",
+      "color" : "hsl(212, 52%, 45%)",
+      "photo" : "/avatars/patumusembi.jpg"
+    }, {
+      "author" : "William Antônio",
+      "author_url" : "https://twitter.com/William_Antonio",
+      "initials" : "WA",
+      "color" : "hsl(282, 52%, 45%)",
+      "photo" : "/avatars/William_Antonio.jpg"
+    }, {
+      "author" : "Mark Little",
+      "author_url" : "https://twitter.com/nmcl",
+      "initials" : "ML",
+      "color" : "hsl(249, 52%, 45%)",
+      "photo" : "/avatars/nmcl.jpg"
+    }, {
+      "author" : "Mike McCune",
+      "author_url" : "https://twitter.com/mccun934",
+      "initials" : "MM",
+      "color" : "hsl(193, 52%, 45%)",
+      "photo" : "/avatars/mccun934.jpg"
+    }, {
+      "author" : "Bruno Borges",
+      "author_url" : "https://twitter.com/brunoborges",
+      "initials" : "BB",
+      "color" : "hsl(346, 52%, 45%)",
+      "photo" : "/avatars/brunoborges.jpg"
+    }, {
+      "author" : "Klaus",
+      "author_url" : "https://twitter.com/jforge",
+      "initials" : "KL",
+      "color" : "hsl(302, 52%, 45%)",
+      "photo" : "/avatars/jforge.jpg"
+    }, {
+      "author" : "Héctor Ventura",
+      "author_url" : "https://twitter.com/hectorvent",
+      "initials" : "HV",
+      "color" : "hsl(132, 52%, 45%)",
+      "photo" : "/avatars/hectorvent.jpg"
+    }, {
+      "author" : "Marc Nuri",
+      "author_url" : "https://twitter.com/MarcNuri",
+      "initials" : "MN",
+      "color" : "hsl(137, 52%, 45%)",
+      "photo" : "/avatars/MarcNuri.jpg"
+    }, {
+      "author" : "Stephen Connolly \uD83E\uDD37\uD83C\uDFFC‍♂️",
+      "author_url" : "https://twitter.com/connolly_s",
+      "initials" : "SC",
+      "color" : "hsl(254, 52%, 45%)",
+      "photo" : "/avatars/connolly_s.jpg"
+    }, {
+      "author" : "Chris Bowland",
+      "author_url" : "https://twitter.com/ChrisBowland",
+      "initials" : "CB",
+      "color" : "hsl(52, 52%, 45%)",
+      "photo" : "/avatars/ChrisBowland.jpg"
+    }, {
+      "author" : "Georgios Andrianakis",
+      "author_url" : "https://twitter.com/geoand86",
+      "initials" : "GA",
+      "color" : "hsl(190, 52%, 45%)",
+      "photo" : "/avatars/geoand86.jpg"
+    }, {
+      "author" : "Henrik Loevborg",
+      "author_url" : "https://twitter.com/henrik_loevborg",
+      "initials" : "HL",
+      "color" : "hsl(323, 52%, 45%)",
+      "photo" : "/avatars/henrik_loevborg.jpg"
+    }, {
+      "author" : "Phillip Krüger",
+      "author_url" : "https://twitter.com/phillipkruger",
+      "initials" : "PK",
+      "color" : "hsl(47, 52%, 45%)"
+    }, {
+      "author" : "Stuart Douglas",
+      "author_url" : "https://twitter.com/stuartwdouglas",
+      "initials" : "SD",
+      "color" : "hsl(240, 52%, 45%)",
+      "photo" : "/avatars/stuartwdouglas.jpg"
+    }, {
+      "author" : "John Clingan",
+      "author_url" : "https://twitter.com/jclingan",
+      "initials" : "JC",
+      "color" : "hsl(265, 52%, 45%)",
+      "photo" : "/avatars/jclingan.jpg"
+    }, {
+      "author" : "Ray Ploski",
+      "author_url" : "https://twitter.com/rayploski",
+      "initials" : "RP",
+      "color" : "hsl(76, 52%, 45%)",
+      "photo" : "/avatars/rayploski.jpg"
+    }, {
+      "author" : "(((TheSteve0)))",
+      "author_url" : "https://twitter.com/TheSteve0",
+      "initials" : "?",
+      "color" : "hsl(123, 52%, 45%)",
+      "photo" : "/avatars/TheSteve0.jpg"
+    }, {
+      "author" : "Christopher Smith",
+      "author_url" : "https://twitter.com/xcbsmith",
+      "initials" : "CS",
+      "color" : "hsl(2, 52%, 45%)",
+      "photo" : "/avatars/xcbsmith.jpg"
+    }, {
+      "author" : "Sébastien Hébert",
+      "author_url" : "https://twitter.com/sydisnet",
+      "initials" : "SH",
+      "color" : "hsl(338, 52%, 45%)",
+      "photo" : "/avatars/sydisnet.jpg"
+    }, {
+      "author" : "Andres Giler",
+      "author_url" : "https://twitter.com/andresgilerc",
+      "initials" : "AG",
+      "color" : "hsl(16, 52%, 45%)",
+      "photo" : "/avatars/andresgilerc.jpg"
+    }, {
+      "author" : "Lars Raunkjær Arnbak",
+      "author_url" : "https://twitter.com/larsarnbak",
+      "initials" : "LR",
+      "color" : "hsl(282, 52%, 45%)",
+      "photo" : "/avatars/larsarnbak.jpg"
+    }, {
+      "author" : "Sanne",
+      "author_url" : "https://twitter.com/SanneGrinovero",
+      "initials" : "SA",
+      "color" : "hsl(111, 52%, 45%)",
+      "photo" : "/avatars/SanneGrinovero.jpg"
+    }, {
+      "author" : "Katia Aresti \uD83D\uDC69\uD83C\uDFFB‍\uD83D\uDCBB & \uD83C\uDFAD",
+      "author_url" : "https://twitter.com/karesti",
+      "initials" : "KA",
+      "color" : "hsl(357, 52%, 45%)",
+      "photo" : "/avatars/karesti.jpg"
+    }, {
+      "author" : "Carl Dea Ⓒarl ⒻⓍ",
+      "author_url" : "https://twitter.com/carldea",
+      "initials" : "CD",
+      "color" : "hsl(15, 52%, 45%)",
+      "photo" : "/avatars/carldea.jpg"
+    }, {
+      "author" : "Burr Sutter",
+      "author_url" : "https://twitter.com/burrsutter",
+      "initials" : "BS",
+      "color" : "hsl(356, 52%, 45%)",
+      "photo" : "/avatars/burrsutter.jpg"
+    }, {
+      "author" : "tivrfoa",
+      "author_url" : "https://twitter.com/tivrfoa",
+      "initials" : "TI",
+      "color" : "hsl(319, 52%, 45%)",
+      "photo" : "/avatars/tivrfoa.jpg"
+    }, {
+      "author" : "Juan Macias",
+      "author_url" : "https://twitter.com/1macias1",
+      "initials" : "JM",
+      "color" : "hsl(156, 52%, 45%)",
+      "photo" : "/avatars/1macias1.jpg"
+    }, {
+      "author" : "Clement Escoffier",
+      "author_url" : "https://twitter.com/clementplop",
+      "initials" : "CE",
+      "color" : "hsl(222, 52%, 45%)",
+      "photo" : "/avatars/clementplop.jpg"
+    }, {
+      "author" : "HKEY_LOCAL_MACHINE",
+      "author_url" : "https://twitter.com/SachaLabourey",
+      "initials" : "HK",
+      "color" : "hsl(259, 52%, 45%)",
+      "photo" : "/avatars/SachaLabourey.jpg"
+    }, {
+      "author" : "Anil Kurmi",
+      "author_url" : "https://twitter.com/anilkkurmi",
+      "initials" : "AK",
+      "color" : "hsl(260, 52%, 45%)",
+      "photo" : "/avatars/anilkkurmi.jpg"
+    }, {
+      "author" : "Rick Hightower",
+      "author_url" : "https://twitter.com/RickHigh",
+      "initials" : "RH",
+      "color" : "hsl(126, 52%, 45%)",
+      "photo" : "/avatars/RickHigh.jpg"
+    }, {
+      "author" : "Claus Ibsen",
+      "author_url" : "https://twitter.com/davsclaus",
+      "initials" : "CI",
+      "color" : "hsl(313, 52%, 45%)",
+      "photo" : "/avatars/davsclaus.jpg"
+    }, {
+      "author" : "Jakub Korab \uD83C\uDDEA\uD83C\uDDFA",
+      "author_url" : "https://twitter.com/jakekorab",
+      "initials" : "JK",
+      "color" : "hsl(80, 52%, 45%)",
+      "photo" : "/avatars/jakekorab.jpg"
+    }, {
+      "author" : "Ingo Boernig",
+      "author_url" : "https://twitter.com/opensourceingo",
+      "initials" : "IB",
+      "color" : "hsl(167, 52%, 45%)"
+    }, {
+      "author" : "Andrés Torres",
+      "author_url" : "https://twitter.com/towerspro",
+      "initials" : "AT",
+      "color" : "hsl(60, 52%, 45%)",
+      "photo" : "/avatars/towerspro.jpg"
+    }, {
+      "author" : "刘亚涛",
+      "author_url" : "https://twitter.com/liuyatao88",
+      "initials" : "刘亚",
+      "color" : "hsl(257, 52%, 45%)"
+    }, {
+      "author" : "Gentrit Gojani",
+      "author_url" : "https://twitter.com/GentritGojani",
+      "initials" : "GG",
+      "color" : "hsl(97, 52%, 45%)",
+      "photo" : "/avatars/GentritGojani.jpg"
+    }, {
+      "author" : "Changsheng Yang",
+      "author_url" : "https://twitter.com/csyangchsh",
+      "initials" : "CY",
+      "color" : "hsl(189, 52%, 45%)",
+      "photo" : "/avatars/csyangchsh.jpg"
+    }, {
+      "author" : "Florent A.",
+      "author_url" : "https://twitter.com/unptitdev",
+      "initials" : "FA",
+      "color" : "hsl(235, 52%, 45%)"
+    }, {
+      "author" : "Frederic Vaute",
+      "author_url" : "https://twitter.com/lefredfred",
+      "initials" : "FV",
+      "color" : "hsl(77, 52%, 45%)"
+    }, {
+      "author" : "Enercido Alcantara",
+      "author_url" : "https://twitter.com/ealcantara22",
+      "initials" : "EA",
+      "color" : "hsl(288, 52%, 45%)",
+      "photo" : "/avatars/ealcantara22.jpg"
+    }, {
+      "author" : "Dreamix",
+      "author_url" : "https://twitter.com/Dreamix_Ltd",
+      "initials" : "DR",
+      "color" : "hsl(130, 52%, 45%)",
+      "photo" : "/avatars/Dreamix_Ltd.jpg"
+    }, {
+      "author" : "Syed M Shaaf",
+      "author_url" : "https://twitter.com/syshaaf",
+      "initials" : "SM",
+      "color" : "hsl(331, 52%, 45%)"
+    }, {
+      "author" : "Rafael Ferreira",
+      "author_url" : "https://twitter.com/rafaelnferreira",
+      "initials" : "RF",
+      "color" : "hsl(41, 52%, 45%)",
+      "photo" : "/avatars/rafaelnferreira.jpg"
+    }, {
+      "author" : "Bhangun Hartani",
+      "author_url" : "https://twitter.com/bhangun",
+      "initials" : "BH",
+      "color" : "hsl(118, 52%, 45%)",
+      "photo" : "/avatars/bhangun.jpg"
+    }, {
+      "author" : "Ross Brigoli",
+      "author_url" : "https://twitter.com/rossbrigoli",
+      "initials" : "RB",
+      "color" : "hsl(267, 52%, 45%)",
+      "photo" : "/avatars/rossbrigoli.jpg"
+    }, {
+      "author" : "rruss",
+      "author_url" : "https://twitter.com/rruss",
+      "initials" : "RR",
+      "color" : "hsl(245, 52%, 45%)",
+      "photo" : "/avatars/rruss.jpg"
+    } ],
+    "reposts" : [ {
+      "author" : "Gleb Kosteiko",
+      "author_url" : "https://twitter.com/gleb_kosteiko",
+      "initials" : "GK",
+      "color" : "hsl(139, 52%, 45%)"
+    }, {
+      "author" : "Paul Robinson \uD83C\uDDEA\uD83C\uDDFA",
+      "author_url" : "https://twitter.com/Pfrobinson",
+      "initials" : "PR",
+      "color" : "hsl(0, 52%, 45%)",
+      "photo" : "/avatars/Pfrobinson.jpg"
+    }, {
+      "author" : "Mark Little",
+      "author_url" : "https://twitter.com/nmcl",
+      "initials" : "ML",
+      "color" : "hsl(249, 52%, 45%)",
+      "photo" : "/avatars/nmcl.jpg"
+    }, {
+      "author" : "Klaus",
+      "author_url" : "https://twitter.com/jforge",
+      "initials" : "KL",
+      "color" : "hsl(302, 52%, 45%)",
+      "photo" : "/avatars/jforge.jpg"
+    }, {
+      "author" : "Stephen Connolly \uD83E\uDD37\uD83C\uDFFC‍♂️",
+      "author_url" : "https://twitter.com/connolly_s",
+      "initials" : "SC",
+      "color" : "hsl(254, 52%, 45%)",
+      "photo" : "/avatars/connolly_s.jpg"
+    }, {
+      "author" : "John Clingan",
+      "author_url" : "https://twitter.com/jclingan",
+      "initials" : "JC",
+      "color" : "hsl(265, 52%, 45%)",
+      "photo" : "/avatars/jclingan.jpg"
+    }, {
+      "author" : "(((TheSteve0)))",
+      "author_url" : "https://twitter.com/TheSteve0",
+      "initials" : "?",
+      "color" : "hsl(123, 52%, 45%)",
+      "photo" : "/avatars/TheSteve0.jpg"
+    }, {
+      "author" : "Sébastien Hébert",
+      "author_url" : "https://twitter.com/sydisnet",
+      "initials" : "SH",
+      "color" : "hsl(338, 52%, 45%)",
+      "photo" : "/avatars/sydisnet.jpg"
+    }, {
+      "author" : "Sanne",
+      "author_url" : "https://twitter.com/SanneGrinovero",
+      "initials" : "SA",
+      "color" : "hsl(111, 52%, 45%)",
+      "photo" : "/avatars/SanneGrinovero.jpg"
+    }, {
+      "author" : "Carl Dea Ⓒarl ⒻⓍ",
+      "author_url" : "https://twitter.com/carldea",
+      "initials" : "CD",
+      "color" : "hsl(15, 52%, 45%)",
+      "photo" : "/avatars/carldea.jpg"
+    }, {
+      "author" : "Burr Sutter",
+      "author_url" : "https://twitter.com/burrsutter",
+      "initials" : "BS",
+      "color" : "hsl(356, 52%, 45%)",
+      "photo" : "/avatars/burrsutter.jpg"
+    }, {
+      "author" : "Clement Escoffier",
+      "author_url" : "https://twitter.com/clementplop",
+      "initials" : "CE",
+      "color" : "hsl(222, 52%, 45%)",
+      "photo" : "/avatars/clementplop.jpg"
+    }, {
+      "author" : "Anil Kurmi",
+      "author_url" : "https://twitter.com/anilkkurmi",
+      "initials" : "AK",
+      "color" : "hsl(260, 52%, 45%)",
+      "photo" : "/avatars/anilkkurmi.jpg"
+    }, {
+      "author" : "Rick Hightower",
+      "author_url" : "https://twitter.com/RickHigh",
+      "initials" : "RH",
+      "color" : "hsl(126, 52%, 45%)",
+      "photo" : "/avatars/RickHigh.jpg"
+    }, {
+      "author" : "Jakub Korab \uD83C\uDDEA\uD83C\uDDFA",
+      "author_url" : "https://twitter.com/jakekorab",
+      "initials" : "JK",
+      "color" : "hsl(80, 52%, 45%)",
+      "photo" : "/avatars/jakekorab.jpg"
+    }, {
+      "author" : "Frederic Vaute",
+      "author_url" : "https://twitter.com/lefredfred",
+      "initials" : "FV",
+      "color" : "hsl(77, 52%, 45%)"
+    }, {
+      "author" : "Dreamix",
+      "author_url" : "https://twitter.com/Dreamix_Ltd",
+      "initials" : "DR",
+      "color" : "hsl(130, 52%, 45%)",
+      "photo" : "/avatars/Dreamix_Ltd.jpg"
+    }, {
+      "author" : "Rafael Ferreira",
+      "author_url" : "https://twitter.com/rafaelnferreira",
+      "initials" : "RF",
+      "color" : "hsl(41, 52%, 45%)",
+      "photo" : "/avatars/rafaelnferreira.jpg"
+    }, {
+      "author" : "rruss",
+      "author_url" : "https://twitter.com/rruss",
+      "initials" : "RR",
+      "color" : "hsl(245, 52%, 45%)",
+      "photo" : "/avatars/rruss.jpg"
+    } ],
+    "links" : [ {
+      "author" : "",
+      "author_url" : "",
+      "initials" : "?",
+      "color" : "hsl(0, 52%, 45%)"
+    } ],
+    "replies" : [ {
+      "type" : "reply",
+      "author" : "Pablo Pérez García",
+      "author_url" : "https://twitter.com/politrons",
+      "url" : "https://twitter.com/politrons/status/1201183669957865479",
+      "content" : "<p>I hope it will have more success that his young brother Vertx. Spring boot casts a long shadow \uD83D\uDE13\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
+      "date" : "2019-12-01 17:57:58+01:00",
+      "initials" : "PP",
+      "color" : "hsl(237, 52%, 45%)",
+      "photo" : "/avatars/politrons.jpg"
+    }, {
+      "type" : "reply",
+      "author" : "Max Rydahl Andersen",
+      "author_url" : "https://twitter.com/maxandersen",
+      "url" : "https://twitter.com/maxandersen/status/1201187071928479744",
+      "content" : "<p>Quarkus is being carried on the shoulders of such great warriors as vertx. Standards, innovation and variety will prevail :)\n<a class=\"u-mention\" href=\"https://twitter.com/politrons\"></a></p>",
+      "date" : "2019-12-01 18:11:29+01:00",
+      "initials" : "MR",
+      "color" : "hsl(284, 52%, 45%)",
+      "photo" : "/avatars/maxandersen.jpg"
+    }, {
+      "type" : "reply",
+      "author" : "Pablo Pérez García",
+      "author_url" : "https://twitter.com/politrons",
+      "url" : "https://twitter.com/politrons/status/1201190516362285058",
+      "content" : "<p>I hope so, just like Vertx my favorite framework for Java.\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
+      "date" : "2019-12-01 18:25:10+01:00",
+      "initials" : "PP",
+      "color" : "hsl(237, 52%, 45%)",
+      "photo" : "/avatars/politrons.jpg"
+    } ]
+  },
+  "/blog/using-eclipse-from-commandline/" : {
+    "likes" : [ {
+      "author" : "Tom Schindl",
+      "author_url" : "https://twitter.com/tomsontom",
+      "initials" : "TS",
+      "color" : "hsl(47, 52%, 45%)",
+      "photo" : "/avatars/tomsontom.jpg"
+    }, {
+      "author" : "Gilles Iachelini",
+      "author_url" : "https://twitter.com/GIachelini",
+      "initials" : "GI",
+      "color" : "hsl(128, 52%, 45%)"
+    } ],
+    "reposts" : [ {
+      "author" : "Tom Schindl",
+      "author_url" : "https://twitter.com/tomsontom",
+      "initials" : "TS",
+      "color" : "hsl(47, 52%, 45%)",
+      "photo" : "/avatars/tomsontom.jpg"
+    } ],
+    "replies" : [ {
+      "type" : "reply",
+      "author" : "Andres Almiray",
+      "author_url" : "https://twitter.com/aalmiray",
+      "url" : "https://twitter.com/aalmiray/status/1315931675801649152",
+      "content" : "<p>Stumbled into the same rock, didn’t we?\n<a class=\"u-mention\" href=\"https://bugs.eclipse.org/bugs/show_bug.cgi?id=567828\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
+      "date" : "2020-10-13 10:25:34+02:00",
+      "initials" : "AA",
+      "color" : "hsl(284, 52%, 45%)",
+      "photo" : "/avatars/aalmiray.jpg"
+    } ],
+    "links" : [ ]
+  },
+  "/blog/unleasing-the-scripting-powers-of-java/" : {
+    "likes" : [ {
+      "author" : "Jeff MAURY",
+      "author_url" : "https://twitter.com/jeffmaury",
+      "initials" : "JM",
+      "color" : "hsl(83, 52%, 45%)",
+      "photo" : "/avatars/jeffmaury.jpg"
+    }, {
+      "author" : "fiorenzo pizza",
+      "author_url" : "https://twitter.com/fiorenzino",
+      "initials" : "FP",
+      "color" : "hsl(36, 52%, 45%)",
+      "photo" : "/avatars/fiorenzino.jpg"
+    }, {
+      "author" : "Gleb Kosteiko",
+      "author_url" : "https://twitter.com/gleb_kosteiko",
+      "initials" : "GK",
+      "color" : "hsl(139, 52%, 45%)"
+    }, {
+      "author" : "Georgios Andrianakis",
+      "author_url" : "https://twitter.com/geoand86",
+      "initials" : "GA",
+      "color" : "hsl(190, 52%, 45%)",
+      "photo" : "/avatars/geoand86.jpg"
+    }, {
+      "author" : "Karabo K. Tebelelo \uD83C\uDDE7\uD83C\uDDFC",
+      "author_url" : "https://twitter.com/kayne_103",
+      "initials" : "KK",
+      "color" : "hsl(230, 52%, 45%)"
+    }, {
+      "author" : "Gavin Mabie",
+      "author_url" : "https://twitter.com/GavinMabie",
+      "initials" : "GM",
+      "color" : "hsl(131, 52%, 45%)",
+      "photo" : "/avatars/GavinMabie.jpg"
+    }, {
+      "author" : "Ⓓⓐⓥⓘⓩ",
+      "author_url" : "https://twitter.com/crucoba",
+      "initials" : "?",
+      "color" : "hsl(319, 52%, 45%)"
+    }, {
+      "author" : "Seif Ibrahim",
+      "author_url" : "https://twitter.com/seif_ib",
+      "initials" : "SI",
+      "color" : "hsl(51, 52%, 45%)",
+      "photo" : "/avatars/seif_ib.jpg"
+    }, {
+      "author" : "Ingo",
+      "author_url" : "https://twitter.com/lasombra_br",
+      "initials" : "IN",
+      "color" : "hsl(277, 52%, 45%)",
+      "photo" : "/avatars/lasombra_br.jpg"
+    }, {
+      "author" : "Edoardo Vacchi",
+      "author_url" : "https://twitter.com/evacchi",
+      "initials" : "EV",
+      "color" : "hsl(296, 52%, 45%)",
+      "photo" : "/avatars/evacchi.jpg"
+    }, {
+      "author" : "Robert Munteanu",
+      "author_url" : "https://twitter.com/rombert",
+      "initials" : "RM",
+      "color" : "hsl(231, 52%, 45%)",
+      "photo" : "/avatars/rombert.jpg"
+    }, {
+      "author" : "Marco van den Akker",
+      "author_url" : "https://twitter.com/marcozelf",
+      "initials" : "MV",
+      "color" : "hsl(24, 52%, 45%)",
+      "photo" : "/avatars/marcozelf.jpg"
+    }, {
+      "author" : "Ioannis Canellos",
+      "author_url" : "https://twitter.com/iocanel",
+      "initials" : "IC",
+      "color" : "hsl(308, 52%, 45%)",
+      "photo" : "/avatars/iocanel.jpg"
+    } ],
+    "reposts" : [ {
+      "author" : "Gleb Kosteiko",
+      "author_url" : "https://twitter.com/gleb_kosteiko",
+      "initials" : "GK",
+      "color" : "hsl(139, 52%, 45%)"
+    }, {
+      "author" : "fiorenzo pizza",
+      "author_url" : "https://twitter.com/fiorenzino",
+      "initials" : "FP",
+      "color" : "hsl(36, 52%, 45%)",
+      "photo" : "/avatars/fiorenzino.jpg"
+    }, {
+      "author" : "Jeff MAURY",
+      "author_url" : "https://twitter.com/jeffmaury",
+      "initials" : "JM",
+      "color" : "hsl(83, 52%, 45%)",
+      "photo" : "/avatars/jeffmaury.jpg"
+    }, {
+      "author" : "Stéphane Épardaud",
+      "author_url" : "https://twitter.com/UnFroMage",
+      "initials" : "SÉ",
+      "color" : "hsl(204, 52%, 45%)",
+      "photo" : "/avatars/UnFroMage.jpg"
+    }, {
+      "author" : "Fred Bricon",
+      "author_url" : "https://twitter.com/fbricon",
+      "initials" : "FB",
+      "color" : "hsl(94, 52%, 45%)",
+      "photo" : "/avatars/fbricon.jpg"
+    }, {
+      "author" : "VSCode Java",
+      "author_url" : "https://twitter.com/VSCodeJava",
+      "initials" : "VJ",
+      "color" : "hsl(216, 52%, 45%)",
+      "photo" : "/avatars/VSCodeJava.jpg"
+    }, {
+      "author" : "Seif Ibrahim",
+      "author_url" : "https://twitter.com/seif_ib",
+      "initials" : "SI",
+      "color" : "hsl(51, 52%, 45%)",
+      "photo" : "/avatars/seif_ib.jpg"
+    }, {
+      "author" : "Ingo",
+      "author_url" : "https://twitter.com/lasombra_br",
+      "initials" : "IN",
+      "color" : "hsl(277, 52%, 45%)",
+      "photo" : "/avatars/lasombra_br.jpg"
+    }, {
+      "author" : "Edoardo Vacchi",
+      "author_url" : "https://twitter.com/evacchi",
+      "initials" : "EV",
+      "color" : "hsl(296, 52%, 45%)",
+      "photo" : "/avatars/evacchi.jpg"
+    }, {
+      "author" : "Antonio Scatoloni",
+      "author_url" : "https://twitter.com/ascatox",
+      "initials" : "AS",
+      "color" : "hsl(126, 52%, 45%)",
+      "photo" : "/avatars/ascatox.jpg"
+    }, {
+      "author" : "Ioannis Canellos",
+      "author_url" : "https://twitter.com/iocanel",
+      "initials" : "IC",
+      "color" : "hsl(308, 52%, 45%)",
+      "photo" : "/avatars/iocanel.jpg"
+    } ],
+    "links" : [ {
+      "author" : "madhatter_ns",
+      "author_url" : "https://twitter.com/madhatter_ns",
+      "initials" : "MA",
+      "color" : "hsl(70, 52%, 45%)",
+      "photo" : "/avatars/madhatter_ns.jpg"
+    }, {
+      "author" : "Alex Soto",
+      "author_url" : "https://twitter.com/alexsotob",
+      "initials" : "AS",
+      "color" : "hsl(81, 52%, 45%)",
+      "photo" : "/avatars/alexsotob.jpg"
+    }, {
+      "author" : "Sebastian Daschner",
+      "author_url" : "https://twitter.com/DaschnerS",
+      "initials" : "SD",
+      "color" : "hsl(204, 52%, 45%)",
+      "photo" : "/avatars/DaschnerS.jpg"
+    }, {
+      "author" : "Rustam Mehmandarov",
+      "author_url" : "https://twitter.com/rmehmandarov",
+      "initials" : "RM",
+      "color" : "hsl(138, 52%, 45%)",
+      "photo" : "/avatars/rmehmandarov.jpg"
+    }, {
+      "author" : "MattPayneOrg",
+      "author_url" : "https://twitter.com/MattPayneOrg",
+      "initials" : "MA",
+      "color" : "hsl(297, 52%, 45%)",
+      "photo" : "/avatars/MattPayneOrg.jpg"
+    }, {
+      "author" : "Juan Antonio Breña \uD83C\uDDEA\uD83C\uDDFA\uD83C\uDDEA\uD83C\uDDF8",
+      "author_url" : "https://twitter.com/juanantoniobm",
+      "initials" : "JA",
+      "color" : "hsl(301, 52%, 45%)",
+      "photo" : "/avatars/juanantoniobm.jpg"
+    }, {
+      "author" : "",
+      "author_url" : "",
+      "initials" : "?",
+      "color" : "hsl(0, 52%, 45%)"
+    }, {
+      "author" : "",
+      "author_url" : "",
+      "initials" : "?",
+      "color" : "hsl(0, 52%, 45%)"
+    } ],
+    "replies" : [ ]
+  },
+  "/blog/jbang-everywhere/" : {
+    "likes" : [ {
+      "author" : "Chitimbo Jr",
+      "author_url" : "https://twitter.com/chitson1990",
+      "initials" : "CJ",
+      "color" : "hsl(303, 52%, 45%)",
+      "photo" : "/avatars/chitson1990.jpg"
+    }, {
+      "author" : "Tako Schotanus",
+      "author_url" : "https://twitter.com/5esse",
+      "initials" : "TS",
+      "color" : "hsl(25, 52%, 45%)",
+      "photo" : "/avatars/5esse.jpg"
+    } ],
+    "reposts" : [ {
+      "author" : "Tako Schotanus",
+      "author_url" : "https://twitter.com/5esse",
+      "initials" : "TS",
+      "color" : "hsl(25, 52%, 45%)",
+      "photo" : "/avatars/5esse.jpg"
+    } ],
+    "links" : [ {
+      "author" : "Manik Magar",
+      "author_url" : "https://twitter.com/ManikMagar",
+      "initials" : "MM",
+      "color" : "hsl(272, 52%, 45%)",
+      "photo" : "/avatars/ManikMagar.jpg"
+    } ],
+    "replies" : [ ]
+  },
+  "/blog/dynamic-github-readme-with-jbang-quarkus/" : {
+    "likes" : [ {
+      "author" : "Otavio Piske",
+      "author_url" : "https://twitter.com/otavio021",
+      "initials" : "OP",
+      "color" : "hsl(4, 52%, 45%)",
+      "photo" : "/avatars/otavio021.jpg"
+    }, {
+      "author" : "Syed M Shaaf",
+      "author_url" : "https://twitter.com/syshaaf",
+      "initials" : "SM",
+      "color" : "hsl(331, 52%, 45%)"
+    }, {
+      "author" : "Mark Little",
+      "author_url" : "https://twitter.com/nmcl",
+      "initials" : "ML",
+      "color" : "hsl(249, 52%, 45%)",
+      "photo" : "/avatars/nmcl.jpg"
+    } ],
+    "links" : [ {
+      "author" : "Otavio Piske",
+      "author_url" : "https://twitter.com/otavio021",
+      "initials" : "OP",
+      "color" : "hsl(4, 52%, 45%)",
+      "photo" : "/avatars/otavio021.jpg"
+    }, {
+      "author" : "",
+      "author_url" : "",
+      "initials" : "?",
+      "color" : "hsl(0, 52%, 45%)"
+    } ],
+    "replies" : [ {
+      "type" : "reply",
+      "author" : "Otavio Piske",
+      "author_url" : "https://twitter.com/otavio021",
+      "url" : "https://twitter.com/otavio021/status/1431218853946671111",
+      "content" : "<p>Damn this Twitter that doesn’t allow me to correct my typos … Thanks for the updated link!\n<a class=\"u-mention\" href=\"https://twitter.com/jbangdev\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/maxandersen\"></a>\n<a class=\"u-mention\" href=\"https://xam.dk/\"></a></p>",
+      "date" : "2021-08-27 13:35:40+02:00",
+      "initials" : "OP",
+      "color" : "hsl(4, 52%, 45%)",
+      "photo" : "/avatars/otavio021.jpg"
+    } ],
+    "reposts" : [ ]
+  },
+  "/blog/java18-and-jbang/" : {
+    "likes" : [ {
+      "author" : "Nándor Holozsnyák",
+      "author_url" : "https://twitter.com/TheRealHNK",
+      "initials" : "NH",
+      "color" : "hsl(236, 52%, 45%)",
+      "photo" : "/avatars/TheRealHNK.jpg"
+    }, {
+      "author" : "Robin Howlett",
+      "author_url" : "https://twitter.com/robinhowlett",
+      "initials" : "RH",
+      "color" : "hsl(187, 52%, 45%)",
+      "photo" : "/avatars/robinhowlett.jpg"
+    }, {
+      "author" : "Antón",
+      "author_url" : "https://twitter.com/antonmry",
+      "initials" : "AN",
+      "color" : "hsl(194, 52%, 45%)",
+      "photo" : "/avatars/antonmry.jpg"
+    }, {
+      "author" : "George Gastaldi \uD83C\uDDE7\uD83C\uDDF7",
+      "author_url" : "https://twitter.com/gegastaldi",
+      "initials" : "GG",
+      "color" : "hsl(140, 52%, 45%)",
+      "photo" : "/avatars/gegastaldi.jpg"
+    }, {
+      "author" : "Juan Antonio Breña \uD83C\uDDEA\uD83C\uDDF8\uD83C\uDDEA\uD83C\uDDFA",
+      "author_url" : "https://twitter.com/juanantoniobm",
+      "initials" : "JA",
+      "color" : "hsl(181, 52%, 45%)",
+      "photo" : "/avatars/juanantoniobm.jpg"
+    } ],
+    "reposts" : [ {
+      "author" : "Nándor Holozsnyák",
+      "author_url" : "https://twitter.com/TheRealHNK",
+      "initials" : "NH",
+      "color" : "hsl(236, 52%, 45%)",
+      "photo" : "/avatars/TheRealHNK.jpg"
+    } ],
+    "links" : [ ],
+    "replies" : [ ]
+  }
 }

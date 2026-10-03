@@ -468,33 +468,34 @@ body {
 
 /* Read-only historical comments + webmentions (see templates/partials/post-reactions.html) */
 .comments, .webmentions { margin: 2.5rem 0; }
-.comments h3, .webmentions h3 { font-size: 1.1rem; margin-bottom: 1rem; }
-.comment, .webmention { display: flow-root; margin: 0; padding: .9rem 0; border-top: 1px solid #eee; }
-.comment .avatar, .webmention .avatar { width: 40px; height: 40px; border-radius: 50%; float: left; margin: .2rem .75rem 0 0; }
+.comments h3, .webmentions h3 { font-size: 1.05rem; margin-bottom: .8rem; }
+.comment, .webmention { display: flow-root; margin: 0; padding: .8rem 0; border-top: 1px solid #eee; }
 .comment-meta time, .wm-type { color: #999; font-size: .8em; margin-left: .5rem; }
 .wm-type { text-transform: capitalize; }
 .comment-body, .webmention .e-content { margin-top: .25rem; }
 .comment-body p, .webmention .e-content p { margin-bottom: .4rem; }
 
-/* Webmention facepile (likes/reposts/mentions shown compactly) */
-.facepile { display: flex; flex-wrap: wrap; gap: 4px; margin: .5rem 0 .25rem; }
-.facepile a { line-height: 0; }
-.facepile .avatar { width: 32px; height: 32px; border-radius: 50%; margin: 0; float: none; }
-.facepile .wm-repost { box-shadow: 0 0 0 2px #4c9a4c; }
-.facepile .wm-link { box-shadow: 0 0 0 2px #aaa; }
-.wm-counts { color: #888; font-size: .85em; margin: 0 0 1.5rem; }
-
-/* Initials avatars (webmention photos were dead webmention.io links) */
+/* All reaction avatars: classic circle */
+.avatar { border-radius: 50%; object-fit: cover; vertical-align: middle; }
 .avatar.initials {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 32px; height: 32px; border-radius: 50%; margin: 0;
-  color: #fff; font-size: .72rem; font-weight: 600; line-height: 1;
+  color: #fff; font-weight: 600; line-height: 1; overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  text-decoration: none; overflow: hidden;
+  text-decoration: none;
 }
-.webmention .avatar.initials { width: 40px; height: 40px; font-size: .85rem; float: left; margin: .2rem .75rem 0 0; }
-
-/* Hard size caps for reaction avatars (defensive against unstyled/large sources) */
-.webmentions img.avatar, .comments img.avatar, .facepile img.avatar { object-fit: cover; }
-.facepile .avatar { width: 32px !important; height: 32px !important; }
-.comment .avatar, .webmention .avatar { width: 40px !important; height: 40px !important; }
+/* comment + reply avatars (float beside the text) */
+.comment .avatar, .webmention .avatar {
+  width: 36px !important; height: 36px !important;
+  float: left; margin: .15rem .7rem 0 0; font-size: .8rem;
+}
+/* facepile: small, overlapping circles with a white ring */
+.facepile { display: flex; flex-wrap: wrap; margin: .5rem 0 .25rem; }
+.facepile a { line-height: 0; margin-right: -5px; }
+.facepile a:hover { position: relative; z-index: 1; }
+.facepile .avatar {
+  width: 24px !important; height: 24px !important;
+  font-size: .58rem; margin: 0; box-shadow: 0 0 0 2px #fff;
+}
+.facepile .wm-repost { box-shadow: 0 0 0 2px #fff, 0 0 0 3px #4c9a4c; }
+.facepile .wm-link { box-shadow: 0 0 0 2px #fff, 0 0 0 3px #bbb; }
+.wm-counts { color: #888; font-size: .85em; margin: .4rem 0 1.5rem; }
