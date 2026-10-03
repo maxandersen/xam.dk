@@ -1,0 +1,31 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+      {#if page.title}{=page.title} - {=site.title}{#else}{=site.title}{/if}
+  </title>
+
+  <link rel="microsub" href="{=cdi:config.indieweb.microsub}">
+  <link rel="micropub" href="{=cdi:config.indieweb.micropub}">
+  <link rel="token_endpoint" href="{=cdi:config.indieweb.token_endpoint}">
+  <link rel="authorization_endpoint" href="{=cdi:config.indieweb.authorization_endpoint}">
+
+  <meta name="description" content="{=page.description ?: site.description}">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="alternate" type="application/atom+xml" title="{=site.title}" href="/blog/feed.atom">
+  <link rel="stylesheet" href="/assets/user.css">
+  <link rel="stylesheet" href="/assets/asciidoc-pygments.css">
+
+{#for social in cdi:config.socialsites}
+    <link href="{=social.url}" rel="me">
+{/for}
+
+</head>

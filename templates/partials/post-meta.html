@@ -1,0 +1,16 @@
+{@io.quarkiverse.roq.frontmatter.runtime.model.Page post}
+<span class="meta">
+    <time datetime="{=post.date.iso}" class="dt-published">
+        {=post.date.format('EEEE MMMM dd, yyyy')}
+    </time>
+    {#if detailed}
+    <a href="{=cdi:config.github}/edit/master/content/{=post.sourcePath}" title="Edit on GitHub">
+        <i class="fa fa-edit"></i>
+    </a>
+    {/if}
+    {#if post.data.tags}
+    {#for tag in post.data.tags.asStrings}
+    <a class="badge">{=tag}</a>
+    {/for}
+    {/if}
+</span>

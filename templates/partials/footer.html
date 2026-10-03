@@ -1,0 +1,29 @@
+<!-- Footer -->
+
+<hr>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto h-card">
+                <ul class="list-inline text-center">
+                    {#for social in cdi:config.socialsites}
+                    <li class="list-inline-item">
+                        <a href="{=social.url}" rel="me">
+                            {#if social.avatar}
+                            <img class="rounded-circle u-photo" src="/avatar.jpg"/>
+                            {#else}
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-{=social.title} fa-stack-1x fa-inverse"></i>
+                            </span>
+                            {/if}
+                        </a>
+                    </li>
+                    {/for}
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; <a class="p-name" rel="me" href="/about">{=cdi:siteConfig.full_name}</a> {=now.format('yyyy')}</p>
+            </div>
+        </div>
+    </div>
+</footer>

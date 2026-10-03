@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{@io.quarkiverse.roq.frontmatter.runtime.model.DocumentPage page}
+{@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
+<article class="h-entry">
+<!-- Page Header -->
+{#if page.data.background}
+<header class="masthead" style="background-image: url('{=page.data.background}')">
+{#else}
+<header class="masthead">
+{/if}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+            <h1 class="p-name">{=page.title}</h1>
+          {#if page.data.subtitle}
+          <h2 class="subheading">{=page.data.subtitle}</h2>
+          {/if}
+          {#include partials/post-meta post=page detailed=true /}
+          <div>
+              <img class="rounded-circle u-photo" src="/avatar.jpg">
+              <link rel="author" class="p-author h-card" href="/about">Max Rydahl Andersen</link>
+          </div>
+          <div>
+              <a class="u-url" href="{=page.url}"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="e-content">
+              {#insert /}
+          </div>
+      </div>
+  </div>
+</div>
+</article>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="clearfix">
+
+        {#if page.previous}
+        <a class="btn btn-primary float-left" href="{=page.previous.url}" data-toggle="tooltip" data-placement="top" title="{=page.previous.title}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        {/if}
+        {#if page.next}
+        <a class="btn btn-primary float-right" href="{=page.next.url}" data-toggle="tooltip" data-placement="top" title="{=page.next.title}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        {/if}
+
+        </div>
+
+      </div>
+    </div>
+</div>
