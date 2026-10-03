@@ -493,3 +493,8 @@ body {
   text-decoration: none; overflow: hidden;
 }
 .webmention .avatar.initials { width: 40px; height: 40px; font-size: .85rem; float: left; margin: .2rem .75rem 0 0; }
+
+/* Hard size caps for reaction avatars (defensive against unstyled/large sources) */
+.webmentions img.avatar, .comments img.avatar, .facepile img.avatar { object-fit: cover; }
+.facepile .avatar { width: 32px !important; height: 32px !important; }
+.comment .avatar, .webmention .avatar { width: 40px !important; height: 40px !important; }
