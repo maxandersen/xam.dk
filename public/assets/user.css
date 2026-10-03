@@ -475,3 +475,11 @@ body {
 .wm-type { text-transform: capitalize; }
 .comment-body, .webmention .e-content { margin-top: .25rem; }
 .comment-body p, .webmention .e-content p { margin-bottom: .4rem; }
+
+/* Webmention facepile (likes/reposts/mentions shown compactly) */
+.facepile { display: flex; flex-wrap: wrap; gap: 4px; margin: .5rem 0 .25rem; }
+.facepile a { line-height: 0; }
+.facepile .avatar { width: 32px; height: 32px; border-radius: 50%; margin: 0; float: none; }
+.facepile .wm-repost { box-shadow: 0 0 0 2px #4c9a4c; }
+.facepile .wm-link { box-shadow: 0 0 0 2px #aaa; }
+.wm-counts { color: #888; font-size: .85em; margin: 0 0 1.5rem; }
