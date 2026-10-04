@@ -1,25 +1,27 @@
-= xam.dk is now powered by Quarkus Roq
+= xam.dk ❤️ Quarkus Roq
 :page-layout: post
-:page-author: Max Rydahl Andersen
+:page-author: maxandersen
 :page-tags: Java, Quarkus, Roq, meta
 
-This blog has quietly moved from Jekyll to https://iamroq.dev[Quarkus Roq], a static site generator built on Java and Quarkus.
+xam.dk is now generated using https://iamroq.dev[Quarkus Roq], a static site generator built on Java and Quarkus.
 
 == Why it took a while
 
-I had wanted to get off Jekyll for ages. The last straw was when `jbang.dev` moved and I tried to migrate that site to Roq — and gave up. Qute instead of Liquid, a different content model, my pile of custom includes... it felt like more yak-shaving than I had patience for.
+I had wanted to get off Jekyll for ages. I always felt like a random bet if publishing would work when writing a blog. 
 
-What changed my mind was watching a https://foojay.io[Foojay] video about Roq and then seeing that even https://quarkus.io[quarkus.io] itself — thousands of pages, versioned docs and all — had been migrated to Roq. If it could carry quarkus.io, it could certainly carry my little blog.
+I already, with Jason's help, `jbang.dev` but had been struggling with getting `xam.dk` going.
+
+Then I watched https://www.youtube.com/watch?v=0rQ2_UF7N1I[Foojay] video about Quarkus Roq and the recent https://quarkus.io[quarkus.io] migration itself — thousands of pages, versioned docs and all. 
 
 So I gave xam.dk another go. This time I leaned on an LLM, feeding it the https://iamroq.dev/docs/migrating/[Roq migration guide] and the ready-made prompts on that page. Honestly? It more or less did it. Templates converted, content moved, configuration mapped — I mostly reviewed, nudged, and fixed edge cases.
 
 == Cool things I learned along the way
 
 === No frontmatter required
-You don't even need YAML frontmatter anymore. This very post is *pure AsciiDoc* — the document title and `:page-*:` attributes in the header are picked up as page metadata directly. No `---` fences in sight.
+You don't need YAML frontmatter anymore when using AsciiDoc!. This very post is *pure AsciiDoc* — the document title and `:page-*:` attributes in the header are picked up as page metadata directly. No `---` fences in sight.
 
 === Relativize is back — via a template method
-My old Jekyll templates used `relativize_url` almost everywhere so links worked no matter where the site was served. Roq has no direct equivalent, but because it is Qute + Java, I added a tiny template extension:
+My old Jekyll templates used `relativize_url` almost everywhere so links worked no matter where the site was served. Roq has no direct equivalent, but because it is Qute + Java, I added a tiny https://github.com/maxandersen/xam.dk/blob/roq-migration/src/main/java/dk/xam/UrlExtensions.java[template extension]:
 
 [source,java]
 ----
@@ -29,11 +31,13 @@ public class UrlExtensions {
 }
 ----
 
-So templates can now write `+{=page.rel('/assets/main.css')}+` and get a proper `../../assets/main.css` relative to the current page. That is the kind of thing that would have meant a plugin in Jekyll; here it is a few lines of Java.
+So templates can now write `+{=page.rel('/assets/main.css')}+` and get a proper `../../assets/main.css` relative to the current page. Feels awesome I can actually read the code and easily debug it given it is just Java now. 
 
-NOTE: One gap: this only covers links I control in templates. Relative links *inside* rendered AsciiDoc/Markdown content aren't rewritten yet — so in-content image and page references still use absolute paths for now.
+NOTE: One gap: this only covers links I control in templates. Relative links *inside* rendered AsciiDoc/Markdown content aren't rewritten yet — so in-content image and page references still use absolute paths for now. On TODO list to try handle!
 
 === Old comments and webmentions, preserved
+Years ago I had to disable webmentions as the jekyll webmention plugin had issues. Meant old comments were gone from the rendered site - now with LLM, Roq and Qute it was trivial to bring that render back. 
+
 New comments are no longer possible (the old staticman/webmention services are gone), but every historical comment and webmention is kept and shown read-only. Likes, reposts and mentions render as a compact avatar facepile with counts; replies and comments show in full. The avatars are cached locally so there is no runtime dependency on a third-party service.
 
 === A good spring cleaning
@@ -41,4 +45,9 @@ Migrating was also a chance to delete a lot: dead staticman/recaptcha config, an
 
 == Thanks
 
-Thanks to the Roq team — this was genuinely fun once I stopped fighting it. If you have a Jekyll site gathering dust, the migration guide plus an LLM is a surprisingly good afternoon.
+Thanks to the Roq team — this was genuinely fun and easy to do. If you have a Jekyll site gathering dust, the migration guide plus an LLM is a surprisingly good afternoon.
+
+Fun to also spot that https://xam.dk/blog/first-thought/[First Post] here was 24 years ago - here's to ~25 year more with xam.dk and Quarkus Roq :)
+
+
+
