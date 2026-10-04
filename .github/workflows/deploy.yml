@@ -29,4 +29,4 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -qq sshpass
           sshpass -p "$XAMSSH" rsync -rvc -e 'ssh -o StrictHostKeyChecking=no -p 22' \
             --delete --exclude coppermine --exclude update --stats \
-            target/roq/ xam.dk@ssh.xam.dk:/www
+            target/roq/ xam.dk@ssh.xam.dk:webroots/www/
