@@ -18,7 +18,7 @@ When replying to emails it is important to keep it short and on topic. Best way 
 
 Mail clients that does this: iOS native.
 
-image::images/quoting-ios.png[]
+image::/images/quoting-ios.png[]
 
 Mail clients that does *NOT* do this: Spark, Dispatch, Outlook
 

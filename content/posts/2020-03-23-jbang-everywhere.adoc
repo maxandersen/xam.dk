@@ -1,7 +1,7 @@
 = jbang everywhere!
 :page-layout: post
 
-Earlier this year I link:2020-01-14-unleashing-the-scripting-powers-of-java.adoc[posted] about a small utility called https://github.com/maxandersen/jbang[`jbang`].
+Earlier this year I link:/blog/unleasing-the-scripting-powers-of-java/[posted] about a small utility called https://github.com/maxandersen/jbang[`jbang`].
 A utilitiy that lets you get started working with java with zero friction and just run your code as-is.
 
 A few things happened since then over a few late nights - `jbang` is now available to run "everywhere" and
