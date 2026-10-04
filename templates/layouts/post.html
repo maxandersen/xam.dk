@@ -6,7 +6,7 @@ layout: default
 <article class="h-entry">
 <!-- Page Header -->
 {#if page.data.background}
-<header class="masthead" style="background-image: url('{=site.url(page.data.background)}')">
+<header class="masthead" style="background-image: url('{=page.rel(page.data.background)}')">
 {#else}
 <header class="masthead">
 {/if}
@@ -21,11 +21,11 @@ layout: default
           {/if}
           {#include partials/post-meta post=page detailed=true /}
           <div>
-              <img class="rounded-circle u-photo" src="{=site.url('/avatar.jpg')}">
-              <link rel="author" class="p-author h-card" href="{=site.url('/about')}">Max Rydahl Andersen</link>
+              <img class="rounded-circle u-photo" src="{=page.rel('/avatar.jpg')}">
+              <link rel="author" class="p-author h-card" href="{=page.rel('/about')}">Max Rydahl Andersen</link>
           </div>
           <div>
-              <a class="u-url" href="{=page.url}"></a>
+              <a class="u-url" href="{=page.url.absolute}"></a>
           </div>
         </div>
       </div>
@@ -51,10 +51,10 @@ layout: default
         <div class="clearfix">
 
         {#if page.previous}
-        <a class="btn btn-primary float-left" href="{=page.previous.url}" data-toggle="tooltip" data-placement="top" title="{=page.previous.title}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        <a class="btn btn-primary float-left" href="{=page.rel(page.previous.url)}" data-toggle="tooltip" data-placement="top" title="{=page.previous.title}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         {/if}
         {#if page.next}
-        <a class="btn btn-primary float-right" href="{=page.next.url}" data-toggle="tooltip" data-placement="top" title="{=page.next.title}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="{=page.rel(page.next.url)}" data-toggle="tooltip" data-placement="top" title="{=page.next.title}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         {/if}
 
         </div>

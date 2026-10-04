@@ -86,13 +86,17 @@ Remaining AsciiDoc config (small, matches old behaviour):
   (same markup as old).
 - dropped `site.escaped-pages` (redundant under alt-expr-syntax).
 
-## URL portability (relativize equivalent)
-Jekyll used `relativize_url` so links worked under any base path. Roq has no
-per-page relative (`../`) URLs, but `site.url(path)` / `page.url` emit
-host-relative paths that respect `site.path-prefix`. All internal links/assets
-now go through `site.url(...)` (externals pass through unchanged), so setting
-`site.path-prefix=/sub` relocates the whole site (verified: links become
-`/sub/...`). Not `file://`-portable (Roq limitation).
+## URL portability (Jekyll relativize equivalent)
+Jekyll used `relativize_url` nearly everywhere so links work under any base path
+(and file://). Restored via a Qute template extension `UrlExtensions` adding
+`page.rel(target)` (src/main/java/dk/xam): it returns a path relative to the
+current page using java.nio.file.Path.relativize (external/mailto pass through).
+All internal links/assets use `{=page.rel('/...')}` / `{=page.rel(post.url)}`;
+no site.path-prefix needed. Verified: 2868 generated local links resolve back to
+existing files. (u-url uses page.url.absolute; the few remaining broken links are
+pre-existing content issues also broken on live xam.dk: an `image::images/...`
+without leading slash and an `.adoc` source link.)
+
 
 ## Known corner-cuts (ponytail debt)
 - `tree/index.md` uses `layout: splash` (minimal-mistakes theme, not clean-blog) —

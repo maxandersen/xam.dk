@@ -9,9 +9,9 @@
                 <ul class="list-inline text-center">
                     {#for social in cdi:config.socialsites}
                     <li class="list-inline-item">
-                        <a href="{=site.url(social.url)}" rel="me">
+                        <a href="{=page.rel(social.url)}" rel="me">
                             {#if social.avatar}
-                            <img class="rounded-circle u-photo" src="{=site.url('/avatar.jpg')}"/>
+                            <img class="rounded-circle u-photo" src="{=page.rel('/avatar.jpg')}"/>
                             {#else}
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -22,7 +22,7 @@
                     </li>
                     {/for}
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; <a class="p-name" rel="me" href="{=site.url('/about')}">{=cdi:siteConfig.full_name}</a> {=now.format('yyyy')}</p>
+                <p class="copyright text-muted">Copyright &copy; <a class="p-name" rel="me" href="{=page.rel('/about')}">{=cdi:siteConfig.full_name}</a> {=now.format('yyyy')}</p>
             </div>
         </div>
     </div>
