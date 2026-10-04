@@ -10,7 +10,7 @@ paginate:
 {#for post in site.collections.posts.paginated(page.paginator)}
 
 <article class="post-preview">
-    <a href="{=post.url}">
+    <a href="{=page.rel(post.url)}">
         <h2 class="post-title">{=post.title}</h2>
         {#if post.data.subtitle}
         <h3 class="post-subtitle">{=post.data.subtitle}</h3>
@@ -20,7 +20,7 @@ paginate:
     <div>
         {=post.contentAbstract(15)}
     </div>
-    <a href="{=post.url}">
+    <a href="{=page.rel(post.url)}">
         read more <i class="fa fa-arrow-right"></i></a>
 </article>
 

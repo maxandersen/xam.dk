@@ -6,7 +6,7 @@ layout: default
 
 <!-- Page Header -->
     {#if page.data.background}
-    <header class="masthead" style="background-image: url('{=site.url(page.data.background)}')">
+    <header class="masthead" style="background-image: url('{=page.rel(page.data.background)}')">
     {#else}
     <header class="masthead">
     {/if}
@@ -35,7 +35,7 @@ layout: default
                 {#for post in site.collections.posts.featured(5)}
 
                 <article class="post-preview">
-                    <a href="{=post.url}">
+                    <a href="{=page.rel(post.url)}">
                         <h2 class="post-title">{=post.title}</h2>
                         {#if post.data.subtitle}
                         <h3 class="post-subtitle">{=post.data.subtitle}</h3>
@@ -52,7 +52,7 @@ layout: default
 
                 <!-- Pager -->
                 <div class="clearfix">
-                    <a class="btn btn-primary float-right" href="{=site.url('/blog')}">View All Posts &rarr;</a>
+                    <a class="btn btn-primary float-right" href="{=page.rel('/blog')}">View All Posts &rarr;</a>
                 </div>
 
             </div>

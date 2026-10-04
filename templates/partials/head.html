@@ -17,19 +17,19 @@
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="{=site.url('/assets/vendor/bootstrap/css/bootstrap.min.css')}">
-  <link rel="stylesheet" href="{=site.url('/assets/vendor/font-awesome/css/font-awesome.min.css')}">
-  <link rel="stylesheet" href="{=site.url('/assets/main.css')}">
-  <link rel="alternate" type="application/atom+xml" title="{=site.title}" href="{=site.url('/blog/feed.atom')}">
+  <link rel="stylesheet" href="{=page.rel('/assets/vendor/bootstrap/css/bootstrap.min.css')}">
+  <link rel="stylesheet" href="{=page.rel('/assets/vendor/font-awesome/css/font-awesome.min.css')}">
+  <link rel="stylesheet" href="{=page.rel('/assets/main.css')}">
+  <link rel="alternate" type="application/atom+xml" title="{=site.title}" href="{=page.rel('/blog/feed.atom')}">
 
   <!-- Webmention receiving endpoint (webmention.io); historical mentions rendered read-only -->
   <link rel="dns-prefetch" href="https://webmention.io">
   <link rel="pingback" href="https://webmention.io/xam.dk/xmlrpc">
   <link rel="webmention" href="https://webmention.io/xam.dk/webmention">
-  <link rel="stylesheet" href="{=site.url('/assets/user.css')}">
+  <link rel="stylesheet" href="{=page.rel('/assets/user.css')}">
 
 {#for social in cdi:config.socialsites}
-    <link href="{=site.url(social.url)}" rel="me">
+    <link href="{=page.rel(social.url)}" rel="me">
 {/for}
 
 </head>
