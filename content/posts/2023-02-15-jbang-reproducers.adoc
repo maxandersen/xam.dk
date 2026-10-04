@@ -41,7 +41,7 @@ image::https://asciinema.org/a/HAWWlGBuzAqz4sWhVGDL4yk5d.svg[link="https://ascii
 
 ...and a nice flamegraph generated for you in `profile.html`.
 
-image::images/flamegraph.png[Flamegraph]
+image::/images/flamegraph.png[Flamegraph]
 
 Brilliant, right?
 
