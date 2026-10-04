@@ -63,8 +63,9 @@ public class SiteGenerationTest {
     public void postHasDefaultMastheadBackground() {
         // Jekyll set a site-wide default background via _config.yml defaults;
         // reproduced as a frontmatter default on the root layout.
+        // relativized to the current page (/blog/<slug>/ is 2 levels deep)
         when().get("/blog/nanocode-coding-agent-in-260-lines-of-java/").then().statusCode(200)
-                .body(containsString("background-image: url('/img/post-bg.jpg')"));
+                .body(containsString("background-image: url('../../img/post-bg.jpg')"));
     }
 
     @Test
